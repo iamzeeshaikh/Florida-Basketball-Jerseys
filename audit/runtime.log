@@ -1,0 +1,7 @@
+-- width 1440 done
+-- width 390 done
+-- width 320 done
+renders inheriting the original's horizontal overflow (no regression): 152
+
+228/228 page renders clean
+off-site requests: none beyond the allowed hosts

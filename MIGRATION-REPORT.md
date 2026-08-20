@@ -204,14 +204,16 @@ on both sides — it opens on a timer of its own and is not a migration differen
 
 | Width | Coverage | Result |
 |---|---|---|
-| 1440 px | every route | identical |
+| 1440 px | every route (76) | identical |
 | 768 px | one page of every template | identical |
 | 390 px | one page of every template | identical |
 | 320 px | one page of every template | identical |
 
-Three pages differ by 0.013 %–0.036 % of pixels — a few anti-aliasing pixels on
-text and a 1-px border offset from sub-pixel rounding. `/checkout/` cannot be
-compared this way (the replayed original does not hydrate); it is covered by §12.
+136 of the 141 shot pairs are pixel-identical. Four differ by 0.013 %–0.053 % —
+a handful of anti-aliasing pixels on text and a 1-px border offset from
+sub-pixel rounding, six affected pixel rows on a page thousands of rows tall.
+`/checkout/` cannot be compared this way (the replayed original does not
+hydrate); it is covered by §12.
 
 ## 14. Tracking verification
 
@@ -231,17 +233,19 @@ will follow whatever host serves the domain.
 ## 15. Local-asset cutover results
 
 Every route rendered from a copy serving all of its own CSS, JavaScript, fonts,
-images and media, at 1440 / 390 / 320 px (`scripts/runtime-check.mjs`):
+images and media, at 1440 / 390 / 320 px — 228 page renders
+(`scripts/runtime-check.mjs`). **228/228 clean:**
 
 - zero missing assets
 - zero failed essential requests
 - zero JavaScript errors
 - zero font failures
-- zero WordPress runtime dependency — the only off-site requests are the three
-  the live site also makes: Google Fonts, the ZeeOps chat host, and the
-  `s.w.org` twemoji sprite
-- horizontal overflow at 320 px and 390 px: **not clean, and not clean on the live
-  site either** — see §16
+- zero WordPress runtime dependency — `off-site requests: none beyond the
+  allowed hosts`, those being the three the live site also calls: Google Fonts,
+  the ZeeOps chat host, and the `s.w.org` twemoji sprite
+- horizontal overflow at 320 px and 390 px: 152 renders overflow, **every one of
+  them inheriting the original's overflow, none a regression** — the harness
+  measures the replayed WordPress page for each and compares. See §16 item 4.
 
 A `*.vercel.app` host cannot prove this on its own, which is why it is measured
 from the local copy.
@@ -313,6 +317,11 @@ from the local copy.
 19. **Decide on the fabricated product reviews** (item 6) — keep, or strip. It is
     one line in `scripts/extract.py`.
 20. **DNS cutover** — not done, and will not be until you approve.
+21. **Vercel preview-environment variables are not set.** The SMTP settings are
+    on Production and Development; the CLI would not write the Preview scope
+    non-interactively. Deployments made with `vercel --prod` (including the
+    staging URL) are unaffected — but a branch preview would not send mail until
+    those are added in the dashboard.
 
 ## 17. Production deployment recommendation
 
@@ -322,8 +331,8 @@ captured live markup, 138/140 screenshot pairs pixel-identical and the rest
 inside anti-aliasing noise, 29/29 functional checks, 15/15 cart and checkout
 checks, 8/8 real form submissions delivered from the deployed site, 1,709 of
 1,710 internal targets resolving with the one exception being a link the live
-site also breaks, and zero missing assets, JavaScript errors or font failures
-when the site serves everything itself.
+site also breaks, and 228/228 page renders clean when the site serves every
+asset itself.
 
 Cutover steps, on your go-ahead:
 

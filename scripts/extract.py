@@ -2,13 +2,14 @@
 """Turn the crawled live HTML into src/data/*.json for the Astro build.
 
 Strict 1:1: the live rendered markup is the source of truth. Only WordPress
-runtime artefacts that cannot exist on a static host are removed (feeds,
-wp-json, oEmbed, RSD, shortlink, nonces, the WooCommerce AJAX bundles and the
-Blocks cart/checkout React stack). Everything visible -- markup, classes,
-inline styles, CSS links, metadata, schema, chat widget -- is carried across
+runtime artefacts that cannot exist on a static host are removed (wp-json,
+oEmbed, RSD, shortlink, the generator tag, session nonces, the WooCommerce AJAX
+bundles and the Blocks cart/checkout React stack). Everything visible -- markup,
+classes, inline styles, CSS links, metadata, schema, the chat widget, and the
+RSS alternate links, whose feeds are mirrored alongside -- is carried across
 byte-for-byte.
 """
-import os, re, json, glob, sys
+import os, re, json, glob
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -42,7 +43,6 @@ def cf_decode(h):
 # on any host. Page URLs, canonicals, Open Graph and schema keep the absolute
 # production domain exactly as WordPress emits them.
 def localise_assets(h):
-    esc = SITE.replace("/", "\\/")
     for origin in (SITE, SITE.replace("https://", "http://")):
         for folder in ("/wp-content/", "/wp-includes/"):
             h = h.replace(origin + folder, folder)

@@ -13,11 +13,6 @@
 (function () {
   'use strict';
 
-  var money = function (n) {
-    return '<span class="woocommerce-Price-amount amount"><bdi>' +
-      '<span class="woocommerce-Price-currencySymbol">&#036;</span>' + n.toFixed(2) + '</bdi></span>';
-  };
-
   // ----------------------------------------------------- 1. Elementor form
   function elementorMessage(form, cls, text) {
     var wrap = form.querySelector('.elementor-message-group');
@@ -97,12 +92,10 @@
       if (i % 4 === 0) li = li.replace('class="product ', 'class="product first ');
       return li;
     }).join('\n');
-    var count = document.querySelector('.woocommerce-result-count');
-    if (count) {
-      Array.prototype.forEach.call(document.querySelectorAll('.woocommerce-result-count'), function (el) {
-        el.textContent = countText;
-      });
-    }
+    // the archive prints the result count twice, above and below the grid
+    Array.prototype.forEach.call(document.querySelectorAll('.woocommerce-result-count'), function (el) {
+      el.textContent = countText;
+    });
   }
 
   function resultText(total, perPage, page) {
