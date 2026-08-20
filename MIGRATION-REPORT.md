@@ -5,7 +5,9 @@ domain — awaiting your approval.
 
 - Staging: <https://floridabasketballjerseys.vercel.app> (`X-Robots-Tag: noindex, nofollow`)
 - Source: `~/Documents/Florida Basketball Jerseys/site`
-- Vercel project: `iamzeeshaikhs-projects/floridabasketballjerseys`
+- Repository: <https://github.com/iamzeeshaikh/florida-basketball-jerseys> (private)
+- Vercel project: `iamzeeshaikhs-projects/floridabasketballjerseys` — deployed
+  from the CLI, not Git-connected, so a push does not trigger a deploy
 
 The brief was a strict 1:1 migration, and that is what this is. The live rendered
 markup is the source of truth: the Elementor header, footer and page bodies, the
