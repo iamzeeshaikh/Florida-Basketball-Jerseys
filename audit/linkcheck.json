@@ -1,0 +1,539 @@
+{
+ "checked": 1709,
+ "bad": [
+  {
+   "url": "/about",
+   "status": 308,
+   "from": [
+    "/",
+    "/404.html",
+    "/about/",
+    "/brand/florida-basketball-jerseys/",
+    "/brand/florida-basketball-jerseys/page/2/",
+    "/brand/florida-basketball-jerseys/page/3/"
+   ],
+   "count": 75
+  },
+  {
+   "url": "/about-us",
+   "status": 308,
+   "from": [
+    "/sitemap/"
+   ],
+   "count": 1
+  },
+  {
+   "url": "/blog",
+   "status": 308,
+   "from": [
+    "/",
+    "/404.html",
+    "/about/",
+    "/brand/florida-basketball-jerseys/",
+    "/brand/florida-basketball-jerseys/page/2/",
+    "/brand/florida-basketball-jerseys/page/3/"
+   ],
+   "count": 75
+  },
+  {
+   "url": "/brand/florida-basketball-jerseys/feed/",
+   "status": 404,
+   "from": [
+    "/brand/florida-basketball-jerseys/",
+    "/brand/florida-basketball-jerseys/page/2/",
+    "/brand/florida-basketball-jerseys/page/3/"
+   ],
+   "count": 3
+  },
+  {
+   "url": "/brand/florida-basketball-jerseys/page/1/",
+   "status": 404,
+   "from": [
+    "/brand/florida-basketball-jerseys/page/2/",
+    "/brand/florida-basketball-jerseys/page/3/"
+   ],
+   "count": 2
+  },
+  {
+   "url": "/contact",
+   "status": 308,
+   "from": [
+    "/",
+    "/404.html",
+    "/about/",
+    "/brand/florida-basketball-jerseys/",
+    "/brand/florida-basketball-jerseys/page/2/",
+    "/brand/florida-basketball-jerseys/page/3/"
+   ],
+   "count": 75
+  },
+  {
+   "url": "/cookie-policy",
+   "status": 308,
+   "from": [
+    "/",
+    "/404.html",
+    "/about/",
+    "/brand/florida-basketball-jerseys/",
+    "/brand/florida-basketball-jerseys/page/2/",
+    "/brand/florida-basketball-jerseys/page/3/"
+   ],
+   "count": 75
+  },
+  {
+   "url": "/disclaimer",
+   "status": 308,
+   "from": [
+    "/",
+    "/404.html",
+    "/about/",
+    "/brand/florida-basketball-jerseys/",
+    "/brand/florida-basketball-jerseys/page/2/",
+    "/brand/florida-basketball-jerseys/page/3/"
+   ],
+   "count": 75
+  },
+  {
+   "url": "/faq",
+   "status": 308,
+   "from": [
+    "/",
+    "/404.html",
+    "/about/",
+    "/brand/florida-basketball-jerseys/",
+    "/brand/florida-basketball-jerseys/page/2/",
+    "/brand/florida-basketball-jerseys/page/3/"
+   ],
+   "count": 75
+  },
+  {
+   "url": "/get-a-quote",
+   "status": 308,
+   "from": [
+    "/",
+    "/404.html",
+    "/about/",
+    "/brand/florida-basketball-jerseys/",
+    "/brand/florida-basketball-jerseys/page/2/",
+    "/brand/florida-basketball-jerseys/page/3/"
+   ],
+   "count": 75
+  },
+  {
+   "url": "/how-it-works",
+   "status": 308,
+   "from": [
+    "/",
+    "/404.html",
+    "/about/",
+    "/brand/florida-basketball-jerseys/",
+    "/brand/florida-basketball-jerseys/page/2/",
+    "/brand/florida-basketball-jerseys/page/3/"
+   ],
+   "count": 75
+  },
+  {
+   "url": "/privacy-policy",
+   "status": 308,
+   "from": [
+    "/",
+    "/404.html",
+    "/about/",
+    "/brand/florida-basketball-jerseys/",
+    "/brand/florida-basketball-jerseys/page/2/",
+    "/brand/florida-basketball-jerseys/page/3/"
+   ],
+   "count": 75
+  },
+  {
+   "url": "/product-category/basketball-shirts/feed/",
+   "status": 404,
+   "from": [
+    "/product-category/basketball-shirts/"
+   ],
+   "count": 1
+  },
+  {
+   "url": "/product-category/basketball-shorts/feed/",
+   "status": 404,
+   "from": [
+    "/product-category/basketball-shorts/"
+   ],
+   "count": 1
+  },
+  {
+   "url": "/product-category/basketball-tank-tops/feed/",
+   "status": 404,
+   "from": [
+    "/product-category/basketball-tank-tops/"
+   ],
+   "count": 1
+  },
+  {
+   "url": "/product-category/black-jerseys",
+   "status": 308,
+   "from": [
+    "/sitemap/"
+   ],
+   "count": 1
+  },
+  {
+   "url": "/product-category/blue-jerseys",
+   "status": 308,
+   "from": [
+    "/sitemap/"
+   ],
+   "count": 1
+  },
+  {
+   "url": "/product-category/camo-jerseys",
+   "status": 308,
+   "from": [
+    "/sitemap/"
+   ],
+   "count": 1
+  },
+  {
+   "url": "/product-category/colored-jerseys-uniforms/feed/",
+   "status": 404,
+   "from": [
+    "/product-category/colored-jerseys-uniforms/"
+   ],
+   "count": 1
+  },
+  {
+   "url": "/product-category/custom-printed-jerseys/feed/",
+   "status": 404,
+   "from": [
+    "/product-category/custom-printed-jerseys/"
+   ],
+   "count": 1
+  },
+  {
+   "url": "/product-category/custom-uniforms/feed/",
+   "status": 404,
+   "from": [
+    "/product-category/custom-uniforms/"
+   ],
+   "count": 1
+  },
+  {
+   "url": "/product-category/full-uniform-sets",
+   "status": 308,
+   "from": [
+    "/sitemap/"
+   ],
+   "count": 1
+  },
+  {
+   "url": "/product-category/game-shorts",
+   "status": 308,
+   "from": [
+    "/sitemap/"
+   ],
+   "count": 1
+  },
+  {
+   "url": "/product-category/green-jerseys",
+   "status": 308,
+   "from": [
+    "/sitemap/"
+   ],
+   "count": 1
+  },
+  {
+   "url": "/product-category/jerseys",
+   "status": 308,
+   "from": [
+    "/sitemap/"
+   ],
+   "count": 1
+  },
+  {
+   "url": "/product-category/lightweight-jerseys",
+   "status": 308,
+   "from": [
+    "/sitemap/"
+   ],
+   "count": 1
+  },
+  {
+   "url": "/product-category/lightweight-shorts",
+   "status": 308,
+   "from": [
+    "/sitemap/"
+   ],
+   "count": 1
+  },
+  {
+   "url": "/product-category/mens-uniforms",
+   "status": 308,
+   "from": [
+    "/sitemap/"
+   ],
+   "count": 1
+  },
+  {
+   "url": "/product-category/mesh-jerseys",
+   "status": 308,
+   "from": [
+    "/sitemap/"
+   ],
+   "count": 1
+  },
+  {
+   "url": "/product-category/mesh-shorts",
+   "status": 308,
+   "from": [
+    "/sitemap/"
+   ],
+   "count": 1
+  },
+  {
+   "url": "/product-category/orange-jerseys",
+   "status": 308,
+   "from": [
+    "/sitemap/"
+   ],
+   "count": 1
+  },
+  {
+   "url": "/product-category/practice-jerseys",
+   "status": 308,
+   "from": [
+    "/sitemap/"
+   ],
+   "count": 1
+  },
+  {
+   "url": "/product-category/practice-jerseys/feed/",
+   "status": 404,
+   "from": [
+    "/product-category/practice-jerseys/"
+   ],
+   "count": 1
+  },
+  {
+   "url": "/product-category/practice-shorts",
+   "status": 308,
+   "from": [
+    "/sitemap/"
+   ],
+   "count": 1
+  },
+  {
+   "url": "/product-category/purple-jerseys",
+   "status": 308,
+   "from": [
+    "/sitemap/"
+   ],
+   "count": 1
+  },
+  {
+   "url": "/product-category/red-jerseys",
+   "status": 308,
+   "from": [
+    "/sitemap/"
+   ],
+   "count": 1
+  },
+  {
+   "url": "/product-category/reversible-jerseys",
+   "status": 308,
+   "from": [
+    "/sitemap/"
+   ],
+   "count": 1
+  },
+  {
+   "url": "/product-category/reversible-uniforms",
+   "status": 308,
+   "from": [
+    "/sitemap/"
+   ],
+   "count": 1
+  },
+  {
+   "url": "/product-category/shorts",
+   "status": 308,
+   "from": [
+    "/sitemap/"
+   ],
+   "count": 1
+  },
+  {
+   "url": "/product-category/sublimated-jerseys",
+   "status": 308,
+   "from": [
+    "/sitemap/"
+   ],
+   "count": 1
+  },
+  {
+   "url": "/product-category/training-jerseys",
+   "status": 308,
+   "from": [
+    "/sitemap/"
+   ],
+   "count": 1
+  },
+  {
+   "url": "/product-category/training-shirts",
+   "status": 308,
+   "from": [
+    "/sitemap/"
+   ],
+   "count": 1
+  },
+  {
+   "url": "/product-category/training-shorts",
+   "status": 308,
+   "from": [
+    "/sitemap/"
+   ],
+   "count": 1
+  },
+  {
+   "url": "/product-category/uncategorized/",
+   "status": 404,
+   "from": [
+    "/404.html"
+   ],
+   "count": 1
+  },
+  {
+   "url": "/product-category/uniforms",
+   "status": 308,
+   "from": [
+    "/sitemap/"
+   ],
+   "count": 1
+  },
+  {
+   "url": "/product-category/warm-up-jerseys",
+   "status": 308,
+   "from": [
+    "/sitemap/"
+   ],
+   "count": 1
+  },
+  {
+   "url": "/product-category/womens-uniforms",
+   "status": 308,
+   "from": [
+    "/sitemap/"
+   ],
+   "count": 1
+  },
+  {
+   "url": "/product-category/youth-uniforms",
+   "status": 308,
+   "from": [
+    "/sitemap/"
+   ],
+   "count": 1
+  },
+  {
+   "url": "/product/feed/",
+   "status": 404,
+   "from": [
+    "/product/",
+    "/product/page/2/",
+    "/product/page/3/",
+    "/search/"
+   ],
+   "count": 4
+  },
+  {
+   "url": "/product/page/1/",
+   "status": 404,
+   "from": [
+    "/product/page/2/",
+    "/product/page/3/"
+   ],
+   "count": 2
+  },
+  {
+   "url": "/product/practice-basketball-jerseys/",
+   "status": 404,
+   "from": [
+    "/product/basketball-game-shorts/",
+    "/product/basketball-practice-jerseys/",
+    "/product/basketball-practice-shorts/",
+    "/product/basketball-training-jerseys/",
+    "/product/basketball-warm-up-jerseys/",
+    "/product/black-basketball-jersey/"
+   ],
+   "count": 42
+  },
+  {
+   "url": "/refund-policy",
+   "status": 308,
+   "from": [
+    "/",
+    "/404.html",
+    "/about/",
+    "/brand/florida-basketball-jerseys/",
+    "/brand/florida-basketball-jerseys/page/2/",
+    "/brand/florida-basketball-jerseys/page/3/"
+   ],
+   "count": 75
+  },
+  {
+   "url": "/shipping-policy",
+   "status": 308,
+   "from": [
+    "/",
+    "/404.html",
+    "/about/",
+    "/brand/florida-basketball-jerseys/",
+    "/brand/florida-basketball-jerseys/page/2/",
+    "/brand/florida-basketball-jerseys/page/3/"
+   ],
+   "count": 75
+  },
+  {
+   "url": "/shop",
+   "status": 308,
+   "from": [
+    "/sitemap/",
+    "/thank-you/"
+   ],
+   "count": 2
+  },
+  {
+   "url": "/sitemap",
+   "status": 308,
+   "from": [
+    "/",
+    "/404.html",
+    "/about/",
+    "/brand/florida-basketball-jerseys/",
+    "/brand/florida-basketball-jerseys/page/2/",
+    "/brand/florida-basketball-jerseys/page/3/"
+   ],
+   "count": 75
+  },
+  {
+   "url": "/terms-of-service",
+   "status": 308,
+   "from": [
+    "/",
+    "/404.html",
+    "/about/",
+    "/brand/florida-basketball-jerseys/",
+    "/brand/florida-basketball-jerseys/page/2/",
+    "/brand/florida-basketball-jerseys/page/3/"
+   ],
+   "count": 75
+  },
+  {
+   "url": "/wp-content/plugins/woocommerce/assets/client/blocks/checkout.css",
+   "status": 404,
+   "from": [
+    "/checkout/"
+   ],
+   "count": 1
+  }
+ ]
+}

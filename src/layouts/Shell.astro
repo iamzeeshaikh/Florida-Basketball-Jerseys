@@ -1,0 +1,26 @@
+---
+// The page shell captured from WordPress: head, body classes, Elementor header
+// and footer, and the trailing vendor scripts. `[...path].astro` renders the
+// migrated pages with it; the cart-flow pages WordPress never served as HTML
+// borrow a captured record so they inherit identical chrome.
+import { rewrite } from '../lib/site.js';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+const { page } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<Fragment set:html={rewrite(page.head)} />
+</head>
+
+<body class={page.bodyClass}>
+		<Header page={page} />
+		<slot />
+		<Footer page={page} />
+<Fragment set:html={rewrite(page.tail)} />
+<script src="/assets/fbj.js" defer></script>
+<script src="/assets/cart.js" defer></script>
+</body>
+</html>

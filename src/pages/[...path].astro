@@ -1,0 +1,19 @@
+---
+import pages from '../data/pages.json';
+import { rewrite } from '../lib/site.js';
+import Shell from '../layouts/Shell.astro';
+
+export function getStaticPaths() {
+  // 404 is emitted by src/pages/404.astro so the host can serve it as the
+  // error document rather than as a route of its own
+  return Object.values(pages).filter((page) => page.slug !== '404').map((page) => ({
+    // Astro's rest param wants the path without leading/trailing slashes;
+    // trailingSlash: 'always' + build.format 'directory' put them back.
+    params: { path: page.route === '/' ? undefined : page.route.slice(1, -1) },
+    props: { page },
+  }));
+}
+
+const { page } = Astro.props;
+---
+<Shell page={page}><Fragment set:html={rewrite(page.content)} /></Shell>

@@ -1,0 +1,68 @@
+[
+ {
+  "name": "empty /checkout/ lands on /cart/",
+  "pass": true,
+  "detail": "http://localhost:4321/cart/"
+ },
+ {
+  "name": "empty cart panel matches live",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "product Add To Cart returns to the product page",
+  "pass": true,
+  "detail": "http://localhost:4321/product/blank-basketball-jerseys/"
+ },
+ {
+  "name": "filled cart panel matches live",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "quantity + updates the line total",
+  "pass": true
+ },
+ {
+  "name": "quantity + updates the estimated total",
+  "pass": true
+ },
+ {
+  "name": "quantity - restores the total",
+  "pass": true
+ },
+ {
+  "name": "coupon panel opens",
+  "pass": true
+ },
+ {
+  "name": "Proceed to Checkout points at /checkout/",
+  "pass": true,
+  "detail": "https://floridabasketballjerseys.com/checkout/"
+ },
+ {
+  "name": "checkout stays on /checkout/ with a full cart",
+  "pass": true
+ },
+ {
+  "name": "checkout panel matches live",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "checkout shows the live store's \"no payment methods\" state",
+  "pass": true
+ },
+ {
+  "name": "Place Order surfaces the no-payment-method error",
+  "pass": true
+ },
+ {
+  "name": "removing the last line shows the empty cart",
+  "pass": true
+ },
+ {
+  "name": "archive Add to cart marks the button and adds a View cart link",
+  "pass": true
+ }
+]

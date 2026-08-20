@@ -1,0 +1,239 @@
+{
+ "redirects": [
+  {
+   "source": "/product/import-placeholder-for-576/",
+   "destination": "/product/basketball-game-shorts/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-564/",
+   "destination": "/product/basketball-practice-jerseys/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-577/",
+   "destination": "/product/basketball-practice-shorts/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-565/",
+   "destination": "/product/basketball-training-jerseys/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-563/",
+   "destination": "/product/basketball-warm-up-jerseys/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-585/",
+   "destination": "/product/black-basketball-jersey/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-554/",
+   "destination": "/product/blank-basketball-jerseys/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-589/",
+   "destination": "/product/blue-basketball-jersey/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-584/",
+   "destination": "/product/camo-basketball-jerseys/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-588/",
+   "destination": "/product/green-basketball-jersey/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-593/",
+   "destination": "/product/grey-basketball-jersey/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-561/",
+   "destination": "/product/lightweight-basketball-jerseys/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-573/",
+   "destination": "/product/lightweight-basketball-shirt/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-578/",
+   "destination": "/product/lightweight-basketball-shorts/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-557/",
+   "destination": "/product/long-sleeve-basketball-jerseys/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-572/",
+   "destination": "/product/long-sleeve-basketball-shirt/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-569/",
+   "destination": "/product/men-basketball-uniforms/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-560/",
+   "destination": "/product/mesh-basketball-jerseys/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-579/",
+   "destination": "/product/mesh-basketball-shorts/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-594/",
+   "destination": "/product/mesh-basketball-tank-top/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-574/",
+   "destination": "/product/moisture-wicking-basketball-shirt/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-592/",
+   "destination": "/product/orange-basketball-jersey/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-582/",
+   "destination": "/product/performance-basketball-tank-top/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-583/",
+   "destination": "/product/pink-basketball-jerseys/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-555/",
+   "destination": "/product/plain-basketball-jerseys/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-587/",
+   "destination": "/product/purple-basketball-jersey/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-590/",
+   "destination": "/product/red-basketball-uniform/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-553/",
+   "destination": "/product/reversible-basketball-jerseys/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-567/",
+   "destination": "/product/reversible-basketball-uniforms/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-558/",
+   "destination": "/product/short-sleeve-basketball-jerseys/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-571/",
+   "destination": "/product/short-sleeve-basketball-shirt/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-556/",
+   "destination": "/product/sleeveless-basketball-jerseys/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-581/",
+   "destination": "/product/sleeveless-basketball-tank-top/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-559/",
+   "destination": "/product/sublimated-basketball-jerseys/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-575/",
+   "destination": "/product/training-basketball-shirt/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-580/",
+   "destination": "/product/training-basketball-shorts/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-586/",
+   "destination": "/product/white-basketball-shirt/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-570/",
+   "destination": "/product/women-basketball-uniforms/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-591/",
+   "destination": "/product/yellow-basketball-uniform/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-562/",
+   "destination": "/product/youth-basketball-jerseys/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-568/",
+   "destination": "/product/youth-basketball-uniforms/",
+   "statusCode": 301
+  },
+  {
+   "source": "/product/import-placeholder-for-566/",
+   "destination": "/product/youth-practice-basketball-jerseys/",
+   "statusCode": 301
+  },
+  {
+   "source": "/favicon.ico",
+   "destination": "/wp-content/uploads/2026/04/cropped-Orange-and-navy-basketball-logo-1-1-1-32x32.png",
+   "statusCode": 302
+  },
+  {
+   "source": "/product/page/1/",
+   "destination": "/product/",
+   "statusCode": 301
+  },
+  {
+   "source": "/brand/florida-basketball-jerseys/page/1/",
+   "destination": "/brand/florida-basketball-jerseys/",
+   "statusCode": 301
+  }
+ ],
+ "rewrites": [
+  {
+   "source": "/feed/",
+   "destination": "/feed/index.xml"
+  },
+  {
+   "source": "/comments/feed/",
+   "destination": "/comments/feed/index.xml"
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+---
+// Storefront's error template, captured from a URL that does not exist.
+import pages from '../data/pages.json';
+import { rewrite } from '../lib/site.js';
+import Shell from '../layouts/Shell.astro';
+
+const page = pages['404'];
+---
+<Shell page={page}><Fragment set:html={rewrite(page.content)} /></Shell>
