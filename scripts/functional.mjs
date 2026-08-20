@@ -16,6 +16,26 @@ const check = (name, pass, detail) => {
   console.log(pass ? '  ok   ' : 'FAIL   ', name, pass ? '' : String(detail ?? ''));
 };
 
+// one failing assertion must not abort the rest of the sweep
+async function step(name, fn) {
+  try { await fn(); } catch (e) { check(name, false, e.message.split('\n')[0]); }
+}
+
+// The live chat widget opens itself on a timer and the header is sticky; both
+// float over the page and would swallow clicks in an automated run. Neither is
+// under test here, so they are taken out of the way.
+const CLEAR_OVERLAYS = `
+  #zee-chat-widget, [id^="zee-chat"] { display: none !important; }
+  .elementor-location-header { position: static !important; }
+  .elementor-sticky--active { position: static !important; }
+`;
+
+async function clickInView(page, selector) {
+  await page.evaluate((sel) => document.querySelector(sel)?.scrollIntoView({ block: 'center' }), selector);
+  await page.waitForTimeout(300);
+  await page.click(selector, { timeout: 15000 });
+}
+
 const browser = await chromium.launch();
 
 // ---------------------------------------------------------------- desktop
@@ -24,6 +44,7 @@ const browser = await chromium.launch();
   const p = await ctx.newPage();
   await p.goto(BASE + '/', { waitUntil: 'load' });
   await p.waitForTimeout(2000);
+  await p.addStyleTag({ content: '#zee-chat-widget,[id^="zee-chat"]{display:none !important}' });
 
   // header dropdowns are CSS hover menus
   const dd = await p.evaluate(() => {
@@ -66,37 +87,74 @@ const browser = await chromium.launch();
   // FAQ accordion on the home page
   await p.goto(BASE + '/faq/', { waitUntil: 'load' });
   await p.waitForTimeout(1500);
+  await p.addStyleTag({ content: CLEAR_OVERLAYS });
   const faq = await p.evaluate(async () => {
-    const q = document.querySelector('.fbj-faq-q, .fbj-faq-question, [class*="faq"] button, [class*="acc"] button');
-    if (!q) return { found: false };
-    const before = document.body.innerText.length;
-    q.click();
+    // the first item is open by default, so the second one is used to test that
+    // a click opens a closed item and a second click closes it again
+    const btn = document.querySelectorAll('.fbj-faqp-item .fbj-faqp-q')[1];
+    if (!btn) return { found: false };
+    const item = btn.closest('.fbj-faqp-item');
+    btn.click();
     await new Promise((r) => setTimeout(r, 600));
-    return { found: true, changed: document.body.innerText.length !== before };
+    const opened = item.classList.contains('fbj-faqp-open') && btn.getAttribute('aria-expanded') === 'true';
+    btn.click();
+    await new Promise((r) => setTimeout(r, 400));
+    return { found: true, opened, closed: !item.classList.contains('fbj-faqp-open') };
   });
-  check('FAQ accordion toggles', faq.found ? faq.changed : false, JSON.stringify(faq));
+  check('FAQ accordion opens and closes', faq.found && faq.opened && faq.closed, JSON.stringify(faq));
+
+  // the FAQ page also has category tabs and a live search box
+  const faqTabs = await p.evaluate(async () => {
+    const tab = document.querySelectorAll('.fbj-faqp-tab')[1];
+    if (!tab) return { found: false };
+    tab.click();
+    await new Promise((r) => setTimeout(r, 400));
+    const hidden = [...document.querySelectorAll('.fbj-faqp-group')].filter((g) => g.style.display === 'none').length;
+    document.querySelectorAll('.fbj-faqp-tab')[0].click();
+    return { found: true, hidden };
+  });
+  check('FAQ category tabs filter the list', faqTabs.found && faqTabs.hidden > 0, JSON.stringify(faqTabs));
+  const faqSearch = await p.evaluate(async () => {
+    const input = document.getElementById('fbj-faqp-search');
+    if (!input) return { found: false };
+    input.value = 'reversible';
+    input.dispatchEvent(new Event('input', { bubbles: true }));
+    await new Promise((r) => setTimeout(r, 500));
+    const shown = [...document.querySelectorAll('.fbj-faqp-item')].filter((i) => i.style.display !== 'none').length;
+    const all = document.querySelectorAll('.fbj-faqp-item').length;
+    input.value = '';
+    input.dispatchEvent(new Event('input', { bubbles: true }));
+    return { found: true, shown, all };
+  });
+  check('FAQ search narrows the list', faqSearch.found && faqSearch.shown > 0 && faqSearch.shown < faqSearch.all,
+        JSON.stringify(faqSearch));
 
   // product page: gallery, tabs, related products
   await p.goto(BASE + '/product/blank-basketball-jerseys/', { waitUntil: 'load' });
   await p.waitForTimeout(3000);
+  await p.addStyleTag({ content: CLEAR_OVERLAYS });
   check('product gallery initialised as a slider',
         await p.$('.woocommerce-product-gallery .flex-viewport') !== null);
   const thumbs = await p.$$('.flex-control-thumbs li');
   check('gallery thumbnails present', thumbs.length === 5, 'count=' + thumbs.length);
-  if (thumbs.length > 1) {
+  if (thumbs.length > 1) await step('gallery thumbnail switches the slide', async () => {
     const first = await p.$eval('.woocommerce-product-gallery__image.flex-active-slide img', (e) => e.src);
-    await thumbs[2].click();
+    await clickInView(p, '.flex-control-thumbs li:nth-child(3) img');
     await p.waitForTimeout(1200);
     const after = await p.$eval('.woocommerce-product-gallery__image.flex-active-slide img', (e) => e.src);
     check('clicking a thumbnail changes the active slide', first !== after, first + ' -> ' + after);
-  }
+  });
   check('lightbox trigger present',
         await p.$('.woocommerce-product-gallery__trigger') !== null);
 
+  // the tab strip sits inside an Elementor entrance-animation section, which
+  // stays visibility:hidden until it scrolls into view -- same as the live page
+  await p.evaluate(() => document.querySelector('.woocommerce-tabs')?.scrollIntoView({ block: 'center' }));
+  await p.waitForTimeout(1200);
   const tabs = await p.$$('.woocommerce-tabs ul.tabs li');
   check('product tabs present (Specifications, Faqs)', tabs.length === 2, 'count=' + tabs.length);
-  if (tabs.length === 2) {
-    await p.click('.woocommerce-tabs ul.tabs li:nth-child(2) a');
+  if (tabs.length === 2) await step('product tabs interaction', async () => {
+    await clickInView(p, '.woocommerce-tabs ul.tabs li:nth-child(2) a');
     await p.waitForTimeout(600);
     const visible = await p.evaluate(() => {
       const el = document.querySelector('#tab-faqs_tab');
@@ -111,7 +169,7 @@ const browser = await chromium.launch();
       return { found: true, open: h.classList.contains('faq-active') };
     });
     check('product FAQ accordion opens', acc.found ? acc.open : false, JSON.stringify(acc));
-  }
+  });
   check('related products rendered',
         (await p.$$('section.related.products li.product')).length > 0);
 
@@ -124,12 +182,14 @@ const browser = await chromium.launch();
         (await p.content()).includes('chat.zeeops.dev/widget.js'));
 
   // sorting
+  await step('archive sorting', async () => {
   await p.goto(BASE + '/product/?orderby=price-desc', { waitUntil: 'load' });
   await p.waitForTimeout(2500);
   const sorted = await p.$eval('select.orderby', (s) => s.value);
   check('archive sorting selects the requested order', sorted === 'price-desc', sorted);
   check('archive still lists 16 tiles when sorted',
         (await p.$$('ul.products li.product')).length === 16);
+  });
 
   // search
   await p.goto(BASE + '/?s=mesh&post_type=product', { waitUntil: 'load' });
@@ -159,12 +219,13 @@ const browser = await chromium.launch();
   const p = await ctx.newPage();
   await p.goto(BASE + '/', { waitUntil: 'load' });
   await p.waitForTimeout(2000);
+  await p.addStyleTag({ content: '#zee-chat-widget,[id^="zee-chat"]{display:none !important}' });
   const burger = await p.$('#fbj-burger');
   check('mobile menu button present', burger !== null);
   if (burger) {
     const box = await burger.boundingBox();
     check('mobile menu button has a real hit area', box && box.width > 20 && box.height > 20, JSON.stringify(box));
-    await burger.click();
+    await burger.click({ force: true });
     await p.waitForTimeout(600);
     const open = await p.evaluate(() => {
       const m = document.getElementById('fbj-mobile-menu');
@@ -172,7 +233,7 @@ const browser = await chromium.launch();
                    links: m.querySelectorAll('a').length } : null;
     });
     check('mobile menu opens with its links', open && open.open && open.links > 0, JSON.stringify(open));
-    await burger.click();
+    await burger.click({ force: true });
     await p.waitForTimeout(500);
     const closed = await p.evaluate(() => document.getElementById('fbj-mobile-menu').classList.contains('fbj-open'));
     check('mobile menu closes again', closed === false, String(closed));

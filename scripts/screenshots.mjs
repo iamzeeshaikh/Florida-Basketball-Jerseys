@@ -58,6 +58,11 @@ async function shoot(url, file, width) {
       reducedMotion: 'reduce',
     });
     const page = await ctx.newPage();
+    await page.addInitScript(() => {
+      const style = document.createElement('style');
+      style.textContent = '#zee-chat-widget,[id^="zee-chat"]{display:none !important}';
+      document.addEventListener('DOMContentLoaded', () => document.head.appendChild(style));
+    });
     await page.goto(url, { waitUntil: 'load', timeout: 120000 });
     await page.waitForTimeout(2500);
     await page.addStyleTag({ content: FREEZE });

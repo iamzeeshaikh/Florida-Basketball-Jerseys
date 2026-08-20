@@ -18,212 +18,212 @@
     {
       "source": "/product/import-placeholder-for-576/",
       "destination": "/product/basketball-game-shorts/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-564/",
       "destination": "/product/basketball-practice-jerseys/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-577/",
       "destination": "/product/basketball-practice-shorts/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-565/",
       "destination": "/product/basketball-training-jerseys/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-563/",
       "destination": "/product/basketball-warm-up-jerseys/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-585/",
       "destination": "/product/black-basketball-jersey/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-554/",
       "destination": "/product/blank-basketball-jerseys/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-589/",
       "destination": "/product/blue-basketball-jersey/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-584/",
       "destination": "/product/camo-basketball-jerseys/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-588/",
       "destination": "/product/green-basketball-jersey/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-593/",
       "destination": "/product/grey-basketball-jersey/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-561/",
       "destination": "/product/lightweight-basketball-jerseys/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-573/",
       "destination": "/product/lightweight-basketball-shirt/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-578/",
       "destination": "/product/lightweight-basketball-shorts/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-557/",
       "destination": "/product/long-sleeve-basketball-jerseys/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-572/",
       "destination": "/product/long-sleeve-basketball-shirt/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-569/",
       "destination": "/product/men-basketball-uniforms/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-560/",
       "destination": "/product/mesh-basketball-jerseys/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-579/",
       "destination": "/product/mesh-basketball-shorts/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-594/",
       "destination": "/product/mesh-basketball-tank-top/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-574/",
       "destination": "/product/moisture-wicking-basketball-shirt/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-592/",
       "destination": "/product/orange-basketball-jersey/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-582/",
       "destination": "/product/performance-basketball-tank-top/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-583/",
       "destination": "/product/pink-basketball-jerseys/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-555/",
       "destination": "/product/plain-basketball-jerseys/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-587/",
       "destination": "/product/purple-basketball-jersey/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-590/",
       "destination": "/product/red-basketball-uniform/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-553/",
       "destination": "/product/reversible-basketball-jerseys/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-567/",
       "destination": "/product/reversible-basketball-uniforms/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-558/",
       "destination": "/product/short-sleeve-basketball-jerseys/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-571/",
       "destination": "/product/short-sleeve-basketball-shirt/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-556/",
       "destination": "/product/sleeveless-basketball-jerseys/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-581/",
       "destination": "/product/sleeveless-basketball-tank-top/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-559/",
       "destination": "/product/sublimated-basketball-jerseys/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-575/",
       "destination": "/product/training-basketball-shirt/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-580/",
       "destination": "/product/training-basketball-shorts/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-586/",
       "destination": "/product/white-basketball-shirt/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-570/",
       "destination": "/product/women-basketball-uniforms/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-591/",
       "destination": "/product/yellow-basketball-uniform/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-562/",
       "destination": "/product/youth-basketball-jerseys/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-568/",
       "destination": "/product/youth-basketball-uniforms/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-566/",
       "destination": "/product/youth-practice-basketball-jerseys/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/favicon.ico",
@@ -233,12 +233,23 @@
     {
       "source": "/product/page/1/",
       "destination": "/product/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/brand/florida-basketball-jerseys/page/1/",
       "destination": "/brand/florida-basketball-jerseys/",
-      "permanent": true
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "s"
+        }
+      ],
+      "destination": "/search/",
+      "statusCode": 302
     }
   ],
   "headers": [
@@ -268,14 +279,44 @@
       "destination": "/comments/feed/index.xml"
     },
     {
-      "source": "/",
-      "has": [
-        {
-          "type": "query",
-          "key": "s"
-        }
-      ],
-      "destination": "/search/"
+      "source": "/brand/florida-basketball-jerseys/feed/",
+      "destination": "/brand/florida-basketball-jerseys/feed/index.xml"
+    },
+    {
+      "source": "/product-category/basketball-shirts/feed/",
+      "destination": "/product-category/basketball-shirts/feed/index.xml"
+    },
+    {
+      "source": "/product-category/basketball-shorts/feed/",
+      "destination": "/product-category/basketball-shorts/feed/index.xml"
+    },
+    {
+      "source": "/product-category/basketball-tank-tops/feed/",
+      "destination": "/product-category/basketball-tank-tops/feed/index.xml"
+    },
+    {
+      "source": "/product-category/colored-jerseys-uniforms/feed/",
+      "destination": "/product-category/colored-jerseys-uniforms/feed/index.xml"
+    },
+    {
+      "source": "/product-category/custom-printed-jerseys/feed/",
+      "destination": "/product-category/custom-printed-jerseys/feed/index.xml"
+    },
+    {
+      "source": "/product-category/custom-uniforms/feed/",
+      "destination": "/product-category/custom-uniforms/feed/index.xml"
+    },
+    {
+      "source": "/product-category/practice-jerseys/feed/",
+      "destination": "/product-category/practice-jerseys/feed/index.xml"
+    },
+    {
+      "source": "/product/feed/",
+      "destination": "/product/feed/index.xml"
+    },
+    {
+      "source": "/product-category/uncategorized/feed/",
+      "destination": "/product-category/uncategorized/feed/index.xml"
     },
     {
       "source": "/(.*)",

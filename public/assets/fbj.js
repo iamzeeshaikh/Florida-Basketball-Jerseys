@@ -43,7 +43,7 @@
       if (button) button.disabled = true;
       var fd = new FormData(form);
       fd.append('page_url', form.getAttribute('data-page-url') || window.location.href);
-      fetch('/api/quote', { method: 'POST', body: fd })
+      fetch('/api/quote/', { method: 'POST', body: fd })
         .then(function (r) { return r.json().catch(function () { return {}; }); })
         .then(function (d) {
           if (d && d.success) {

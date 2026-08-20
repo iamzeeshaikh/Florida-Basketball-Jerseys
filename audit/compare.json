@@ -116,6 +116,11 @@
   "issues": []
  },
  {
+  "route": "/product-category/uncategorized/",
+  "ok": true,
+  "issues": []
+ },
+ {
   "route": "/product/",
   "ok": true,
   "issues": []

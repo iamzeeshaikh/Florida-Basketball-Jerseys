@@ -234,6 +234,46 @@
   {
    "source": "/comments/feed/",
    "destination": "/comments/feed/index.xml"
+  },
+  {
+   "source": "/brand/florida-basketball-jerseys/feed/",
+   "destination": "/brand/florida-basketball-jerseys/feed/index.xml"
+  },
+  {
+   "source": "/product-category/basketball-shirts/feed/",
+   "destination": "/product-category/basketball-shirts/feed/index.xml"
+  },
+  {
+   "source": "/product-category/basketball-shorts/feed/",
+   "destination": "/product-category/basketball-shorts/feed/index.xml"
+  },
+  {
+   "source": "/product-category/basketball-tank-tops/feed/",
+   "destination": "/product-category/basketball-tank-tops/feed/index.xml"
+  },
+  {
+   "source": "/product-category/colored-jerseys-uniforms/feed/",
+   "destination": "/product-category/colored-jerseys-uniforms/feed/index.xml"
+  },
+  {
+   "source": "/product-category/custom-printed-jerseys/feed/",
+   "destination": "/product-category/custom-printed-jerseys/feed/index.xml"
+  },
+  {
+   "source": "/product-category/custom-uniforms/feed/",
+   "destination": "/product-category/custom-uniforms/feed/index.xml"
+  },
+  {
+   "source": "/product-category/practice-jerseys/feed/",
+   "destination": "/product-category/practice-jerseys/feed/index.xml"
+  },
+  {
+   "source": "/product/feed/",
+   "destination": "/product/feed/index.xml"
+  },
+  {
+   "source": "/product-category/uncategorized/feed/",
+   "destination": "/product-category/uncategorized/feed/index.xml"
   }
  ]
 }

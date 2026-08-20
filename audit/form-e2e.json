@@ -1,0 +1,38 @@
+{
+ "base": "https://floridabasketballjerseys.vercel.app",
+ "stamp": "2026-08-20T16-12-40-225Z",
+ "results": [
+  {
+   "name": "product Instant Quote endpoint accepted the submission",
+   "pass": true
+  },
+  {
+   "name": "product form shows Elementor's success message",
+   "pass": true
+  },
+  {
+   "name": "product form carries the correct product attribution",
+   "pass": true
+  },
+  {
+   "name": "quote form endpoint accepted the submission",
+   "pass": true
+  },
+  {
+   "name": "quote form lands on /thank-you/ exactly as the live form does",
+   "pass": true
+  },
+  {
+   "name": "contact form endpoint accepted the submission",
+   "pass": true
+  },
+  {
+   "name": "contact form reveals its success panel",
+   "pass": true
+  },
+  {
+   "name": "contact form still blocks an empty submission with the live message",
+   "pass": true
+  }
+ ]
+}

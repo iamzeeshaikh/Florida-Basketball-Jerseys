@@ -153,7 +153,8 @@ def strip_scripts(h):
 
 def neutralise(h):
     """No WordPress token or admin endpoint may reach the static output."""
-    h = re.sub(r'"nonce":"[0-9a-f]+"', '"nonce":""', h)
+    h = re.sub(r'"([a-z_]*nonce)":"[0-9a-zA-Z]+"', r'"\1":""', h)
+    h = re.sub(r'\\"([a-z_]*nonce)\\":\\"[0-9a-zA-Z]+\\"', r'\\"\1\\":\\""', h)
     h = re.sub(r'\s(?:data-)?nonce=["\'][^"\']*["\']', "", h)
     h = re.sub(r'(<input[^>]*name="(?:_wpnonce|[\w-]*-nonce)"[^>]*value=")[^"]*(")', r"\1\2", h)
     h = h.replace(SITE + "/wp-admin/admin-ajax.php", "#")
@@ -200,7 +201,7 @@ def slice_element(h, start_re, tag):
 # so they post to the site's own /api/ handlers instead.
 
 # /get-a-quote/ posted to a custom WordPress REST route.
-QUOTE_ENDPOINT = ("fetch('/wp-json/fbj/v1/quote'", "fetch('/api/quote'")
+QUOTE_ENDPOINT = ("fetch('/wp-json/fbj/v1/quote'", "fetch('/api/quote/'")
 
 # /contact/ never delivered anything on the live site -- its handler only hid
 # the form and revealed the success panel (the comment in the source says so).
@@ -217,7 +218,7 @@ CONTACT_NEW = """      var showSuccess = function () {
       };
       var fd = new FormData(form);
       fd.append('page_url', window.location.href);
-      fetch('/api/contact', { method: 'POST', body: fd })
+      fetch('/api/contact/', { method: 'POST', body: fd })
         .then(function (r) { return r.json().catch(function () { return {}; }); })
         .then(function (d) {
           if (d && d.success === false) {

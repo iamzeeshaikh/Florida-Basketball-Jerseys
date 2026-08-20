@@ -1,5 +1,5 @@
 {
- "checked": 1709,
+ "checked": 1710,
  "bad": [
   {
    "url": "/about",
@@ -12,7 +12,7 @@
     "/brand/florida-basketball-jerseys/page/2/",
     "/brand/florida-basketball-jerseys/page/3/"
    ],
-   "count": 75
+   "count": 76
   },
   {
    "url": "/about-us",
@@ -33,26 +33,7 @@
     "/brand/florida-basketball-jerseys/page/2/",
     "/brand/florida-basketball-jerseys/page/3/"
    ],
-   "count": 75
-  },
-  {
-   "url": "/brand/florida-basketball-jerseys/feed/",
-   "status": 404,
-   "from": [
-    "/brand/florida-basketball-jerseys/",
-    "/brand/florida-basketball-jerseys/page/2/",
-    "/brand/florida-basketball-jerseys/page/3/"
-   ],
-   "count": 3
-  },
-  {
-   "url": "/brand/florida-basketball-jerseys/page/1/",
-   "status": 404,
-   "from": [
-    "/brand/florida-basketball-jerseys/page/2/",
-    "/brand/florida-basketball-jerseys/page/3/"
-   ],
-   "count": 2
+   "count": 76
   },
   {
    "url": "/contact",
@@ -65,7 +46,7 @@
     "/brand/florida-basketball-jerseys/page/2/",
     "/brand/florida-basketball-jerseys/page/3/"
    ],
-   "count": 75
+   "count": 76
   },
   {
    "url": "/cookie-policy",
@@ -78,7 +59,7 @@
     "/brand/florida-basketball-jerseys/page/2/",
     "/brand/florida-basketball-jerseys/page/3/"
    ],
-   "count": 75
+   "count": 76
   },
   {
    "url": "/disclaimer",
@@ -91,7 +72,7 @@
     "/brand/florida-basketball-jerseys/page/2/",
     "/brand/florida-basketball-jerseys/page/3/"
    ],
-   "count": 75
+   "count": 76
   },
   {
    "url": "/faq",
@@ -104,7 +85,7 @@
     "/brand/florida-basketball-jerseys/page/2/",
     "/brand/florida-basketball-jerseys/page/3/"
    ],
-   "count": 75
+   "count": 76
   },
   {
    "url": "/get-a-quote",
@@ -117,7 +98,7 @@
     "/brand/florida-basketball-jerseys/page/2/",
     "/brand/florida-basketball-jerseys/page/3/"
    ],
-   "count": 75
+   "count": 76
   },
   {
    "url": "/how-it-works",
@@ -130,7 +111,7 @@
     "/brand/florida-basketball-jerseys/page/2/",
     "/brand/florida-basketball-jerseys/page/3/"
    ],
-   "count": 75
+   "count": 76
   },
   {
    "url": "/privacy-policy",
@@ -143,31 +124,7 @@
     "/brand/florida-basketball-jerseys/page/2/",
     "/brand/florida-basketball-jerseys/page/3/"
    ],
-   "count": 75
-  },
-  {
-   "url": "/product-category/basketball-shirts/feed/",
-   "status": 404,
-   "from": [
-    "/product-category/basketball-shirts/"
-   ],
-   "count": 1
-  },
-  {
-   "url": "/product-category/basketball-shorts/feed/",
-   "status": 404,
-   "from": [
-    "/product-category/basketball-shorts/"
-   ],
-   "count": 1
-  },
-  {
-   "url": "/product-category/basketball-tank-tops/feed/",
-   "status": 404,
-   "from": [
-    "/product-category/basketball-tank-tops/"
-   ],
-   "count": 1
+   "count": 76
   },
   {
    "url": "/product-category/black-jerseys",
@@ -190,30 +147,6 @@
    "status": 308,
    "from": [
     "/sitemap/"
-   ],
-   "count": 1
-  },
-  {
-   "url": "/product-category/colored-jerseys-uniforms/feed/",
-   "status": 404,
-   "from": [
-    "/product-category/colored-jerseys-uniforms/"
-   ],
-   "count": 1
-  },
-  {
-   "url": "/product-category/custom-printed-jerseys/feed/",
-   "status": 404,
-   "from": [
-    "/product-category/custom-printed-jerseys/"
-   ],
-   "count": 1
-  },
-  {
-   "url": "/product-category/custom-uniforms/feed/",
-   "status": 404,
-   "from": [
-    "/product-category/custom-uniforms/"
    ],
    "count": 1
   },
@@ -306,14 +239,6 @@
    "count": 1
   },
   {
-   "url": "/product-category/practice-jerseys/feed/",
-   "status": 404,
-   "from": [
-    "/product-category/practice-jerseys/"
-   ],
-   "count": 1
-  },
-  {
    "url": "/product-category/practice-shorts",
    "status": 308,
    "from": [
@@ -394,14 +319,6 @@
    "count": 1
   },
   {
-   "url": "/product-category/uncategorized/",
-   "status": 404,
-   "from": [
-    "/404.html"
-   ],
-   "count": 1
-  },
-  {
    "url": "/product-category/uniforms",
    "status": 308,
    "from": [
@@ -434,26 +351,6 @@
    "count": 1
   },
   {
-   "url": "/product/feed/",
-   "status": 404,
-   "from": [
-    "/product/",
-    "/product/page/2/",
-    "/product/page/3/",
-    "/search/"
-   ],
-   "count": 4
-  },
-  {
-   "url": "/product/page/1/",
-   "status": 404,
-   "from": [
-    "/product/page/2/",
-    "/product/page/3/"
-   ],
-   "count": 2
-  },
-  {
    "url": "/product/practice-basketball-jerseys/",
    "status": 404,
    "from": [
@@ -477,7 +374,7 @@
     "/brand/florida-basketball-jerseys/page/2/",
     "/brand/florida-basketball-jerseys/page/3/"
    ],
-   "count": 75
+   "count": 76
   },
   {
    "url": "/shipping-policy",
@@ -490,7 +387,7 @@
     "/brand/florida-basketball-jerseys/page/2/",
     "/brand/florida-basketball-jerseys/page/3/"
    ],
-   "count": 75
+   "count": 76
   },
   {
    "url": "/shop",
@@ -512,7 +409,7 @@
     "/brand/florida-basketball-jerseys/page/2/",
     "/brand/florida-basketball-jerseys/page/3/"
    ],
-   "count": 75
+   "count": 76
   },
   {
    "url": "/terms-of-service",
@@ -525,15 +422,7 @@
     "/brand/florida-basketball-jerseys/page/2/",
     "/brand/florida-basketball-jerseys/page/3/"
    ],
-   "count": 75
-  },
-  {
-   "url": "/wp-content/plugins/woocommerce/assets/client/blocks/checkout.css",
-   "status": 404,
-   "from": [
-    "/checkout/"
-   ],
-   "count": 1
+   "count": 76
   }
  ]
 }

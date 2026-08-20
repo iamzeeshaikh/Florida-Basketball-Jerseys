@@ -1,0 +1,2117 @@
+[
+ {
+  "route": "/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   22062
+  ],
+  "astro": [
+   1440,
+   22062
+  ]
+ },
+ {
+  "route": "/about/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   7108
+  ],
+  "astro": [
+   1440,
+   7108
+  ]
+ },
+ {
+  "route": "/brand/florida-basketball-jerseys/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   3438
+  ],
+  "astro": [
+   1440,
+   3438
+  ]
+ },
+ {
+  "route": "/brand/florida-basketball-jerseys/page/2/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   3438
+  ],
+  "astro": [
+   1440,
+   3438
+  ]
+ },
+ {
+  "route": "/brand/florida-basketball-jerseys/page/3/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   2933
+  ],
+  "astro": [
+   1440,
+   2933
+  ]
+ },
+ {
+  "route": "/cart/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   2033
+  ],
+  "astro": [
+   1440,
+   2033
+  ]
+ },
+ {
+  "route": "/contact/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   3862
+  ],
+  "astro": [
+   1440,
+   3862
+  ]
+ },
+ {
+  "route": "/cookie-policy/",
+  "width": 1440,
+  "pixels": 690,
+  "pct": 0.006245655196385124,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   7672
+  ],
+  "astro": [
+   1440,
+   7672
+  ]
+ },
+ {
+  "route": "/disclaimer/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   8226
+  ],
+  "astro": [
+   1440,
+   8226
+  ]
+ },
+ {
+  "route": "/faq/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   4906
+  ],
+  "astro": [
+   1440,
+   4906
+  ]
+ },
+ {
+  "route": "/get-a-quote/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   2530
+  ],
+  "astro": [
+   1440,
+   2530
+  ]
+ },
+ {
+  "route": "/how-it-works/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   7474
+  ],
+  "astro": [
+   1440,
+   7474
+  ]
+ },
+ {
+  "route": "/my-account/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   1622
+  ],
+  "astro": [
+   1440,
+   1622
+  ]
+ },
+ {
+  "route": "/my-account/lost-password/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   1446
+  ],
+  "astro": [
+   1440,
+   1446
+  ]
+ },
+ {
+  "route": "/privacy-policy/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   8739
+  ],
+  "astro": [
+   1440,
+   8739
+  ]
+ },
+ {
+  "route": "/product-category/basketball-shirts/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   2316
+  ],
+  "astro": [
+   1440,
+   2316
+  ]
+ },
+ {
+  "route": "/product-category/basketball-shorts/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   2316
+  ],
+  "astro": [
+   1440,
+   2316
+  ]
+ },
+ {
+  "route": "/product-category/basketball-tank-tops/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   1811
+  ],
+  "astro": [
+   1440,
+   1811
+  ]
+ },
+ {
+  "route": "/product-category/colored-jerseys-uniforms/",
+  "width": 1440,
+  "pixels": 9,
+  "pct": 0.00022155264090747962,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   2821
+  ],
+  "astro": [
+   1440,
+   2821
+  ]
+ },
+ {
+  "route": "/product-category/custom-printed-jerseys/",
+  "width": 1440,
+  "pixels": 9,
+  "pct": 0.00022155264090747962,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   2821
+  ],
+  "astro": [
+   1440,
+   2821
+  ]
+ },
+ {
+  "route": "/product-category/custom-uniforms/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   1811
+  ],
+  "astro": [
+   1440,
+   1811
+  ]
+ },
+ {
+  "route": "/product-category/practice-jerseys/",
+  "width": 1440,
+  "pixels": 9,
+  "pct": 0.0003451131971286582,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   1811
+  ],
+  "astro": [
+   1440,
+   1811
+  ]
+ },
+ {
+  "route": "/product-category/uncategorized/",
+  "width": 1440,
+  "pixels": 957,
+  "pct": 0.052577795358649794,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   1264
+  ],
+  "astro": [
+   1440,
+   1264
+  ]
+ },
+ {
+  "route": "/product/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   3326
+  ],
+  "astro": [
+   1440,
+   3326
+  ]
+ },
+ {
+  "route": "/product/basketball-game-shorts/",
+  "width": 1440,
+  "pixels": 9,
+  "pct": 0.00005066882853668424,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12335
+  ],
+  "astro": [
+   1440,
+   12335
+  ]
+ },
+ {
+  "route": "/product/basketball-practice-jerseys/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12309
+  ],
+  "astro": [
+   1440,
+   12309
+  ]
+ },
+ {
+  "route": "/product/basketball-practice-shorts/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12309
+  ],
+  "astro": [
+   1440,
+   12309
+  ]
+ },
+ {
+  "route": "/product/basketball-training-jerseys/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12361
+  ],
+  "astro": [
+   1440,
+   12361
+  ]
+ },
+ {
+  "route": "/product/basketball-warm-up-jerseys/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12335
+  ],
+  "astro": [
+   1440,
+   12335
+  ]
+ },
+ {
+  "route": "/product/black-basketball-jersey/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12335
+  ],
+  "astro": [
+   1440,
+   12335
+  ]
+ },
+ {
+  "route": "/product/blank-basketball-jerseys/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12283
+  ],
+  "astro": [
+   1440,
+   12283
+  ]
+ },
+ {
+  "route": "/product/blue-basketball-jersey/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12309
+  ],
+  "astro": [
+   1440,
+   12309
+  ]
+ },
+ {
+  "route": "/product/camo-basketball-jerseys/",
+  "width": 1440,
+  "pixels": 9,
+  "pct": 0.00005066882853668424,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12335
+  ],
+  "astro": [
+   1440,
+   12335
+  ]
+ },
+ {
+  "route": "/product/green-basketball-jersey/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12309
+  ],
+  "astro": [
+   1440,
+   12309
+  ]
+ },
+ {
+  "route": "/product/grey-basketball-jersey/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12361
+  ],
+  "astro": [
+   1440,
+   12361
+  ]
+ },
+ {
+  "route": "/product/lightweight-basketball-jerseys/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12309
+  ],
+  "astro": [
+   1440,
+   12309
+  ]
+ },
+ {
+  "route": "/product/lightweight-basketball-shirt/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12335
+  ],
+  "astro": [
+   1440,
+   12335
+  ]
+ },
+ {
+  "route": "/product/lightweight-basketball-shorts/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12361
+  ],
+  "astro": [
+   1440,
+   12361
+  ]
+ },
+ {
+  "route": "/product/long-sleeve-basketball-jerseys/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12309
+  ],
+  "astro": [
+   1440,
+   12309
+  ]
+ },
+ {
+  "route": "/product/long-sleeve-basketball-shirt/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12361
+  ],
+  "astro": [
+   1440,
+   12361
+  ]
+ },
+ {
+  "route": "/product/men-basketball-uniforms/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12335
+  ],
+  "astro": [
+   1440,
+   12335
+  ]
+ },
+ {
+  "route": "/product/mesh-basketball-jerseys/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12335
+  ],
+  "astro": [
+   1440,
+   12335
+  ]
+ },
+ {
+  "route": "/product/mesh-basketball-shorts/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12283
+  ],
+  "astro": [
+   1440,
+   12283
+  ]
+ },
+ {
+  "route": "/product/mesh-basketball-tank-top/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12361
+  ],
+  "astro": [
+   1440,
+   12361
+  ]
+ },
+ {
+  "route": "/product/moisture-wicking-basketball-shirt/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12361
+  ],
+  "astro": [
+   1440,
+   12361
+  ]
+ },
+ {
+  "route": "/product/orange-basketball-jersey/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12309
+  ],
+  "astro": [
+   1440,
+   12309
+  ]
+ },
+ {
+  "route": "/product/page/2/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   3326
+  ],
+  "astro": [
+   1440,
+   3326
+  ]
+ },
+ {
+  "route": "/product/page/3/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   2821
+  ],
+  "astro": [
+   1440,
+   2821
+  ]
+ },
+ {
+  "route": "/product/performance-basketball-tank-top/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12335
+  ],
+  "astro": [
+   1440,
+   12335
+  ]
+ },
+ {
+  "route": "/product/pink-basketball-jerseys/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12309
+  ],
+  "astro": [
+   1440,
+   12309
+  ]
+ },
+ {
+  "route": "/product/plain-basketball-jerseys/",
+  "width": 1440,
+  "pixels": 9,
+  "pct": 0.00005088333469022226,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12283
+  ],
+  "astro": [
+   1440,
+   12283
+  ]
+ },
+ {
+  "route": "/product/purple-basketball-jersey/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12309
+  ],
+  "astro": [
+   1440,
+   12309
+  ]
+ },
+ {
+  "route": "/product/red-basketball-uniform/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12309
+  ],
+  "astro": [
+   1440,
+   12309
+  ]
+ },
+ {
+  "route": "/product/reversible-basketball-jerseys/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12309
+  ],
+  "astro": [
+   1440,
+   12309
+  ]
+ },
+ {
+  "route": "/product/reversible-basketball-uniforms/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12335
+  ],
+  "astro": [
+   1440,
+   12335
+  ]
+ },
+ {
+  "route": "/product/short-sleeve-basketball-jerseys/",
+  "width": 1440,
+  "pixels": 9,
+  "pct": 0.000050562252244964,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12361
+  ],
+  "astro": [
+   1440,
+   12361
+  ]
+ },
+ {
+  "route": "/product/short-sleeve-basketball-shirt/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12335
+  ],
+  "astro": [
+   1440,
+   12335
+  ]
+ },
+ {
+  "route": "/product/sleeveless-basketball-jerseys/",
+  "width": 1440,
+  "pixels": 9,
+  "pct": 0.0000507758550653993,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12309
+  ],
+  "astro": [
+   1440,
+   12309
+  ]
+ },
+ {
+  "route": "/product/sleeveless-basketball-tank-top/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12361
+  ],
+  "astro": [
+   1440,
+   12361
+  ]
+ },
+ {
+  "route": "/product/sublimated-basketball-jerseys/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12335
+  ],
+  "astro": [
+   1440,
+   12335
+  ]
+ },
+ {
+  "route": "/product/training-basketball-shirt/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12361
+  ],
+  "astro": [
+   1440,
+   12361
+  ]
+ },
+ {
+  "route": "/product/training-basketball-shorts/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12361
+  ],
+  "astro": [
+   1440,
+   12361
+  ]
+ },
+ {
+  "route": "/product/white-basketball-shirt/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12206
+  ],
+  "astro": [
+   1440,
+   12206
+  ]
+ },
+ {
+  "route": "/product/women-basketball-uniforms/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12361
+  ],
+  "astro": [
+   1440,
+   12361
+  ]
+ },
+ {
+  "route": "/product/yellow-basketball-uniform/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12257
+  ],
+  "astro": [
+   1440,
+   12257
+  ]
+ },
+ {
+  "route": "/product/youth-basketball-jerseys/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12283
+  ],
+  "astro": [
+   1440,
+   12283
+  ]
+ },
+ {
+  "route": "/product/youth-basketball-uniforms/",
+  "width": 1440,
+  "pixels": 1038,
+  "pct": 0.0058561486175427195,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12309
+  ],
+  "astro": [
+   1440,
+   12309
+  ]
+ },
+ {
+  "route": "/product/youth-practice-basketball-jerseys/",
+  "width": 1440,
+  "pixels": 1592,
+  "pct": 0.00900069653631487,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   12283
+  ],
+  "astro": [
+   1440,
+   12283
+  ]
+ },
+ {
+  "route": "/refund-policy/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   7226
+  ],
+  "astro": [
+   1440,
+   7226
+  ]
+ },
+ {
+  "route": "/shipping-policy/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   7872
+  ],
+  "astro": [
+   1440,
+   7872
+  ]
+ },
+ {
+  "route": "/sitemap/",
+  "width": 1440,
+  "pixels": 9,
+  "pct": 0.00019195331695331694,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   3256
+  ],
+  "astro": [
+   1440,
+   3256
+  ]
+ },
+ {
+  "route": "/terms-of-service/",
+  "width": 1440,
+  "pixels": 885,
+  "pct": 0.007290431000395413,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   8430
+  ],
+  "astro": [
+   1440,
+   8430
+  ]
+ },
+ {
+  "route": "/thank-you/",
+  "width": 1440,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   1834
+  ],
+  "astro": [
+   1440,
+   1834
+  ]
+ },
+ {
+  "route": "/checkout/",
+  "width": 1440,
+  "pixels": 1018839,
+  "pct": 34.802119199868834,
+  "sizeMismatch": true,
+  "live": [
+   1440,
+   2595
+  ],
+  "astro": [
+   1440,
+   2033
+  ]
+ },
+ {
+  "route": "/search/",
+  "width": 1440,
+  "pixels": 948,
+  "pct": 0.036351923430885336,
+  "sizeMismatch": false,
+  "live": [
+   1440,
+   1811
+  ],
+  "astro": [
+   1440,
+   1811
+  ]
+ },
+ {
+  "route": "/",
+  "width": 768,
+  "pixels": 16,
+  "pct": 0.00006754858093941163,
+  "sizeMismatch": false,
+  "live": [
+   768,
+   30842
+  ],
+  "astro": [
+   768,
+   30842
+  ]
+ },
+ {
+  "route": "/about/",
+  "width": 768,
+  "pixels": 525,
+  "pct": 0.006916165014164306,
+  "sizeMismatch": false,
+  "live": [
+   768,
+   9884
+  ],
+  "astro": [
+   768,
+   9884
+  ]
+ },
+ {
+  "route": "/brand/florida-basketball-jerseys/",
+  "width": 768,
+  "pixels": 422,
+  "pct": 0.01527604021870077,
+  "sizeMismatch": false,
+  "live": [
+   768,
+   3597
+  ],
+  "astro": [
+   768,
+   3597
+  ]
+ },
+ {
+  "route": "/contact/",
+  "width": 768,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   768,
+   6181
+  ],
+  "astro": [
+   768,
+   6181
+  ]
+ },
+ {
+  "route": "/cookie-policy/",
+  "width": 768,
+  "pixels": 535,
+  "pct": 0.007111214611406016,
+  "sizeMismatch": false,
+  "live": [
+   768,
+   9796
+  ],
+  "astro": [
+   768,
+   9796
+  ]
+ },
+ {
+  "route": "/disclaimer/",
+  "width": 768,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   768,
+   10434
+  ],
+  "astro": [
+   768,
+   10434
+  ]
+ },
+ {
+  "route": "/faq/",
+  "width": 768,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   768,
+   6348
+  ],
+  "astro": [
+   768,
+   6348
+  ]
+ },
+ {
+  "route": "/get-a-quote/",
+  "width": 768,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   768,
+   3488
+  ],
+  "astro": [
+   768,
+   3488
+  ]
+ },
+ {
+  "route": "/how-it-works/",
+  "width": 768,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   768,
+   10295
+  ],
+  "astro": [
+   768,
+   10295
+  ]
+ },
+ {
+  "route": "/my-account/",
+  "width": 768,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   768,
+   2287
+  ],
+  "astro": [
+   768,
+   2287
+  ]
+ },
+ {
+  "route": "/my-account/lost-password/",
+  "width": 768,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   768,
+   2137
+  ],
+  "astro": [
+   768,
+   2137
+  ]
+ },
+ {
+  "route": "/privacy-policy/",
+  "width": 768,
+  "pixels": 9,
+  "pct": 0.00010547929792979298,
+  "sizeMismatch": false,
+  "live": [
+   768,
+   11110
+  ],
+  "astro": [
+   768,
+   11110
+  ]
+ },
+ {
+  "route": "/product-category/basketball-shirts/",
+  "width": 768,
+  "pixels": 9,
+  "pct": 0.0004327455686853767,
+  "sizeMismatch": false,
+  "live": [
+   768,
+   2708
+  ],
+  "astro": [
+   768,
+   2708
+  ]
+ },
+ {
+  "route": "/product/",
+  "width": 768,
+  "pixels": 9,
+  "pct": 0.0003362625538020086,
+  "sizeMismatch": false,
+  "live": [
+   768,
+   3485
+  ],
+  "astro": [
+   768,
+   3485
+  ]
+ },
+ {
+  "route": "/product/blank-basketball-jerseys/",
+  "width": 768,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   768,
+   17765
+  ],
+  "astro": [
+   768,
+   17765
+  ]
+ },
+ {
+  "route": "/product/page/2/",
+  "width": 768,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   768,
+   3485
+  ],
+  "astro": [
+   768,
+   3485
+  ]
+ },
+ {
+  "route": "/refund-policy/",
+  "width": 768,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   768,
+   8954
+  ],
+  "astro": [
+   768,
+   8954
+  ]
+ },
+ {
+  "route": "/shipping-policy/",
+  "width": 768,
+  "pixels": 9,
+  "pct": 0.0001168136961722488,
+  "sizeMismatch": false,
+  "live": [
+   768,
+   10032
+  ],
+  "astro": [
+   768,
+   10032
+  ]
+ },
+ {
+  "route": "/sitemap/",
+  "width": 768,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   768,
+   4489
+  ],
+  "astro": [
+   768,
+   4489
+  ]
+ },
+ {
+  "route": "/terms-of-service/",
+  "width": 768,
+  "pixels": 9,
+  "pct": 0.00011057510851103983,
+  "sizeMismatch": false,
+  "live": [
+   768,
+   10598
+  ],
+  "astro": [
+   768,
+   10598
+  ]
+ },
+ {
+  "route": "/thank-you/",
+  "width": 768,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   768,
+   2726
+  ],
+  "astro": [
+   768,
+   2726
+  ]
+ },
+ {
+  "route": "/search/",
+  "width": 768,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   768,
+   2349
+  ],
+  "astro": [
+   768,
+   2349
+  ]
+ },
+ {
+  "route": "/",
+  "width": 390,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   43249
+  ],
+  "astro": [
+   495,
+   43249
+  ]
+ },
+ {
+  "route": "/about/",
+  "width": 390,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   23400
+  ],
+  "astro": [
+   495,
+   23400
+  ]
+ },
+ {
+  "route": "/brand/florida-basketball-jerseys/",
+  "width": 390,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   12062
+  ],
+  "astro": [
+   495,
+   12062
+  ]
+ },
+ {
+  "route": "/contact/",
+  "width": 390,
+  "pixels": 1,
+  "pct": 0.00002499940626410123,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   8081
+  ],
+  "astro": [
+   495,
+   8081
+  ]
+ },
+ {
+  "route": "/cookie-policy/",
+  "width": 390,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   14440
+  ],
+  "astro": [
+   495,
+   14440
+  ]
+ },
+ {
+  "route": "/disclaimer/",
+  "width": 390,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   15603
+  ],
+  "astro": [
+   495,
+   15603
+  ]
+ },
+ {
+  "route": "/faq/",
+  "width": 390,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   8178
+  ],
+  "astro": [
+   495,
+   8178
+  ]
+ },
+ {
+  "route": "/get-a-quote/",
+  "width": 390,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   5288
+  ],
+  "astro": [
+   495,
+   5288
+  ]
+ },
+ {
+  "route": "/how-it-works/",
+  "width": 390,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   15208
+  ],
+  "astro": [
+   495,
+   15208
+  ]
+ },
+ {
+  "route": "/my-account/",
+  "width": 390,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   3411
+  ],
+  "astro": [
+   495,
+   3411
+  ]
+ },
+ {
+  "route": "/my-account/lost-password/",
+  "width": 390,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   3286
+  ],
+  "astro": [
+   495,
+   3286
+  ]
+ },
+ {
+  "route": "/privacy-policy/",
+  "width": 390,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   16372
+  ],
+  "astro": [
+   495,
+   16372
+  ]
+ },
+ {
+  "route": "/product-category/basketball-shirts/",
+  "width": 390,
+  "pixels": 9,
+  "pct": 0.0003106940905983968,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   5852
+  ],
+  "astro": [
+   495,
+   5852
+  ]
+ },
+ {
+  "route": "/product/",
+  "width": 390,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   11922
+  ],
+  "astro": [
+   495,
+   11922
+  ]
+ },
+ {
+  "route": "/product/blank-basketball-jerseys/",
+  "width": 390,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   27077
+  ],
+  "astro": [
+   495,
+   27077
+  ]
+ },
+ {
+  "route": "/product/page/2/",
+  "width": 390,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   11922
+  ],
+  "astro": [
+   495,
+   11922
+  ]
+ },
+ {
+  "route": "/refund-policy/",
+  "width": 390,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   13951
+  ],
+  "astro": [
+   495,
+   13951
+  ]
+ },
+ {
+  "route": "/shipping-policy/",
+  "width": 390,
+  "pixels": 9,
+  "pct": 0.00011689480636375326,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   15554
+  ],
+  "astro": [
+   495,
+   15554
+  ]
+ },
+ {
+  "route": "/sitemap/",
+  "width": 390,
+  "pixels": 9,
+  "pct": 0.00024002400240024003,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   7575
+  ],
+  "astro": [
+   495,
+   7575
+  ]
+ },
+ {
+  "route": "/terms-of-service/",
+  "width": 390,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   15488
+  ],
+  "astro": [
+   495,
+   15488
+  ]
+ },
+ {
+  "route": "/thank-you/",
+  "width": 390,
+  "pixels": 268,
+  "pct": 0.012661696478347554,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   4276
+  ],
+  "astro": [
+   495,
+   4276
+  ]
+ },
+ {
+  "route": "/search/",
+  "width": 390,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   4778
+  ],
+  "astro": [
+   495,
+   4778
+  ]
+ },
+ {
+  "route": "/",
+  "width": 320,
+  "pixels": 119,
+  "pct": 0.0005007374305437209,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   48010
+  ],
+  "astro": [
+   495,
+   48010
+  ]
+ },
+ {
+  "route": "/about/",
+  "width": 320,
+  "pixels": 168,
+  "pct": 0.0013849422157591587,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   24506
+  ],
+  "astro": [
+   495,
+   24506
+  ]
+ },
+ {
+  "route": "/brand/florida-basketball-jerseys/",
+  "width": 320,
+  "pixels": 58,
+  "pct": 0.0009681212688731485,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   12103
+  ],
+  "astro": [
+   495,
+   12103
+  ]
+ },
+ {
+  "route": "/contact/",
+  "width": 320,
+  "pixels": 213,
+  "pct": 0.005182500666060825,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   8303
+  ],
+  "astro": [
+   495,
+   8303
+  ]
+ },
+ {
+  "route": "/cookie-policy/",
+  "width": 320,
+  "pixels": 177,
+  "pct": 0.0021907594508991397,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   16322
+  ],
+  "astro": [
+   495,
+   16322
+  ]
+ },
+ {
+  "route": "/disclaimer/",
+  "width": 320,
+  "pixels": 9,
+  "pct": 0.00009813157481551264,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   18528
+  ],
+  "astro": [
+   495,
+   18528
+  ]
+ },
+ {
+  "route": "/faq/",
+  "width": 320,
+  "pixels": 9,
+  "pct": 0.00020226741775301125,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   8989
+  ],
+  "astro": [
+   495,
+   8989
+  ]
+ },
+ {
+  "route": "/get-a-quote/",
+  "width": 320,
+  "pixels": 159,
+  "pct": 0.005635300372142478,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   5700
+  ],
+  "astro": [
+   495,
+   5700
+  ]
+ },
+ {
+  "route": "/how-it-works/",
+  "width": 320,
+  "pixels": 219,
+  "pct": 0.0024196020914642735,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   18285
+  ],
+  "astro": [
+   495,
+   18285
+  ]
+ },
+ {
+  "route": "/my-account/",
+  "width": 320,
+  "pixels": 144,
+  "pct": 0.008276218802534593,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   3515
+  ],
+  "astro": [
+   495,
+   3515
+  ]
+ },
+ {
+  "route": "/my-account/lost-password/",
+  "width": 320,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   542,
+   3387
+  ],
+  "astro": [
+   542,
+   3387
+  ]
+ },
+ {
+  "route": "/privacy-policy/",
+  "width": 320,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   542,
+   18736
+  ],
+  "astro": [
+   542,
+   18736
+  ]
+ },
+ {
+  "route": "/product-category/basketball-shirts/",
+  "width": 320,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   542,
+   5932
+  ],
+  "astro": [
+   542,
+   5932
+  ]
+ },
+ {
+  "route": "/product/",
+  "width": 320,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   542,
+   11959
+  ],
+  "astro": [
+   542,
+   11959
+  ]
+ },
+ {
+  "route": "/product/blank-basketball-jerseys/",
+  "width": 320,
+  "pixels": 259,
+  "pct": 0.001724335365252845,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   30344
+  ],
+  "astro": [
+   495,
+   30344
+  ]
+ },
+ {
+  "route": "/product/page/2/",
+  "width": 320,
+  "pixels": 212,
+  "pct": 0.003580062093812825,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   11963
+  ],
+  "astro": [
+   495,
+   11963
+  ]
+ },
+ {
+  "route": "/refund-policy/",
+  "width": 320,
+  "pixels": 200,
+  "pct": 0.0023516698913940053,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   17181
+  ],
+  "astro": [
+   495,
+   17181
+  ]
+ },
+ {
+  "route": "/shipping-policy/",
+  "width": 320,
+  "pixels": 166,
+  "pct": 0.001879573676457434,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   17842
+  ],
+  "astro": [
+   495,
+   17842
+  ]
+ },
+ {
+  "route": "/sitemap/",
+  "width": 320,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   8012
+  ],
+  "astro": [
+   495,
+   8012
+  ]
+ },
+ {
+  "route": "/terms-of-service/",
+  "width": 320,
+  "pixels": 220,
+  "pct": 0.002489187591399857,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   17855
+  ],
+  "astro": [
+   495,
+   17855
+  ]
+ },
+ {
+  "route": "/thank-you/",
+  "width": 320,
+  "pixels": 9,
+  "pct": 0.00040243068131514347,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   4518
+  ],
+  "astro": [
+   495,
+   4518
+  ]
+ },
+ {
+  "route": "/search/",
+  "width": 320,
+  "pixels": 0,
+  "pct": 0,
+  "sizeMismatch": false,
+  "live": [
+   495,
+   4922
+  ],
+  "astro": [
+   495,
+   4922
+  ]
+ }
+]

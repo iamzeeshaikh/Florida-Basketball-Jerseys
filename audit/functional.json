@@ -1,0 +1,118 @@
+[
+ {
+  "name": "header has hover dropdowns with links",
+  "pass": true
+ },
+ {
+  "name": "hovering a nav item opens its dropdown",
+  "pass": true
+ },
+ {
+  "name": "header sticks to the top on scroll",
+  "pass": true
+ },
+ {
+  "name": "header gains its scrolled shadow class",
+  "pass": true
+ },
+ {
+  "name": "phone link present and correct",
+  "pass": true
+ },
+ {
+  "name": "email link present and correct",
+  "pass": true
+ },
+ {
+  "name": "FAQ accordion opens and closes",
+  "pass": true
+ },
+ {
+  "name": "FAQ category tabs filter the list",
+  "pass": true
+ },
+ {
+  "name": "FAQ search narrows the list",
+  "pass": true
+ },
+ {
+  "name": "product gallery initialised as a slider",
+  "pass": true
+ },
+ {
+  "name": "gallery thumbnails present",
+  "pass": true
+ },
+ {
+  "name": "clicking a thumbnail changes the active slide",
+  "pass": true
+ },
+ {
+  "name": "lightbox trigger present",
+  "pass": true
+ },
+ {
+  "name": "product tabs present (Specifications, Faqs)",
+  "pass": true
+ },
+ {
+  "name": "clicking the Faqs tab shows its panel",
+  "pass": true
+ },
+ {
+  "name": "product FAQ accordion opens",
+  "pass": true
+ },
+ {
+  "name": "related products rendered",
+  "pass": true
+ },
+ {
+  "name": "quote CTA links present",
+  "pass": true
+ },
+ {
+  "name": "chat widget script present",
+  "pass": true
+ },
+ {
+  "name": "archive sorting selects the requested order",
+  "pass": true
+ },
+ {
+  "name": "archive still lists 16 tiles when sorted",
+  "pass": true
+ },
+ {
+  "name": "product search returns the live result set (3 for \"mesh\")",
+  "pass": true
+ },
+ {
+  "name": "search heading shows the term",
+  "pass": true
+ },
+ {
+  "name": "unknown URL returns 404 with the site's error page",
+  "pass": true
+ },
+ {
+  "name": "mixed-case URL serves the page with 200",
+  "pass": true
+ },
+ {
+  "name": "mobile menu button present",
+  "pass": true
+ },
+ {
+  "name": "mobile menu button has a real hit area",
+  "pass": true
+ },
+ {
+  "name": "mobile menu opens with its links",
+  "pass": true
+ },
+ {
+  "name": "mobile menu closes again",
+  "pass": true
+ }
+]

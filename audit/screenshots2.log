@@ -5,7 +5,7 @@
   ok   1440px /brand/florida-basketball-jerseys/page/3/ 0.000% 
   ok   1440px /cart/ 0.000% 
   ok   1440px /contact/ 0.000% 
-DIFF   1440px /cookie-policy/ 0.011% 
+  ok   1440px /cookie-policy/ 0.006% 
   ok   1440px /disclaimer/ 0.000% 
   ok   1440px /faq/ 0.000% 
   ok   1440px /get-a-quote/ 0.000% 
@@ -68,10 +68,10 @@ DIFF   1440px /cookie-policy/ 0.011%
   ok   1440px /refund-policy/ 0.000% 
   ok   1440px /shipping-policy/ 0.000% 
   ok   1440px /sitemap/ 0.000% 
-DIFF   1440px /terms-of-service/ 0.010% 
+  ok   1440px /terms-of-service/ 0.007% 
   ok   1440px /thank-you/ 0.000% 
-DIFF   1440px /checkout/ 61.721% size live=1440,1232 astro=1440,2033
-DIFF   1440px /search/ 0.041% 
+DIFF   1440px /checkout/ 34.802% size live=1440,2595 astro=1440,2033
+DIFF   1440px /search/ 0.036% 
   ok   768px / 0.000% 
   ok   768px /about/ 0.007% 
 DIFF   768px /brand/florida-basketball-jerseys/ 0.015% 
@@ -114,32 +114,23 @@ DIFF   768px /brand/florida-basketball-jerseys/ 0.015%
   ok   390px /shipping-policy/ 0.000% 
   ok   390px /sitemap/ 0.000% 
   ok   390px /terms-of-service/ 0.000% 
-DIFF   390px /thank-you/ 6.758% size live=542,4210 astro=495,4276
+DIFF   390px /thank-you/ 0.013% 
   ok   390px /search/ 0.000% 
-ERR    320 / page.goto: Timeout 120000ms exceeded.
-Call log:
-[2m  - navigating to "http://localhost:4321/__live/", waiting until "load"[22m
-
+  ok   320px / 0.001% 
   ok   320px /about/ 0.001% 
   ok   320px /brand/florida-basketball-jerseys/ 0.001% 
   ok   320px /contact/ 0.005% 
   ok   320px /cookie-policy/ 0.002% 
-ERR    320 /disclaimer/ page.goto: Timeout 120000ms exceeded.
-Call log:
-[2m  - navigating to "http://localhost:4321/__live/disclaimer/", waiting until "load"[22m
-
+  ok   320px /disclaimer/ 0.000% 
   ok   320px /faq/ 0.000% 
   ok   320px /get-a-quote/ 0.006% 
-ERR    320 /how-it-works/ page.goto: Timeout 120000ms exceeded.
-Call log:
-[2m  - navigating to "http://localhost:4321/__live/how-it-works/", waiting until "load"[22m
-
-DIFF   320px /my-account/ 3.092% size live=495,3515 astro=542,3511
+  ok   320px /how-it-works/ 0.002% 
+  ok   320px /my-account/ 0.008% 
   ok   320px /my-account/lost-password/ 0.000% 
   ok   320px /privacy-policy/ 0.000% 
   ok   320px /product-category/basketball-shirts/ 0.000% 
   ok   320px /product/ 0.000% 
-DIFF   320px /product/blank-basketball-jerseys/ 8.768% size live=542,30587 astro=495,30344
+  ok   320px /product/blank-basketball-jerseys/ 0.002% 
   ok   320px /product/page/2/ 0.004% 
   ok   320px /refund-policy/ 0.002% 
   ok   320px /shipping-policy/ 0.002% 
@@ -148,4 +139,4 @@ DIFF   320px /product/blank-basketball-jerseys/ 8.768% size live=542,30587 astro
   ok   320px /thank-you/ 0.000% 
   ok   320px /search/ 0.000% 
 
-129/140 shots identical
+136/140 shots identical

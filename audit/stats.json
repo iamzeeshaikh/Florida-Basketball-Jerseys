@@ -1,0 +1,19 @@
+{
+ "sitemap_urls": 68,
+ "routes": 76,
+ "compare_total": 75,
+ "compare_ok": 73,
+ "shots_total": 140,
+ "shots_ok": 138,
+ "runtime_total": 0,
+ "runtime_ok": 0,
+ "functional_total": 29,
+ "functional_ok": 29,
+ "cart_total": 15,
+ "cart_ok": 15,
+ "links_checked": 1710,
+ "links_bad": 1,
+ "redirects": 45,
+ "products": 42,
+ "images": 1678
+}

@@ -37,6 +37,7 @@ for (const width of [1440, 390, 320]) {
     p.on('pageerror', (e) => errors.push(String(e).split('\n')[0]));
     p.on('requestfailed', (r) => failed.push(r.url() + ' :: ' + (r.failure()?.errorText)));
     p.on('response', (r) => {
+      if (!/^https?:/.test(r.url())) return;   // blob: and data: are page-generated
       const u = new URL(r.url());
       if (!ALLOWED_HOSTS.has(u.host)) foreign.push(r.url());
       if (r.status() >= 400 && r.request().resourceType() !== 'document') {
@@ -69,12 +70,31 @@ for (const width of [1440, 390, 320]) {
     }).catch(() => null);
     const fonts = await p.evaluate(() =>
       [...document.fonts].filter((f) => f.status === 'error').map((f) => f.family)).catch(() => []);
+    // The header overflows horizontally below ~500px on the WordPress site too.
+    // What matters is that the migration does not make it worse, so the same
+    // measurement is taken from the replayed original and compared.
+    let liveOverflow = null;
+    if (overflow) {
+      const lp = await ctx.newPage();
+      try {
+        await lp.goto(BASE + '/__live' + (route === '/404/' ? '/' : route), { waitUntil: 'load', timeout: 60000 });
+        await lp.waitForTimeout(1500);
+        liveOverflow = await lp.evaluate(() => {
+          const de = document.documentElement;
+          return de.scrollWidth > de.clientWidth + 1
+            ? { scrollWidth: de.scrollWidth, clientWidth: de.clientWidth } : null;
+        });
+      } catch {}
+      await lp.close();
+    }
+    const overflowRegression = !!overflow && (!liveOverflow || liveOverflow.scrollWidth < overflow.scrollWidth);
     report.push({ route, width, status, failed, bad, errors, fonts,
-                  foreign: [...new Set(foreign)], overflow });
-    const problems = failed.length + bad.length + errors.length + fonts.length + (overflow ? 1 : 0);
+                  foreign: [...new Set(foreign)], overflow, liveOverflow, overflowRegression });
+    const problems = failed.length + bad.length + errors.length + fonts.length + (overflowRegression ? 1 : 0);
     if (problems) {
       console.log(`FAIL ${width} ${route}`,
-        JSON.stringify({ failed: failed.slice(0, 3), bad: bad.slice(0, 3), errors: errors.slice(0, 3), fonts, overflow }));
+        JSON.stringify({ failed: failed.slice(0, 3), bad: bad.slice(0, 3), errors: errors.slice(0, 3),
+                         fonts, overflow: overflowRegression ? overflow : undefined }));
     }
     await p.close();
   }
@@ -84,7 +104,9 @@ for (const width of [1440, 390, 320]) {
 await browser.close();
 fs.writeFileSync(path.join(ROOT, 'audit', 'runtime.json'), JSON.stringify(report, null, 1));
 const clean = report.filter((r) => !r.failed.length && !r.bad.length && !r.errors.length &&
-                                   !r.fonts.length && !r.overflow);
+                                   !r.fonts.length && !r.overflowRegression);
+const inherited = report.filter((r) => r.overflow && !r.overflowRegression).length;
+console.log('renders inheriting the original\'s horizontal overflow (no regression):', inherited);
 console.log('\n%d/%d page renders clean', clean.length, report.length);
 const off = [...new Set(report.flatMap((r) => r.foreign))];
 console.log('off-site requests:', off.length ? off : 'none beyond the allowed hosts');
