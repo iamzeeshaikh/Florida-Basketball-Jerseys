@@ -162,7 +162,7 @@
   if (search) {
     var title = document.querySelector('.woocommerce-products-header__title');
     if (title) title.innerHTML = 'Search results: &ldquo;' + escapeHtml(search) + '&rdquo;';
-    document.title = 'You searched for ' + search + ' - Florida Basktetball Jerseys';
+    document.title = 'You searched for ' + search + ' - Florida Basketball Jerseys';
     Array.prototype.forEach.call(document.querySelectorAll('input[name="s"]'), function (i) {
       i.value = search;
     });
