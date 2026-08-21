@@ -97,7 +97,7 @@
  },
  {
   "url": "https://floridabasketballjerseys.com/brand/florida-basketball-jerseys/page/2/",
-  "source": "navigation/internal",
+  "source": "sitemap",
   "gsc_clicks": 0,
   "gsc_impressions": 0,
   "status": 200,
@@ -121,7 +121,7 @@
  },
  {
   "url": "https://floridabasketballjerseys.com/brand/florida-basketball-jerseys/page/3/",
-  "source": "navigation/internal",
+  "source": "sitemap",
   "gsc_clicks": 0,
   "gsc_impressions": 0,
   "status": 200,
@@ -145,7 +145,7 @@
  },
  {
   "url": "https://floridabasketballjerseys.com/cart/",
-  "source": "sitemap",
+  "source": "navigation/internal",
   "gsc_clicks": 0,
   "gsc_impressions": 0,
   "status": 200,
@@ -169,7 +169,7 @@
  },
  {
   "url": "https://floridabasketballjerseys.com/checkout/",
-  "source": "sitemap",
+  "source": "navigation/internal",
   "gsc_clicks": 0,
   "gsc_impressions": 0,
   "status": 200,
@@ -337,7 +337,7 @@
  },
  {
   "url": "https://floridabasketballjerseys.com/my-account/",
-  "source": "sitemap",
+  "source": "navigation/internal",
   "gsc_clicks": 0,
   "gsc_impressions": 0,
   "status": 200,
@@ -577,7 +577,7 @@
  },
  {
   "url": "https://floridabasketballjerseys.com/product-category/uncategorized/",
-  "source": "navigation/internal",
+  "source": "sitemap",
   "gsc_clicks": 0,
   "gsc_impressions": 0,
   "status": 200,
@@ -1153,7 +1153,7 @@
  },
  {
   "url": "https://floridabasketballjerseys.com/product/page/2/",
-  "source": "navigation/internal",
+  "source": "sitemap",
   "gsc_clicks": 0,
   "gsc_impressions": 0,
   "status": 200,
@@ -1177,7 +1177,7 @@
  },
  {
   "url": "https://floridabasketballjerseys.com/product/page/3/",
-  "source": "navigation/internal",
+  "source": "sitemap",
   "gsc_clicks": 0,
   "gsc_impressions": 0,
   "status": 200,

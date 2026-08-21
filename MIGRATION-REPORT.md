@@ -31,7 +31,7 @@ CSS, JavaScript, fonts and media the pages already load.
 
 | Source | URLs |
 |---|---|
-| `sitemap.xml` + 4 child sitemaps | 68 |
+| Yoast's sitemap index + 4 child sitemaps | 68 |
 | Discovered from navigation, footer, internal links and the database, not in the sitemap | 8 |
 | **Total distinct live URLs that return 200** | **76** |
 
@@ -40,8 +40,9 @@ The 8 beyond the sitemap: `/product/page/2/`, `/product/page/3/`,
 `/my-account/lost-password/`, `/product-category/uncategorized/`, `/search/`
 (`/?s=…`), and the 404 template.
 
-Also preserved, outside the page count: `robots.txt`, the 5 sitemap files and the
-Yoast XSL stylesheet, `/favicon.ico`, and 11 RSS feeds (`/feed/`,
+Also preserved, outside the page count: `robots.txt`, one flat `sitemap.xml`
+(the five Yoast files were consolidated into it on 2026-08-21; each of their old
+paths 301s there) and the Yoast XSL stylesheet, `/favicon.ico`, and 11 RSS feeds (`/feed/`,
 `/comments/feed/`, `/product/feed/`, the brand feed and 8 product-category feeds).
 
 Every URL with a click or an impression in the supplied Search Console export is
@@ -49,13 +50,13 @@ present — 39 HTML pages plus 10 image URLs, all 49 resolve.
 
 ## 2. Total Astro routes
 
-**76 HTML routes**, one per live URL. Plus 11 feeds, 5 sitemaps, `robots.txt`,
+**76 HTML routes**, one per live URL. Plus 11 feeds, `sitemap.xml`, `robots.txt`,
 the sitemap XSL, and 1,678 media files served from their original
 `/wp-content/uploads/…` paths.
 
 ## 3. Missing URLs
 
-**None.** `scripts/manifest.py` cross-checks every `<loc>` in every sitemap
+**None.** `scripts/manifest.py` cross-checks every `<loc>` in `sitemap.xml`
 against the built routes: *"sitemap URLs with no route: none"*.
 
 ## 4. Redirect comparison

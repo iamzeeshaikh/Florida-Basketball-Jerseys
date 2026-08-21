@@ -57,8 +57,9 @@ def main():
     gsc = gsc_urls()
     pages = json.load(open(os.path.join(ROOT, "src", "data", "pages.json")))
     sitemap_urls = set()
-    for f in glob.glob(os.path.join(ROOT, "public", "*-sitemap.xml")):
-        sitemap_urls |= set(re.findall(r"<loc>([^<]+)</loc>", open(f).read()))
+    sitemap_urls |= set(re.findall(
+        r"<loc>([^<]+)</loc>",
+        open(os.path.join(ROOT, "public", "sitemap.xml")).read()))
 
     rows = []
     for slug, page in sorted(pages.items(), key=lambda kv: kv[1]["route"]):

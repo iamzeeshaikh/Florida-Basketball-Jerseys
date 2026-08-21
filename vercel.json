@@ -10,6 +10,26 @@
       "statusCode": 301
     },
     {
+      "source": "/page-sitemap.xml",
+      "destination": "/sitemap.xml",
+      "statusCode": 301
+    },
+    {
+      "source": "/product-sitemap.xml",
+      "destination": "/sitemap.xml",
+      "statusCode": 301
+    },
+    {
+      "source": "/product_brand-sitemap.xml",
+      "destination": "/sitemap.xml",
+      "statusCode": 301
+    },
+    {
+      "source": "/product_cat-sitemap.xml",
+      "destination": "/sitemap.xml",
+      "statusCode": 301
+    },
+    {
       "source": "/(.*)",
       "has": [
         {
