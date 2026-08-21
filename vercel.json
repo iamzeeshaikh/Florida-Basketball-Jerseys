@@ -5,6 +5,11 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/sitemap_index.xml",
+      "destination": "/sitemap.xml",
+      "statusCode": 301
+    },
+    {
       "source": "/(.*)",
       "has": [
         {

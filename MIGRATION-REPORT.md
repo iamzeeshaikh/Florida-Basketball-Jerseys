@@ -31,7 +31,7 @@ CSS, JavaScript, fonts and media the pages already load.
 
 | Source | URLs |
 |---|---|
-| `sitemap_index.xml` + 4 child sitemaps | 68 |
+| `sitemap.xml` + 4 child sitemaps | 68 |
 | Discovered from navigation, footer, internal links and the database, not in the sitemap | 8 |
 | **Total distinct live URLs that return 200** | **76** |
 
@@ -102,8 +102,10 @@ robots, all seven Open Graph properties, the Twitter card, and the
 follow` routes on the live site — `/cart/`, `/checkout/`, `/my-account/`,
 `/my-account/lost-password/`, `/search/`, 404 — carry the same directive.
 
-The `http://` scheme WordPress emits in some `og:image` values and in the sitemap
-index is preserved as-is; correcting it is an SEO change, not a migration one.
+The `http://` scheme WordPress emits in some `og:image` values is preserved
+as-is; correcting it is an SEO change, not a migration one. The sitemap index was
+the exception — it moved to `/sitemap.xml` on 2026-08-21 and its child `<loc>`
+entries were switched to `https://` at the same time.
 
 ## 7. Missing images
 
@@ -301,8 +303,9 @@ from the local copy.
    are a one-place change: the header, footer and LocalBusiness schema all read
    from the same captured markup.
 8. **Checkout cannot take an order** — no payment gateway is enabled.
-9. `http://` scheme in some `og:image` values, in `sitemap_index.xml`'s child
-   `<loc>` entries and in the `robots.txt` Sitemap line.
+9. `http://` scheme in some `og:image` values. (The sitemap's child `<loc>`
+   entries and the `robots.txt` Sitemap line were corrected to `https://` when
+   the sitemap moved to `/sitemap.xml` on 2026-08-21.)
 10. The site name is misspelled "Florida Basktetball Jerseys" in every `<title>`
     suffix, the RSS channel titles and the schema `brand`.
 11. The chat widget script tag is emitted twice on every page.
@@ -367,7 +370,7 @@ outstanding but your go-ahead. Cutover steps when you give it:
    `*.vercel.app` hosts only — the production domain will not inherit it.
 3. Re-run `node scripts/form-e2e.mjs https://floridabasketballjerseys.com` and
    confirm the three forms deliver from the live domain.
-4. Submit `sitemap_index.xml` in Search Console and watch the 39
+4. Submit `sitemap.xml` in Search Console and watch the 39
    traffic-receiving URLs for a fortnight.
 
 Do **not** start the SEO phase until that fortnight is clean — items 1–5 and

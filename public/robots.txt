@@ -12,6 +12,6 @@ Allow: /wp-admin/admin-ajax.php
 User-agent: *
 Disallow:
 
-Sitemap: http://floridabasketballjerseys.com/sitemap_index.xml
+Sitemap: https://floridabasketballjerseys.com/sitemap.xml
 # ---------------------------
 # END YOAST BLOCK
