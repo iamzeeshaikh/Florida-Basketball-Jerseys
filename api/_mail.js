@@ -47,8 +47,12 @@ export function fromHeader() {
   return `"${name}" <${email}>`;
 }
 
-export function recipients(envKey, fallback) {
-  return (process.env[envKey] || fallback).split(',').map((s) => s.trim()).filter(Boolean);
+/** Recipients come from the environment only; they are configuration, and a
+ *  hard-coded address in the source would be both wrong and a spam magnet. */
+export function recipients(envKey) {
+  const list = (process.env[envKey] || '').split(',').map((s) => s.trim()).filter(Boolean);
+  if (!list.length) throw new Error(envKey + ' is not set');
+  return list;
 }
 
 export function isEmail(v) {

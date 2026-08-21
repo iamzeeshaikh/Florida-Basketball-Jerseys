@@ -59,7 +59,7 @@ export default async function handler(req, res) {
   try {
     await transport().sendMail({
       from: fromHeader(),
-      to: recipients('CONTACT_TO', 'quotes@example.invalid, orders@example.invalid'),
+      to: recipients('CONTACT_TO'),
       replyTo: `${name} <${email}>`,
       subject,
       ...render(subject, rows),

@@ -13,6 +13,7 @@ import { fileURLToPath } from 'node:url';
 
 const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const BASE = process.argv[2] || 'https://floridabasketballjerseys.vercel.app';
+const TEST_EMAIL = process.env.TEST_EMAIL || 'test@example.com';
 const STAMP = new Date().toISOString().replace(/[:.]/g, '-');
 const results = [];
 const check = (name, pass, detail) => {
@@ -43,7 +44,7 @@ function watchApi(page, pathname) {
   await p.waitForTimeout(2500);
   await p.evaluate(() => document.querySelector('form.elementor-form').scrollIntoView({ block: 'center' }));
   await p.fill('#form-field-name', 'Migration Test ' + STAMP);
-  await p.fill('#form-field-email', 'quotes@example.invalid');
+  await p.fill('#form-field-email', TEST_EMAIL);
   await p.fill('#form-field-field_f54cfcb', '4075550192');
   await p.fill('#form-field-field_a858f27', 'Blank Basketball Jerseys');
   await p.fill('#form-field-message', 'Automated migration test of the product Instant Quote form. Please ignore.');
@@ -73,7 +74,7 @@ function watchApi(page, pathname) {
   await p.goto(BASE + '/get-a-quote/', { waitUntil: 'load' });
   await p.waitForTimeout(2000);
   await p.fill('#fbj-q-name', 'Migration Test ' + STAMP);
-  await p.fill('#fbj-q-email', 'quotes@example.invalid');
+  await p.fill('#fbj-q-email', TEST_EMAIL);
   await p.fill('#fbj-q-phone', '4075550192');
   await p.fill('#fbj-q-team', 'Migration QA');
   await p.selectOption('#fbj-q-type', { index: 1 });
@@ -99,7 +100,7 @@ function watchApi(page, pathname) {
   await p.goto(BASE + '/contact/', { waitUntil: 'load' });
   await p.waitForTimeout(2000);
   await p.fill('#fbj-name', 'Migration Test ' + STAMP);
-  await p.fill('#fbj-email', 'quotes@example.invalid');
+  await p.fill('#fbj-email', TEST_EMAIL);
   await p.fill('#fbj-phone', '4075550192');
   await p.selectOption('#fbj-program', { index: 1 });
   await p.fill('#fbj-message', 'Automated migration test of the contact form. Please ignore.');

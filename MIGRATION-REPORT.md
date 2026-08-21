@@ -158,7 +158,8 @@ Field names, labels, placeholders, required flags, the honeypot, validation
 messages and success/error text are unchanged. Delivery uses the transport
 recovered from the site's own `wp_mail_smtp` configuration
 (`smtp.gmail.com:587`, STARTTLS) and the recipients WordPress was configured
-with: `quotes@example.invalid` and `orders@example.invalid`.
+with — the two Gmail inboxes recorded in `.env` and in the Vercel project's
+environment variables (kept out of the repository).
 
 **Product attribution is fixed.** On the live site every product page ships the
 Instant Quote form with *another* product's `referer_title` and `queried_id`
