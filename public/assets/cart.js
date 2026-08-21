@@ -33,8 +33,13 @@
   }
 
   var catalogue = null, templates = null;
+  // the build stamp this script was served with, so its data files are read
+  // from the same generation rather than a cached older one
+  var VERSION = (document.currentScript ||
+    document.querySelector('script[src^="/assets/cart.js"]') || {}).dataset?.v || '';
   function load(url) {
-    return fetch(url, { credentials: 'same-origin' }).then(function (r) { return r.json(); });
+    return fetch(url + (VERSION ? '?v=' + VERSION : ''), { credentials: 'same-origin' })
+      .then(function (r) { return r.json(); });
   }
   function product(id) {
     for (var i = 0; i < catalogue.length; i++) if (catalogue[i].id === id) return catalogue[i];

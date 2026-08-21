@@ -4,6 +4,7 @@
 // migrated pages with it; the cart-flow pages WordPress never served as HTML
 // borrow a captured record so they inherit identical chrome.
 import { rewrite } from '../lib/site.js';
+import { ASSET_VERSION } from '../lib/assets.js';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 
@@ -20,7 +21,7 @@ const { page } = Astro.props;
 		<slot />
 		<Footer page={page} />
 <Fragment set:html={rewrite(page.tail)} />
-<script src="/assets/fbj.js" defer></script>
-<script src="/assets/cart.js" defer></script>
+<script src={`/assets/fbj.js?v=${ASSET_VERSION}`} data-v={ASSET_VERSION} defer></script>
+<script src={`/assets/cart.js?v=${ASSET_VERSION}`} data-v={ASSET_VERSION} defer></script>
 </body>
 </html>

@@ -117,7 +117,9 @@
   }
 
   function withLoops(fn) {
-    fetch('/assets/loops.json').then(function (r) { return r.json(); }).then(fn);
+    var v = (document.querySelector('script[src^="/assets/fbj.js"]') || {}).dataset?.v || '';
+    fetch('/assets/loops.json' + (v ? '?v=' + v : ''))
+      .then(function (r) { return r.json(); }).then(fn);
   }
 
   if (grid && isArchive && (orderby || search)) {
