@@ -1,9 +1,12 @@
 # floridabasketballjerseys.com — WordPress/WooCommerce → Astro migration report
 
-**Status:** built, deployed to staging, audited. **Not** connected to the production
-domain — awaiting your approval.
+**Status: LIVE.** Cut over to the production domain on 2026-08-21. All 75
+routes answer 200 on <https://floridabasketballjerseys.com>, `www` 301s to the
+apex, and the three forms were tested end to end from the live domain (8/8).
 
-- Staging: <https://floridabasketballjerseys.vercel.app> (`X-Robots-Tag: noindex, nofollow`)
+- Live: <https://floridabasketballjerseys.com>
+- Staging: <https://floridabasketballjerseys.vercel.app> (`X-Robots-Tag: noindex, nofollow`;
+  the production domain does not carry it — verified)
 - Source: `~/Documents/Florida Basketball Jerseys/site`
 - Repository: <https://github.com/iamzeeshaikh/Florida-Basketball-Jerseys> (public)
 - Vercel project: `iamzeeshaikhs-projects/floridabasketballjerseys` — deployed
@@ -144,15 +147,26 @@ featured image, gallery, short description, specification table, FAQ tab, price
 
 ## 11. Form test results
 
-Tested for real against the deployed staging site (`scripts/form-e2e.mjs`) —
-**8/8 passed**, with genuine emails accepted by the SMTP server:
+Tested for real against the live domain (`scripts/form-e2e.mjs`) — **8/8
+passed**, with genuine emails accepted by the SMTP server:
 
 | Form | Result |
 |---|---|
-| Product "Instant Quote" (42 pages, with file upload) | endpoint 200, Elementor's own success message shown, attachment delivered |
-| `/get-a-quote/` (with file upload) | endpoint 200, redirects to `/thank-you/` exactly as the live form does |
-| `/contact/` | endpoint 200, the same success panel revealed |
+| Product "Instant Quote" (42 pages, with file upload) | endpoint 200, lands on `/thank-you/`, attachment delivered |
+| `/get-a-quote/` (with file upload) | endpoint 200, lands on `/thank-you/` |
+| `/contact/` | endpoint 200, lands on `/thank-you/` |
 | `/contact/` empty submission | still blocked with the live wording, verbatim |
+
+**All three forms finish on `/thank-you/`** — the client's instruction of
+2026-08-21, and a deliberate departure from the live behaviour, where only
+`/get-a-quote/` redirected and the other two showed an inline message.
+
+Fixed at the same time: Elementor Pro's own form bundle is still loaded (it
+drives the product tabs and the WooCommerce widgets) and was binding a second
+submit handler that POSTed to `admin-ajax.php`. With WordPress gone that POST
+failed and painted its `error` message beside our success one. The submit is
+now caught on the document in the capture phase and stopped there, so
+Elementor's handler never runs.
 
 Field names, labels, placeholders, required flags, the honeypot, validation
 messages and success/error text are unchanged. Delivery uses the transport

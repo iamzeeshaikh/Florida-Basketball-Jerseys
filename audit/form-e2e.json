@@ -1,17 +1,17 @@
 {
- "base": "https://floridabasketballjerseys.vercel.app",
- "stamp": "2026-08-20T16-52-38-962Z",
+ "base": "https://floridabasketballjerseys.com",
+ "stamp": "2026-08-21T12-25-37-892Z",
  "results": [
+  {
+   "name": "product form carries the correct product attribution",
+   "pass": true
+  },
   {
    "name": "product Instant Quote endpoint accepted the submission",
    "pass": true
   },
   {
-   "name": "product form shows Elementor's success message",
-   "pass": true
-  },
-  {
-   "name": "product form carries the correct product attribution",
+   "name": "product form lands on /thank-you/",
    "pass": true
   },
   {
@@ -27,7 +27,7 @@
    "pass": true
   },
   {
-   "name": "contact form reveals its success panel",
+   "name": "contact form lands on /thank-you/",
    "pass": true
   },
   {

@@ -13,7 +13,7 @@
         }
       ],
       "destination": "https://floridabasketballjerseys.com/$1",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/product/import-placeholder-for-576/",

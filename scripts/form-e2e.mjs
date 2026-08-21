@@ -48,23 +48,24 @@ function watchApi(page, pathname) {
   await p.fill('#form-field-field_f54cfcb', '4075550192');
   await p.fill('#form-field-field_a858f27', 'Blank Basketball Jerseys');
   await p.fill('#form-field-message', 'Automated migration test of the product Instant Quote form. Please ignore.');
+  const hidden = await p.$$eval('form.elementor-form input[type=hidden]',
+    (els) => Object.fromEntries(els.map((e) => [e.name, e.value])));
+  check('product form carries the correct product attribution',
+        hidden.referer_title === 'Custom Blank Basketball Jerseys Florida | Florida Basketball Jerseys' &&
+        hidden.queried_id === '641', JSON.stringify(hidden));
   const upload = path.join(ROOT, 'audit', 'test-attachment.txt');
   fs.writeFileSync(upload, 'migration test attachment ' + STAMP + '\n');
   await p.setInputFiles('#form-field-field_e4013ab', upload);
   const api = watchApi(p, '/api/quote');
   await p.click('form.elementor-form button[type="submit"]');
   const r = await api;
-  check('product Instant Quote endpoint accepted the submission',
-        r.status === 200 && r.body && r.body.success === true, JSON.stringify(r).slice(0, 300));
-  await p.waitForTimeout(1500);
-  const msg = await p.$eval('form.elementor-form', (f) => f.textContent).catch(() => '');
-  check('product form shows Elementor\'s success message',
-        msg.includes('The form was sent successfully.'), msg.slice(-160));
-  const hidden = await p.$$eval('form.elementor-form input[type=hidden]',
-    (els) => Object.fromEntries(els.map((e) => [e.name, e.value])));
-  check('product form carries the correct product attribution',
-        hidden.referer_title === 'Custom Blank Basketball Jerseys Florida | Florida Basketball Jerseys' &&
-        hidden.queried_id === '641', JSON.stringify(hidden));
+  // the redirect to /thank-you/ fires before the body can be read, and it only
+  // happens on success -- so the redirect is the proof, asserted just below
+  check('product Instant Quote endpoint accepted the submission', r.status === 200,
+        JSON.stringify(r).slice(0, 300));
+  await p.waitForTimeout(3000);
+  check('product form lands on /thank-you/',
+        new URL(p.url()).pathname === '/thank-you/', p.url());
   await p.close();
 }
 
@@ -107,11 +108,13 @@ function watchApi(page, pathname) {
   const api = watchApi(p, '/api/contact');
   await p.evaluate(() => document.getElementById('fbj-contact-form').requestSubmit());
   const r = await api;
-  check('contact form endpoint accepted the submission',
-        r.status === 200 && r.body && r.body.success === true, JSON.stringify(r).slice(0, 300));
-  await p.waitForTimeout(1500);
-  const visible = await p.$eval('#fbj-con-success-msg', (e) => e.classList.contains('fbj-visible')).catch(() => false);
-  check('contact form reveals its success panel', visible);
+  // as with the quote form, the redirect fires before the body can be read;
+  // the redirect only happens on success, so it is the proof
+  check('contact form endpoint accepted the submission', r.status === 200,
+        JSON.stringify(r).slice(0, 300));
+  await p.waitForTimeout(3000);
+  check('contact form lands on /thank-you/',
+        new URL(p.url()).pathname === '/thank-you/', p.url());
   await p.close();
 }
 

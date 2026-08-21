@@ -203,20 +203,21 @@ def slice_element(h, start_re, tag):
 # /get-a-quote/ posted to a custom WordPress REST route.
 QUOTE_ENDPOINT = ("fetch('/wp-json/fbj/v1/quote'", "fetch('/api/quote/'")
 
+# the same script redirects to '/thank-you', which the host then 308s to the
+# slashed form; go straight there instead
+THANKYOU_SLASH = ("window.location.href = '/thank-you'", "window.location.href = '/thank-you/'")
+
 # /contact/ never delivered anything on the live site -- its handler only hid
 # the form and revealed the success panel (the comment in the source says so).
-# The panel, the message and the validation are untouched; the submission is
-# now actually sent before the same panel is shown.
+# The validation and its wording are untouched; the submission is now actually
+# sent, and on success the visitor lands on /thank-you/ like every other form
+# on the site (client's instruction, 2026-08-21 -- the live site showed an
+# inline panel instead).
 CONTACT_OLD = """      // Show success (in production: replace with actual form POST / WP AJAX / CF7 integration)
       form.style.display = 'none';
       successMsg.classList.add('fbj-visible');
       successMsg.scrollIntoView({ behavior: 'smooth', block: 'center' });"""
-CONTACT_NEW = """      var showSuccess = function () {
-        form.style.display = 'none';
-        successMsg.classList.add('fbj-visible');
-        successMsg.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      };
-      var fd = new FormData(form);
+CONTACT_NEW = """      var fd = new FormData(form);
       fd.append('page_url', window.location.href);
       fetch('/api/contact/', { method: 'POST', body: fd })
         .then(function (r) { return r.json().catch(function () { return {}; }); })
@@ -225,7 +226,8 @@ CONTACT_NEW = """      var showSuccess = function () {
             alert(d.message || 'Something went wrong. Please try again.');
             return;
           }
-          showSuccess();
+          // every form on the site finishes on the thank-you page
+          window.location.href = '/thank-you/';
         })
         .catch(function () { alert('Something went wrong. Please try again.'); });"""
 
@@ -242,6 +244,7 @@ def fix_forms(page_html, raw, slug):
     product's `referer_title` and `queried_id` baked in, so an enquiry names the
     wrong jersey. The correct values for this page are written instead."""
     page_html = page_html.replace(*QUOTE_ENDPOINT)
+    page_html = page_html.replace(*THANKYOU_SLASH)
     if slug == "contact":
         assert CONTACT_OLD in page_html, "contact handler not found"
         page_html = page_html.replace(CONTACT_OLD, CONTACT_NEW)

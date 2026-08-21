@@ -5,7 +5,8 @@
  * accordion in the product tabs) runs from the original scripts, unchanged.
  *
  * Covered here:
- *   1. the Elementor "Instant Quote" form on product pages
+ *   1. the Elementor "Instant Quote" form on product pages (on success the
+ *      visitor goes to /thank-you/, as every form on the site now does)
  *   2. shop / category / brand archive sorting (?orderby=)
  *   3. the product search results page (/?s=)
  *   4. the My account forms, which have no accounts left to authenticate
@@ -24,38 +25,46 @@
     wrap.innerHTML = '<div class="elementor-message ' + cls + '" role="alert">' + text + '</div>';
   }
 
-  Array.prototype.forEach.call(document.querySelectorAll('form.elementor-form'), function (form) {
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-      // Elementor's own required-field handling, kept verbatim in wording
-      var invalid = form.querySelector(':invalid');
-      if (invalid) {
-        elementorMessage(form, 'elementor-message-danger', 'This field is required.');
-        invalid.focus();
-        return;
-      }
-      var button = form.querySelector('button[type="submit"]');
-      if (button) button.disabled = true;
-      var fd = new FormData(form);
-      fd.append('page_url', form.getAttribute('data-page-url') || window.location.href);
-      fetch('/api/quote/', { method: 'POST', body: fd })
-        .then(function (r) { return r.json().catch(function () { return {}; }); })
-        .then(function (d) {
-          if (d && d.success) {
-            elementorMessage(form, 'elementor-message-success', 'The form was sent successfully.');
-            form.reset();
-          } else {
-            elementorMessage(form, 'elementor-message-danger',
-              (d && d.message) || 'An error occurred.');
-          }
-        })
-        .catch(function () {
+  // Elementor Pro's own form bundle is still loaded -- it drives the product
+  // tabs and the WooCommerce widgets -- and it binds its own submit handler
+  // that POSTs to admin-ajax.php. With WordPress gone that POST fails and it
+  // paints its "error" message next to ours. Listening on the document in the
+  // capture phase and stopping the event there means its handler never runs.
+  document.addEventListener('submit', function (e) {
+    var form = e.target;
+    if (!form || !form.classList || !form.classList.contains('elementor-form')) return;
+    e.preventDefault();
+    e.stopImmediatePropagation();
+
+    // Elementor's own required-field handling, kept verbatim in wording
+    var invalid = form.querySelector(':invalid');
+    if (invalid) {
+      elementorMessage(form, 'elementor-message-danger', 'This field is required.');
+      invalid.focus();
+      return;
+    }
+    var button = form.querySelector('button[type="submit"]');
+    if (button) button.disabled = true;
+    var fd = new FormData(form);
+    fd.append('page_url', form.getAttribute('data-page-url') || window.location.href);
+    fetch('/api/quote/', { method: 'POST', body: fd })
+      .then(function (r) { return r.json().catch(function () { return {}; }); })
+      .then(function (d) {
+        if (d && d.success) {
+          // every form on the site finishes on the thank-you page
+          window.location.href = '/thank-you/';
+        } else {
           elementorMessage(form, 'elementor-message-danger',
-            'Your submission failed because of a server error.');
-        })
-        .then(function () { if (button) button.disabled = false; });
-    });
-  });
+            (d && d.message) || 'An error occurred.');
+          if (button) button.disabled = false;
+        }
+      })
+      .catch(function () {
+        elementorMessage(form, 'elementor-message-danger',
+          'Your submission failed because of a server error.');
+        if (button) button.disabled = false;
+      });
+  }, true);
 
   // ------------------------------------------------- 2 + 3. archive listing
   var params = new URLSearchParams(location.search);
