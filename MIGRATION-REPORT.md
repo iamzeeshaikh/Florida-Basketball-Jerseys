@@ -5,7 +5,7 @@ domain — awaiting your approval.
 
 - Staging: <https://floridabasketballjerseys.vercel.app> (`X-Robots-Tag: noindex, nofollow`)
 - Source: `~/Documents/Florida Basketball Jerseys/site`
-- Repository: <https://github.com/iamzeeshaikh/florida-basketball-jerseys> (private)
+- Repository: <https://github.com/iamzeeshaikh/Florida-Basketball-Jerseys> (public)
 - Vercel project: `iamzeeshaikhs-projects/floridabasketballjerseys` — deployed
   from the CLI, not Git-connected, so a push does not trigger a deploy
 
