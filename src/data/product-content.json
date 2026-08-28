@@ -4478,7 +4478,192 @@
     "fabricIntro": "Sublimation only bonds to polyester, so every jersey here is <strong>100% sublimation polyester</strong>. That is a requirement of the process rather than a cost decision, and it is why these jerseys behave consistently in a hot Florida gym.",
     "sizingIntro": "Measure the chest at the fullest point with arms relaxed. <strong>Sublimated jerseys do not shrink</strong> — polyester holds its dimensions through hot washes — so order the size you want to wear rather than allowing for shrinkage.",
     "bestForIntro": "Sublimated jerseys suit <strong>almost every competitive situation</strong>: game day, school programs, travel and AAU. Where they do not fit is a team that needs jerseys decorated locally later, or one that wants a very dark ground with light artwork.",
-    "notFitIntro": "Sublimation needs a polyester ground and works from light to dark. If you plan to decorate locally later, or want a plain solid jersey, these are the better route."
+    "notFitIntro": "Sublimation needs a polyester ground and works from light to dark. If you plan to decorate locally later, or want a plain solid jersey, these are the better route.",
+    "sections": [
+      "pov",
+      "pfb",
+      "pco",
+      "psg",
+      "pwb"
+    ],
+    "fabrics": {
+      "list": [
+        "sublimation",
+        "wicking",
+        "mesh"
+      ],
+      "recommended": "sublimation",
+      "notes": {
+        "sublimation": {
+          "desc": "This product is the process, so the fabric is not really a choice. <strong>Dye sublimation only bonds to polyester</strong> — the dye sublimes to a gas under heat and pressure and enters the fibre itself, and there is nothing in a natural fibre for it to bond with. A 155 GSM 100% polyester is what the process requires and what it is optimised for.",
+          "pros": [
+            "<strong>Required by the process</strong>, not chosen for cost",
+            "<strong>Smooth face</strong> gives the highest print definition we can reach",
+            "<strong>Nothing sits on the surface</strong> — no weight, no stiffness, nothing to crack"
+          ]
+        },
+        "wicking": {
+          "desc": "A poly-spandex blend that still sublimates, at 92% polyester. <strong>The 8% spandex takes slightly more dye management</strong> but prints cleanly and adds real stretch.",
+          "pros": [
+            "<strong>Sublimates almost as cleanly</strong> as pure polyester",
+            "<strong>4-way stretch</strong>",
+            "<strong>Slight colour shift risk</strong> on the spandex fraction, managed at proof"
+          ]
+        },
+        "mesh": {
+          "desc": "Sublimates well but needs a heavier ink lay-down, because <strong>the dye has to bridge the openings rather than land on a face</strong>. Fine detail is the casualty.",
+          "pros": [
+            "<strong>Prints solid with adjusted ink lay-down</strong>",
+            "<strong>Fine type breaks up</strong> across an open weave",
+            "<strong>Coolest fabric</strong> we sublimate onto"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Programs Wanting the Best Print Available",
+        "desc": "If the design matters — a detailed crest, a gradient, a photographic fill — <strong>this is the process that reproduces it and the fabric it reproduces best on</strong>. Nothing else here comes close on definition.",
+        "points": [
+          "Photographic and gradient fills",
+          "Edge-to-edge with no borders",
+          "No per-colour charge, ever"
+        ]
+      },
+      {
+        "fit": "perfect",
+        "title": "Long-Running School Programs",
+        "desc": "A jersey that looks the same in its fourth season as its first. <strong>There is nothing on the surface to degrade</strong>, so the failure mode is the fabric wearing out rather than the design falling off it.",
+        "points": [
+          "Artwork cannot crack, peel or fade",
+          "Colours stored for exact reorders",
+          "Fourth-season jerseys still match first-season ones"
+        ]
+      },
+      {
+        "fit": "consider",
+        "title": "Teams Decorating Locally Afterwards",
+        "desc": "Sublimation is done before the garment is finished, not after. <strong>If you need jerseys numbered by a local shop once your roster settles</strong>, order blanks instead and let them decorate.",
+        "points": [
+          "Order blank jerseys for local decoration",
+          "Ask your decorator about dye migration",
+          "Low-temperature transfers on polyester"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "No Colour Limits",
+        "desc": "The entire design is laid down in one pass, so <strong>a twelve-colour design costs exactly what a two-colour design costs</strong>. This is the single biggest practical difference from screen printing.",
+        "options": [
+          "Unlimited colours",
+          "Gradients",
+          "Photographic fills",
+          "Patterns"
+        ]
+      },
+      {
+        "title": "Edge-to-Edge Printing",
+        "desc": "Colour reaches the seam. <strong>No white borders, no template boundaries</strong>, and a design can wrap from front to side panel without stopping.",
+        "options": [
+          "Full bleed",
+          "Wrap-around",
+          "Panel split",
+          "Bordered"
+        ]
+      },
+      {
+        "title": "Individual Names and Numbers",
+        "desc": "Every jersey in a run can be different at no extra cost, because <strong>each is printed individually from its own file</strong> rather than from a shared screen.",
+        "options": [
+          "Names",
+          "Numbers",
+          "Individual sponsors",
+          "Per-player variants"
+        ]
+      },
+      {
+        "title": "Design Service",
+        "desc": "If you do not have artwork, our team builds it. <strong>Included free with any order</strong>, with a digital proof before anything is printed.",
+        "options": [
+          "Full design from brief",
+          "Vectorise an existing logo",
+          "Recreate a previous jersey",
+          "Proof only"
+        ]
+      },
+      {
+        "title": "Typography",
+        "desc": "Font, size, outline and shadow on names and numbers, within your league's rules. <strong>The number style does more for a jersey's character than the panel design does.</strong>",
+        "options": [
+          "Block",
+          "Varsity",
+          "Modern",
+          "Outlined",
+          "League standard"
+        ]
+      }
+    ],
+    "construction": [
+      {
+        "title": "Dye Bonded Into the Fibre",
+        "body": "Under heat and pressure the solid dye becomes a gas and enters the polymer itself. <strong>When it cools it is part of the fibre</strong> — which is why there is no layer to crack, no edge to lift, and no added weight where the artwork sits."
+      },
+      {
+        "title": "Printed Before Assembly",
+        "body": "Panels are printed flat and then cut and sewn. <strong>That is how colour reaches the seam</strong> — a finished garment cannot be printed to its own edge, which is why decorated jerseys have borders and these do not."
+      },
+      {
+        "title": "Bound Armholes and Neck",
+        "body": "Bound rather than hemmed so the edges keep their line for the life of the garment. <strong>The fabric outlasts the print on most jerseys; here it is the other way round.</strong>"
+      },
+      {
+        "title": "Flatlock Seams",
+        "body": "Laid flat against the body. <strong>Nothing stands proud to abrade</strong> through four quarters of contact."
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Cold wash, inside out</strong> — this protects the fabric surface, not the print, which cannot be washed off."
+      },
+      {
+        "text": "<strong>Air dry</strong> — keeps the structure and the bound edges."
+      },
+      {
+        "text": "<strong>Wash with like colours</strong> — the dye will not transfer, but other garments' dye can."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No ironing on the artwork</strong> — direct heat is the only thing that can disturb a sublimated print, because heat is what put it there."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No fabric softener</strong> — it dulls large colour areas over a season."
+      },
+      {
+        "dont": true,
+        "text": "<strong>Do not bleach</strong> — bleach attacks dye, and here the dye is the fibre."
+      }
+    ],
+    "floridaNote": "<strong>Sublimation suits this climate for a reason people rarely name:</strong> there is no applied layer to trap heat or sweat against the skin. A screen-printed or vinyl number is a plastic patch on the fabric, and in a humid Florida gym that patch does not breathe. A sublimated number breathes exactly as much as the fabric around it, because it is the fabric.",
+    "sizing": {
+      "tabs": [
+        "adult",
+        "youth"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Sublimated Jerseys",
+          "steps": [
+            "<strong>Chest:</strong> Fullest point, arms relaxed, tape horizontal.",
+            "<strong>No shrinkage allowance:</strong> Polyester holds its dimensions through hot washes. Order the size you intend to wear rather than allowing for shrinkage.",
+            "<strong>Armhole:</strong> Check against your league's maximum depth if one is specified.",
+            "<strong>Roster sizing:</strong> Send heights and weights with a quote request and we will size the whole squad at no charge."
+          ]
+        }
+      ]
+    }
   },
   "reversible-basketball-jerseys": {
     "noun": "Jerseys",
@@ -4532,7 +4717,157 @@
     "fabricIntro": "Reversibles use a <strong>bonded double-layer construction</strong> — two sublimated faces joined so neither shows through the other. This is heavier and warmer than a single-layer jersey by design; that weight is the price of carrying two kits in one.",
     "sizingIntro": "A reversible sits a little fuller than a single-layer jersey. <strong>Most players take their usual chest size</strong>; a player who wants a very close fit should size down. Check the armhole column if your league specifies a maximum depth.",
     "bestForIntro": "Reversibles are built for <strong>travel rosters, tournament weekends, and programs working from one budget</strong>. In a hot, un-air-conditioned Florida gym, a single-layer jersey will be more comfortable.",
-    "notFitIntro": "Two bonded layers run warmer than one. If your gyms are hot or your season is a summer one, these are the cooler choice."
+    "notFitIntro": "Two bonded layers run warmer than one. If your gyms are hot or your season is a summer one, these are the cooler choice.",
+    "sections": [
+      "pov",
+      "pfb",
+      "pwb",
+      "pco",
+      "psg"
+    ],
+    "fabrics": {
+      "list": [
+        "reversible"
+      ],
+      "recommended": "reversible",
+      "notes": {
+        "reversible": {
+          "desc": "One fabric, because the garment is the fabric. Two sublimated faces bonded across the whole panel at 240 GSM combined. <strong>The engineering problem is opacity</strong> — a light home face over a dark away face will ghost badly if the bond and the layer weights are wrong, and that is the single thing that separates a good reversible from a cheap one.",
+          "pros": [
+            "<strong>Neither face shows through</strong> the other under arena lighting",
+            "<strong>Bonded across the panel</strong>, not just at the seams",
+            "<strong>Warmer than a single layer</strong> — the honest cost of two kits in one"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Tournament and Showcase Weekends",
+        "desc": "Three games in a day, and the second one requires the other colour. <strong>One garment per player covers the whole schedule</strong> and halves what goes in the bag.",
+        "points": [
+          "Light and dark on the same day",
+          "One jersey per player for a full weekend",
+          "Half the laundry between games"
+        ]
+      },
+      {
+        "fit": "perfect",
+        "title": "One Budget, Two Kits",
+        "desc": "The clearest cost argument in the range. <strong>A reversible costs far less than two single-layer jerseys</strong> and takes one order rather than two.",
+        "points": [
+          "Substantially cheaper than two jerseys",
+          "One colour match covering both faces",
+          "One delivery"
+        ]
+      },
+      {
+        "fit": "good",
+        "title": "Scrimmage and Squad Splits",
+        "desc": "Turn half the roster inside out and five-on-five is set up. <strong>The same garment that solves home and away also ends the pinnie problem.</strong>",
+        "points": [
+          "Instant splits at practice",
+          "No pinnie inventory",
+          "Works at camps and clinics"
+        ]
+      },
+      {
+        "fit": "consider",
+        "title": "Hot Halls and Outdoor Courts",
+        "desc": "Two bonded layers are warmer than one, and no fabric choice changes it. <strong>In an August outdoor tournament a single-layer jersey will be more comfortable</strong> — we would rather say that than sell around it.",
+        "points": [
+          "Single-layer for summer play",
+          "Mesh for the hottest venues",
+          "Same design printed on either"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "Two Designs, One Price",
+        "desc": "You specify two complete jerseys. <strong>A light home face and a dark away face is the usual pair</strong>, but two entirely unrelated designs cost the same, since both are printed in one pass.",
+        "options": [
+          "Light / dark pair",
+          "Two full designs",
+          "Same design inverted",
+          "Tonal pair"
+        ]
+      },
+      {
+        "title": "Number Registration",
+        "desc": "Numbers on each face are aligned with the other so neither reads as the reverse. <strong>Out of register they ghost</strong>, and that is the flaw people see from the stands on cheap reversibles.",
+        "options": [
+          "Registered (default)",
+          "Independent placement",
+          "League-specified size"
+        ]
+      },
+      {
+        "title": "Edge Binding Colour",
+        "desc": "The bound edge is visible on both faces, so it is one choice serving two designs. <strong>A two-tone bind gives each face its own edge colour.</strong>",
+        "options": [
+          "Two-tone",
+          "Matched to home",
+          "Matched to away",
+          "Neutral"
+        ]
+      }
+    ],
+    "construction": [
+      {
+        "title": "Panel-Wide Bonding",
+        "body": "The two faces are joined across the whole panel rather than only at the seams. <strong>An edge-bonded reversible bubbles in the middle of the chest</strong> after a season of washing, and it cannot be repaired."
+      },
+      {
+        "title": "Registered Numbers",
+        "body": "Each face's numbers are positioned against the other's. <strong>Under arena lighting, an unregistered away number shows as a shadow</strong> behind the home number."
+      },
+      {
+        "title": "Bound Edges Both Faces",
+        "body": "Every cut edge bound. <strong>This is what stops the layers curling apart</strong> at the armhole and hem — the two points that get pulled every time the jersey is turned."
+      },
+      {
+        "title": "Flat Bonded Seams",
+        "body": "Bonded flat rather than stitched proud, because a seam has to be comfortable from both sides. <strong>A reversible has no wrong side.</strong>"
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Cold wash only</strong> — heat is what separates a bonded layer over time."
+      },
+      {
+        "text": "<strong>Air dry flat</strong> — hanging a wet double layer stretches the bond at the shoulders."
+      },
+      {
+        "text": "<strong>Alternate which face is out</strong> when washing, so both wear evenly."
+      },
+      {
+        "dont": true,
+        "text": "<strong>Never tumble dry</strong> — the one garment here where a dryer measurably shortens its life."
+      },
+      {
+        "dont": true,
+        "text": "<strong>Do not iron</strong> — heat and pressure on a bonded panel ruins it."
+      }
+    ],
+    "floridaNote": "<strong>This is a travel garment, not a hot-weather one.</strong> At 240 GSM it is the warmest thing on the site, and in an unconditioned Florida hall in August a player will notice. Programmes here that play a lot of summer basketball often run reversibles through tournament season and single-layer jerseys through the hot months — same stored colour, same design, half the weight.",
+    "sizing": {
+      "tabs": [
+        "adult"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Reversible Jerseys",
+          "steps": [
+            "<strong>Chest:</strong> Fullest point, arms relaxed. A reversible sits fuller than a single layer at the same size.",
+            "<strong>Close fit:</strong> A player who wants a very close fit should size down one — the second layer adds body.",
+            "<strong>Armhole:</strong> Check your league's maximum depth; a bound double-layer edge sits slightly differently.",
+            "<strong>Both faces fit the same:</strong> The garment is symmetrical, so there is no separate sizing for the away side."
+          ]
+        }
+      ]
+    }
   },
   "mesh-basketball-jerseys": {
     "noun": "Jerseys",
@@ -4586,7 +4921,167 @@
     "fabricIntro": "This is <strong>athletic mesh — an open knit whose entire purpose is airflow</strong> — with a bonded front panel for opacity and number legibility. It is the lightest and fastest-drying jersey fabric we offer, and our default recommendation for outdoor and un-air-conditioned play.",
     "sizingIntro": "Mesh has more give than a flat knit, so <strong>most players take their usual chest size</strong> rather than sizing up. If the jersey will be worn over a compression top, allow one size of room.",
     "bestForIntro": "Mesh jerseys are for <strong>heat</strong> — summer league, outdoor courts, tournament weekends, and gyms where the air conditioning is decorative. For the crispest possible match-day look, a flat-knit jersey holds a sharper line.",
-    "notFitIntro": "Mesh trades a structured look for airflow. If your program wants the sharpest match-day appearance, choose from these."
+    "notFitIntro": "Mesh trades a structured look for airflow. If your program wants the sharpest match-day appearance, choose from these.",
+    "sections": [
+      "pov",
+      "pfb",
+      "pco",
+      "pwb",
+      "psg"
+    ],
+    "fabrics": {
+      "list": [
+        "mesh",
+        "wicking"
+      ],
+      "recommended": "mesh",
+      "notes": {
+        "mesh": {
+          "desc": "The knit is an engineered open structure at 125 GSM — the lightest fabric we make. <strong>The openings are the product</strong>, not a side effect of thin material, and they are sized so heat can leave while the knit still holds a shape.",
+          "pros": [
+            "<strong>Lightest and coolest jersey fabric</strong> we offer",
+            "<strong>Bonded front panel</strong> keeps chest and numbers opaque",
+            "<strong>Dries fastest of anything here</strong>"
+          ]
+        },
+        "wicking": {
+          "desc": "The closed-face alternative, for programmes that want cool without a visible weave. <strong>It manages sweat chemically rather than letting air through</strong> — the better answer in a still, cool hall.",
+          "pros": [
+            "<strong>Closed face</strong>, sharper under lights",
+            "<strong>Better in still air</strong> than an open weave",
+            "<strong>Warmer</strong> in a hot hall"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Summer League and Outdoor Courts",
+        "desc": "The hottest basketball played in Florida, in the venues least equipped for it. <strong>An open weave is the largest single change available to a programme playing there.</strong>",
+        "points": [
+          "Heat leaves through the fabric",
+          "One jersey covers a three-game Saturday",
+          "Dries in minutes in Florida air"
+        ]
+      },
+      {
+        "fit": "good",
+        "title": "Preseason in a Closed Gym",
+        "desc": "August work in a hall that has been shut all summer, where the air conditioning has not caught up. <strong>The fabric is doing work the building is not.</strong>",
+        "points": [
+          "Coolest option available",
+          "Washes and dries overnight",
+          "Cheap enough for two per player"
+        ]
+      },
+      {
+        "fit": "consider",
+        "title": "Main-Court Match Day",
+        "desc": "The weave is visible from a few feet and reads casual next to a closed knit. <strong>A programme that cares about the sharpest look on a main court usually notices.</strong>",
+        "points": [
+          "Closed-knit jersey for main-court games",
+          "Or mesh for summer only",
+          "Same colour file across both"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "Number Panel",
+        "desc": "The most consequential decision on a mesh garment. <strong>Numbers sit on a bonded solid panel</strong> so they read from the bleachers rather than dissolving into the weave.",
+        "options": [
+          "Bonded panel (default)",
+          "Heavy outline",
+          "Front and back",
+          "League-specified height"
+        ]
+      },
+      {
+        "title": "Where the Weave Stays Open",
+        "desc": "You choose the open areas. <strong>Sides and back open with a bonded chest is standard</strong>; a fully open back is available for maximum airflow where the rules allow it.",
+        "options": [
+          "Chest bonded (default)",
+          "Fully open back",
+          "Open sides only",
+          "Bonded shoulders"
+        ]
+      },
+      {
+        "title": "Colour on an Open Weave",
+        "desc": "Deep saturated colours read solid across mesh; <strong>pale tones look washed out at distance</strong> because there is less surface reflecting them. We flag this at proof.",
+        "options": [
+          "Deep saturated",
+          "Two-tone",
+          "Team match",
+          "Reviewed at proof"
+        ]
+      },
+      {
+        "title": "Edge Binding",
+        "desc": "Bound as standard on every cut edge. <strong>An open weave frays from any raw edge</strong>, and on a garment washed this often that is not a risk worth taking.",
+        "options": [
+          "Contrast bind",
+          "Matched bind",
+          "Wide bind"
+        ]
+      }
+    ],
+    "construction": [
+      {
+        "title": "Bonded Front Panel",
+        "body": "A second layer across the chest and number area. <strong>Opacity and legibility are solved locally</strong> so the rest of the jersey can stay fully open — the compromise that makes a mesh uniform both legal and wearable."
+      },
+      {
+        "title": "Stabilised Open Knit",
+        "body": "A stabilising yarn runs through the structure. <strong>An unstabilised open weave stretches out of shape after a few washes</strong> and never comes back."
+      },
+      {
+        "title": "Increased Ink Lay-Down",
+        "body": "Mesh runs are printed with more dye than closed-face runs. <strong>The ink has to bridge openings rather than land on a surface</strong>, and without the adjustment numbers look dotted from the bleachers."
+      },
+      {
+        "title": "Bound Armholes and Neck",
+        "body": "Every raw edge bound. <strong>There is no seam allowance to spare on an open weave</strong>, so a fray does not stop."
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Cold wash</strong> — an open weave releases sweat and salt without heat."
+      },
+      {
+        "text": "<strong>Air dry</strong> — dries in minutes; a dryer adds nothing but risk."
+      },
+      {
+        "text": "<strong>Wash inside out</strong> — protects the bonded panel."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No fabric softener</strong> — it coats the weave and closes the openings you paid for."
+      },
+      {
+        "dont": true,
+        "text": "<strong>Never wash with hook-and-loop</strong> — velcro destroys an open weave in a single cycle."
+      }
+    ],
+    "floridaNote": "<strong>Mesh works best where there is air to move.</strong> On an outdoor court with any breeze it is unbeatable. Inside a still, humid hall it still helps, but a wicking fabric that moves sweat to an evaporating surface can do more — there is not much airflow for an open weave to use. It is worth knowing which problem your venue actually has before choosing.",
+    "sizing": {
+      "tabs": [
+        "adult",
+        "youth"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Mesh Jerseys",
+          "steps": [
+            "<strong>Chest:</strong> Fullest point, arms relaxed. Mesh gives more than a closed knit, so take the normal size.",
+            "<strong>Do not size up for stretch:</strong> An open weave already moves. Sizing up gives a jersey that hangs away from the body and flaps on a fast break.",
+            "<strong>Armhole:</strong> Check your league's maximum depth if specified.",
+            "<strong>Over compression:</strong> Allow one size if worn over a compression top."
+          ]
+        }
+      ]
+    }
   },
   "lightweight-basketball-jerseys": {
     "noun": "Jerseys",
@@ -4964,7 +5459,136 @@
     "fabricIntro": "Blanks are built from the <strong>same sublimation polyester as our decorated jerseys</strong>. Worth flagging to your decorator: polyester can dye-migrate under high heat, so a low-temperature transfer is the safe choice on strong base colors.",
     "sizingIntro": "Sized exactly like our decorated jerseys — <strong>chest at the fullest point, arms relaxed</strong>. Because blanks are often ordered before a roster is final, most programs order a spread of sizes rather than a per-player list.",
     "bestForIntro": "Blanks are right for <strong>programs with their own decorator, unsettled rosters, and leagues buying in bulk to decorate per team</strong>. If you want finished jerseys with names and numbers, order a decorated style instead.",
-    "notFitIntro": "Blanks arrive with nothing on them. If you want jerseys ready to play in, choose a decorated style."
+    "notFitIntro": "Blanks arrive with nothing on them. If you want jerseys ready to play in, choose a decorated style.",
+    "sections": [
+      "pov",
+      "pwb",
+      "psg",
+      "pfb"
+    ],
+    "fabrics": {
+      "list": [
+        "sublimation",
+        "mesh",
+        "wicking"
+      ],
+      "recommended": "sublimation",
+      "notes": {
+        "sublimation": {
+          "desc": "The standard blank, and the one most decorators prefer. <strong>A smooth, tightly-woven face is the easiest surface to press onto</strong> — an open weave distorts a transfer and a stretch knit moves under it.",
+          "pros": [
+            "<strong>Easiest surface to decorate</strong>",
+            "<strong>Most stable under a press</strong>",
+            "<strong>Ask about dye migration</strong> — use a low-temperature transfer"
+          ]
+        },
+        "mesh": {
+          "desc": "Available blank, with a caution worth stating: <strong>an open weave is difficult to press onto</strong>. Most decorators will apply to a bonded panel rather than the mesh itself.",
+          "pros": [
+            "<strong>Coolest blank we offer</strong>",
+            "<strong>Harder to decorate</strong> — discuss with your shop first",
+            "<strong>Bonded panel available</strong> as a decoration surface"
+          ]
+        },
+        "wicking": {
+          "desc": "Blanks in the poly-spandex knit. <strong>The stretch that makes it comfortable makes it move under a heat press</strong>, so alignment needs more care than on the standard blank.",
+          "pros": [
+            "<strong>Most comfortable blank</strong>",
+            "<strong>Moves under a press</strong> — needs a careful decorator",
+            "<strong>Lower press temperatures</strong> advised"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Programs With Their Own Decorator",
+        "desc": "A school that already has a relationship with a local shop, or an athletic department with a press in the building. <strong>You buy the garment from us and keep the decoration where it is.</strong>",
+        "points": [
+          "Any decoration method",
+          "No artwork stage on our side",
+          "Fastest turnaround we offer"
+        ]
+      },
+      {
+        "fit": "perfect",
+        "title": "Rosters Not Settled Yet",
+        "desc": "A team that does not know its squad in August cannot order numbered jerseys in August. <strong>It can order blanks, hold them, and number them the week the roster is final.</strong>",
+        "points": [
+          "Order a spread of sizes now",
+          "Number when the squad is set",
+          "No wasted numbered jerseys"
+        ]
+      },
+      {
+        "fit": "good",
+        "title": "Leagues Buying in Bulk",
+        "desc": "One large blank order, decorated per team afterwards. <strong>Cheaper per unit than twelve separate decorated orders</strong> and it fixes the fabric and fit across the whole league.",
+        "points": [
+          "One bulk order, one price",
+          "Consistent garment across every team",
+          "Decorated locally per team"
+        ]
+      },
+      {
+        "fit": "consider",
+        "title": "Teams Wanting Jerseys Ready to Play In",
+        "desc": "Blanks arrive with nothing on them at all — no numbers, no logo, no names. <strong>If you want jerseys you can hand out, order a decorated style instead.</strong>",
+        "points": [
+          "Sublimated jerseys arrive finished",
+          "Plain jerseys are the cheapest finished option",
+          "Same garment either way"
+        ]
+      }
+    ],
+    "construction": [
+      {
+        "title": "Identical to Our Decorated Jerseys",
+        "body": "Same cut, same fabric, same seams, same bound edges. <strong>A blank is not a cheaper garment</strong> — it is the same garment at an earlier stage."
+      },
+      {
+        "title": "Undyed Panels Where Specified",
+        "body": "Available in a range of base colours or fully undyed. <strong>An undyed white blank is the most decorator-friendly option</strong>, because it takes any transfer colour without a ground shift."
+      },
+      {
+        "title": "Bound Armholes and Neck",
+        "body": "Finished exactly as a decorated jersey. <strong>Nothing is left for your decorator to finish</strong> — only the artwork is theirs."
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Follow your decorator's instructions</strong> — once decorated, the applied graphic sets the care limits, not the fabric."
+      },
+      {
+        "text": "<strong>Cold wash, inside out</strong> is safe for any decoration method."
+      },
+      {
+        "text": "<strong>Air dry</strong> — heat is harder on an applied graphic than on the garment."
+      },
+      {
+        "dont": true,
+        "text": "<strong>Do not press at high temperature</strong> — polyester dye-migrates and white lettering turns pink over a few weeks."
+      }
+    ],
+    "floridaNote": "<strong>One thing to pass to your decorator, especially on strong colours:</strong> polyester dye-migrates under high heat, and Florida shops working through a summer rush sometimes run presses hot to move volume. A red or navy blank pressed too hot will bleed dye into white vinyl within a few weeks of delivery. Low-temperature transfers avoid it completely, and any shop that works with sublimated polyester will know the setting.",
+    "sizing": {
+      "tabs": [
+        "adult",
+        "youth"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Blank Jerseys",
+          "steps": [
+            "<strong>Chest:</strong> Fullest point, arms relaxed — identical to our decorated jerseys.",
+            "<strong>Ordering before the roster is set:</strong> Most programmes order a size spread rather than a per-player list. A typical high school spread runs S through 2XL weighted to M and L.",
+            "<strong>Allow for decoration:</strong> Nothing changes the fit, but a heavy applied graphic across the chest can stiffen a smaller size noticeably.",
+            "<strong>No shrinkage:</strong> Polyester holds its size. Order what you intend to wear."
+          ]
+        }
+      ]
+    }
   },
   "plain-basketball-jerseys": {
     "noun": "Jerseys",
