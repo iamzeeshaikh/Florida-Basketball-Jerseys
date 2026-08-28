@@ -2277,7 +2277,197 @@
     "fabricIntro": "Tanks are built from our <strong>sublimation polyester in a mid weight</strong> — light enough for a hot gym, structured enough that the armhole and hem hold their line through a season rather than stretching out.",
     "sizingIntro": "Tanks are sized on <strong>chest measurement</strong>, taken at the fullest point with arms relaxed. Check the armhole column too if your league specifies a maximum depth. Between sizes, size down for a competitive fit or up for a relaxed one.",
     "bestForIntro": "The sleeveless tank suits <strong>most game situations and most Florida gyms</strong>. If your league requires sleeves, or your program wants an over-jersey layer, look at the shirt options instead.",
-    "notFitIntro": "Some leagues and school districts require a sleeved uniform. If yours does, these are cut for the same play with sleeves attached."
+    "notFitIntro": "Some leagues and school districts require a sleeved uniform. If yours does, these are cut for the same play with sleeves attached.",
+    "sections": [
+      "pov",
+      "pco",
+      "psg",
+      "pfb",
+      "pwb"
+    ],
+    "fabrics": {
+      "list": [
+        "sublimation",
+        "wicking",
+        "mesh"
+      ],
+      "recommended": "sublimation",
+      "notes": {
+        "sublimation": {
+          "desc": "A tank has fewer seams than anything else in the range, so <strong>the fabric carries more of the garment's shape on its own</strong>. The standard 155 GSM knit has enough body to keep the armhole and hem lines through a season; a lighter fabric on a cut this open starts to look tired sooner.",
+          "pros": [
+            "<strong>Holds the armhole line</strong> — the shape that defines a tank",
+            "<strong>Edge-to-edge print with no seam breaks</strong>",
+            "<strong>Most durable</strong> across a full competitive season"
+          ]
+        },
+        "wicking": {
+          "desc": "Adds spandex and sheds ten GSM. On a tank the stretch shows up <strong>at the top of a shooting motion</strong>, where the armhole is under the most tension of any point in the game.",
+          "pros": [
+            "<strong>More give at the armhole</strong>",
+            "<strong>Lighter at 145 GSM</strong>",
+            "<strong>Slightly less structure</strong> in the hem"
+          ]
+        },
+        "mesh": {
+          "desc": "The coolest option available on a cut that is already the coolest we make. <strong>Open weave plus open shoulders</strong> is as much heat as a uniform top can shed.",
+          "pros": [
+            "<strong>Coolest combination in the range</strong>",
+            "<strong>Number panel bonded</strong> so it stays readable",
+            "<strong>Reads casual</strong> under arena lighting"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "League-Standard Game Uniforms",
+        "desc": "This is the silhouette most league rulebooks were written around. <strong>If your competition specifies a basketball uniform without qualification, this is what it means.</strong>",
+        "points": [
+          "Standard competitive armhole depth",
+          "Number placement to common league rules",
+          "Adult and youth sizes on one order"
+        ]
+      },
+      {
+        "fit": "perfect",
+        "title": "Designs That Run Edge to Edge",
+        "desc": "No sleeve seam means the front and back are each one uninterrupted surface. <strong>A design can cross the whole chest without a seam cutting it</strong>, which is not true of any sleeved cut.",
+        "points": [
+          "No seam breaking the artwork",
+          "Full-bleed side panels",
+          "Sublimation prints to the edge"
+        ]
+      },
+      {
+        "fit": "good",
+        "title": "Hot Gyms Without Air Conditioning",
+        "desc": "Bare shoulders and upper arms are the most effective cooling any cut offers, because <strong>that is where the body sheds heat fastest</strong>. Before changing fabric, change the cut.",
+        "points": [
+          "Coolest cut before fabric is considered",
+          "Pairs with mesh shorts for a hot-weather kit",
+          "Available in mesh for the extreme case"
+        ]
+      },
+      {
+        "fit": "consider",
+        "title": "Sleeve-Required Leagues",
+        "desc": "Some Florida districts and rec programs require sleeves on a uniform. <strong>A sleeveless tank will not pass that check</strong>, whatever it costs.",
+        "points": [
+          "Check the rulebook before ordering",
+          "Short-sleeve jerseys satisfy the rule",
+          "Same design, sleeves added"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "Edge-to-Edge Front Design",
+        "desc": "The whole front is one surface. <strong>Programs consistently under-use this</strong> and place a chest logo where a full-bleed design would work.",
+        "options": [
+          "Full-bleed",
+          "Chest logo",
+          "Panel split",
+          "Wordmark across chest"
+        ]
+      },
+      {
+        "title": "Armhole Binding Colour",
+        "desc": "The binding traces the most recognisable line on a tank. <strong>A contrast binding defines the silhouette from the bleachers</strong> more than any other single choice.",
+        "options": [
+          "Contrast bind",
+          "Matched bind",
+          "Two-tone",
+          "Piped"
+        ]
+      },
+      {
+        "title": "Neckline Style",
+        "desc": "The other bound edge, and the one closest to a viewer's eye in a photograph. <strong>Round and v-neck read very differently</strong> on the same design.",
+        "options": [
+          "Round",
+          "V-neck",
+          "Scoop",
+          "Contrast rib"
+        ]
+      },
+      {
+        "title": "Number Placement",
+        "desc": "Governed by your league more than by taste. <strong>Front-centre and back are standard</strong>; some competitions specify a minimum height.",
+        "options": [
+          "Front centre",
+          "Front left",
+          "Back standard",
+          "League-specified height"
+        ]
+      },
+      {
+        "title": "Side Panels",
+        "desc": "A tank's side panel runs from armhole to hem uninterrupted. <strong>It is the longest continuous design line on any garment here.</strong>",
+        "options": [
+          "Full-length panel",
+          "Tapered",
+          "Solid",
+          "None"
+        ]
+      }
+    ],
+    "construction": [
+      {
+        "title": "Bound Armholes",
+        "body": "The armhole edge is bound with a folded strip rather than hemmed. <strong>A hemmed armhole curls after a few washes</strong> and the curl never comes out; a bound one keeps its line for the life of the garment."
+      },
+      {
+        "title": "Competitive Armhole Depth",
+        "body": "Set at a standard depth for competition — deep enough for a full shooting motion, shallow enough not to gape at the side. <strong>This is the single measurement that decides whether a tank works</strong>, and the one cheap kit gets wrong."
+      },
+      {
+        "title": "Bound Neckline",
+        "body": "Bound to match the armholes, for the same reason. <strong>Two edges define this cut and both are finished the same way.</strong>"
+      },
+      {
+        "title": "Straight Hem, Bar-Tacked Splits",
+        "body": "A straight hem with reinforced side splits. <strong>The split lets the hem move over the hip</strong> without riding up on a rebound."
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Cold wash, inside out</strong> — the large front print is the most exposed surface here."
+      },
+      {
+        "text": "<strong>Air dry</strong> — heat is what relaxes bound edges over a season."
+      },
+      {
+        "text": "<strong>Hang to dry</strong> rather than folding wet, so the armhole keeps its shape."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No fabric softener</strong> — it dulls a large uninterrupted colour area faster than a small one."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No ironing on the print</strong> — direct heat is the only genuine risk to sublimated artwork."
+      }
+    ],
+    "floridaNote": "<strong>The cut does more for heat than the fabric does.</strong> Shoulders and upper arms are the body's most efficient heat-shedding surface, and a sleeveless cut simply leaves them uncovered. Before paying for a technical fabric to solve a hot gym, consider that this cut has already solved most of it — and if you need more, the same tank is available in mesh.",
+    "sizing": {
+      "tabs": [
+        "adult",
+        "youth"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Tank Top",
+          "steps": [
+            "<strong>Chest:</strong> Fullest point, arms relaxed, tape horizontal.",
+            "<strong>Armhole depth:</strong> If your league specifies a maximum, check it against the armhole column before ordering — it is the measurement most likely to fail a uniform check.",
+            "<strong>Between sizes:</strong> Size down for a competitive fit, up for a relaxed one. A tank shows this choice more than a sleeved cut.",
+            "<strong>Over compression:</strong> If worn over a compression top, allow one size."
+          ]
+        }
+      ]
+    }
   },
   "mesh-basketball-tank-top": {
     "noun": "Tank Top",
@@ -2331,7 +2521,181 @@
     "fabricIntro": "This is <strong>athletic mesh — an open knit whose entire purpose is airflow</strong>, with a bonded panel across the front for opacity and number legibility. It is the lightest and fastest-drying fabric we offer, and the default recommendation for outdoor and un-air-conditioned play.",
     "sizingIntro": "Mesh has more give than a flat knit, so <strong>most players take their usual chest size</strong> rather than sizing up. If the tank will be worn over a compression top, allow one size of room.",
     "bestForIntro": "Mesh tanks are for <strong>heat, plainly</strong> — outdoor courts, summer league, tournament weekends, and gyms without working air conditioning. For a formal match-day look, a flat-knit tank holds a crisper line.",
-    "notFitIntro": "Mesh trades a sharp, structured look for airflow. If your program wants the cleanest possible match-day appearance, choose from these."
+    "notFitIntro": "Mesh trades a sharp, structured look for airflow. If your program wants the cleanest possible match-day appearance, choose from these.",
+    "sections": [
+      "pov",
+      "pfb",
+      "pwb",
+      "pco",
+      "psg"
+    ],
+    "fabrics": {
+      "list": [
+        "mesh",
+        "wicking"
+      ],
+      "recommended": "mesh",
+      "notes": {
+        "mesh": {
+          "desc": "This garment is the fabric plus the cut, and both are chosen for the same reason. <strong>Open weave over open shoulders</strong> is the coolest combination available on a uniform top — there is nothing further to remove without leaving the rules of the sport.",
+          "pros": [
+            "<strong>Coolest top we make</strong>, by a clear margin",
+            "<strong>Bonded front panel</strong> keeps the number readable and the chest opaque",
+            "<strong>Dries fastest of anything here</strong> — a three-game Saturday on one top"
+          ]
+        },
+        "wicking": {
+          "desc": "The closed-face alternative for programs that want the tank cut without a visible weave. <strong>It manages sweat chemically instead of letting air through</strong>, which suits an air-conditioned arena better than an open court.",
+          "pros": [
+            "<strong>Closed face</strong> — sharper under arena lighting",
+            "<strong>Better in still, cool air</strong> where mesh has no airflow to use",
+            "<strong>Warmer</strong> than mesh in a hot hall"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Outdoor Courts and Summer League",
+        "desc": "Park courts, driveway leagues and July tournaments in halls with the doors propped open. <strong>This is the top for the hottest basketball played in this state.</strong>",
+        "points": [
+          "Open weave plus open shoulders",
+          "Dries in minutes in Florida air",
+          "One top covers a full tournament day"
+        ]
+      },
+      {
+        "fit": "perfect",
+        "title": "Preseason and Conditioning Blocks",
+        "desc": "August work in a gym that has been closed all summer. <strong>The air conditioning has not caught up and the session still has to happen.</strong>",
+        "points": [
+          "Coolest option available",
+          "Washes and dries overnight",
+          "Cheap enough for two per player"
+        ]
+      },
+      {
+        "fit": "good",
+        "title": "Squads With High-Sweat Players",
+        "desc": "Kitting everyone in mesh costs the same as kitting them in anything else. <strong>It solves the problem for the two or three who need it</strong> without a separate order.",
+        "points": [
+          "Same price as a closed knit",
+          "No different-looking kit for some players",
+          "Pairs with mesh shorts"
+        ]
+      },
+      {
+        "fit": "consider",
+        "title": "Main-Court Match Day",
+        "desc": "The weave is visible at a few feet and reads casual next to a closed knit. <strong>Programs that care about the sharpest possible look on a main court usually notice it.</strong>",
+        "points": [
+          "Closed-knit tank for main-court games",
+          "Or run mesh for summer only",
+          "Same colour file for both"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "Number Panel",
+        "desc": "The most important decision on a mesh garment. <strong>The number sits on a bonded solid panel</strong> so it reads from the bleachers rather than dissolving into the weave.",
+        "options": [
+          "Bonded panel (default)",
+          "Heavy outline",
+          "Front and back",
+          "League-specified size"
+        ]
+      },
+      {
+        "title": "Open vs Bonded Areas",
+        "desc": "You choose where the weave stays open. <strong>Sides and back open, chest bonded</strong> is the standard, but a fully open back is available for maximum airflow.",
+        "options": [
+          "Chest bonded (default)",
+          "Fully open back",
+          "Open sides only",
+          "Bonded shoulders"
+        ]
+      },
+      {
+        "title": "Colour Across a Weave",
+        "desc": "Mesh needs a heavier ink lay-down to read solid. <strong>Deep, saturated colours work best</strong>; a pale pastel on an open weave looks washed out at distance.",
+        "options": [
+          "Deep saturated",
+          "Two-tone",
+          "Team match",
+          "Reviewed at proof"
+        ]
+      },
+      {
+        "title": "Armhole Binding",
+        "desc": "Bound as standard — <strong>an unbound armhole on an open weave frays</strong>, which is not a risk worth taking on a garment washed this often.",
+        "options": [
+          "Contrast bind",
+          "Matched bind",
+          "Wide bind"
+        ]
+      }
+    ],
+    "construction": [
+      {
+        "title": "Bonded Front Panel",
+        "body": "A second layer bonded across the chest and number area. <strong>Opacity and legibility are solved locally</strong> so the rest of the garment can stay fully open — the compromise that makes a mesh uniform legal and wearable."
+      },
+      {
+        "title": "Stabilised Knit",
+        "body": "The mesh is knitted with a stabilising yarn through the structure. <strong>An unstabilised open weave stretches out of shape after a few washes</strong> and never recovers."
+      },
+      {
+        "title": "Heavier Ink Lay-Down",
+        "body": "Mesh runs are printed with more dye than closed-face runs, because <strong>the ink has to bridge the openings rather than land on a flat surface</strong>. Without it, numbers look dotted from the bleachers."
+      },
+      {
+        "title": "Bound Armholes and Neck",
+        "body": "Every cut edge is bound. <strong>An open weave frays from any raw edge</strong>, and on this garment there is no seam allowance to spare."
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Cold wash</strong> — an open weave releases sweat and salt without heat."
+      },
+      {
+        "text": "<strong>Air dry</strong> — dries in minutes; a dryer offers nothing here."
+      },
+      {
+        "text": "<strong>Wash inside out</strong> — protects the bonded panel from abrasion."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No fabric softener</strong> — it coats the weave and closes the openings you paid for."
+      },
+      {
+        "dont": true,
+        "text": "<strong>Never wash with hook-and-loop</strong> — velcro destroys an open weave in one cycle."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No high heat</strong> — heat relaxes the knit and the armhole loses its shape."
+      }
+    ],
+    "floridaNote": "<strong>This is the most Florida-specific garment on the site.</strong> Open weave over bare shoulders only makes sense where heat is the constraint, and in this state it usually is — outdoor courts, summer league, halls where the air conditioning is a rumour. It dries in minutes in Florida air, which is the second thing that matters on a tournament Saturday with three games and one top per player.",
+    "sizing": {
+      "tabs": [
+        "adult",
+        "youth"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Mesh Tank",
+          "steps": [
+            "<strong>Chest:</strong> Fullest point, arms relaxed. Mesh has more give than a closed knit, so take the normal size.",
+            "<strong>Do not size up for stretch:</strong> An open weave already gives. Sizing up here produces a top that hangs away from the body and flaps.",
+            "<strong>Over compression:</strong> If worn over a compression top, allow one size.",
+            "<strong>Armhole:</strong> Check against your league's maximum depth if one is specified."
+          ]
+        }
+      ]
+    }
   },
   "performance-basketball-tank-top": {
     "noun": "Tank Top",
@@ -2385,7 +2749,190 @@
     "fabricIntro": "Built from our <strong>moisture-wicking performance polyester</strong>, with lighter contrast knit through the side panels for venting. It is the fabric we recommend for competitive game play in Florida, where the fourth quarter is the part that matters.",
     "sizingIntro": "Performance tanks are cut <strong>closer than a standard tank</strong>, because wicking works best in light contact with the skin. A player who prefers a looser uniform should size up; otherwise take the normal chest size.",
     "bestForIntro": "This is the game-day tank for <strong>competitive programs — varsity, travel, AAU, and tournament rosters</strong>. For practice or bench wear, a standard tank or training shirt costs less and does the job.",
-    "notFitIntro": "This is more tank than a practice session needs. For daily training and drills, these cost less and wear just as well."
+    "notFitIntro": "This is more tank than a practice session needs. For daily training and drills, these cost less and wear just as well.",
+    "sections": [
+      "pov",
+      "pfb",
+      "pco",
+      "pwb",
+      "psg"
+    ],
+    "fabrics": {
+      "list": [
+        "wicking",
+        "sublimation",
+        "mesh"
+      ],
+      "recommended": "wicking",
+      "notes": {
+        "wicking": {
+          "desc": "The whole point of the performance tank. <strong>Channelled fibre pulls sweat to the outer face where it evaporates</strong>, and the 8% spandex gives at the armhole under a shooting motion. On a competition garment worn for four quarters, both matter more than they do on practice kit.",
+          "pros": [
+            "<strong>Sweat moved rather than absorbed</strong>",
+            "<strong>4-way stretch at the armhole</strong> where a tank is under most tension",
+            "<strong>Lighter at 145 GSM</strong> than the standard knit"
+          ]
+        },
+        "sublimation": {
+          "desc": "The standard knit is the durable choice. <strong>More structure in the hem and armhole</strong>, at the cost of the sweat management this garment is named for.",
+          "pros": [
+            "<strong>Most structure</strong> — holds its line best",
+            "<strong>Toughest</strong> across a long season",
+            "<strong>Holds sweat longer</strong>"
+          ]
+        },
+        "mesh": {
+          "desc": "Available if your venue is the problem rather than the player. <strong>Airflow instead of sweat management</strong>, with a visibly open weave.",
+          "pros": [
+            "<strong>Coolest in moving air</strong>",
+            "<strong>Visible weave</strong> — less formal",
+            "<strong>Best for outdoor play</strong>"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Varsity and Competitive Programs",
+        "desc": "The tank a program buys when the budget allows the better fabric. <strong>The difference is not dramatic on any single night</strong> — it is that players stop mentioning the uniform, which is what a uniform should do.",
+        "points": [
+          "Wicking fibre and vented side panels",
+          "Flatlock seams throughout",
+          "Holds its cut for a full season"
+        ]
+      },
+      {
+        "fit": "perfect",
+        "title": "Tournament and Travel Rosters",
+        "desc": "Three games in a day is where fabric choice stops being theoretical. <strong>A top that is dry for game two is worth more than one that photographed better in game one.</strong>",
+        "points": [
+          "Dries between games",
+          "Vented panels where the torso runs hottest",
+          "Bound edges survive constant packing"
+        ]
+      },
+      {
+        "fit": "good",
+        "title": "Programs Upgrading From Basic Kit",
+        "desc": "The most noticeable single upgrade from a plain polyester tank. <strong>Same silhouette, same league compliance, different fourth quarter.</strong>",
+        "points": [
+          "Drop-in replacement for a standard tank",
+          "Same sizing and armhole depth",
+          "Contrast panels add a design area"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "Contrast Side Panels",
+        "desc": "The vented panels are a design surface as well as a construction feature. <strong>Most tanks do not give you a third colour area</strong>; this one does, and it runs the full length of the torso.",
+        "options": [
+          "Contrast colour",
+          "Tonal",
+          "Gradient",
+          "Matched"
+        ]
+      },
+      {
+        "title": "Front and Back Design",
+        "desc": "Uninterrupted surfaces on both sides. <strong>Full-bleed designs work here</strong>, with numbers placed to your league's specification.",
+        "options": [
+          "Full-bleed",
+          "Panel split",
+          "Chest logo",
+          "Wordmark"
+        ]
+      },
+      {
+        "title": "Armhole and Neck Binding",
+        "desc": "The two edges that define the silhouette. <strong>A contrast binding against a vented panel</strong> is the combination most competitive programs choose.",
+        "options": [
+          "Contrast bind",
+          "Matched bind",
+          "Two-tone",
+          "Piped"
+        ]
+      },
+      {
+        "title": "Number Styling",
+        "desc": "Font, size and outline weight, within your league's rules. <strong>On a competition tank this is regulated</strong>, so check the minimum height before proof.",
+        "options": [
+          "League standard",
+          "Block",
+          "Varsity",
+          "Outlined"
+        ]
+      },
+      {
+        "title": "Sponsor Placement",
+        "desc": "Where your competition permits it. <strong>The side panel takes a vertical sponsor mark</strong> that a flat-sided tank has no room for.",
+        "options": [
+          "Side panel",
+          "Upper back",
+          "Front hem",
+          "None"
+        ]
+      }
+    ],
+    "construction": [
+      {
+        "title": "Vented Contrast Panels",
+        "body": "A lighter knit set into both sides, running armhole to hem. <strong>The torso sides are where a player runs hottest through a game</strong>, and this puts the most breathable fabric exactly there rather than uniformly."
+      },
+      {
+        "title": "Flatlock Seams Throughout",
+        "body": "Every seam laid flat. <strong>Four quarters of contact against a raised seam is where chafing starts</strong>, and a panelled tank has more seams than a plain one."
+      },
+      {
+        "title": "Bound Armholes and Neck",
+        "body": "Bound rather than hemmed so both edges hold their line all season. <strong>On a competition garment the silhouette is part of the uniform</strong>, not just a finish."
+      },
+      {
+        "title": "Bar-Tacked Hem Splits",
+        "body": "Reinforced side splits let the hem move over the hip on a rebound. <strong>The bar-tack is what stops the split running</strong> once it has been stretched a few hundred times."
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Cold wash, inside out</strong> — protects the print and the panel seams."
+      },
+      {
+        "text": "<strong>Wash after every game</strong> — wicking moves sweat to the outer face, where it sits."
+      },
+      {
+        "text": "<strong>Air dry</strong> — heat closes the fibre structure that does the work."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No fabric softener</strong> — the single worst thing for a wicking fabric."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No high-heat drying</strong> — it relaxes the bound edges and flattens the panels."
+      },
+      {
+        "dont": true,
+        "text": "<strong>Do not bleach</strong> — attacks the dye rather than the odour."
+      }
+    ],
+    "floridaNote": "<strong>The fourth quarter is where Florida decides a uniform.</strong> Most gyms in this state are warm and humid even when air-conditioned, and by the last five minutes a standard polyester tank has taken on sweat and started to cling. The vented panels and the wicking fibre are aimed squarely at those five minutes. Everything else about this tank is the same as the standard one.",
+    "sizing": {
+      "tabs": [
+        "adult"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Performance Tank",
+          "steps": [
+            "<strong>Chest:</strong> Fullest point, arms relaxed. This cut is closer than a standard tank, because wicking works in light skin contact.",
+            "<strong>Looser preference:</strong> A player who wants room should size up one, accepting slightly less wicking effect.",
+            "<strong>Armhole:</strong> Check your league's maximum depth before ordering.",
+            "<strong>Panels:</strong> The vented side panels have more give than the body, so a broad-chested player usually fits the body measurement rather than sizing up."
+          ]
+        }
+      ]
+    }
   },
   "basketball-practice-jerseys": {
     "noun": "Jerseys",
@@ -2439,7 +2986,164 @@
     "fabricIntro": "These use a <strong>hard-wearing polyester chosen for wash cycles rather than photographs</strong>. It is the same fiber family as the game jerseys, in a weight that dries fast between back-to-back sessions in a humid Florida gym.",
     "sizingIntro": "Practice jerseys run <strong>slightly looser than game jerseys at the same size</strong>, which most players prefer for drills. Measure the chest at the fullest point. For a youth program buying one order to last a season of growth, size up.",
     "bestForIntro": "Practice jerseys make sense for <strong>every program, because every program practices more than it plays</strong>. What they will not do is match your game set panel for panel — order game jerseys for that.",
-    "notFitIntro": "These are not built to match a game uniform or pass a league check. For match day, start with one of these."
+    "notFitIntro": "These are not built to match a game uniform or pass a league check. For match day, start with one of these.",
+    "sections": [
+      "pov",
+      "pwb",
+      "pco",
+      "psg",
+      "pfb"
+    ],
+    "fabrics": {
+      "list": [
+        "sublimation",
+        "mesh"
+      ],
+      "recommended": "sublimation",
+      "notes": {
+        "sublimation": {
+          "desc": "A hundred and fifty practices against twenty-five games is the arithmetic that should decide this fabric, and it points at durability. <strong>The standard 155 GSM knit is the most wash-durable thing we make</strong>, and practice kit is washed more than anything else a program owns.",
+          "pros": [
+            "<strong>Built for four washes a week</strong>",
+            "<strong>Resists pilling</strong> where a lighter knit fuzzes by January",
+            "<strong>Cheapest to reorder</strong> when one goes missing"
+          ]
+        },
+        "mesh": {
+          "desc": "Worth it if your practice court is outdoors or the hall has no air conditioning. <strong>An open weave snags more easily</strong>, which on a garment worn a hundred and fifty times is a real cost rather than a footnote.",
+          "pros": [
+            "<strong>Much cooler outdoors</strong>",
+            "<strong>Dries overnight</strong> between weeknight sessions",
+            "<strong>Snags on benches and racks</strong> — the honest trade"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Squad Splits Without Pinnies",
+        "desc": "Order half the run in one colour and half in another and five-on-five takes thirty seconds. <strong>Pinnies get lost, smell, and nobody wants to wear one</strong> — two colours of practice jersey solve all three permanently.",
+        "points": [
+          "Two colours on one order, one price",
+          "Numbers may repeat across colours",
+          "No pinnie inventory to manage"
+        ]
+      },
+      {
+        "fit": "perfect",
+        "title": "Programs Buying Two Per Player",
+        "desc": "The point of practice kit is that there is a clean one tomorrow. <strong>Priced so a squad of fifteen can hold thirty jerseys</strong> without touching the uniform budget.",
+        "points": [
+          "No minimum order",
+          "Same unit price at 15 or 60",
+          "Single-jersey reorders mid-season"
+        ]
+      },
+      {
+        "fit": "good",
+        "title": "Camps and Clinics",
+        "desc": "A week-long camp needs kit that identifies groups and survives hard use. <strong>Sublimated colour cannot crack in a hot wash</strong>, which is what separates this from screen-printed camp shirts.",
+        "points": [
+          "Group colours for rotations",
+          "Survives a week of daily use",
+          "Cheap enough to send home with participants"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "Two-Colour Squad Split",
+        "desc": "The single most useful line on a practice order. <strong>Specify the split at order time</strong> rather than buying two separate runs — it is one price and one delivery.",
+        "options": [
+          "Half and half",
+          "Three-way split",
+          "By position group",
+          "Single colour"
+        ]
+      },
+      {
+        "title": "Practice Numbers",
+        "desc": "Printed larger than game numbers. <strong>A coach calls a player from the far baseline</strong>, not from the scorer's table, and the size is set for that distance.",
+        "options": [
+          "Large practice size",
+          "Repeat across colours",
+          "Sequential 1-30",
+          "None"
+        ]
+      },
+      {
+        "title": "Base Colour and Accent",
+        "desc": "Two colours keeps the price where it needs to be. <strong>Your team base plus one accent</strong> is the standard layout, and it is what most programs order.",
+        "options": [
+          "Team base",
+          "One accent",
+          "Plain single colour",
+          "Match existing kit"
+        ]
+      },
+      {
+        "title": "Program Mark",
+        "desc": "A small chest mark rather than full artwork. <strong>Practice kit should look like it belongs to the program</strong> without costing what game kit costs.",
+        "options": [
+          "Left-chest",
+          "Small centre",
+          "Back only",
+          "None"
+        ]
+      }
+    ],
+    "construction": [
+      {
+        "title": "Double-Needle Shoulder Seams",
+        "body": "Two parallel rows across each shoulder. <strong>This is where practice jerseys split</strong>, because a top pulled on and off a hundred and fifty times is loaded at the shoulder every time."
+      },
+      {
+        "title": "Double-Needle Side Seams",
+        "body": "The second failure point, and the one that goes during contact drills. <strong>A single row unravels from one broken thread</strong>; two rows do not."
+      },
+      {
+        "title": "Bound Neckline",
+        "body": "Bound rather than folded so it does not stretch into a loop. <strong>A stretched neck retires a practice jersey long before the fabric wears out.</strong>"
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Hot wash is fine</strong> — practice kit needs it and sublimated colour is unaffected."
+      },
+      {
+        "text": "<strong>Tumble dry low</strong> — practical for kit washed four times a week."
+      },
+      {
+        "text": "<strong>Wash the two colours separately</strong> if you ordered a squad split."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No fabric softener</strong> — build-up shows fastest on the most-washed garment you own."
+      },
+      {
+        "dont": true,
+        "text": "<strong>Do not bleach</strong> — it attacks the dye, not the stain."
+      }
+    ],
+    "floridaNote": "<strong>The thing that retires practice kit in Florida is not wear, it is damp.</strong> A jersey that does not dry overnight goes on damp the next day, and by October the whole pile smells regardless of how it is washed. Two per player, alternated, ends that completely — which is why these are priced so that is a realistic order rather than a luxury one.",
+    "sizing": {
+      "tabs": [
+        "adult",
+        "youth"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Practice Jerseys",
+          "steps": [
+            "<strong>Chest:</strong> Fullest point, arms relaxed. Practice jerseys run looser than game jerseys at the same size.",
+            "<strong>Two per player:</strong> Order the same size twice. A player alternating two different fits will complain about one of them.",
+            "<strong>Squad splits:</strong> Order both colours in the same size per player so a split does not become a sizing problem.",
+            "<strong>Growing players:</strong> Size up for a season-long youth order."
+          ]
+        }
+      ]
+    }
   },
   "basketball-training-jerseys": {
     "noun": "Jerseys",
@@ -2493,7 +3197,148 @@
     "fabricIntro": "These use a <strong>denser performance knit than our practice or game jerseys</strong>, chosen for the weight room specifically. It resists snagging on equipment and holds its shape through repeated overhead work, at the cost of a little airflow.",
     "sizingIntro": "Training jerseys are cut with <strong>more room through the chest and shoulder</strong> than a basketball top. Most players take their normal size; if it will be worn over a compression layer, allow one size of room.",
     "bestForIntro": "Training jerseys suit <strong>programs that want their identity worn everywhere</strong> — weight room, conditioning, preseason and travel days. For the court, practice or game jerseys are cut for the sport.",
-    "notFitIntro": "These are cut for the weight room, not for basketball range. For court sessions, start with these."
+    "notFitIntro": "These are cut for the weight room, not for basketball range. For court sessions, start with these.",
+    "sections": [
+      "pov",
+      "pfb",
+      "psg",
+      "pwb",
+      "pco"
+    ],
+    "fabrics": {
+      "list": [
+        "sublimation"
+      ],
+      "recommended": "sublimation",
+      "notes": {
+        "sublimation": {
+          "desc": "One fabric, offered deliberately. A training jersey lives in a weight room, and <strong>a weight room is a snagging environment</strong> — knurled bars, bench edges, rack uprights, turf. The densest knit we make is the only responsible answer, and offering a lighter one would be selling a garment that fails first.",
+          "pros": [
+            "<strong>Densest knit in the range</strong> — resists equipment abrasion",
+            "<strong>Holds shape through overhead work</strong>",
+            "<strong>Longest service life</strong> of anything we sell"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Strength and Conditioning Blocks",
+        "desc": "Six weeks of lifting and running before a ball is picked up. <strong>The shoulder is loaded in ways basketball never loads it</strong>, and the cut and seams are built for that rather than for a jump shot.",
+        "points": [
+          "Extra shoulder and chest room for overhead range",
+          "Reinforced shoulder seam",
+          "Longer hem stays down in floor work"
+        ]
+      },
+      {
+        "fit": "good",
+        "title": "Program-Wide Identity",
+        "desc": "The cheapest way to make everything a program does look like one program. <strong>Weight room, bus, camp, summer session</strong> — all in the same jersey.",
+        "points": [
+          "Lowest unit price in the range",
+          "Simple layout, fast reorders",
+          "Adult and youth on one order"
+        ]
+      },
+      {
+        "fit": "consider",
+        "title": "On-Court Sessions",
+        "desc": "This is cut for lifting range, not basketball range, and it is denser than any court garment should be. <strong>For drills and scrimmages, practice jerseys are the right buy.</strong>",
+        "points": [
+          "Order practice jerseys for the court",
+          "Or mesh for hot outdoor sessions",
+          "Same colours across both"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "Program Mark",
+        "desc": "A single chest mark is standard. <strong>Restraint here is what holds the price down</strong> enough to kit an entire program rather than one squad.",
+        "options": [
+          "Left-chest",
+          "Full-chest",
+          "Small centre",
+          "Back only"
+        ]
+      },
+      {
+        "title": "Colour Split by Group",
+        "desc": "Strength groups, position groups or year groups. <strong>A colour split in the weight room does the same job it does on the court</strong> — instant grouping without a whiteboard.",
+        "options": [
+          "By strength group",
+          "By position",
+          "By year",
+          "Single colour"
+        ]
+      },
+      {
+        "title": "Numbering",
+        "desc": "Optional and usually omitted. <strong>Nobody is checking a roster in a weight room</strong>, and leaving numbers off makes the jerseys interchangeable across a program.",
+        "options": [
+          "None (default)",
+          "Large",
+          "Sequential",
+          "By group"
+        ]
+      }
+    ],
+    "construction": [
+      {
+        "title": "Reinforced Shoulder Seam",
+        "body": "Double-stitched across the shoulder. <strong>A clean-and-press loads that seam in a direction basketball never does</strong>, and it is the first seam to fail on any shirt used for lifting."
+      },
+      {
+        "title": "Extra Chest and Shoulder Room",
+        "body": "Cut fuller than a basketball top. <strong>A deep overhead position needs range a game cut does not allow</strong>, and taking it from the hem instead would change how the garment sits."
+      },
+      {
+        "title": "Dense Anti-Snag Knit",
+        "body": "A tighter yarn count than any other jersey here. <strong>Knurled bars pull threads out of an open weave within weeks</strong>; this resists them for a full off-season."
+      },
+      {
+        "title": "Extended Hem",
+        "body": "Longer than a court jersey so it stays down through floor work and mobility sessions. <strong>A jersey that rides up on every rep gets tucked, untucked and eventually abandoned.</strong>"
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Wash after every session</strong> — weight room kit picks up more than court kit."
+      },
+      {
+        "text": "<strong>Warm wash is fine</strong> — a dense knit takes it without shrinking."
+      },
+      {
+        "text": "<strong>Tumble dry low</strong> — built for it."
+      },
+      {
+        "dont": true,
+        "text": "<strong>Do not wash with hook-and-loop</strong> — velcro finds a knit surface every cycle."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No fabric softener</strong> — it reduces the surface grip that keeps the jersey sitting where it should."
+      }
+    ],
+    "floridaNote": "<strong>Florida weight rooms are often the hottest room in the building.</strong> Plenty of school gyms condition the main court and not the annexe, so the strength block happens in still, humid air with no airflow at all. A dense knit is still the right call here — equipment abrasion destroys training kit long before heat does — but if your conditioning work happens outdoors, order the practice jersey in mesh instead.",
+    "sizing": {
+      "tabs": [
+        "adult"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Training Jerseys",
+          "steps": [
+            "<strong>Chest:</strong> Fullest point, arms relaxed. This cut is fuller than a court jersey.",
+            "<strong>Overhead range:</strong> If the jersey is mainly for lifting, size up one. Range matters more than fit here.",
+            "<strong>Over compression:</strong> Allow one size if worn over a compression top.",
+            "<strong>Length:</strong> The hem runs longer than a court jersey on purpose — do not size down to correct it."
+          ]
+        }
+      ]
+    }
   },
   "youth-practice-basketball-jerseys": {
     "noun": "Jerseys",
@@ -2547,7 +3392,149 @@
     "fabricIntro": "Built from a <strong>hard-wearing polyester chosen for repeated hot washes</strong>. It is softer against the skin than our adult training knit, which matters for younger players, and it dries fast enough for back-to-back weeknight sessions.",
     "sizingIntro": "Youth sizing runs by <strong>height and chest together</strong> — check both columns, and where they disagree, follow the chest. For a season-long order, size up: a jersey a little large in November fits properly by February.",
     "bestForIntro": "These fit <strong>youth leagues, middle school programs, and rec teams</strong> where players grow mid-season and kit is washed constantly. For a high school varsity game set, order adult game jerseys.",
-    "notFitIntro": "These are practice kit for growing players. For youth game day, a proper game jersey is what you want."
+    "notFitIntro": "These are practice kit for growing players. For youth game day, a proper game jersey is what you want.",
+    "sections": [
+      "pov",
+      "psg",
+      "pwb",
+      "pfb",
+      "pco"
+    ],
+    "fabrics": {
+      "list": [
+        "sublimation",
+        "mesh"
+      ],
+      "recommended": "sublimation",
+      "notes": {
+        "sublimation": {
+          "desc": "Softer against the skin than our adult training knit, which matters more for younger players than adults tend to remember. <strong>A jersey a child finds scratchy is a jersey that gets complained about all season</strong>, and the parent hears about it before the coach does.",
+          "pros": [
+            "<strong>Softer face</strong> than the adult training knit",
+            "<strong>Survives a parent's laundry</strong> — hot wash, tumble dry, no care ritual",
+            "<strong>Colour cannot crack</strong> however it is washed"
+          ]
+        },
+        "mesh": {
+          "desc": "For rec programmes playing outdoors or in halls without air conditioning. <strong>Children overheat faster than adults</strong> and complain about it sooner, which makes mesh a more common choice in youth basketball than in high school.",
+          "pros": [
+            "<strong>Much cooler for outdoor rec play</strong>",
+            "<strong>Dries between weeknight sessions</strong>",
+            "<strong>Snags more easily</strong> — worth knowing with younger players"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Rec and Community Leagues",
+        "desc": "A league buying for twelve teams needs kit that is cheap, identifiable and survives being laundered by a hundred different families. <strong>All three are what this jersey is for.</strong>",
+        "points": [
+          "League-wide orders at one price",
+          "Colours stored per team for reorders",
+          "No care instructions a parent has to follow"
+        ]
+      },
+      {
+        "fit": "perfect",
+        "title": "Players Growing Mid-Season",
+        "desc": "A jersey bought in October is worn by a different-sized child in March. <strong>Extra body length and a deeper armhole absorb that</strong> without looking oversized on day one.",
+        "points": [
+          "Cut with a season of growth allowed for",
+          "Neckline stays comfortable as shoulders broaden",
+          "Size up and it fits properly by February"
+        ]
+      },
+      {
+        "fit": "good",
+        "title": "Squad Splits at Youth Level",
+        "desc": "Two colours split a session instantly, and at youth level that matters more — <strong>younger players lose pinnies faster than anyone</strong>, and nobody wants to wear one twice.",
+        "points": [
+          "Two colours on one order",
+          "Numbers repeat across colours",
+          "Large numbers readable across a rec gym"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "Oversized Numbers",
+        "desc": "Printed larger than adult practice kit as standard. <strong>Parents and volunteer coaches read from further back in a rec gym</strong> than officials do in a school arena, and the extra size costs nothing.",
+        "options": [
+          "Oversized (default)",
+          "Standard",
+          "Sequential 1-20",
+          "None"
+        ]
+      },
+      {
+        "title": "Two-Colour Split",
+        "desc": "The most useful thing on a youth order. <strong>One order, two colours, five-on-five in thirty seconds</strong> without a bag of pinnies nobody returns.",
+        "options": [
+          "Half and half",
+          "By age group",
+          "Single colour",
+          "Three-way"
+        ]
+      },
+      {
+        "title": "League or Sponsor Mark",
+        "desc": "Rec teams are often funded by a local sponsor. <strong>A sponsor mark on the back costs nothing extra</strong> and is frequently what pays for the order.",
+        "options": [
+          "Back sponsor",
+          "Chest sponsor",
+          "League badge",
+          "None"
+        ]
+      }
+    ],
+    "construction": [
+      {
+        "title": "Growth-Allowed Cut",
+        "body": "Extra length through the body and a slightly deeper armhole than a straight youth scale. <strong>A season of growth is absorbed rather than outgrown</strong>, and it does not read as oversized in November."
+      },
+      {
+        "title": "Bound Neckline",
+        "body": "Bound so it stays comfortable as shoulders broaden through a season. <strong>A neckline that has become tight is the most common reason a child stops wearing a jersey</strong>, and it is not always reported."
+      },
+      {
+        "title": "Double-Needle Seams",
+        "body": "Shoulders and sides, as on the adult version. <strong>Youth kit is not treated more gently than adult kit</strong> — usually the reverse."
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Any wash a family runs is fine</strong> — hot, cold, with everything else. That is the design."
+      },
+      {
+        "text": "<strong>Tumble dry</strong> — no care label to follow and nothing to go wrong."
+      },
+      {
+        "text": "<strong>Colour cannot transfer</strong> — the dye is inside the fibre, so a red jersey will not pink a white wash."
+      },
+      {
+        "dont": true,
+        "text": "<strong>Fabric softener is the only thing to avoid</strong>, and it is not urgent."
+      }
+    ],
+    "floridaNote": "<strong>Youth basketball in Florida is played in the warmest halls in the state.</strong> Community centres and church gyms are rarely conditioned to the standard a high school arena is, and children overheat faster than adults and say so sooner. If your programme plays in one of those, order the mesh version — the difference is more noticeable at this age than at any other.",
+    "sizing": {
+      "tabs": [
+        "youth"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Youth Practice Jerseys",
+          "steps": [
+            "<strong>Height and chest together:</strong> Youth sizing runs on both. Where they disagree, follow the chest.",
+            "<strong>Size up for the season:</strong> A jersey slightly large in November fits properly by February. This is the single most useful thing to get right.",
+            "<strong>Do not size up twice:</strong> Two sizes large is a jersey that never fits and gets in the way all season.",
+            "<strong>Ask us:</strong> Send heights and weights with a quote request and we will size the whole roster at no charge."
+          ]
+        }
+      ]
+    }
   },
   "men-basketball-uniforms": {
     "noun": "Uniforms",
