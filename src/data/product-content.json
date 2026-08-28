@@ -50,8 +50,7 @@
     "fabricIntro": "Game shorts are made from <strong>the same sublimation polyester as the jersey they pair with</strong>, so the set matches under gym lighting. The weight is chosen for a warm Florida gym in the fourth quarter — light enough to breathe, heavy enough to hang properly rather than cling.",
     "sizingIntro": "Shorts are sized on <strong>waist and hip measurements</strong>, not chest. Measure around the natural waist where the band will sit, then check the inseam column for the length your program prefers. When a player is between sizes, size up — the drawcord takes in the waist, but nobody can add length.",
     "bestForIntro": "Game shorts are the right choice for <strong>teams buying a matched uniform set</strong> — a jersey and short that read as one design. If you only need bottoms for the practice floor, a lighter and cheaper pair will serve you better.",
-    "notFitIntro": "Game shorts are built for match day. If most of your wear is drills and scrimmages, you are paying for a finish you will not see — these alternatives cost less and hold up just as well in practice.",
-    "plural": true
+    "notFitIntro": "Game shorts are built for match day. If most of your wear is drills and scrimmages, you are paying for a finish you will not see — these alternatives cost less and hold up just as well in practice."
   },
   "basketball-practice-shorts": {
     "noun": "Shorts",
@@ -104,8 +103,7 @@
     "fabricIntro": "These are built from a <strong>hard-wearing polyester chosen for wash cycles, not for photographs</strong>. It is the same fiber family as the game shorts, in a weight that dries fast between back-to-back sessions in a humid Florida gym.",
     "sizingIntro": "Practice shorts run <strong>slightly looser than game shorts at the same size</strong>, which most players prefer for drills. Measure the natural waist and match the closest size. If your program wants one order to cover growth across a season, size up for younger players.",
     "bestForIntro": "Practice shorts make sense for <strong>any program where players train more often than they play</strong> — which is nearly all of them. If you need a pair that matches your game jersey exactly, order game shorts instead.",
-    "notFitIntro": "These are not built to match a game jersey panel-for-panel. If the shorts will be worn on match day alongside a sublimated top, choose from these instead.",
-    "plural": true
+    "notFitIntro": "These are not built to match a game jersey panel-for-panel. If the shorts will be worn on match day alongside a sublimated top, choose from these instead."
   },
   "mesh-basketball-shorts": {
     "noun": "Shorts",
@@ -158,8 +156,7 @@
     "fabricIntro": "These are built from <strong>athletic mesh — an open knit whose whole purpose is airflow</strong>. It is the lightest fabric we offer for shorts and the fastest drying, which is why it is the default recommendation for outdoor courts and un-air-conditioned gyms in Florida.",
     "sizingIntro": "Mesh has more give than a flat knit, so <strong>most players take their usual size rather than sizing up</strong>. Measure the natural waist. If the shorts will be worn over compression tights in winter training, allow one size of room.",
     "bestForIntro": "Mesh shorts are the right call for <strong>teams playing in heat</strong> — outdoor courts, summer league, preseason conditioning, and any gym without real air conditioning. For a formal match-day set, a flat-knit game short holds a crisper line.",
-    "notFitIntro": "Mesh is built for airflow, not for a structured match-day look. If your program wants a sharper, more formal short, these are the better fit.",
-    "plural": true
+    "notFitIntro": "Mesh is built for airflow, not for a structured match-day look. If your program wants a sharper, more formal short, these are the better fit."
   },
   "lightweight-basketball-shorts": {
     "noun": "Shorts",
@@ -212,8 +209,7 @@
     "fabricIntro": "Built from a <strong>thinner gauge of our moisture-wicking performance polyester</strong>. It carries the same sweat-pull behavior as our standard weight with less material, which is what makes it the lightest non-mesh short we produce.",
     "sizingIntro": "Lightweight shorts are cut close, so <strong>a player who prefers a roomier short should size up</strong>. Measure the natural waist and check the inseam column — this style is most often ordered one inch shorter than a standard game short.",
     "bestForIntro": "These suit <strong>fast-tempo programs and players who dislike extra fabric</strong>. If your team plays a physical, contact-heavy style, a standard-weight game short will take the abuse better.",
-    "notFitIntro": "A lighter fabric is not the toughest option in a contact-heavy program. If your shorts take a beating every session, these will last longer.",
-    "plural": true
+    "notFitIntro": "A lighter fabric is not the toughest option in a contact-heavy program. If your shorts take a beating every session, these will last longer."
   },
   "training-basketball-shorts": {
     "noun": "Shorts",
@@ -266,7 +262,2004 @@
     "fabricIntro": "These use a <strong>denser performance knit than our game or mesh shorts</strong>, chosen specifically for the weight room. It resists snagging on equipment and holds its shape through repeated deep-knee work, at the cost of a little airflow.",
     "sizingIntro": "Training shorts are cut with <strong>more room through the thigh and seat</strong> than a game short. Most players take their normal size; if the shorts will be worn over compression shorts in the weight room, allow one size of room.",
     "bestForIntro": "Training shorts fit <strong>programs that want their identity worn everywhere, not only at tip-off</strong> — weight room, conditioning, preseason, and travel days. For match play, order game shorts that match your jersey.",
-    "notFitIntro": "These are built for the weight room rather than the floor. If you need shorts for games or for hot outdoor courts, start with these instead.",
-    "plural": true
+    "notFitIntro": "These are built for the weight room rather than the floor. If you need shorts for games or for hot outdoor courts, start with these instead."
+  },
+  "short-sleeve-basketball-shirt": {
+    "noun": "Shirt",
+    "plural": false,
+    "eyebrow": "Short-Sleeve Shirt",
+    "h2": {
+      "pre": "What Is a",
+      "em": "Short-Sleeve",
+      "post": "Basketball Shirt?"
+    },
+    "sub": "The Shooting Shirt Your Bench Wears All Season",
+    "prose": [
+      "A short-sleeve basketball shirt is the layer worn <strong>over the jersey before tip-off and on the bench between rotations</strong>. It is not a jersey — there are no league number rules to satisfy, no side panels to match — which is exactly why programs use it as the piece that carries the team's full identity: the logo big, the name across the chest, the year on the sleeve.",
+      "Because it is worn off the floor, the cut is roomier through the chest and shoulder than a game jersey so it pulls on over one. <strong>The hem sits straight rather than tapered</strong>, and the sleeve ends above the elbow so it does not interfere with a warm-up routine.",
+      "Sublimation matters more here than almost anywhere else on a uniform order. A shooting shirt is photographed constantly — team pictures, socials, senior night — and <strong>a heat-pressed logo starts cracking by January</strong> while a dyed one looks the same in the last game as the first."
+    ],
+    "bestFor": [
+      "Warm-Ups & Bench",
+      "Team Photos",
+      "Senior Night",
+      "Coaching Staff",
+      "Booster & Parent Orders",
+      "Full-Color Logos"
+    ],
+    "benefits": [
+      {
+        "strong": "Cut to pull on over a jersey",
+        "rest": "— roomier through the chest and shoulder than the game top it covers."
+      },
+      {
+        "strong": "No league number rules",
+        "rest": "— the front is free for a full-size logo, team name, or a season slogan."
+      },
+      {
+        "strong": "Photographs the same in March",
+        "rest": "— dyed artwork does not crack the way a pressed logo does by mid-season."
+      },
+      {
+        "strong": "Sells to parents and boosters",
+        "rest": "— the one piece of team kit a family will actually buy and wear."
+      }
+    ],
+    "visualLabel": "Custom Short-Sleeve Shirt",
+    "cardName": "Short-Sleeve Shirt",
+    "cardSub": "Warm-up layer · Full-color · Any logo size",
+    "production": {
+      "from": "7",
+      "to": "14"
+    },
+    "customizationIntro": "A shooting shirt has the freest layout on the whole uniform order — <strong>no roster numbers to place, no league size rules to meet</strong>. Full-chest logos, sleeve marks, a name across the back, sponsor blocks, and season text all work here in a way they cannot on a game jersey.",
+    "fabricIntro": "Shooting shirts use a <strong>slightly heavier knit than a game jersey</strong>, because they are worn as an outer layer and need to hold their shape over another garment rather than sit against the skin.",
+    "sizingIntro": "Size a shooting shirt <strong>one step up from the player's game jersey</strong> — it is meant to pull on over the top. Measure the chest over the jersey the player will actually wear underneath, not over bare skin.",
+    "bestForIntro": "A short-sleeve shirt suits <strong>any program that wants a piece worn off the floor</strong> — warm-ups, bench, travel, team photos, and parent orders. It is not a game garment and does not replace a jersey.",
+    "notFitIntro": "This is a layer, not a jersey — it carries no roster numbers and will not pass a league uniform check. If you need the garment players compete in, start here."
+  },
+  "long-sleeve-basketball-shirt": {
+    "noun": "Shirt",
+    "plural": false,
+    "eyebrow": "Long-Sleeve Shirt",
+    "h2": {
+      "pre": "What Is a",
+      "em": "Long-Sleeve",
+      "post": "Basketball Shirt?"
+    },
+    "sub": "Full-Sleeve Coverage for Cold Gyms and Travel Days",
+    "prose": [
+      "A long-sleeve basketball shirt covers the arm to the wrist, which changes what it is for. In Florida the enemy is rarely cold air outside — <strong>it is the over-air-conditioned gym</strong>, the early bus, and the tournament venue that runs at 65 degrees while players sit for two hours between games.",
+      "The sleeve is cut narrow through the forearm so it does not bunch under a jersey, and <strong>the cuff is ribbed to stay put</strong> rather than riding to the elbow on the first shooting motion. Players who wear a compression sleeve for shooting comfort often use this instead, in team colors, so the whole bench matches.",
+      "Because the sleeve is a large printable area, this is the garment where programs put things that will not fit anywhere else — <strong>a full sponsor mark down the arm, a memorial patch, a championship year</strong>. It is the most designed-on piece in most orders."
+    ],
+    "bestFor": [
+      "Cold Gyms & Venues",
+      "Travel Days",
+      "Under-Jersey Layer",
+      "Sleeve Sponsor Marks",
+      "Winter Tournaments",
+      "Coaching Staff"
+    ],
+    "benefits": [
+      {
+        "strong": "Narrow forearm cut",
+        "rest": "— stays flat under a jersey instead of bunching at the elbow through a game."
+      },
+      {
+        "strong": "Ribbed cuffs",
+        "rest": "— hold at the wrist rather than sliding up on every shooting motion."
+      },
+      {
+        "strong": "The largest print area you have",
+        "rest": "— sleeves take sponsor marks, memorial patches, and season text a jersey cannot fit."
+      },
+      {
+        "strong": "Solves the air-conditioned gym",
+        "rest": "— the actual cold-weather problem for a Florida program is indoors, not outdoors."
+      }
+    ],
+    "visualLabel": "Custom Long-Sleeve Shirt",
+    "cardName": "Long-Sleeve Shirt",
+    "cardSub": "Full coverage · Sleeve printing · Layerable",
+    "production": {
+      "from": "7",
+      "to": "14"
+    },
+    "customizationIntro": "The sleeves roughly double your printable area, which is why long-sleeve shirts carry the designs that will not fit elsewhere — <strong>sponsor marks down the arm, memorial patches, championship years</strong>. Chest, back, and both sleeves print full-color with no template limits.",
+    "fabricIntro": "Long-sleeve shirts use a <strong>lighter knit than the short-sleeve version</strong>, deliberately: more of the body is covered, so the same weight would run hot. It is built to layer under a jersey without adding bulk at the shoulder.",
+    "sizingIntro": "Sizing follows the chest as usual, but <strong>check the sleeve-length column too</strong> — a player with long arms is usually better off one size up even when the chest measurement says otherwise. If the shirt will be worn under a game jersey, take the normal size rather than sizing up.",
+    "bestForIntro": "Long sleeves earn their place for <strong>teams that travel, play in cold venues, or layer under jerseys</strong>. For a warm Florida gym with no air conditioning, a short-sleeve or sleeveless piece is the better call.",
+    "notFitIntro": "Full sleeves are the wrong answer to a hot gym. If your venues run warm, these will be more comfortable for the same money."
+  },
+  "moisture-wicking-basketball-shirt": {
+    "noun": "Shirt",
+    "plural": false,
+    "eyebrow": "Moisture-Wicking Shirt",
+    "h2": {
+      "pre": "What Is a",
+      "em": "Moisture-Wicking",
+      "post": "Basketball Shirt?"
+    },
+    "sub": "Engineered to Pull Sweat Off the Skin, Not Hold It",
+    "prose": [
+      "Moisture-wicking is not a coating, and it is not a marketing word for polyester. It is <strong>a fiber cross-section engineered with channels that draw liquid along their length by capillary action</strong> and spread it across the outer surface, where a much larger area lets it evaporate. Cotton does the opposite: it absorbs and holds.",
+      "The practical difference shows up in the third quarter. A cotton or basic-polyester shirt has taken on weight and is clinging; a wicking shirt has moved that sweat to its outer face and is drying. <strong>In a Florida gym in February, that is still the difference between comfortable and soaked.</strong>",
+      "The finish is durable rather than applied, so it survives the wash. <strong>A shirt that wicks because of how its fiber is built will still wick after a hundred cycles</strong>, which is not true of shirts treated with a topical finish that rinses away."
+    ],
+    "bestFor": [
+      "High-Sweat Players",
+      "Humid Gyms",
+      "Back-to-Back Games",
+      "Under-Jersey Layer",
+      "Preseason Conditioning",
+      "Summer League"
+    ],
+    "benefits": [
+      {
+        "strong": "Engineered fiber, not a coating",
+        "rest": "— the wicking is structural, so it survives a hundred washes instead of rinsing out."
+      },
+      {
+        "strong": "Dries while it is still being worn",
+        "rest": "— sweat is spread to the outer surface where it can actually evaporate."
+      },
+      {
+        "strong": "Stays light when wet",
+        "rest": "— it never takes on the weight that makes a cotton shirt cling by the third quarter."
+      },
+      {
+        "strong": "Works as a base layer",
+        "rest": "— cut close enough to sit under a game jersey without bunching."
+      }
+    ],
+    "visualLabel": "Custom Moisture-Wicking Shirt",
+    "cardName": "Moisture-Wicking Shirt",
+    "cardSub": "Sweat-pull fiber · Fast dry · Full-color",
+    "production": {
+      "from": "7",
+      "to": "14"
+    },
+    "customizationIntro": "Wicking fabric takes sublimation cleanly and holds fine detail well, so <strong>small type, thin outlines, and gradient work all reproduce sharply</strong>. Chest logo, back name and number, and sleeve marks are all available.",
+    "fabricIntro": "This is our <strong>moisture-wicking performance polyester</strong> — the fiber is spun with channels that move sweat along their length rather than absorbing it. It is the fabric we recommend by default for any player who runs hot or plays back-to-back games.",
+    "sizingIntro": "Wicking works best in <strong>light contact with the skin</strong>, so this shirt is cut closer than a shooting shirt. Take the normal size for a base layer; size up only if it will be worn as an outer layer over a jersey.",
+    "bestForIntro": "This is the right shirt for <strong>players who sweat heavily and venues without real air conditioning</strong>. If you want a loose warm-up layer for the bench, a standard short-sleeve shirt is a better cut.",
+    "notFitIntro": "A close-cut technical shirt is not a bench layer. If you want something to pull on over a jersey, these are cut for it."
+  },
+  "lightweight-basketball-shirt": {
+    "noun": "Shirt",
+    "plural": false,
+    "eyebrow": "Lightweight Shirt",
+    "h2": {
+      "pre": "What Is a",
+      "em": "Lightweight",
+      "post": "Basketball Shirt?"
+    },
+    "sub": "The Thinnest Shirt We Make, for the Hottest Gyms",
+    "prose": [
+      "This is the same performance knit as our standard shirt, <strong>spun to a thinner gauge</strong>. Less fabric means less to trap heat, less to hold sweat, and less weight on the shoulder over a two-hour session. Held up to the light it is noticeably more translucent — that is the trade being made, and it is a deliberate one.",
+      "Programs order these for <strong>the hottest part of a Florida calendar</strong>: August conditioning, summer league, and any venue where the air conditioning is decorative. They are also the shirt most often chosen as an under-jersey base layer, because thinner fabric adds nothing at the shoulder seam.",
+      "Thin fabric is unforgiving of cheap construction, so the seams do the work. <strong>Flatlock shoulder seams sit flush rather than standing proud</strong>, which on a light shirt is the difference between comfortable and abrasive over a long session."
+    ],
+    "bestFor": [
+      "Summer Conditioning",
+      "Hot Gyms",
+      "Under-Jersey Base Layer",
+      "Outdoor Courts",
+      "Camps & Clinics",
+      "Two-a-Day Sessions"
+    ],
+    "benefits": [
+      {
+        "strong": "Thinner gauge of the same knit",
+        "rest": "— the lightest shirt we produce, and the coolest non-mesh option we offer."
+      },
+      {
+        "strong": "Flatlock shoulder seams",
+        "rest": "— sit flush against the skin, which a light fabric cannot hide the way a heavy one can."
+      },
+      {
+        "strong": "Adds nothing under a jersey",
+        "rest": "— no bulk at the shoulder seam when worn as a base layer."
+      },
+      {
+        "strong": "Dries between two-a-days",
+        "rest": "— less fabric holds less water, so a morning session is dry by afternoon."
+      }
+    ],
+    "visualLabel": "Custom Lightweight Shirt",
+    "cardName": "Lightweight Shirt",
+    "cardSub": "Thin gauge · Flatlock seams · Full-color",
+    "production": {
+      "from": "7",
+      "to": "14"
+    },
+    "customizationIntro": "A thin, smooth face takes fine artwork well — <strong>gradients and small type reproduce cleanly</strong> where a textured fabric would break them up. Bear in mind that a light shirt shows the artwork's back face slightly, so heavy solid blocks are worth discussing before proof.",
+    "fabricIntro": "Built from a <strong>thinner gauge of our performance polyester</strong>. It keeps the same sweat-pull behavior as our standard weight with meaningfully less material, which is what makes it the coolest shirt we make that is not open mesh.",
+    "sizingIntro": "Lightweight shirts are cut close. <strong>A player who wants a looser fit should size up</strong>; a player wearing it under a game jersey should take the normal size. Measure the chest at the fullest point with arms relaxed.",
+    "bestForIntro": "The right pick for <strong>the hottest weeks of the year and for base layers</strong>. For a bench or warm-up layer worn over a jersey, a standard-weight shirt holds its shape better.",
+    "notFitIntro": "A thin shirt is not the most durable option for daily contact work. For heavy repeated wear, these hold up longer."
+  },
+  "training-basketball-shirt": {
+    "noun": "Shirt",
+    "plural": false,
+    "eyebrow": "Training Shirt",
+    "h2": {
+      "pre": "What Is a",
+      "em": "Training",
+      "post": "Basketball Shirt?"
+    },
+    "sub": "The Shirt That Survives Four Sessions a Week",
+    "prose": [
+      "A training shirt is judged on one thing: <strong>how it looks in March after being worn and washed two hundred times</strong>. Everything about it is built for that — a denser knit that resists pilling, reinforced shoulder and side seams, and a neckline stitched to hold its shape rather than stretch out into a loop.",
+      "It is cut with more room than a game or base-layer shirt, because it is worn for drills, weights, and conditioning where full range matters more than a close fit. <strong>The hem runs slightly longer</strong> so it stays tucked through floor work.",
+      "Most programs keep the artwork simple here — team mark on the chest, maybe a number on the back. <strong>The point is that everyone at practice is visibly part of the same program</strong>, at a price that lets you order two per player."
+    ],
+    "bestFor": [
+      "Daily Practice",
+      "Weight Room",
+      "Conditioning",
+      "Two Per Player",
+      "Camps & Clinics",
+      "Off-Season Programs"
+    ],
+    "benefits": [
+      {
+        "strong": "Denser anti-pill knit",
+        "rest": "— still looks like team kit in March, not like something that has been washed 200 times."
+      },
+      {
+        "strong": "Reinforced shoulder and side seams",
+        "rest": "— the two seams that fail first under repeated overhead work."
+      },
+      {
+        "strong": "Neckline holds its shape",
+        "rest": "— stitched so it does not stretch into a loop after a season of pulling on and off."
+      },
+      {
+        "strong": "Priced for two per player",
+        "rest": "— so nobody trains in yesterday's shirt on a back-to-back day."
+      }
+    ],
+    "visualLabel": "Custom Training Shirt",
+    "cardName": "Training Shirt",
+    "cardSub": "Anti-pill knit · Reinforced seams · Team pricing",
+    "production": {
+      "from": "7",
+      "to": "12"
+    },
+    "customizationIntro": "Training shirts are usually kept deliberately simple — <strong>a chest mark and an optional back number</strong>. Full artwork is available, but most programs put the budget into the game set and keep training kit clean, consistent, and cheap to reorder.",
+    "fabricIntro": "This uses a <strong>denser, anti-pill knit than our game or lightweight shirts</strong>. It gives up a little airflow for a lot of durability, which is the right trade for a garment that goes through the wash four times a week.",
+    "sizingIntro": "Training shirts are cut <strong>roomier than a game or base-layer shirt</strong>. Most players take their normal size; for a program buying one order to last a full season of growth, size up for younger players.",
+    "bestForIntro": "Training shirts fit <strong>programs that practice far more often than they play</strong>, which is nearly all of them. For game day, warm-ups, or photos, a shooting shirt looks the part where this one will not.",
+    "notFitIntro": "This is built for the practice floor, not the camera. For warm-ups, team photos and bench wear, choose one of these."
+  },
+  "sleeveless-basketball-tank-top": {
+    "noun": "Tank Top",
+    "plural": false,
+    "eyebrow": "Sleeveless Tank Top",
+    "h2": {
+      "pre": "What Is a",
+      "em": "Sleeveless",
+      "post": "Basketball Tank Top?"
+    },
+    "sub": "Standard Basketball Cut, Full Shoulder Freedom",
+    "prose": [
+      "A sleeveless tank is the classic basketball silhouette — <strong>armholes cut high and open so the shoulder rotates through a full shooting motion with nothing touching it</strong>. It is the cut most players default to, and the one most leagues picture when they write a uniform rule.",
+      "The armhole is where a tank is won or lost. Cut too shallow and it binds at the top of a shot; cut too deep and it gapes and shows the side. <strong>Ours is set at a standard competitive depth</strong> with a bound edge that keeps its shape rather than curling after a few washes.",
+      "Because there are no sleeves, the whole front and back are one uninterrupted print area. <strong>Full-color designs run edge to edge with no seam breaking them up</strong>, which is why sublimated tanks photograph better than almost anything else in a uniform order."
+    ],
+    "bestFor": [
+      "Game Uniforms",
+      "Full Shoulder Range",
+      "Hot Gyms",
+      "School Programs",
+      "Edge-to-Edge Designs",
+      "Bulk Team Orders"
+    ],
+    "benefits": [
+      {
+        "strong": "Competitive armhole depth",
+        "rest": "— open enough for a full shooting motion without gaping at the side."
+      },
+      {
+        "strong": "Bound armhole and neck edges",
+        "rest": "— keep their shape instead of curling after the first few washes."
+      },
+      {
+        "strong": "One uninterrupted print area",
+        "rest": "— no sleeve seam breaking a design across the chest or back."
+      },
+      {
+        "strong": "Coolest cut we make",
+        "rest": "— the shoulder and upper arm are the body's best heat-shedding surface, left uncovered."
+      }
+    ],
+    "visualLabel": "Custom Sleeveless Tank",
+    "cardName": "Sleeveless Tank",
+    "cardSub": "Classic cut · Edge-to-edge print · Full-color",
+    "production": {
+      "from": "7",
+      "to": "14"
+    },
+    "customizationIntro": "With no sleeve seams, <strong>the front and back are each a single unbroken canvas</strong>. Team colors, logos, player names, numbers, and side panels are all fully customizable, and designs can run right to the edge without a seam interrupting them.",
+    "fabricIntro": "Tanks are built from our <strong>sublimation polyester in a mid weight</strong> — light enough for a hot gym, structured enough that the armhole and hem hold their line through a season rather than stretching out.",
+    "sizingIntro": "Tanks are sized on <strong>chest measurement</strong>, taken at the fullest point with arms relaxed. Check the armhole column too if your league specifies a maximum depth. Between sizes, size down for a competitive fit or up for a relaxed one.",
+    "bestForIntro": "The sleeveless tank suits <strong>most game situations and most Florida gyms</strong>. If your league requires sleeves, or your program wants an over-jersey layer, look at the shirt options instead.",
+    "notFitIntro": "Some leagues and school districts require a sleeved uniform. If yours does, these are cut for the same play with sleeves attached."
+  },
+  "mesh-basketball-tank-top": {
+    "noun": "Tank Top",
+    "plural": false,
+    "eyebrow": "Mesh Tank Top",
+    "h2": {
+      "pre": "What Is a",
+      "em": "Mesh",
+      "post": "Basketball Tank Top?"
+    },
+    "sub": "The Coolest Thing You Can Put a Player In",
+    "prose": [
+      "A mesh tank combines the two coolest choices available: <strong>an open-weave fabric and a cut that leaves the shoulders bare</strong>. If a player is overheating in a Florida gym and you can only change one thing, this is the change.",
+      "The knit is an engineered open weave — thousands of deliberate gaps that let body heat leave rather than collect. <strong>A bonded front panel keeps the tank opaque across the chest and number area</strong> while the side and back panels stay fully open, so it breathes where it matters and covers where it must.",
+      "Printing on mesh is its own problem, because the dye has to bridge the weave rather than sit on a flat face. <strong>We increase the ink lay-down for mesh runs</strong> so numbers stay legible from the far bleachers instead of looking dotted at a distance."
+    ],
+    "bestFor": [
+      "Hottest Gyms",
+      "Summer League",
+      "Outdoor Courts",
+      "High-Sweat Players",
+      "Preseason Conditioning",
+      "Tournament Weekends"
+    ],
+    "benefits": [
+      {
+        "strong": "Two cooling choices at once",
+        "rest": "— an open weave and an open shoulder, which is as cool as a uniform top gets."
+      },
+      {
+        "strong": "Bonded front panel",
+        "rest": "— keeps the chest and number area opaque while the sides and back stay fully open."
+      },
+      {
+        "strong": "Heavier ink lay-down",
+        "rest": "— numbers read cleanly from the bleachers rather than looking dotted across the weave."
+      },
+      {
+        "strong": "Dries fastest of anything we make",
+        "rest": "— useful on a tournament weekend with three games and one kit."
+      }
+    ],
+    "visualLabel": "Custom Mesh Tank",
+    "cardName": "Mesh Tank",
+    "cardSub": "Open weave · Maximum airflow · Bonded front",
+    "production": {
+      "from": "7",
+      "to": "14"
+    },
+    "customizationIntro": "Mesh needs artwork prepared for the weave rather than reused from a flat-knit file. <strong>Numbers and names are placed on the bonded front and back panels</strong> where they read solidly, while colors and side panels carry across the open sections.",
+    "fabricIntro": "This is <strong>athletic mesh — an open knit whose entire purpose is airflow</strong>, with a bonded panel across the front for opacity and number legibility. It is the lightest and fastest-drying fabric we offer, and the default recommendation for outdoor and un-air-conditioned play.",
+    "sizingIntro": "Mesh has more give than a flat knit, so <strong>most players take their usual chest size</strong> rather than sizing up. If the tank will be worn over a compression top, allow one size of room.",
+    "bestForIntro": "Mesh tanks are for <strong>heat, plainly</strong> — outdoor courts, summer league, tournament weekends, and gyms without working air conditioning. For a formal match-day look, a flat-knit tank holds a crisper line.",
+    "notFitIntro": "Mesh trades a sharp, structured look for airflow. If your program wants the cleanest possible match-day appearance, choose from these."
+  },
+  "performance-basketball-tank-top": {
+    "noun": "Tank Top",
+    "plural": false,
+    "eyebrow": "Performance Tank Top",
+    "h2": {
+      "pre": "What Is a",
+      "em": "Performance",
+      "post": "Basketball Tank Top?"
+    },
+    "sub": "Competition Cut, Built Around Sweat Management",
+    "prose": [
+      "A performance tank is the competition version of the sleeveless cut: <strong>the same shoulder freedom, built from moisture-wicking fiber and finished to a higher standard</strong>. Where a standard tank is judged on how it looks, this one is judged on how it behaves in the fourth quarter.",
+      "Three things separate it. The fabric is engineered to move sweat off the skin rather than hold it, <strong>the side panels are cut from a lighter contrast knit</strong> so the hottest part of the torso vents, and every seam is flatlocked so nothing abrades over a long game.",
+      "This is what most competitive Florida programs order for game day when the budget allows it. <strong>The difference over a season is not dramatic on any single night</strong> — it is that players stop mentioning the uniform at all, which is exactly what a uniform should do."
+    ],
+    "bestFor": [
+      "Competitive Game Play",
+      "Varsity Programs",
+      "Travel & AAU Teams",
+      "High-Sweat Players",
+      "Tournament Play",
+      "Full-Color Designs"
+    ],
+    "benefits": [
+      {
+        "strong": "Wicking fiber, not just polyester",
+        "rest": "— engineered channels move sweat to the outer face where it can evaporate."
+      },
+      {
+        "strong": "Vented contrast side panels",
+        "rest": "— a lighter knit exactly where the torso runs hottest through a game."
+      },
+      {
+        "strong": "Flatlock seams throughout",
+        "rest": "— nothing stands proud to abrade over four quarters of contact."
+      },
+      {
+        "strong": "Holds its cut all season",
+        "rest": "— the armhole and hem are bound to keep their line rather than stretching out."
+      }
+    ],
+    "visualLabel": "Custom Performance Tank",
+    "cardName": "Performance Tank",
+    "cardSub": "Wicking fiber · Vented panels · Competition cut",
+    "production": {
+      "from": "7",
+      "to": "14"
+    },
+    "customizationIntro": "The contrast side panels are part of the design, not just the build — <strong>they are a second color area most tanks do not give you</strong>. Front, back, and both side panels print full-color, alongside names, numbers, and sponsor marks.",
+    "fabricIntro": "Built from our <strong>moisture-wicking performance polyester</strong>, with lighter contrast knit through the side panels for venting. It is the fabric we recommend for competitive game play in Florida, where the fourth quarter is the part that matters.",
+    "sizingIntro": "Performance tanks are cut <strong>closer than a standard tank</strong>, because wicking works best in light contact with the skin. A player who prefers a looser uniform should size up; otherwise take the normal chest size.",
+    "bestForIntro": "This is the game-day tank for <strong>competitive programs — varsity, travel, AAU, and tournament rosters</strong>. For practice or bench wear, a standard tank or training shirt costs less and does the job.",
+    "notFitIntro": "This is more tank than a practice session needs. For daily training and drills, these cost less and wear just as well."
+  },
+  "basketball-practice-jerseys": {
+    "noun": "Jerseys",
+    "plural": true,
+    "eyebrow": "Practice Jerseys",
+    "h2": {
+      "pre": "What Are",
+      "em": "Practice",
+      "post": "Basketball Jerseys?"
+    },
+    "sub": "The Jerseys That Do Four-Fifths of the Season's Work",
+    "prose": [
+      "A team plays maybe twenty-five games and practices a hundred and fifty times. <strong>Practice jerseys are what your program actually wears</strong>, and they are usually the afterthought in a uniform order — bought cheap, worn out by January, replaced twice.",
+      "These are built the other way round. The knit is chosen for how it survives repeated hot washes rather than how it photographs, <strong>the shoulder and side seams are double-needle stitched</strong> because that is where practice tops split, and the neckline is bound so it does not stretch into a loop by mid-season.",
+      "Most programs order them in two contrasting colors so a coach can split squads instantly. <strong>Numbers can repeat across colors</strong> — practice jerseys answer to nobody's roster rules — which means one order covers scrimmage, drills, and any five-on-five you need to set up in thirty seconds."
+    ],
+    "bestFor": [
+      "Daily Practice",
+      "Scrimmage Squads",
+      "Two-Color Team Splits",
+      "Camps & Clinics",
+      "Two Per Player",
+      "Youth Programs"
+    ],
+    "benefits": [
+      {
+        "strong": "Built for the wash, not the camera",
+        "rest": "— a knit chosen for how it looks after fifty hot cycles rather than on day one."
+      },
+      {
+        "strong": "Double-needle shoulder and side seams",
+        "rest": "— reinforced exactly where practice tops split first."
+      },
+      {
+        "strong": "Order in two contrasting colors",
+        "rest": "— split the squad for five-on-five in seconds without pinnies."
+      },
+      {
+        "strong": "Numbers may repeat",
+        "rest": "— practice gear answers to no league roster rule, so one order covers every squad."
+      }
+    ],
+    "visualLabel": "Custom Practice Jerseys",
+    "cardName": "Practice Jerseys",
+    "cardSub": "Wash-durable · Two-color sets · Team pricing",
+    "production": {
+      "from": "7",
+      "to": "12"
+    },
+    "customizationIntro": "Practice jerseys keep it simple on purpose — <strong>a base color, one accent, a number, and your team mark</strong>. Full artwork is available, but the simple layout is what keeps these cheap enough to buy two per player and reorder mid-season.",
+    "fabricIntro": "These use a <strong>hard-wearing polyester chosen for wash cycles rather than photographs</strong>. It is the same fiber family as the game jerseys, in a weight that dries fast between back-to-back sessions in a humid Florida gym.",
+    "sizingIntro": "Practice jerseys run <strong>slightly looser than game jerseys at the same size</strong>, which most players prefer for drills. Measure the chest at the fullest point. For a youth program buying one order to last a season of growth, size up.",
+    "bestForIntro": "Practice jerseys make sense for <strong>every program, because every program practices more than it plays</strong>. What they will not do is match your game set panel for panel — order game jerseys for that.",
+    "notFitIntro": "These are not built to match a game uniform or pass a league check. For match day, start with one of these."
+  },
+  "basketball-training-jerseys": {
+    "noun": "Jerseys",
+    "plural": true,
+    "eyebrow": "Training Jerseys",
+    "h2": {
+      "pre": "What Are",
+      "em": "Training",
+      "post": "Basketball Jerseys?"
+    },
+    "sub": "Off-Court Tops for Conditioning, Weights and Preseason",
+    "prose": [
+      "Training jerseys cover the work that is not basketball: <strong>the weight room, sprint sessions, conditioning blocks, and preseason</strong>. They are cut with more room through the chest and shoulder than a practice jersey, because a clean-and-press has a different range than a jump shot.",
+      "The build reflects a different set of stresses. <strong>The shoulder seam is reinforced for overhead work</strong>, the knit is dense enough to resist snagging on racks and benches, and the hem runs longer so it stays down through floor work and mobility sessions.",
+      "Programs usually keep the artwork minimal — team mark, maybe a number. <strong>The value is that the weight room looks like part of the program</strong> rather than a room full of whatever shirts players own, which is a culture point as much as a kit one."
+    ],
+    "bestFor": [
+      "Weight Room",
+      "Conditioning Blocks",
+      "Preseason",
+      "Off-Season Programs",
+      "Team Camps",
+      "Everyday Team Wear"
+    ],
+    "benefits": [
+      {
+        "strong": "Reinforced shoulder seam",
+        "rest": "— built for overhead lifting range, which a basketball cut is not."
+      },
+      {
+        "strong": "Snag-resistant dense knit",
+        "rest": "— survives racks, benches and turf far better than an open practice mesh."
+      },
+      {
+        "strong": "Longer hem",
+        "rest": "— stays down through floor work and mobility sessions instead of riding up."
+      },
+      {
+        "strong": "Makes the weight room look like the program",
+        "rest": "— a culture point, not just a kit one."
+      }
+    ],
+    "visualLabel": "Custom Training Jerseys",
+    "cardName": "Training Jerseys",
+    "cardSub": "Durable knit · Extra range · Team branding",
+    "production": {
+      "from": "7",
+      "to": "12"
+    },
+    "customizationIntro": "Training tops are usually kept simple — <strong>a team mark on the chest and an optional number</strong>. Full-color artwork is available, but most programs spend the design budget on the game set and keep training kit clean and consistent.",
+    "fabricIntro": "These use a <strong>denser performance knit than our practice or game jerseys</strong>, chosen for the weight room specifically. It resists snagging on equipment and holds its shape through repeated overhead work, at the cost of a little airflow.",
+    "sizingIntro": "Training jerseys are cut with <strong>more room through the chest and shoulder</strong> than a basketball top. Most players take their normal size; if it will be worn over a compression layer, allow one size of room.",
+    "bestForIntro": "Training jerseys suit <strong>programs that want their identity worn everywhere</strong> — weight room, conditioning, preseason and travel days. For the court, practice or game jerseys are cut for the sport.",
+    "notFitIntro": "These are cut for the weight room, not for basketball range. For court sessions, start with these."
+  },
+  "youth-practice-basketball-jerseys": {
+    "noun": "Jerseys",
+    "plural": true,
+    "eyebrow": "Youth Practice Jerseys",
+    "h2": {
+      "pre": "What Are",
+      "em": "Youth Practice",
+      "post": "Basketball Jerseys?"
+    },
+    "sub": "Sized for Growing Players, Built for Constant Washing",
+    "prose": [
+      "Youth practice jerseys solve a problem adult sizing does not have: <strong>the player will be a different size in March than in November</strong>. The cut allows for that — a little more length in the body, a slightly deeper armhole, and a neckline that will not become uncomfortable as shoulders broaden mid-season.",
+      "They also get washed more than any other garment a program owns, often by a parent with no interest in care labels. <strong>Everything here is built for a hot cycle and a tumble dryer</strong>: sublimated color that cannot crack, bound edges that hold their shape, and double-needle seams.",
+      "For youth programs the practical winner is ordering <strong>two contrasting colors so a coach can split a squad instantly</strong>, without carrying pinnies that never come back. One order, one wash pile, five-on-five in thirty seconds."
+    ],
+    "bestFor": [
+      "Youth Leagues",
+      "Middle School Programs",
+      "Rec & Community Teams",
+      "Growing Players",
+      "Squad Splits",
+      "Parent-Friendly Care"
+    ],
+    "benefits": [
+      {
+        "strong": "Cut with growth in mind",
+        "rest": "— extra body length and a deeper armhole so a season of growth does not end the jersey."
+      },
+      {
+        "strong": "Survives a parent's laundry",
+        "rest": "— hot wash, tumble dry, no care label required: sublimated color cannot crack or peel off."
+      },
+      {
+        "strong": "Two colors split a squad",
+        "rest": "— five-on-five in thirty seconds without pinnies nobody ever returns."
+      },
+      {
+        "strong": "Priced for a rec budget",
+        "rest": "— a youth program can kit a full roster twice for what one game set costs."
+      }
+    ],
+    "visualLabel": "Custom Youth Practice Jerseys",
+    "cardName": "Youth Practice Jerseys",
+    "cardSub": "Growth-friendly cut · Wash-proof · Team pricing",
+    "production": {
+      "from": "7",
+      "to": "12"
+    },
+    "customizationIntro": "Youth practice kit stays simple — <strong>base color, accent, and a large clear number</strong>. Numbers are printed a size up from adult practice jerseys on purpose: a coach calling across a full gym needs to read them from the far baseline.",
+    "fabricIntro": "Built from a <strong>hard-wearing polyester chosen for repeated hot washes</strong>. It is softer against the skin than our adult training knit, which matters for younger players, and it dries fast enough for back-to-back weeknight sessions.",
+    "sizingIntro": "Youth sizing runs by <strong>height and chest together</strong> — check both columns, and where they disagree, follow the chest. For a season-long order, size up: a jersey a little large in November fits properly by February.",
+    "bestForIntro": "These fit <strong>youth leagues, middle school programs, and rec teams</strong> where players grow mid-season and kit is washed constantly. For a high school varsity game set, order adult game jerseys.",
+    "notFitIntro": "These are practice kit for growing players. For youth game day, a proper game jersey is what you want."
+  },
+  "men-basketball-uniforms": {
+    "noun": "Uniforms",
+    "plural": true,
+    "eyebrow": "Men's Uniforms",
+    "h2": {
+      "pre": "What Are",
+      "em": "Men's",
+      "post": "Basketball Uniforms?"
+    },
+    "sub": "Jersey and Shorts, Designed as One Piece",
+    "prose": [
+      "A uniform is not a jersey and a short bought separately — it is <strong>both garments designed together from one color file</strong>, so the side panel on the short continues the line of the jersey and the two never look almost-matched under gym lighting.",
+      "The men's cut runs longer in the body and straighter through the hip than our women's pattern, <strong>with a jersey hem that stays tucked through a full game</strong> and shorts cut with the inseam most adult programs specify. Both pieces are built on the same sublimation polyester so they wear and fade identically over a season.",
+      "Ordering as a set also fixes the reorder problem. <strong>Your colors are matched and stored once</strong>, so a replacement jersey in year two is the same color as the shorts bought in year one — the single most common complaint about buying uniform pieces separately."
+    ],
+    "bestFor": [
+      "Men's Varsity Programs",
+      "College & Club Teams",
+      "Adult Leagues",
+      "Matched Jersey + Short Sets",
+      "Full-Color Designs",
+      "Bulk Team Orders"
+    ],
+    "benefits": [
+      {
+        "strong": "One color file for both pieces",
+        "rest": "— the jersey and shorts are matched at the design stage, not hopefully at delivery."
+      },
+      {
+        "strong": "Design continues across the set",
+        "rest": "— side panels line up between top and short instead of stopping at the waist."
+      },
+      {
+        "strong": "Reorders match years later",
+        "rest": "— your colors are stored once, so a year-two jersey matches year-one shorts."
+      },
+      {
+        "strong": "Both pieces age together",
+        "rest": "— same fabric, same dye, so the set never ends up half-faded."
+      }
+    ],
+    "visualLabel": "Custom Men's Uniform Set",
+    "cardName": "Men's Uniform Set",
+    "cardSub": "Jersey + shorts · One design · Full-color",
+    "production": {
+      "from": "10",
+      "to": "16"
+    },
+    "customizationIntro": "A uniform set is designed as one artwork across two garments — <strong>side panels, waistband and neckline trim, and number styling all carry between the jersey and the shorts</strong>. Team name, player names, numbers, and sponsor marks are placed once and applied consistently across the set.",
+    "fabricIntro": "Both pieces are built from the <strong>same sublimation polyester</strong>, which is the point: identical fabric means identical drape, identical color, and identical fading over a season. Alternative fabrics are available, but we recommend matching them across the set.",
+    "sizingIntro": "Uniform sets are sized <strong>per garment, not as one size</strong> — a player may take a Large jersey and Medium shorts, and the order form allows that. Measure chest for the top and natural waist for the bottom.",
+    "bestForIntro": "A full set is right for <strong>programs buying game-day kit</strong> — varsity, college, club, and adult league. If you only need to replace one half, order the jersey or shorts on their own.",
+    "notFitIntro": "A full set is more than you need if you are replacing one piece or kitting out practice. These cost less for that."
+  },
+  "women-basketball-uniforms": {
+    "noun": "Uniforms",
+    "plural": true,
+    "eyebrow": "Women's Uniforms",
+    "h2": {
+      "pre": "What Are",
+      "em": "Women's",
+      "post": "Basketball Uniforms?"
+    },
+    "sub": "A Women's Pattern, Not a Smaller Men's One",
+    "prose": [
+      "The important thing about a women's uniform is what it is not: <strong>a men's uniform in smaller sizes</strong>. That is how most kit is sold, and it is why so many players spend a game pulling at an armhole that gapes or a hem that sits wrong.",
+      "This is cut from a women's pattern. <strong>The armhole is set higher and closer so it does not gape through a shooting motion</strong>, the body is shaped rather than straight-sided, the shoulder is narrower, and the shorts are cut for a different hip-to-waist ratio with an inseam most women's programs actually specify.",
+      "Everything else matches our men's set exactly — the same sublimation polyester, the same color matching, the same construction. <strong>A program running both squads gets two uniforms that read as one identity</strong> while each fits the players wearing it."
+    ],
+    "bestFor": [
+      "Women's Varsity Programs",
+      "College & Club Teams",
+      "Adult Leagues",
+      "Matched Jersey + Short Sets",
+      "Programs Running Both Squads",
+      "Full-Color Designs"
+    ],
+    "benefits": [
+      {
+        "strong": "A women's pattern, not a resized men's one",
+        "rest": "— shaped through the body, narrower at the shoulder, cut for a different frame."
+      },
+      {
+        "strong": "Higher, closer armhole",
+        "rest": "— does not gape through a shooting motion, which is the single most common complaint."
+      },
+      {
+        "strong": "Shorts cut for a different ratio",
+        "rest": "— a waist-to-hip proportion and inseam women's programs actually ask for."
+      },
+      {
+        "strong": "Matches your men's set exactly",
+        "rest": "— same fabric and same colors, so both squads read as one program."
+      }
+    ],
+    "visualLabel": "Custom Women's Uniform Set",
+    "cardName": "Women's Uniform Set",
+    "cardSub": "Women's pattern · Jersey + shorts · Full-color",
+    "production": {
+      "from": "10",
+      "to": "16"
+    },
+    "customizationIntro": "Designed as one artwork across both garments, with <strong>placement adjusted for the women's pattern</strong> — a chest logo sits differently on a shaped body than on a straight-sided one, and numbers are positioned so the armhole never crops them.",
+    "fabricIntro": "The same <strong>sublimation polyester as our men's sets</strong>, so a program running both squads gets identical color and identical wear. The cut differs; the material deliberately does not.",
+    "sizingIntro": "Use the <strong>women's size columns</strong>, not the men's — the two are not interchangeable, and a men's Medium is not a women's Medium. Measure chest for the top and natural waist for the shorts, and size each garment independently.",
+    "bestForIntro": "A women's set is right for <strong>any women's program buying game kit</strong>. If your squad has historically worn resized men's uniforms, this is the change players notice first.",
+    "notFitIntro": "A full set is more than you need for practice or for replacing one piece. These cover that."
+  },
+  "youth-basketball-uniforms": {
+    "noun": "Uniforms",
+    "plural": true,
+    "eyebrow": "Youth Uniforms",
+    "h2": {
+      "pre": "What Are",
+      "em": "Youth",
+      "post": "Basketball Uniforms?"
+    },
+    "sub": "Game Kit That Still Fits at the End of the Season",
+    "prose": [
+      "Youth uniforms have one requirement adult kit does not: <strong>they have to fit a player who is actively growing</strong>. A set bought in October for a ten-year-old is worn by a slightly different child in March, and a uniform that only fits for half a season is a uniform bought twice.",
+      "The pattern allows for it — <strong>extra length in the jersey body, a deeper armhole, and shorts with a longer drawcord range</strong> so the waist can be taken in early and let out later. None of it looks oversized on day one; it simply stops the set being outgrown by February.",
+      "For a league buying twelve teams' worth of kit, the other thing that matters is reordering. <strong>Colors are matched and stored per team</strong>, so a replacement for a lost jersey in year two arrives the same shade as the rest of the set."
+    ],
+    "bestFor": [
+      "Youth Leagues",
+      "Middle School Programs",
+      "Rec & Community Teams",
+      "Growing Players",
+      "League-Wide Orders",
+      "Parent-Friendly Care"
+    ],
+    "benefits": [
+      {
+        "strong": "Cut for a growing player",
+        "rest": "— extra body length and a deeper armhole so the set still fits in March."
+      },
+      {
+        "strong": "Longer drawcord range",
+        "rest": "— shorts can be taken in at the start of the season and let out by the end."
+      },
+      {
+        "strong": "Survives a parent's laundry",
+        "rest": "— hot wash and tumble dry with no care-label ritual; the color is in the fiber."
+      },
+      {
+        "strong": "League-wide color matching",
+        "rest": "— every team's shade is stored, so year-two replacements match year-one kit."
+      }
+    ],
+    "visualLabel": "Custom Youth Uniform Set",
+    "cardName": "Youth Uniform Set",
+    "cardSub": "Growth-friendly · Jersey + shorts · Full-color",
+    "production": {
+      "from": "10",
+      "to": "16"
+    },
+    "customizationIntro": "Youth sets print full-color across both garments, with <strong>numbers set larger than adult kit as standard</strong> — parents and officials read them from further away in a rec gym, and the extra size costs nothing.",
+    "fabricIntro": "Built from the <strong>same sublimation polyester as our adult sets</strong> in a slightly softer finish. Younger players notice fabric against the skin more than adults do, and a uniform that is uncomfortable gets complained about all season.",
+    "sizingIntro": "Youth sizing runs on <strong>height and chest together</strong>; where the two disagree, follow the chest for the jersey and the waist for the shorts. For a season-long order, size up — a set slightly large in November fits properly by February.",
+    "bestForIntro": "Youth sets are right for <strong>leagues, middle school programs, and rec teams buying game kit</strong>. For practice, youth practice jerseys cost far less and take the same abuse.",
+    "notFitIntro": "A game set is more than a practice night needs. For training and scrimmages, these are the sensible buy."
+  },
+  "reversible-basketball-uniforms": {
+    "noun": "Uniforms",
+    "plural": true,
+    "eyebrow": "Reversible Uniforms",
+    "h2": {
+      "pre": "What Are",
+      "em": "Reversible",
+      "post": "Basketball Uniforms?"
+    },
+    "sub": "Home and Away in One Set, Turned Inside Out",
+    "prose": [
+      "A reversible uniform is <strong>two complete kits bonded into one garment</strong>. Turn the jersey inside out and the light home set becomes the dark away set, numbers and all; the shorts do the same. For a program that would otherwise buy and carry two sets, it halves both the cost and the bag.",
+      "It is a genuinely harder garment to make well. <strong>Both faces have to be finished, both sets of numbers have to align, and the bonded layers must not curl at the armhole or hem</strong> after a season of being turned. Ours are built with a bonded double layer and bound edges specifically so they do not.",
+      "The trade-off is honest: a reversible is <strong>slightly heavier and warmer than a single-layer jersey</strong>, because it is two fabrics. In an air-conditioned gym that is nothing. In an outdoor August tournament in Florida, a single-layer set will be more comfortable."
+    ],
+    "bestFor": [
+      "Travel & AAU Teams",
+      "Tournament Weekends",
+      "Programs on One Budget",
+      "Home & Away in One Bag",
+      "Rec Leagues",
+      "Camps & Showcases"
+    ],
+    "benefits": [
+      {
+        "strong": "Two kits in one garment",
+        "rest": "— home and away without buying, packing, or laundering two full sets."
+      },
+      {
+        "strong": "Numbers align on both faces",
+        "rest": "— set in register so neither side looks like the reverse of the other."
+      },
+      {
+        "strong": "Bound edges that do not curl",
+        "rest": "— the armhole and hem stay flat after a season of being turned inside out."
+      },
+      {
+        "strong": "One bag for a tournament weekend",
+        "rest": "— three games, two color requirements, one set per player."
+      }
+    ],
+    "visualLabel": "Custom Reversible Uniform Set",
+    "cardName": "Reversible Uniform Set",
+    "cardSub": "Two-sided · Home & away · Full-color",
+    "production": {
+      "from": "12",
+      "to": "18"
+    },
+    "customizationIntro": "Two faces means <strong>two complete designs to specify</strong> — usually a light home and a dark away, though nothing stops you doing two entirely different looks. Numbers, names, and logos are set on both sides in register so neither face reads as the back of the other.",
+    "fabricIntro": "Reversibles use a <strong>bonded double-layer construction</strong>: two sublimated faces joined so neither shows through the other. It is heavier and warmer than a single-layer jersey by design — that is the cost of carrying two kits in one garment.",
+    "sizingIntro": "A reversible sits slightly fuller than a single-layer jersey because it is two fabrics. <strong>Most players take their usual size</strong>; a player who likes a very close fit should consider sizing down, and check the armhole column if your league specifies a depth.",
+    "bestForIntro": "Reversibles are made for <strong>travel and AAU rosters, tournament weekends, and programs working from one budget</strong>. In an un-air-conditioned Florida gym in August, a single-layer set will be cooler.",
+    "notFitIntro": "Two bonded layers run warmer than one. If your gyms are hot or your season is a summer one, these will be more comfortable."
+  },
+  "sublimated-basketball-jerseys": {
+    "noun": "Jerseys",
+    "plural": true,
+    "eyebrow": "Sublimated Jerseys",
+    "h2": {
+      "pre": "What Are",
+      "em": "Sublimated",
+      "post": "Basketball Jerseys?"
+    },
+    "sub": "Full-Dye Jerseys Where the Design Is the Fabric",
+    "prose": [
+      "Dye sublimation turns solid dye directly into gas under heat and pressure, and <strong>that gas bonds with the polyester at a molecular level</strong>. The design does not sit on the jersey; it becomes part of the fiber. Run a fingernail across a sublimated number and you feel fabric, not a raised patch.",
+      "That single fact decides everything else. <strong>There is nothing on the surface to crack, peel, or wash off</strong>, no vinyl edge to lift after twenty games, and no weight added where the graphic sits. It also means color can run right to the seam — edge-to-edge, no white borders, no template limits.",
+      "The catch is that it only works on polyester, and it only works on light grounds — <strong>you cannot sublimate a light design onto a black jersey</strong>. Everything else about it is why this is the standard for competitive basketball kit, and why every other jersey we make is built from the same process."
+    ],
+    "bestFor": [
+      "Game-Day Uniforms",
+      "School Programs",
+      "Travel & AAU Teams",
+      "Full-Color Logos",
+      "Edge-to-Edge Designs",
+      "Bulk Team Orders"
+    ],
+    "benefits": [
+      {
+        "strong": "The design is in the fiber",
+        "rest": "— nothing on the surface to crack, peel, or wash away, however many seasons it runs."
+      },
+      {
+        "strong": "Edge-to-edge color",
+        "rest": "— artwork reaches the seam with no white border and no template restriction."
+      },
+      {
+        "strong": "Adds no weight or stiffness",
+        "rest": "— unlike vinyl or a screen print, a sublimated number changes nothing about how the jersey moves."
+      },
+      {
+        "strong": "Every jersey in the run matches",
+        "rest": "— one color file, one press setting, so the twelfth jersey matches the first."
+      }
+    ],
+    "visualLabel": "Custom Sublimated Jersey",
+    "cardName": "Sublimated Jersey",
+    "cardSub": "Full-color · Any design · Any color",
+    "production": {
+      "from": "7",
+      "to": "14"
+    },
+    "customizationIntro": "Sublimation is the process with the fewest limits we offer — <strong>colors, gradients, patterns, photographic fills, names, numbers and sponsor marks anywhere on the garment</strong>. There are no pre-set templates and no per-color charges, because the whole design is printed in one pass.",
+    "fabricIntro": "Sublimation only bonds to polyester, so every jersey here is <strong>100% sublimation polyester</strong>. That is a requirement of the process rather than a cost decision, and it is why these jerseys behave consistently in a hot Florida gym.",
+    "sizingIntro": "Measure the chest at the fullest point with arms relaxed. <strong>Sublimated jerseys do not shrink</strong> — polyester holds its dimensions through hot washes — so order the size you want to wear rather than allowing for shrinkage.",
+    "bestForIntro": "Sublimated jerseys suit <strong>almost every competitive situation</strong>: game day, school programs, travel and AAU. Where they do not fit is a team that needs jerseys decorated locally later, or one that wants a very dark ground with light artwork.",
+    "notFitIntro": "Sublimation needs a polyester ground and works from light to dark. If you plan to decorate locally later, or want a plain solid jersey, these are the better route."
+  },
+  "reversible-basketball-jerseys": {
+    "noun": "Jerseys",
+    "plural": true,
+    "eyebrow": "Reversible Jerseys",
+    "h2": {
+      "pre": "What Are",
+      "em": "Reversible",
+      "post": "Basketball Jerseys?"
+    },
+    "sub": "One Jersey, Two Complete Kits",
+    "prose": [
+      "A reversible jersey is <strong>two finished jerseys bonded back to back</strong>. Turn it inside out and the light home top becomes the dark away top — same player, same number, opposite color. For any program that needs both and can only fund one, that is the whole argument.",
+      "It is the hardest jersey to build properly. Both faces must be fully finished, <strong>the numbers on each side have to sit in register so neither reads as the reverse of the other</strong>, and the bonded layers have to stay flat at the armhole and hem after a season of being turned. Bound edges are what keep them from curling.",
+      "Be clear about the trade: two fabrics are warmer than one. <strong>In an air-conditioned gym it is unnoticeable; in an outdoor August tournament it is not.</strong> Reversibles are a travel and tournament answer more than a hot-weather one."
+    ],
+    "bestFor": [
+      "Travel & AAU Teams",
+      "Tournament Weekends",
+      "Home & Away on One Budget",
+      "Rec Leagues",
+      "Scrimmage Squads",
+      "Camps & Showcases"
+    ],
+    "benefits": [
+      {
+        "strong": "Two jerseys in one garment",
+        "rest": "— home and away without funding, packing, or washing two separate sets."
+      },
+      {
+        "strong": "Numbers set in register",
+        "rest": "— both faces are properly finished, so neither looks like the back of the other."
+      },
+      {
+        "strong": "Bound edges stay flat",
+        "rest": "— the armhole and hem do not curl after a season of being turned inside out."
+      },
+      {
+        "strong": "Splits a squad instantly",
+        "rest": "— five-on-five in scrimmage without a single pinnie leaving the bag."
+      }
+    ],
+    "visualLabel": "Custom Reversible Jersey",
+    "cardName": "Reversible Jersey",
+    "cardSub": "Two-sided · Home & away · Full-color",
+    "production": {
+      "from": "10",
+      "to": "16"
+    },
+    "customizationIntro": "You are designing <strong>two jerseys, not one</strong> — usually a light home face and a dark away face, though two completely different designs are equally possible. Names, numbers and logos are placed on both faces and aligned so neither side gives away the other.",
+    "fabricIntro": "Reversibles use a <strong>bonded double-layer construction</strong> — two sublimated faces joined so neither shows through the other. This is heavier and warmer than a single-layer jersey by design; that weight is the price of carrying two kits in one.",
+    "sizingIntro": "A reversible sits a little fuller than a single-layer jersey. <strong>Most players take their usual chest size</strong>; a player who wants a very close fit should size down. Check the armhole column if your league specifies a maximum depth.",
+    "bestForIntro": "Reversibles are built for <strong>travel rosters, tournament weekends, and programs working from one budget</strong>. In a hot, un-air-conditioned Florida gym, a single-layer jersey will be more comfortable.",
+    "notFitIntro": "Two bonded layers run warmer than one. If your gyms are hot or your season is a summer one, these are the cooler choice."
+  },
+  "mesh-basketball-jerseys": {
+    "noun": "Jerseys",
+    "plural": true,
+    "eyebrow": "Mesh Jerseys",
+    "h2": {
+      "pre": "What Are",
+      "em": "Mesh",
+      "post": "Basketball Jerseys?"
+    },
+    "sub": "Open-Weave Jerseys Built for Heat",
+    "prose": [
+      "Mesh is <strong>an engineered open knit — thousands of deliberate gaps that let body heat leave through the fabric</strong> instead of collecting against the skin. It is the single most effective fabric change you can make for a team playing in Florida heat, and the difference is obvious inside ten minutes of play.",
+      "Two things make a mesh jersey work rather than just be thin. <strong>A bonded front panel keeps the chest and number area opaque</strong> while the sides and back stay fully open, and the knit is stabilized so the armhole and hem hold their line rather than collapsing after a few washes.",
+      "Printing on an open weave is its own craft. The dye has to bridge the gaps instead of landing on a flat face, so <strong>we increase the ink lay-down for mesh runs</strong> — which is why a properly sublimated mesh jersey reads solid from the bleachers where a stock mesh top looks dotted."
+    ],
+    "bestFor": [
+      "Hot & Humid Gyms",
+      "Summer League",
+      "Outdoor Courts",
+      "High-Sweat Players",
+      "Tournament Weekends",
+      "Preseason Conditioning"
+    ],
+    "benefits": [
+      {
+        "strong": "Open-weave airflow",
+        "rest": "— heat leaves through the fabric rather than sitting against the skin in a warm gym."
+      },
+      {
+        "strong": "Bonded front panel",
+        "rest": "— chest and number area stay opaque while the sides and back remain fully open."
+      },
+      {
+        "strong": "Heavier ink lay-down",
+        "rest": "— numbers read solidly from the bleachers instead of looking dotted across the weave."
+      },
+      {
+        "strong": "Fastest-drying jersey we make",
+        "rest": "— which matters on a three-game tournament Saturday with one kit per player."
+      }
+    ],
+    "visualLabel": "Custom Mesh Jersey",
+    "cardName": "Mesh Jersey",
+    "cardSub": "Open weave · Maximum airflow · Bonded front",
+    "production": {
+      "from": "7",
+      "to": "14"
+    },
+    "customizationIntro": "Artwork for mesh is prepared for the weave rather than reused from a flat-knit file. <strong>Names and numbers sit on the bonded panels where they read cleanly</strong>, while team colors and side designs carry across the open sections.",
+    "fabricIntro": "This is <strong>athletic mesh — an open knit whose entire purpose is airflow</strong> — with a bonded front panel for opacity and number legibility. It is the lightest and fastest-drying jersey fabric we offer, and our default recommendation for outdoor and un-air-conditioned play.",
+    "sizingIntro": "Mesh has more give than a flat knit, so <strong>most players take their usual chest size</strong> rather than sizing up. If the jersey will be worn over a compression top, allow one size of room.",
+    "bestForIntro": "Mesh jerseys are for <strong>heat</strong> — summer league, outdoor courts, tournament weekends, and gyms where the air conditioning is decorative. For the crispest possible match-day look, a flat-knit jersey holds a sharper line.",
+    "notFitIntro": "Mesh trades a structured look for airflow. If your program wants the sharpest match-day appearance, choose from these."
+  },
+  "lightweight-basketball-jerseys": {
+    "noun": "Jerseys",
+    "plural": true,
+    "eyebrow": "Lightweight Jerseys",
+    "h2": {
+      "pre": "What Are",
+      "em": "Lightweight",
+      "post": "Basketball Jerseys?"
+    },
+    "sub": "The Lightest Flat-Knit Jersey We Build",
+    "prose": [
+      "A lightweight jersey is <strong>our standard sublimation polyester spun to a thinner gauge</strong>. It is not mesh — the face stays flat and solid, so artwork reproduces exactly as sharply as on a full-weight jersey — but there is meaningfully less fabric carrying heat and holding sweat.",
+      "This is the middle ground most programs actually want. <strong>Mesh is cooler but looks casual; full weight looks sharpest but runs hot.</strong> A lightweight flat knit keeps the clean match-day appearance and takes a real bite out of the heat, which in a Florida gym is usually the right compromise.",
+      "Thin fabric punishes bad construction, so the seams carry more of the load. <strong>Flatlock shoulder seams sit flush rather than standing proud</strong>, and the armhole and hem are bound so a lighter knit cannot stretch out of shape across a season."
+    ],
+    "bestFor": [
+      "Warm Gyms",
+      "Fast-Tempo Teams",
+      "Summer Competition",
+      "Sharp Match-Day Look",
+      "Guards & Wings",
+      "Travel Rosters"
+    ],
+    "benefits": [
+      {
+        "strong": "Flat face, light weight",
+        "rest": "— the crisp look of a full-weight jersey with a real reduction in heat."
+      },
+      {
+        "strong": "Artwork stays sharp",
+        "rest": "— unlike mesh, a flat knit reproduces fine type and thin outlines exactly."
+      },
+      {
+        "strong": "Flatlock shoulder seams",
+        "rest": "— sit flush against the skin, which a light fabric cannot disguise."
+      },
+      {
+        "strong": "Bound armhole and hem",
+        "rest": "— a thinner knit keeps its shape all season instead of stretching out."
+      }
+    ],
+    "visualLabel": "Custom Lightweight Jersey",
+    "cardName": "Lightweight Jersey",
+    "cardSub": "Thin gauge · Flat knit · Full-color",
+    "production": {
+      "from": "7",
+      "to": "14"
+    },
+    "customizationIntro": "A thin, smooth face holds fine detail beautifully — <strong>small type, thin outlines and gradient work all reproduce cleanly</strong> where mesh would break them up. Note that a very light fabric shows a hint of the reverse face, so heavy solid blocks are worth reviewing at proof stage.",
+    "fabricIntro": "Built from a <strong>thinner gauge of our sublimation polyester</strong>. It keeps the flat face and sharp print of the full-weight jersey with noticeably less material, which is what puts it between a standard jersey and open mesh.",
+    "sizingIntro": "Lightweight jerseys are cut close to the standard fit. <strong>A player who prefers a roomier jersey should size up.</strong> Measure the chest at the fullest point with arms relaxed; polyester does not shrink, so order the size you want to wear.",
+    "bestForIntro": "This is the right jersey for <strong>warm gyms where a program still wants a sharp match-day look</strong>. For the hottest outdoor play, mesh is cooler; for heavy contact, a full-weight jersey lasts longer.",
+    "notFitIntro": "A lighter knit is not the toughest option for a contact-heavy program. If your kit takes a beating, these hold up longer."
+  },
+  "sleeveless-basketball-jerseys": {
+    "noun": "Jerseys",
+    "plural": true,
+    "eyebrow": "Sleeveless Jerseys",
+    "h2": {
+      "pre": "What Are",
+      "em": "Sleeveless",
+      "post": "Basketball Jerseys?"
+    },
+    "sub": "The Classic Cut, and Still the Coolest",
+    "prose": [
+      "The sleeveless jersey is the basketball silhouette — <strong>armholes cut open so the shoulder rotates freely through a full shooting motion</strong> with nothing to bind at the top of the stroke. It is what most leagues picture when they write a uniform rule, and what most players reach for by default.",
+      "The armhole is the whole design problem. Too shallow and it catches at the top of a shot; too deep and it gapes and shows the side. <strong>Ours is set at standard competitive depth with a bound edge</strong> that keeps its shape rather than curling out after a season of washes.",
+      "Leaving the shoulders and upper arms bare is also the most effective cooling any jersey cut can do, because <strong>that is where the body sheds heat fastest</strong>. In a Florida gym that is not a minor detail — it is the reason this cut has never gone away."
+    ],
+    "bestFor": [
+      "Game Uniforms",
+      "Full Shoulder Range",
+      "Hot Gyms",
+      "School Programs",
+      "Edge-to-Edge Designs",
+      "Bulk Team Orders"
+    ],
+    "benefits": [
+      {
+        "strong": "Competitive armhole depth",
+        "rest": "— open enough for a full shooting motion without gaping at the side."
+      },
+      {
+        "strong": "Bound armhole and neck",
+        "rest": "— hold their shape instead of curling after the first few washes."
+      },
+      {
+        "strong": "One uninterrupted print area",
+        "rest": "— no sleeve seam breaking a design across the chest or back."
+      },
+      {
+        "strong": "Best cooling of any cut",
+        "rest": "— the shoulders and upper arms are where the body sheds heat fastest, left bare."
+      }
+    ],
+    "visualLabel": "Custom Sleeveless Jersey",
+    "cardName": "Sleeveless Jersey",
+    "cardSub": "Classic cut · Edge-to-edge print · Full-color",
+    "production": {
+      "from": "7",
+      "to": "14"
+    },
+    "customizationIntro": "With no sleeve seams, <strong>the front and back are each a single unbroken canvas</strong>. Colors, logos, names, numbers and side panels are fully customizable, and a design can run right to the edge without a seam interrupting it.",
+    "fabricIntro": "These are built from our <strong>sublimation polyester in a mid weight</strong> — light enough for a hot gym, structured enough that the armhole and hem hold their line through a full season.",
+    "sizingIntro": "Sleeveless jerseys are sized on <strong>chest measurement</strong> at the fullest point, arms relaxed. Check the armhole column if your league specifies a maximum depth. Between sizes, size down for a competitive fit or up for a relaxed one.",
+    "bestForIntro": "The sleeveless cut suits <strong>most game situations and most Florida gyms</strong>. Where it does not work is a league or district that requires sleeves on a uniform.",
+    "notFitIntro": "Some leagues and school districts require sleeves. If yours does, these are cut for the same play with sleeves attached."
+  },
+  "short-sleeve-basketball-jerseys": {
+    "noun": "Jerseys",
+    "plural": true,
+    "eyebrow": "Short-Sleeve Jerseys",
+    "h2": {
+      "pre": "What Are",
+      "em": "Short-Sleeve",
+      "post": "Basketball Jerseys?"
+    },
+    "sub": "For Leagues and Districts That Require Sleeves",
+    "prose": [
+      "Plenty of Florida leagues, school districts and rec programs <strong>require a sleeved uniform</strong>, and a sleeveless jersey simply will not pass the check. This is the same competition jersey with a set-in short sleeve — built to satisfy that rule without giving up range.",
+      "The sleeve is where these go wrong elsewhere. Cut too tight and it grips the bicep at the top of a shot; cut too wide and it flaps. <strong>Ours is set with a raglan-influenced shoulder line and a relaxed bicep opening</strong>, so the arm moves through a full stroke without the sleeve pulling across the shoulder.",
+      "The sleeve also adds print area a sleeveless jersey does not have. <strong>Sponsor marks, memorial patches and season text move onto the sleeve</strong>, which frees the chest for the number and keeps the front from getting crowded."
+    ],
+    "bestFor": [
+      "Sleeve-Required Leagues",
+      "School Districts",
+      "Rec Programs",
+      "Sleeve Sponsor Marks",
+      "Cooler Venues",
+      "Bulk Team Orders"
+    ],
+    "benefits": [
+      {
+        "strong": "Passes a sleeve-required check",
+        "rest": "— the same competition jersey, built to satisfy a league or district uniform rule."
+      },
+      {
+        "strong": "Relaxed bicep opening",
+        "rest": "— the sleeve does not grip or pull across the shoulder at the top of a shot."
+      },
+      {
+        "strong": "Extra print area",
+        "rest": "— sponsor marks and patches move to the sleeve, leaving the chest clear for the number."
+      },
+      {
+        "strong": "Shoulder line cut for range",
+        "rest": "— a raglan-influenced seam keeps a set-in sleeve from restricting the stroke."
+      }
+    ],
+    "visualLabel": "Custom Short-Sleeve Jersey",
+    "cardName": "Short-Sleeve Jersey",
+    "cardSub": "Sleeved · League-compliant · Full-color",
+    "production": {
+      "from": "7",
+      "to": "14"
+    },
+    "customizationIntro": "Sleeves give you <strong>two extra print panels a sleeveless jersey does not have</strong>. Most programs use them for sponsor marks, patches or season text so the chest stays clean around the number. Everything prints full-color with no template limits.",
+    "fabricIntro": "The same <strong>sublimation polyester as our sleeveless jerseys</strong>, in a mid weight. More of the arm is covered, so this cut runs a little warmer — if your venues are hot, ask about the lightweight or mesh version of the same sleeve pattern.",
+    "sizingIntro": "Sized on <strong>chest measurement</strong>, with the sleeve cut proportionally. A player with heavier arms should check the bicep column rather than relying on chest alone, and size up if it is close.",
+    "bestForIntro": "Short-sleeve jerseys are for <strong>programs whose league or district requires sleeves</strong>, and for cooler venues where a sleeve is welcome. If your rules permit sleeveless, that cut is cooler and cheaper.",
+    "notFitIntro": "If your league does not require sleeves, a sleeveless cut is cooler and gives more shoulder range for the same money."
+  },
+  "long-sleeve-basketball-jerseys": {
+    "noun": "Jerseys",
+    "plural": true,
+    "eyebrow": "Long-Sleeve Jerseys",
+    "h2": {
+      "pre": "What Are",
+      "em": "Long-Sleeve",
+      "post": "Basketball Jerseys?"
+    },
+    "sub": "Full-Arm Coverage for Cold Venues and Big Designs",
+    "prose": [
+      "A long-sleeve basketball jersey covers the arm to the wrist. In Florida the reason is almost never the weather outside — <strong>it is the tournament venue held at 65 degrees</strong>, the early bus, and the two hours a roster spends sitting between games on a Saturday.",
+      "The sleeve has to be cut for basketball, not borrowed from another sport. <strong>Ours is narrow through the forearm so it does not bunch at the elbow</strong>, with a ribbed cuff that stays at the wrist instead of riding up on the first shooting motion. Players who wear a single compression sleeve often prefer this, in team colors, so the whole roster matches.",
+      "The sleeves also roughly double the printable area. <strong>A sponsor mark can run the length of the arm, a memorial patch gets real space</strong>, and the chest stays clear for the number — which is why programs with a lot to say on a jersey choose this cut."
+    ],
+    "bestFor": [
+      "Cold Venues",
+      "Winter Tournaments",
+      "Sleeve Sponsor Marks",
+      "Memorial Patches",
+      "Travel Days",
+      "Layering"
+    ],
+    "benefits": [
+      {
+        "strong": "Narrow forearm cut",
+        "rest": "— stays flat through a shooting motion instead of bunching at the elbow."
+      },
+      {
+        "strong": "Ribbed cuffs",
+        "rest": "— hold at the wrist rather than sliding to the elbow on the first shot."
+      },
+      {
+        "strong": "Roughly double the print area",
+        "rest": "— sleeves carry sponsors and patches so the chest stays clear for the number."
+      },
+      {
+        "strong": "Answers the real cold problem",
+        "rest": "— which for a Florida program is an over-air-conditioned venue, not the outdoors."
+      }
+    ],
+    "visualLabel": "Custom Long-Sleeve Jersey",
+    "cardName": "Long-Sleeve Jersey",
+    "cardSub": "Full coverage · Sleeve printing · Full-color",
+    "production": {
+      "from": "7",
+      "to": "14"
+    },
+    "customizationIntro": "Two full sleeves roughly double what you can print. <strong>Sponsor marks down the arm, memorial patches, championship years and season text</strong> all fit here without crowding the chest. Everything prints full-color, edge to edge, with no template limits.",
+    "fabricIntro": "Long-sleeve jerseys use a <strong>lighter knit than our short-sleeve version</strong>, deliberately — more of the body is covered, so the same weight would run hot. It is built to layer without adding bulk at the shoulder seam.",
+    "sizingIntro": "Sized on chest as usual, but <strong>check the sleeve-length column too</strong>. A player with long arms is usually better one size up even when the chest measurement says otherwise. Worn as a base layer under another jersey, take the normal size.",
+    "bestForIntro": "Long sleeves suit <strong>cold venues, winter tournaments, and programs with a lot to fit on a jersey</strong>. For a warm Florida gym with no air conditioning, this is the wrong cut.",
+    "notFitIntro": "Full sleeves are the wrong answer to a hot gym. If your venues run warm, these will be far more comfortable."
+  },
+  "basketball-warm-up-jerseys": {
+    "noun": "Jerseys",
+    "plural": true,
+    "eyebrow": "Warm-Up Jerseys",
+    "h2": {
+      "pre": "What Are",
+      "em": "Warm-Up",
+      "post": "Basketball Jerseys?"
+    },
+    "sub": "What the Team Wears Before Anyone Checks a Roster",
+    "prose": [
+      "A warm-up jersey is worn <strong>over the game jersey during warm-ups and on the bench</strong>, and it answers to no league rule at all. No mandated number size, no roster restriction, no color regulation — which makes it the freest garment in a uniform order and the one that carries the program's identity hardest.",
+      "The cut is built for pulling on over another jersey: <strong>roomier through the chest and shoulder, with a straight hem</strong> rather than a tapered one, so it comes off in one motion at the buzzer without catching on the game top underneath.",
+      "This is also the most photographed piece a program owns — warm-ups, team pictures, senior night, socials. <strong>A heat-pressed logo starts cracking around January; a sublimated one does not</strong>, which is why it is worth doing this piece properly rather than cheaply."
+    ],
+    "bestFor": [
+      "Pre-Game Warm-Ups",
+      "Bench Wear",
+      "Team Photos",
+      "Senior Night",
+      "Coaching Staff",
+      "Booster & Parent Sales"
+    ],
+    "benefits": [
+      {
+        "strong": "No league rules to satisfy",
+        "rest": "— the front is free for a full-size logo, team name, or a season slogan."
+      },
+      {
+        "strong": "Cut to pull on over a game jersey",
+        "rest": "— roomier through the chest and shoulder, with a straight hem that clears cleanly."
+      },
+      {
+        "strong": "Still looks new in March",
+        "rest": "— dyed artwork does not crack the way a pressed logo does by mid-season."
+      },
+      {
+        "strong": "The piece families actually buy",
+        "rest": "— boosters and parents will wear a warm-up top; they will not wear a game jersey."
+      }
+    ],
+    "visualLabel": "Custom Warm-Up Jersey",
+    "cardName": "Warm-Up Jersey",
+    "cardSub": "Over-jersey layer · Full-color · Any logo size",
+    "production": {
+      "from": "7",
+      "to": "14"
+    },
+    "customizationIntro": "This is the freest layout in the whole order — <strong>no roster numbers to place and no league size rules to meet</strong>. Full-chest logos, a name across the back, sleeve marks, sponsor blocks and season text all work here in ways a game jersey cannot allow.",
+    "fabricIntro": "Warm-up jerseys use a <strong>slightly heavier knit than a game jersey</strong>, because they are worn as an outer layer and need to hold their shape over another garment rather than sit against the skin.",
+    "sizingIntro": "Size a warm-up <strong>one step up from the player's game jersey</strong> — it is meant to go on over the top. Measure the chest over the jersey that will actually be worn underneath, not over bare skin.",
+    "bestForIntro": "Warm-up jerseys fit <strong>any program wanting a piece worn off the floor</strong> — warm-ups, bench, travel, photos and parent sales. They are not game garments and will not pass a uniform check.",
+    "notFitIntro": "This is a layer, not a game jersey — no roster numbers, no league compliance. For the garment players compete in, start here."
+  },
+  "youth-basketball-jerseys": {
+    "noun": "Jerseys",
+    "plural": true,
+    "eyebrow": "Youth Jerseys",
+    "h2": {
+      "pre": "What Are",
+      "em": "Youth",
+      "post": "Basketball Jerseys?"
+    },
+    "sub": "Game Jerseys Cut for Players Who Are Still Growing",
+    "prose": [
+      "A youth game jersey has to solve something adult kit never does: <strong>the player wearing it in March is a different size than the one who was measured in October</strong>. A jersey that only fits half a season is a jersey bought twice.",
+      "The pattern allows for it without looking oversized on day one — <strong>extra length through the body and a slightly deeper armhole</strong>, so a season of growth is absorbed rather than outgrown. The neckline is bound to stay comfortable as shoulders broaden.",
+      "Numbers are printed a size larger than adult kit as standard. <strong>In a rec gym, officials and parents are reading from much further back</strong> than in a high school arena, and the extra size costs nothing at the print stage."
+    ],
+    "bestFor": [
+      "Youth Leagues",
+      "Middle School Programs",
+      "Rec & Community Teams",
+      "Growing Players",
+      "League-Wide Orders",
+      "Parent-Friendly Care"
+    ],
+    "benefits": [
+      {
+        "strong": "Cut for a growing player",
+        "rest": "— extra body length and a deeper armhole so the jersey still fits by February."
+      },
+      {
+        "strong": "Oversized numbers as standard",
+        "rest": "— readable from the back of a rec gym, at no extra cost."
+      },
+      {
+        "strong": "Survives a parent's laundry",
+        "rest": "— hot wash, tumble dry, no care ritual: the color is inside the fiber."
+      },
+      {
+        "strong": "Colors stored per team",
+        "rest": "— a year-two replacement arrives the same shade as the rest of the set."
+      }
+    ],
+    "visualLabel": "Custom Youth Jersey",
+    "cardName": "Youth Jersey",
+    "cardSub": "Growth-friendly cut · Large numbers · Full-color",
+    "production": {
+      "from": "7",
+      "to": "14"
+    },
+    "customizationIntro": "Youth jerseys print full-color with <strong>numbers set one size larger than adult kit by default</strong>. Team colors, logos, player names and sponsor marks are all available; most youth leagues keep the design simple so a whole league's worth of teams stays affordable.",
+    "fabricIntro": "The <strong>same sublimation polyester as our adult jerseys in a slightly softer finish</strong>. Younger players notice fabric against the skin far more than adults do, and an uncomfortable jersey gets complained about for a whole season.",
+    "sizingIntro": "Youth sizing runs on <strong>height and chest together</strong>; where the two disagree, follow the chest. For a season-long order, size up — a jersey slightly large in November fits properly by February.",
+    "bestForIntro": "Youth jerseys fit <strong>leagues, middle school programs and rec teams buying game kit</strong>. For practice, youth practice jerseys cost far less and take the same abuse.",
+    "notFitIntro": "This is game kit. For weeknight training and scrimmages, these cost a fraction and wear just as hard."
+  },
+  "blank-basketball-jerseys": {
+    "noun": "Jerseys",
+    "plural": true,
+    "eyebrow": "Blank Jerseys",
+    "h2": {
+      "pre": "What Are",
+      "em": "Blank",
+      "post": "Basketball Jerseys?"
+    },
+    "sub": "Undecorated Jerseys, Ready for Your Own Decorator",
+    "prose": [
+      "A blank jersey is <strong>the finished garment with no names, numbers or logos on it</strong> — the same cut, the same fabric, the same construction, decorated later by whoever you choose. It exists for programs that already have a local decorator, or that need stock on hand before a roster is settled.",
+      "The usual reason is timing. <strong>A team that does not know its roster in August cannot order numbered jerseys in August</strong>, but it can order blanks, hold them, and have them numbered the week the squad is final. Leagues buying for twelve teams do the same in reverse: one bulk blank order, decorated per team.",
+      "Blanks accept screen print, heat transfer, vinyl and embroidery, so <strong>your decorator is not limited by our process</strong>. A note worth having: because these are polyester, ask your decorator about dye migration — a low-temperature transfer avoids the pink haze cheap vinyl can pull out of a red jersey."
+    ],
+    "bestFor": [
+      "Local Decorators",
+      "Unsettled Rosters",
+      "League Bulk Orders",
+      "Stock on Hand",
+      "Mixed Decoration Methods",
+      "Fast Turnaround"
+    ],
+    "benefits": [
+      {
+        "strong": "Order before the roster is set",
+        "rest": "— hold stock in August and number it the week the squad is final."
+      },
+      {
+        "strong": "Any decoration method",
+        "rest": "— screen print, vinyl, transfer or embroidery; your decorator is not tied to our process."
+      },
+      {
+        "strong": "Same garment, no decoration",
+        "rest": "— identical cut, fabric and construction to our decorated jerseys."
+      },
+      {
+        "strong": "Fastest turnaround we offer",
+        "rest": "— nothing to proof and no artwork stage, so blanks ship several days sooner."
+      }
+    ],
+    "visualLabel": "Blank Basketball Jersey",
+    "cardName": "Blank Jersey",
+    "cardSub": "Undecorated · Any base color · Decorator-ready",
+    "production": {
+      "from": "5",
+      "to": "10"
+    },
+    "customizationIntro": "Blanks are the one product here where <strong>the customization is the base garment itself</strong> — color, cut, fabric and trim. Names, numbers and logos are deliberately left off for your own decorator to add. If you would rather we handle decoration, any of our printed jerseys covers that.",
+    "fabricIntro": "Blanks are built from the <strong>same sublimation polyester as our decorated jerseys</strong>. Worth flagging to your decorator: polyester can dye-migrate under high heat, so a low-temperature transfer is the safe choice on strong base colors.",
+    "sizingIntro": "Sized exactly like our decorated jerseys — <strong>chest at the fullest point, arms relaxed</strong>. Because blanks are often ordered before a roster is final, most programs order a spread of sizes rather than a per-player list.",
+    "bestForIntro": "Blanks are right for <strong>programs with their own decorator, unsettled rosters, and leagues buying in bulk to decorate per team</strong>. If you want finished jerseys with names and numbers, order a decorated style instead.",
+    "notFitIntro": "Blanks arrive with nothing on them. If you want jerseys ready to play in, choose a decorated style."
+  },
+  "plain-basketball-jerseys": {
+    "noun": "Jerseys",
+    "plural": true,
+    "eyebrow": "Plain Jerseys",
+    "h2": {
+      "pre": "What Are",
+      "em": "Plain",
+      "post": "Basketball Jerseys?"
+    },
+    "sub": "One Clean Color, Numbers Only — Nothing Else",
+    "prose": [
+      "A plain jersey is <strong>a single solid team color with numbers, and deliberately nothing else</strong>. No side panels, no gradient, no sponsor block. It is not the same thing as a blank: a blank has no decoration at all, while a plain jersey is finished and ready to play in.",
+      "Programs choose plain for two very different reasons. Some want the classic look — <strong>a solid jersey with clean numerals still reads as the most serious uniform in most gyms</strong>. Others want the cheapest finished jersey available, and a single-color layout is the least expensive thing to produce.",
+      "With no pattern to hide behind, the details carry the whole garment. <strong>The number font, its size, and the outline weight are the entire design</strong>, so those are the choices worth spending time on at proof stage rather than rushing."
+    ],
+    "bestFor": [
+      "Classic Uniform Look",
+      "Tight Budgets",
+      "Rec & Church Leagues",
+      "Fast Reorders",
+      "Large Roster Counts",
+      "Clean Number Styling"
+    ],
+    "benefits": [
+      {
+        "strong": "Cheapest finished jersey we make",
+        "rest": "— a single-color layout is the least expensive thing to produce, and it shows in the price."
+      },
+      {
+        "strong": "Ready to play in",
+        "rest": "— unlike a blank, this arrives numbered and finished; nothing else is needed."
+      },
+      {
+        "strong": "Reorders exactly",
+        "rest": "— a simple layout means a replacement jersey in year three matches the originals precisely."
+      },
+      {
+        "strong": "The classic look still works",
+        "rest": "— a solid jersey with clean numerals reads as the most serious uniform in most gyms."
+      }
+    ],
+    "visualLabel": "Plain Basketball Jersey",
+    "cardName": "Plain Jersey",
+    "cardSub": "Solid color · Numbers only · Lowest cost",
+    "production": {
+      "from": "6",
+      "to": "12"
+    },
+    "customizationIntro": "Plain jerseys keep customization to <strong>base color, number style and an optional small team mark</strong>. That restraint is the point and the price. If you want side panels, gradients or full artwork, our sublimated and custom-printed jerseys carry all of it.",
+    "fabricIntro": "Built from the <strong>same sublimation polyester as our full-design jerseys</strong>. A plain jersey is not a cheaper fabric — it is the same garment with a simpler layout, which is where the saving actually comes from.",
+    "sizingIntro": "Sized on <strong>chest at the fullest point, arms relaxed</strong>, exactly as our other jerseys. Polyester does not shrink, so order the size you intend to wear.",
+    "bestForIntro": "Plain jerseys fit <strong>tight budgets, large roster counts, and programs that want the classic solid look</strong>. If your identity depends on a logo or a distinctive pattern, a full-design jersey is worth the difference.",
+    "notFitIntro": "A single solid color cannot carry a detailed identity. If your program has a logo or pattern that matters, choose one of these."
+  },
+  "black-basketball-jersey": {
+    "noun": "Jersey",
+    "plural": false,
+    "eyebrow": "Black Jersey",
+    "h2": {
+      "pre": "What Is a",
+      "em": "Black",
+      "post": "Basketball Jersey?"
+    },
+    "sub": "The Away Kit Almost Every Program Owns",
+    "prose": [
+      "Black is the most-ordered away color in basketball, and the reason is practical before it is aesthetic: <strong>it goes with every accent color a program might already own</strong>. A school whose primary is orange, teal, gold or maroon can put it on black and it works, which is not true of most other grounds.",
+      "It carries a real trade-off in Florida. <strong>A black jersey absorbs noticeably more radiant heat than a white one</strong>, which matters on an outdoor court in May and matters not at all in an air-conditioned gym in January. Programs that play outdoors often order black for away games and white for home for exactly this reason.",
+      "One production note worth knowing: sublimation prints from light to dark, so <strong>a black ground is produced by dyeing the whole panel</strong> rather than by leaving fabric bare. That makes color consistency across a large run more demanding, which is why we match and store your exact black once and reuse it for every reorder."
+    ],
+    "bestFor": [
+      "Away Uniforms",
+      "Any Accent Color",
+      "Indoor Gyms",
+      "School Programs",
+      "Travel & AAU Teams",
+      "Bulk Team Orders"
+    ],
+    "benefits": [
+      {
+        "strong": "Works with every accent color",
+        "rest": "— orange, teal, gold or maroon all read cleanly on black, which is why it is the default away kit."
+      },
+      {
+        "strong": "Hides court marks",
+        "rest": "— floor dust and scuffing show far less than on a light ground over a long season."
+      },
+      {
+        "strong": "Your black is matched once",
+        "rest": "— a dyed black panel is demanding to reproduce, so the shade is stored and reused for every reorder."
+      },
+      {
+        "strong": "Numbers read at distance",
+        "rest": "— a light numeral on black is the highest-contrast combination in the sport."
+      }
+    ],
+    "visualLabel": "Custom Black Jersey",
+    "cardName": "Black Jersey",
+    "cardSub": "Away kit · Any accent · Full-color",
+    "production": {
+      "from": "7",
+      "to": "14"
+    },
+    "customizationIntro": "Black is a ground, not a limit — <strong>accent panels, numbers, names, logos and sponsor marks all print full-color over it</strong>. Light numerals give the strongest contrast; if your accent is a dark color, we will flag it at proof stage rather than let it disappear on the court.",
+    "fabricIntro": "Built from <strong>sublimation polyester with the black dyed through the panel</strong> rather than left as base fabric. If your program plays outdoors in Florida heat, ask about the mesh version — an open weave takes most of the heat penalty out of a dark jersey.",
+    "sizingIntro": "Measure the chest at the fullest point with arms relaxed. <strong>Dark jerseys read slightly slimmer than light ones at the same size</strong>, which is worth knowing if you are matching a black away kit to a white home kit for the same roster.",
+    "bestForIntro": "Black suits <strong>away kits, indoor programs, and any team whose accent color needs a neutral ground</strong>. For hot outdoor play, a white or light jersey stays measurably cooler.",
+    "notFitIntro": "A dark jersey absorbs more heat than a light one, which is real on an outdoor Florida court. For those venues, consider these."
+  },
+  "white-basketball-shirt": {
+    "noun": "Shirt",
+    "plural": false,
+    "eyebrow": "White Shirt",
+    "h2": {
+      "pre": "What Is a",
+      "em": "White",
+      "post": "Basketball Shirt?"
+    },
+    "sub": "The Traditional Home Color, and the Coolest One",
+    "prose": [
+      "White is the traditional home color in basketball, and in Florida it has a second advantage that has nothing to do with tradition: <strong>it reflects radiant heat rather than absorbing it</strong>. On an outdoor court in May the difference between a white shirt and a black one is genuinely measurable.",
+      "White is also the hardest ground to produce well, because there is nowhere to hide. <strong>Any inconsistency in the knit shows</strong>, and a thin white fabric becomes translucent under bright gym lighting. Ours is built to a heavier opacity standard specifically for that — a white shirt that goes see-through under lights is not a uniform.",
+      "The honest downside is upkeep. <strong>White shows court dust, sweat marks and grass in a way no other color does</strong>, so programs that choose it usually order a second shirt per player. It looks the sharpest of anything on this site, and it asks for the most care in return."
+    ],
+    "bestFor": [
+      "Home Uniforms",
+      "Hot & Outdoor Play",
+      "Team Photos",
+      "Classic Look",
+      "Any Accent Color",
+      "School Programs"
+    ],
+    "benefits": [
+      {
+        "strong": "Reflects heat instead of absorbing it",
+        "rest": "— the coolest ground you can put a player in on an outdoor Florida court."
+      },
+      {
+        "strong": "Built to an opacity standard",
+        "rest": "— heavier than our standard knit so it does not go translucent under bright gym lighting."
+      },
+      {
+        "strong": "Every accent color works on it",
+        "rest": "— white is the most flexible ground for a program with an unusual primary color."
+      },
+      {
+        "strong": "Photographs best of anything we make",
+        "rest": "— which is why it is still the traditional choice for home and for team pictures."
+      }
+    ],
+    "visualLabel": "Custom White Shirt",
+    "cardName": "White Shirt",
+    "cardSub": "Home kit · Highest opacity · Full-color",
+    "production": {
+      "from": "7",
+      "to": "14"
+    },
+    "customizationIntro": "White gives full-color artwork the cleanest possible ground — <strong>every accent reproduces at its true value</strong> rather than shifting against a dyed panel. Dark numerals give the strongest contrast; a very light accent on white will be flagged at proof rather than printed to disappear.",
+    "fabricIntro": "This uses a <strong>heavier-opacity knit than our colored shirts</strong>. That is deliberate: white is the only ground where a thin fabric becomes see-through under arena lighting, so it is built with more body specifically to avoid it.",
+    "sizingIntro": "Measure the chest at the fullest point with arms relaxed. <strong>White reads slightly fuller than a dark shirt at the same size</strong> — worth allowing for if you are matching a white home kit against a black away kit on the same roster.",
+    "bestForIntro": "White is right for <strong>home kits, outdoor play, and team photos</strong>. It is the highest-maintenance color we sell, so most programs choosing it order two per player rather than one.",
+    "notFitIntro": "White shows everything a court can put on it. If your season is heavy on outdoor or practice wear, a darker ground stays presentable longer."
+  },
+  "blue-basketball-jersey": {
+    "noun": "Jersey",
+    "plural": false,
+    "eyebrow": "Blue Jersey",
+    "h2": {
+      "pre": "What Is a",
+      "em": "Blue",
+      "post": "Basketball Jersey?"
+    },
+    "sub": "The Most-Ordered School Color, Matched Exactly",
+    "prose": [
+      "Blue is the most common primary color in American school athletics, which makes it the color where <strong>getting the exact shade right matters most</strong>. \"Blue\" covers navy, royal, columbia, carolina and a dozen institutional variants, and a program whose banners are navy does not want a royal jersey.",
+      "That is a color-management problem, not a design one. <strong>We match to your specified value — a Pantone reference, a school style guide, or a physical sample</strong> — and store it against your account, so the jerseys you reorder in year three are the same blue as the ones you bought in year one.",
+      "Blue is also the most forgiving ground to design on. <strong>White, gold, silver and orange all read strongly against it</strong>, so number contrast is rarely a problem, and a navy jersey hides court marks nearly as well as a black one while running measurably cooler in the sun."
+    ],
+    "bestFor": [
+      "School Programs",
+      "Home or Away Kits",
+      "Navy / Royal / Columbia",
+      "Gold or White Accents",
+      "Long-Running Programs",
+      "Bulk Team Orders"
+    ],
+    "benefits": [
+      {
+        "strong": "Your exact blue, not our idea of it",
+        "rest": "— matched to a Pantone value, style guide or physical sample before anything is printed."
+      },
+      {
+        "strong": "The shade is stored",
+        "rest": "— a year-three reorder is the same navy as the year-one order, which is the usual complaint with blue."
+      },
+      {
+        "strong": "Strongest accent range of any ground",
+        "rest": "— white, gold, silver and orange all read clearly against blue."
+      },
+      {
+        "strong": "Hides court marks, runs cooler than black",
+        "rest": "— navy gets most of black's practical advantage with less heat absorption."
+      }
+    ],
+    "visualLabel": "Custom Blue Jersey",
+    "cardName": "Blue Jersey",
+    "cardSub": "Exact shade matched · Any accent · Full-color",
+    "production": {
+      "from": "7",
+      "to": "14"
+    },
+    "customizationIntro": "The most important customization here is <strong>the blue itself</strong>. Send a Pantone number, a school style guide, or a jersey you already own, and we match to it. Everything else — accents, numbers, names, logos, sponsor marks — prints full-color over that matched ground.",
+    "fabricIntro": "Standard <strong>sublimation polyester with the blue dyed through the panel</strong>. Navy absorbs somewhat more heat than a light ground but noticeably less than black, which is part of why it is the most-used school color in warm states.",
+    "sizingIntro": "Measure the chest at the fullest point, arms relaxed. Mid- and dark-blue jerseys read <strong>slightly slimmer than white at the same size</strong>, so if your program runs a navy away and a white home kit, expect them to look a little different on the same player.",
+    "bestForIntro": "Blue suits <strong>school programs, long-running teams, and anyone who has to match an existing institutional color</strong>. It works equally as a home or away kit.",
+    "notFitIntro": "If you do not need a specific institutional shade, a simpler plain jersey gets you the same garment for less."
+  },
+  "red-basketball-uniform": {
+    "noun": "Uniform",
+    "plural": false,
+    "eyebrow": "Red Uniform",
+    "h2": {
+      "pre": "What Is a",
+      "em": "Red",
+      "post": "Basketball Uniform?"
+    },
+    "sub": "The Most Saturated Color on Court, Jersey and Shorts Together",
+    "prose": [
+      "Red is the most visually saturated color in a basketball gym, which is why so many programs build an identity on it. It is also, technically, <strong>the most demanding color to reproduce consistently</strong> — small variations in dye load show up as a shift between orange-red and blue-red that the eye catches instantly across a roster of twelve.",
+      "That is a production discipline problem. <strong>Every piece in a red order is printed in the same run from the same color file</strong>, which is how a set stays uniform; ordering jerseys now and shorts in three months is precisely how programs end up with a set that does not quite match.",
+      "One warning worth passing to anyone decorating red kit locally: <strong>red polyester is the classic dye-migration case</strong>. A high-temperature vinyl press can pull dye out of the fabric and turn white lettering pink over a few weeks. If you add anything after delivery, use a low-temperature transfer."
+    ],
+    "bestFor": [
+      "Home or Away Kits",
+      "School Programs",
+      "High-Visibility Identity",
+      "Matched Jersey + Shorts",
+      "White or Gold Accents",
+      "Bulk Team Orders"
+    ],
+    "benefits": [
+      {
+        "strong": "Jersey and shorts in one run",
+        "rest": "— the only reliable way to keep a red set matching, since red shows the smallest dye shift."
+      },
+      {
+        "strong": "Your exact red is stored",
+        "rest": "— so a replacement piece next season does not arrive a half-shade orange."
+      },
+      {
+        "strong": "Highest visual presence in a gym",
+        "rest": "— no color reads stronger from the bleachers, which is why identities get built on it."
+      },
+      {
+        "strong": "No dye-migration risk from us",
+        "rest": "— sublimated numbers are in the fiber; nothing is pressed on top to bleed later."
+      }
+    ],
+    "visualLabel": "Custom Red Uniform Set",
+    "cardName": "Red Uniform Set",
+    "cardSub": "Jersey + shorts · Exact red matched · Full-color",
+    "production": {
+      "from": "10",
+      "to": "16"
+    },
+    "customizationIntro": "A uniform is one design across two garments — <strong>side panels, waistband trim and number styling carry from the jersey to the shorts</strong>. Send a Pantone value or a sample for the red itself; white and gold are the accents that read strongest over it.",
+    "fabricIntro": "Both pieces use the <strong>same sublimation polyester from the same dye run</strong>. That matters more on red than on any other color: printing the top and bottom separately is how a set ends up subtly mismatched.",
+    "sizingIntro": "Sets are sized <strong>per garment, not as one size</strong> — chest for the jersey, natural waist for the shorts, and a player may take different sizes in each. Order both together so the run stays matched.",
+    "bestForIntro": "A red set suits <strong>programs building a high-visibility identity</strong> and any team wanting jersey and shorts guaranteed to match. If you only need to replace one piece, order that piece on its own.",
+    "notFitIntro": "A full set is more than you need to replace one garment or to kit out practice. These cover that for less."
+  },
+  "grey-basketball-jersey": {
+    "noun": "Jersey",
+    "plural": false,
+    "eyebrow": "Grey Jersey",
+    "h2": {
+      "pre": "What Is a",
+      "em": "Grey",
+      "post": "Basketball Jersey?"
+    },
+    "sub": "The Neutral Third Kit That Goes With Everything",
+    "prose": [
+      "Grey is the third-kit color. A program with a home and an away already has its two league-mandated options; <strong>grey is what it wears for showcases, alumni games, and the tournament where both teams turned up in navy</strong>. It goes with every accent a program owns because it commits to none of them.",
+      "It behaves well in heat, too. <strong>A mid-grey absorbs meaningfully less radiant heat than black</strong> while hiding court dust far better than white — which puts it in a practical middle ground that neither of the traditional colors occupies.",
+      "The one thing to know is that <strong>grey shows sweat more visibly than any other color</strong>, light or dark. Programs that choose it for game day usually pair it with a moisture-wicking fabric rather than a standard knit, which moves sweat to the outer face and spreads it instead of leaving a mark."
+    ],
+    "bestFor": [
+      "Third / Alternate Kits",
+      "Showcases & Alumni Games",
+      "Any Accent Color",
+      "Warm Gyms",
+      "Team Travel Wear",
+      "Modern Look"
+    ],
+    "benefits": [
+      {
+        "strong": "Commits to no accent color",
+        "rest": "— which is exactly why it works as a third kit for a program of any primary color."
+      },
+      {
+        "strong": "Between black and white on heat",
+        "rest": "— absorbs much less than black while hiding court dust far better than white."
+      },
+      {
+        "strong": "Solves the color-clash game",
+        "rest": "— the kit you own for the tournament where the other team also brought navy."
+      },
+      {
+        "strong": "Pair it with wicking fabric",
+        "rest": "— grey shows sweat more than any other ground, and a wicking knit is the answer."
+      }
+    ],
+    "visualLabel": "Custom Grey Jersey",
+    "cardName": "Grey Jersey",
+    "cardSub": "Alternate kit · Any accent · Full-color",
+    "production": {
+      "from": "7",
+      "to": "14"
+    },
+    "customizationIntro": "Grey is the most accommodating ground we offer — <strong>every accent color reads cleanly against it</strong>, light or dark. Numbers work in either direction, which is not true of black or white, so the number styling is genuinely an open choice here.",
+    "fabricIntro": "Standard sublimation polyester. For a grey game jersey we specifically recommend the <strong>moisture-wicking option rather than the base knit</strong>: grey shows sweat marks more than any other color, and a wicking fabric moves moisture to the outer face where it disperses.",
+    "sizingIntro": "Measure the chest at the fullest point with arms relaxed. Mid-grey sits between white and black visually, so it reads <strong>close to true to size</strong> where a light or dark jersey can look fuller or slimmer.",
+    "bestForIntro": "Grey is for <strong>third kits, showcases, alumni games and travel wear</strong>. As a primary home or away color it is unusual; most programs run it alongside a traditional pair.",
+    "notFitIntro": "For a league-mandated home or away kit, a traditional light or dark ground is the safer choice."
+  },
+  "camo-basketball-jerseys": {
+    "noun": "Jerseys",
+    "plural": true,
+    "eyebrow": "Camo Jerseys",
+    "h2": {
+      "pre": "What Are",
+      "em": "Camo",
+      "post": "Basketball Jerseys?"
+    },
+    "sub": "A Pattern, Not a Color — Built So Numbers Still Read",
+    "prose": [
+      "Camo is the one option here that is <strong>a pattern rather than a color</strong>, and that changes what has to be engineered. Camouflage is designed to break up shapes; a jersey number is a shape that must not break up. Printed carelessly, a camo jersey is genuinely hard to read from the bleachers.",
+      "The fix is structural. <strong>The number panel is printed as a solid block behind the numeral</strong>, or the numeral is given a heavy contrast outline, so the pattern runs across the jersey while the number stays legible. We proof camo designs at viewing distance rather than at desk distance for exactly this reason.",
+      "Most camo orders are for a reason rather than a season — <strong>military appreciation nights, veterans' games, and fundraising runs</strong>. Because sublimation has no per-color cost, a full multi-tone camo costs the same to print as a solid jersey, which is why one-off runs are practical here."
+    ],
+    "bestFor": [
+      "Military Appreciation Games",
+      "Veterans' Nights",
+      "Fundraising Runs",
+      "One-Off Special Kits",
+      "Alternate Uniforms",
+      "Multi-Tone Designs"
+    ],
+    "benefits": [
+      {
+        "strong": "Numbers stay readable",
+        "rest": "— a solid panel or heavy outline behind each numeral, so the pattern never swallows it."
+      },
+      {
+        "strong": "Proofed at viewing distance",
+        "rest": "— camo that reads at a desk can be unreadable from the bleachers, so we check it the right way."
+      },
+      {
+        "strong": "Multi-tone costs the same as solid",
+        "rest": "— sublimation has no per-color charge, so a full camo print is no more expensive."
+      },
+      {
+        "strong": "Practical for one-off runs",
+        "rest": "— no setup charge per color makes a single appreciation-night kit affordable."
+      }
+    ],
+    "visualLabel": "Custom Camo Jersey",
+    "cardName": "Camo Jerseys",
+    "cardSub": "Full pattern · Legible numbers · Full-color",
+    "production": {
+      "from": "7",
+      "to": "14"
+    },
+    "customizationIntro": "Camo can be built in <strong>your team's colors rather than standard military tones</strong> — a navy-and-gold camo, or a red-and-black one — which is what most school programs actually want. Number panels, names and sponsor marks are placed so the pattern never compromises legibility.",
+    "fabricIntro": "Standard <strong>sublimation polyester</strong>. A multi-tone pattern is no harder on the fabric than a solid color, because the entire design is laid down in a single pass regardless of how many colors it contains.",
+    "sizingIntro": "Measure the chest at the fullest point, arms relaxed. A busy pattern <strong>reads slightly fuller than a solid ground</strong> at the same size, though not enough to change the size you order.",
+    "bestForIntro": "Camo is for <strong>appreciation nights, fundraisers and alternate kits</strong>. As a regular game uniform it is unusual, and some leagues restrict patterns that interfere with number visibility — worth checking your rules first.",
+    "notFitIntro": "Some leagues restrict patterned uniforms on number-visibility grounds. If yours does, a solid jersey with a strong accent is the safe route."
+  },
+  "green-basketball-jersey": {
+    "noun": "Jersey",
+    "plural": false,
+    "eyebrow": "Green Jersey",
+    "h2": {
+      "pre": "What Is a",
+      "em": "Green",
+      "post": "Basketball Jersey?"
+    },
+    "sub": "The Widest Color Family in School Athletics",
+    "prose": [
+      "Green covers more ground than any other team color. <strong>Forest, hunter, kelly, emerald and lime are not shades of one color so much as five different identities</strong>, and a program whose banners are forest green will not accept a kelly jersey. More green orders go wrong on shade than on anything else.",
+      "So the match comes first. <strong>Send a Pantone value, a school style guide, or a garment you already own</strong>, and that exact green is stored against your account and reused on every reorder. Guessing from a description — or worse, from a photograph on a phone screen — is how a set ends up two shades apart.",
+      "As a ground, green is easier to design on than it looks. <strong>White, gold and silver all read strongly against every green in the family</strong>, and a dark forest hides court marks nearly as well as navy while reflecting more heat than black does."
+    ],
+    "bestFor": [
+      "School Programs",
+      "Forest / Hunter / Kelly",
+      "Gold or White Accents",
+      "Home or Away Kits",
+      "Long-Running Programs",
+      "Bulk Team Orders"
+    ],
+    "benefits": [
+      {
+        "strong": "Your green, specifically",
+        "rest": "— forest, hunter and kelly are different identities, and the match is made before anything prints."
+      },
+      {
+        "strong": "The shade is stored",
+        "rest": "— reorders in later seasons come back the same green, which is where most green orders go wrong."
+      },
+      {
+        "strong": "Gold and white read strongly on it",
+        "rest": "— number contrast is straightforward across the whole green family."
+      },
+      {
+        "strong": "Dark greens hide court marks",
+        "rest": "— close to navy for practicality, with less heat absorption than black."
+      }
+    ],
+    "visualLabel": "Custom Green Jersey",
+    "cardName": "Green Jersey",
+    "cardSub": "Exact shade matched · Any accent · Full-color",
+    "production": {
+      "from": "7",
+      "to": "14"
+    },
+    "customizationIntro": "The first decision is <strong>which green</strong> — send a Pantone number, a style guide, or a jersey you already own. Everything else prints full-color over that matched ground: accent panels, numbers, names, logos and sponsor marks.",
+    "fabricIntro": "Standard <strong>sublimation polyester with the green dyed through the panel</strong>. Deeper greens absorb more heat than light ones; if your program plays outdoors regularly, a kelly or lime ground will run cooler than a forest one.",
+    "sizingIntro": "Measure the chest at the fullest point with arms relaxed. Dark greens read <strong>slightly slimmer than light ones</strong> at the same size, which is worth noting if your home and away kits sit at opposite ends of the family.",
+    "bestForIntro": "Green suits <strong>school programs matching an institutional color</strong> and works equally as home or away. If you have no specific shade to hit, a plain jersey costs less for the same garment.",
+    "notFitIntro": "If you are not matching a specific institutional green, a simpler plain jersey gets you the same garment for less."
+  },
+  "orange-basketball-jersey": {
+    "noun": "Jersey",
+    "plural": false,
+    "eyebrow": "Orange Jersey",
+    "h2": {
+      "pre": "What Is a",
+      "em": "Orange",
+      "post": "Basketball Jersey?"
+    },
+    "sub": "Florida's Own Color, Printed Accurately",
+    "prose": [
+      "Orange is a Florida color in a way it is not elsewhere — <strong>the state's best-known college and professional programs have built identities on it</strong>, and school teams across the state follow. It is also, alongside red, one of the two hardest colors to reproduce faithfully.",
+      "The difficulty is that orange sits where screens and fabric disagree most. <strong>A bright orange that looks right on a monitor frequently prints duller or browner than expected</strong>, so we match to a physical reference rather than a screen value, and store that reference for every reorder.",
+      "As a ground it is unusually loud, which is the point. <strong>Orange has the highest visibility of anything in a gym</strong>, and it takes navy, black and white accents cleanly. The one combination to avoid is a mid-yellow accent, which sits too close on the wheel to hold contrast from the bleachers."
+    ],
+    "bestFor": [
+      "Florida School Programs",
+      "High-Visibility Identity",
+      "Navy / Black / White Accents",
+      "Home or Away Kits",
+      "Youth Leagues",
+      "Bulk Team Orders"
+    ],
+    "benefits": [
+      {
+        "strong": "Matched to a physical reference",
+        "rest": "— orange is where screens and fabric disagree most, so a monitor value is not enough."
+      },
+      {
+        "strong": "Highest visibility in a gym",
+        "rest": "— nothing reads more strongly from the far bleachers, which is the whole reason to choose it."
+      },
+      {
+        "strong": "Navy, black and white all work",
+        "rest": "— strong accent contrast in three directions; only mid-yellow is worth avoiding."
+      },
+      {
+        "strong": "Your orange is stored",
+        "rest": "— so a replacement jersey two seasons later is not a half-shade browner than the rest."
+      }
+    ],
+    "visualLabel": "Custom Orange Jersey",
+    "cardName": "Orange Jersey",
+    "cardSub": "Physically matched · High visibility · Full-color",
+    "production": {
+      "from": "7",
+      "to": "14"
+    },
+    "customizationIntro": "Match the orange from <strong>a Pantone value or a physical sample, not a screenshot</strong> — this is the color where that matters most. Navy, black and white accents give the strongest number contrast; a yellow accent will be flagged at proof rather than printed to blend.",
+    "fabricIntro": "Standard <strong>sublimation polyester with the orange dyed through the panel</strong>. Orange absorbs less radiant heat than black or navy, which makes it a practical choice for Florida programs that play outdoor or un-air-conditioned games.",
+    "sizingIntro": "Measure the chest at the fullest point, arms relaxed. Bright grounds read <strong>slightly fuller than dark ones</strong> at the same size — allow for it if you run an orange home kit against a navy away kit.",
+    "bestForIntro": "Orange fits <strong>Florida programs, youth leagues, and any team wanting maximum presence on court</strong>. It is a demanding color to match, so send a physical reference if you have one.",
+    "notFitIntro": "If your identity does not depend on a specific bright color, a plain jersey delivers the same garment for less."
+  },
+  "yellow-basketball-uniform": {
+    "noun": "Uniform",
+    "plural": false,
+    "eyebrow": "Yellow Uniform",
+    "h2": {
+      "pre": "What Is a",
+      "em": "Yellow",
+      "post": "Basketball Uniform?"
+    },
+    "sub": "Gold and Yellow Kits, With Numbers That Still Read",
+    "prose": [
+      "Yellow and gold are the brightest grounds in team sport, and they come with one specific engineering problem: <strong>a white or light numeral on yellow is almost unreadable from the bleachers</strong>. Contrast, not color, is what decides whether an official can call a number from the baseline.",
+      "The answer is a dark numeral or a heavy dark outline, and we treat it as a requirement rather than a style choice. <strong>Navy, black, forest and maroon numerals all hold their edge on yellow</strong>; we proof these designs at viewing distance so the decision is made against how it actually looks in a gym.",
+      "Ordering jersey and shorts as a set matters more here than on most colors. <strong>Yellow shows dye variation clearly</strong>, so a top printed now and shorts printed in three months are noticeably likely to sit a shade apart — printing both in one run is what keeps a gold set looking like one set."
+    ],
+    "bestFor": [
+      "School Programs",
+      "Gold & Yellow Identities",
+      "Dark Numeral Contrast",
+      "Matched Jersey + Shorts",
+      "High-Visibility Kits",
+      "Bulk Team Orders"
+    ],
+    "benefits": [
+      {
+        "strong": "Dark numerals as standard",
+        "rest": "— a light numeral on yellow cannot be read from the baseline, so contrast is treated as a requirement."
+      },
+      {
+        "strong": "Proofed at viewing distance",
+        "rest": "— the number is checked the way an official sees it, not the way a designer does."
+      },
+      {
+        "strong": "Jersey and shorts in one run",
+        "rest": "— yellow shows dye variation clearly, so a split order is how gold sets end up mismatched."
+      },
+      {
+        "strong": "Reflects heat well",
+        "rest": "— a bright ground absorbs far less than black, which matters on an outdoor Florida court."
+      }
+    ],
+    "visualLabel": "Custom Yellow Uniform Set",
+    "cardName": "Yellow Uniform Set",
+    "cardSub": "Jersey + shorts · Dark numerals · Full-color",
+    "production": {
+      "from": "10",
+      "to": "16"
+    },
+    "customizationIntro": "One design across two garments, with <strong>numeral contrast decided first</strong>. Navy, black, forest and maroon all hold their edge on a yellow ground; white and light grey do not, and we will say so at proof rather than print something no official can read.",
+    "fabricIntro": "Both pieces from the <strong>same sublimation polyester in one dye run</strong>. That matters on yellow more than most colors — it is one of the grounds where a small dye variation between two production runs is plainly visible side by side.",
+    "sizingIntro": "Sets are sized <strong>per garment</strong> — chest for the jersey, natural waist for the shorts, and a player may take different sizes in each. Bright grounds read slightly fuller than dark ones at the same size.",
+    "bestForIntro": "A yellow or gold set suits <strong>programs built on that identity</strong> and outdoor play where a bright ground stays cooler. If you are replacing only one piece, order it on its own.",
+    "notFitIntro": "A full set is more than you need to replace a single garment or to kit out practice. These cover that."
+  },
+  "purple-basketball-jersey": {
+    "noun": "Jersey",
+    "plural": false,
+    "eyebrow": "Purple Jersey",
+    "h2": {
+      "pre": "What Is a",
+      "em": "Purple",
+      "post": "Basketball Jersey?"
+    },
+    "sub": "The Hardest Color to Reproduce, Matched Properly",
+    "prose": [
+      "Purple is the color most likely to arrive wrong from a supplier, and it is worth understanding why. <strong>Screens make purple from red and blue light; fabric makes it from dye</strong>, and the two do not overlap cleanly. A purple that looks right on a phone can print noticeably more blue, or more maroon, than the program expected.",
+      "The only reliable answer is a physical reference. <strong>Send a Pantone chip, a school style guide, or a jersey you already own</strong>, and that becomes the standard — matched once, stored, and reused on every reorder rather than re-judged each time from a screenshot.",
+      "As a ground purple is genuinely strong. <strong>Gold, white and silver all read powerfully against it</strong>, and it occupies a space almost no other program in a given league will be using, which is worth something in a gym full of navy and red."
+    ],
+    "bestFor": [
+      "School Programs",
+      "Distinctive Identity",
+      "Gold or White Accents",
+      "Home or Away Kits",
+      "Long-Running Programs",
+      "Bulk Team Orders"
+    ],
+    "benefits": [
+      {
+        "strong": "Matched from a physical chip",
+        "rest": "— purple is where screen and fabric disagree most, so a monitor value is never the standard."
+      },
+      {
+        "strong": "The match is stored, not re-judged",
+        "rest": "— every reorder returns to the same reference instead of being eyeballed again."
+      },
+      {
+        "strong": "Gold and white read powerfully",
+        "rest": "— strong number contrast in the two directions most programs want."
+      },
+      {
+        "strong": "Almost nobody else in the league has it",
+        "rest": "— genuine distinctiveness in a gym full of navy and red."
+      }
+    ],
+    "visualLabel": "Custom Purple Jersey",
+    "cardName": "Purple Jersey",
+    "cardSub": "Physically matched · Distinctive · Full-color",
+    "production": {
+      "from": "7",
+      "to": "14"
+    },
+    "customizationIntro": "Start with <strong>a physical reference for the purple itself</strong> — a Pantone chip, a style guide, or an existing garment. Gold, white and silver give the strongest accent contrast; everything prints full-color with no template limits.",
+    "fabricIntro": "Standard <strong>sublimation polyester with the purple dyed through the panel</strong>. Deep purples absorb heat similarly to navy — meaningfully less than black, meaningfully more than a bright ground.",
+    "sizingIntro": "Measure the chest at the fullest point with arms relaxed. Deep purples read <strong>slightly slimmer than light grounds</strong> at the same size, in line with other dark colors.",
+    "bestForIntro": "Purple suits <strong>programs matching an institutional color and teams that want to look unlike everyone else in the league</strong>. Send a physical reference — it is the color where that matters most.",
+    "notFitIntro": "If you are not matching a specific institutional purple, a plain jersey gets you the same garment for less."
+  },
+  "pink-basketball-jerseys": {
+    "noun": "Jerseys",
+    "plural": true,
+    "eyebrow": "Pink Jerseys",
+    "h2": {
+      "pre": "What Are",
+      "em": "Pink",
+      "post": "Basketball Jerseys?"
+    },
+    "sub": "Awareness-Game Kits, Practical as a One-Off Run",
+    "prose": [
+      "Most pink basketball orders are not regular uniforms — they are <strong>awareness games, cancer fundraisers, and the one night a season a program plays in a different kit</strong>. That changes what matters about the order: it is a short run, it is on a fixed date, and it usually has to be paid for by the fundraiser itself.",
+      "Sublimation suits that shape of order well. <strong>There is no per-color setup charge</strong>, so a full-color pink kit with a ribbon graphic and a dedication on the back costs no more to print than a plain jersey, and a run of fifteen is economic in a way a screen-printed run of fifteen is not.",
+      "The practical detail programs miss is timing. <strong>An awareness game has a date that cannot move</strong>, so these orders need to be placed with real margin — we work backward from the game date rather than forward from the order date, and will say plainly if a date is not achievable."
+    ],
+    "bestFor": [
+      "Awareness Games",
+      "Cancer Fundraisers",
+      "Short One-Off Runs",
+      "Dedication Printing",
+      "Auction & Resale Kits",
+      "Youth & School Programs"
+    ],
+    "benefits": [
+      {
+        "strong": "No per-color setup charge",
+        "rest": "— a full-color awareness design costs the same to print as a plain jersey."
+      },
+      {
+        "strong": "Economic at fifteen units",
+        "rest": "— a short run is affordable here in a way a screen-printed short run is not."
+      },
+      {
+        "strong": "Names and dedications print free",
+        "rest": "— individual back-of-jersey dedications add no cost, since it is all one print pass."
+      },
+      {
+        "strong": "Scheduled backward from the game",
+        "rest": "— an awareness date cannot move, so the timeline is built from it, not from the order date."
+      }
+    ],
+    "visualLabel": "Custom Pink Jersey",
+    "cardName": "Pink Jerseys",
+    "cardSub": "Awareness kits · No color limits · Full-color",
+    "production": {
+      "from": "7",
+      "to": "14"
+    },
+    "customizationIntro": "Awareness kits usually carry more than a normal jersey — <strong>a ribbon graphic, a dedication line, sponsor recognition for the fundraiser, sometimes a different name on every back</strong>. None of it costs extra: the whole design is laid down in one pass, however many colors or individual names it contains.",
+    "fabricIntro": "Standard <strong>sublimation polyester</strong>, the same garment as our regular jerseys. Since these are often auctioned or kept afterward, the color is in the fiber and will not crack or fade the way a pressed graphic on a keepsake jersey would.",
+    "sizingIntro": "Measure the chest at the fullest point, arms relaxed. For an awareness game where jerseys are auctioned afterward, <strong>most programs order a few extra in popular sizes</strong> rather than exactly one per player.",
+    "bestForIntro": "Pink kits are for <strong>awareness games, fundraisers and short one-off runs</strong>. As a regular season uniform they are unusual, though nothing stops it if that is your program's identity.",
+    "notFitIntro": "For a regular season kit rather than a one-night run, a standard color and cut will serve better."
   }
 }

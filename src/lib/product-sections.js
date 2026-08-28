@@ -77,13 +77,51 @@ const SPELLING = [
   [/\b(S|s)pecialis(e|ed|es|ing|t|ts)\b/g, (m, c, s) => `${c}pecializ${s}`],
   [/\b(C|c)entre(s?)\b/g, (m, c, s) => `${c}enter${s}`],
   [/\b(P|p)ractise\b/g, (m, c) => `${c}ractice`],
-  [/\b(G|g)rey\b/g, (m, c) => `${c}ray`],
+  // grey -> gray is deliberately NOT here. "Grey Basketball Jersey" is a
+  // product's actual name, its slug, and 356 strings across the site; changing
+  // the spelling would rename the product. That is a decision for whoever owns
+  // the catalogue, not a side effect of a spelling pass.
 ];
 
+/**
+ * Apply the spellings to TEXT ONLY — never inside a tag.
+ *
+ * The first version ran over the raw HTML, and `\b` treats a hyphen as a word
+ * boundary, so `/product/grey-basketball-jersey/` matched and would have been
+ * rewritten to `gray-basketball-jersey` — a 404 on every link to it, in every
+ * related-products grid on the site. It survived only because none of the five
+ * pages rewritten so far happens to link there; adding content for the grey
+ * jersey would have shipped it.
+ *
+ * Splitting on tags and transforming only the gaps means an href, a class, a
+ * data attribute, or an inline script can never be touched by a change to
+ * prose. Anything inside <script> or <style> is skipped for the same reason.
+ */
 export function americanize(html) {
-  let out = html;
-  for (const [re, fn] of SPELLING) out = out.replace(re, fn);
-  return out;
+  if (!html) return html;
+  let skipDepth = 0;
+  return html.split(/(<[^>]*>)/).map((chunk) => {
+    if (chunk.startsWith('<')) {
+      if (/^<\s*(script|style)\b/i.test(chunk)) skipDepth++;
+      else if (/^<\s*\/\s*(script|style)\b/i.test(chunk)) skipDepth = Math.max(0, skipDepth - 1);
+      // Four attributes hold prose a person actually reads — a screen reader
+      // announces aria-label and alt, and title and placeholder are shown. They
+      // are corrected; every other attribute, href and class and data-* among
+      // them, is left exactly as it is.
+      return chunk.replace(
+        /\b(alt|aria-label|title|placeholder)="([^"]*)"/gi,
+        (m, attr, val) => {
+          let out = val;
+          for (const [re, fn] of SPELLING) out = out.replace(re, fn);
+          return `${attr}="${out}"`;
+        },
+      );
+    }
+    if (skipDepth > 0) return chunk;      // inside <script> or <style>
+    let out = chunk;
+    for (const [re, fn] of SPELLING) out = out.replace(re, fn);
+    return out;
+  }).join('');
 }
 
 /** Fill every per-product slot in the block. */
@@ -182,21 +220,29 @@ export function fixDeadLinks(html) {
  * Rewrite one product page's HTML. Returns it unchanged for any page without
  * the block, so non-product routes pass through untouched.
  */
+/**
+ * The corrections every page gets, product or not.
+ *
+ * Kept separate from the section fill because they are not about products: the
+ * dead link and the British spellings are on pages that have no sections to
+ * fill, and scoping them to "products we have written copy for" left 117 of
+ * them shipping on the pages that had not been reached yet.
+ */
+export function polishPage(html) {
+  return americanize(fixDeadLinks(stripAuthoringComments(html)));
+}
+
 export function applyProductContent(html, slug) {
   const c = content[slug];
   const s = blockStart(html);
   const e = blockEnd(html);
-  if (!c || s < 0 || e < 0 || e <= s) return html;
+  if (!c || s < 0 || e < 0 || e <= s) return polishPage(html);
 
   let block = html.slice(s, e);
   block = stripSectionStyles(block);
   block = fillBlock(block, c);
 
-  // Comments are stripped from the WHOLE page, not just the block. One of the
-  // twenty-five sits above it, in the WooCommerce summary, and scoping the
-  // strip to the block left it shipping on its own.
-  const out = stripAuthoringComments(html.slice(0, s) + block + html.slice(e));
-  return americanize(fixDeadLinks(out));
+  return polishPage(html.slice(0, s) + block + html.slice(e));
 }
 
 export function hasProductContent(slug) {

@@ -1,7 +1,7 @@
 ---
 import pages from '../data/pages.json';
 import { rewrite, dropFontImports } from '../lib/site.js';
-import { applyProductContent } from '../lib/product-sections.js';
+import { applyProductContent, polishPage } from '../lib/product-sections.js';
 import Shell from '../layouts/Shell.astro';
 
 export function getStaticPaths() {
@@ -23,6 +23,9 @@ const { page } = Astro.props;
 const productSlug = page.route.startsWith('/product/')
   ? page.route.replace('/product/', '').replace(/\/$/, '')
   : null;
-const html = productSlug ? applyProductContent(page.content, productSlug) : page.content;
+// Product pages get their sections filled as well; every other page still gets
+// the site-wide corrections — the dead product link and the British spellings
+// appear on category, policy and landing pages too.
+const html = productSlug ? applyProductContent(page.content, productSlug) : polishPage(page.content);
 ---
 <Shell page={page}><Fragment set:html={dropFontImports(rewrite(html))} /></Shell>
