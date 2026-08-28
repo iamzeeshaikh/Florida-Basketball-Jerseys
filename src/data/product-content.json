@@ -1201,7 +1201,175 @@
     "fabricIntro": "Shooting shirts use a <strong>slightly heavier knit than a game jersey</strong>, because they are worn as an outer layer and need to hold their shape over another garment rather than sit against the skin.",
     "sizingIntro": "Size a shooting shirt <strong>one step up from the player's game jersey</strong> — it is meant to pull on over the top. Measure the chest over the jersey the player will actually wear underneath, not over bare skin.",
     "bestForIntro": "A short-sleeve shirt suits <strong>any program that wants a piece worn off the floor</strong> — warm-ups, bench, travel, team photos, and parent orders. It is not a game garment and does not replace a jersey.",
-    "notFitIntro": "This is a layer, not a jersey — it carries no roster numbers and will not pass a league uniform check. If you need the garment players compete in, start here."
+    "notFitIntro": "This is a layer, not a jersey — it carries no roster numbers and will not pass a league uniform check. If you need the garment players compete in, start here.",
+    "sections": [
+      "pov",
+      "pwb",
+      "pco",
+      "pfb",
+      "psg"
+    ],
+    "fabrics": {
+      "list": [
+        "sublimation",
+        "wicking"
+      ],
+      "recommended": "sublimation",
+      "notes": {
+        "sublimation": {
+          "desc": "A shooting shirt is worn over a jersey, so it needs body rather than closeness. <strong>The standard polyester holds its shape over another garment</strong>, which a lighter knit will not — a thin shirt pulled over a jersey shows every ridge of the top underneath.",
+          "pros": [
+            "<strong>Holds its shape as an outer layer</strong> over a game jersey",
+            "<strong>Sharpest logo reproduction</strong> — this shirt is photographed more than any other",
+            "<strong>Structured enough for team photos</strong> rather than clinging"
+          ]
+        },
+        "wicking": {
+          "desc": "Choose this if the shirt is worn on its own for warm-ups rather than over a jersey. <strong>The wicking knit sits closer and moves sweat</strong>, which matters when a player warms up in it and then keeps it on the bench.",
+          "pros": [
+            "<strong>Better worn alone</strong> than as an over-layer",
+            "<strong>Handles a full warm-up</strong> without holding sweat",
+            "<strong>Less body</strong> — shows the jersey underneath more"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Warm-Ups and Bench Rotation",
+        "desc": "The shirt a squad is actually wearing when the crowd arrives. <strong>It answers to no league rule at all</strong>, so the front is free for the biggest, clearest statement of who the program is.",
+        "points": [
+          "No roster number required",
+          "Full-chest logo at any size",
+          "Pulls off in one motion at the buzzer"
+        ]
+      },
+      {
+        "fit": "perfect",
+        "title": "Team Photos and Senior Night",
+        "desc": "This is the garment in most program photographs, and the one that has to still look new in March. <strong>A pressed logo starts cracking by January; a dyed one does not.</strong>",
+        "points": [
+          "Artwork cannot crack or peel",
+          "Same colour in the last photo as the first",
+          "Coaching staff sizes on the same order"
+        ]
+      },
+      {
+        "fit": "good",
+        "title": "Booster and Parent Sales",
+        "desc": "Families will wear a shooting shirt; they will not wear a game jersey. <strong>It is the one piece of team kit that funds itself</strong> if a program orders a few extra.",
+        "points": [
+          "Adult sizes to 5XL",
+          "No minimum on a top-up order",
+          "Same design as the squad wears"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "Full-Chest Logo",
+        "desc": "The whole front is available, which is not true of a game jersey. <strong>Most programs go far larger here than they can anywhere else</strong>, and it is the right instinct.",
+        "options": [
+          "Full-chest",
+          "Left-chest",
+          "Centre crest",
+          "Wordmark"
+        ]
+      },
+      {
+        "title": "Back Treatment",
+        "desc": "No roster number is required, so the back is free for a name, a year, or a season slogan. <strong>Senior years and championship dates live here.</strong>",
+        "options": [
+          "Team name",
+          "Season year",
+          "Player name",
+          "Slogan",
+          "Blank"
+        ]
+      },
+      {
+        "title": "Sleeve Marks",
+        "desc": "Short sleeves take a small mark cleanly — <strong>a sponsor, a district badge, or a memorial patch</strong> — without competing with the chest.",
+        "options": [
+          "Sponsor",
+          "District badge",
+          "Memorial patch",
+          "None"
+        ]
+      },
+      {
+        "title": "Neckline Style",
+        "desc": "Crew by default. <strong>A v-neck reads less like a uniform</strong>, which some programs prefer for a piece worn off the court.",
+        "options": [
+          "Crew",
+          "V-neck",
+          "Contrast rib",
+          "Matched rib"
+        ]
+      },
+      {
+        "title": "Staff Versions",
+        "desc": "Coaching staff usually want the same design in a different colour or a fuller cut. <strong>Both go on the same order at the same price.</strong>",
+        "options": [
+          "Same design, staff colour",
+          "Fuller cut",
+          "Polo collar",
+          "Name on chest"
+        ]
+      }
+    ],
+    "construction": [
+      {
+        "title": "Set-In Sleeve, Relaxed Bicep",
+        "body": "The sleeve is set in rather than raglan, with a wider bicep opening than a fitted shirt. <strong>It has to clear a jersey sleeve underneath</strong>, which is the measurement most over-layers get wrong."
+      },
+      {
+        "title": "Straight Hem",
+        "body": "Straight rather than tapered, so the shirt comes off over a jersey in one motion. <strong>A tapered hem catches on the jersey below it</strong> at exactly the moment a player is being called on."
+      },
+      {
+        "title": "Bound Neckline",
+        "body": "The neck is bound rather than folded, so it keeps its shape through a season of being pulled on and off over a head. <strong>That is more wear than any other seam on this garment takes.</strong>"
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Cold wash, inside out</strong> — protects the large front logo, which is the whole point of this shirt."
+      },
+      {
+        "text": "<strong>Air dry</strong> — keeps the body and the hem line, which matter on a photographed garment."
+      },
+      {
+        "text": "<strong>Hang rather than fold</strong> — a shooting shirt lives on a hanger between games."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No ironing on the artwork</strong> — direct heat is the only real risk to a sublimated print."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No fabric softener</strong> — it dulls a large colour block faster than a small one."
+      }
+    ],
+    "floridaNote": "<strong>A shooting shirt is a layer, and Florida gyms are warm.</strong> Programs here often warm up in the shirt and take it off before tip-off rather than wearing it through a bench rotation. That argues for the standard knit rather than the wicking one — it is worn for twenty minutes, not two hours, so structure and how it photographs matter more than sweat management.",
+    "sizing": {
+      "tabs": [
+        "adult",
+        "youth"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Shooting Shirt",
+          "steps": [
+            "<strong>Measure over the jersey:</strong> This shirt goes on over the game top. Measure the chest with that jersey on, not over bare skin.",
+            "<strong>Size up one:</strong> Almost every order takes one size larger than the player's game jersey. That is the design, not an error.",
+            "<strong>Staff sizes:</strong> Coaching staff usually want a fuller cut again — order a size above their normal shirt.",
+            "<strong>Booster orders:</strong> Family sizing follows a normal adult shirt, without the over-layer allowance."
+          ]
+        }
+      ]
+    }
   },
   "long-sleeve-basketball-shirt": {
     "noun": "Shirt",
@@ -1255,7 +1423,177 @@
     "fabricIntro": "Long-sleeve shirts use a <strong>lighter knit than the short-sleeve version</strong>, deliberately: more of the body is covered, so the same weight would run hot. It is built to layer under a jersey without adding bulk at the shoulder.",
     "sizingIntro": "Sizing follows the chest as usual, but <strong>check the sleeve-length column too</strong> — a player with long arms is usually better off one size up even when the chest measurement says otherwise. If the shirt will be worn under a game jersey, take the normal size rather than sizing up.",
     "bestForIntro": "Long sleeves earn their place for <strong>teams that travel, play in cold venues, or layer under jerseys</strong>. For a warm Florida gym with no air conditioning, a short-sleeve or sleeveless piece is the better call.",
-    "notFitIntro": "Full sleeves are the wrong answer to a hot gym. If your venues run warm, these will be more comfortable for the same money."
+    "notFitIntro": "Full sleeves are the wrong answer to a hot gym. If your venues run warm, these will be more comfortable for the same money.",
+    "sections": [
+      "pov",
+      "pfb",
+      "pco",
+      "pwb",
+      "psg"
+    ],
+    "fabrics": {
+      "list": [
+        "wicking",
+        "sublimation"
+      ],
+      "recommended": "wicking",
+      "notes": {
+        "wicking": {
+          "desc": "Long sleeves cover roughly twice the skin a short-sleeve shirt does, and the fabric has to account for that. <strong>The wicking knit is lighter at 145 GSM and moves sweat off the forearm</strong>, which is the area that overheats first when the whole arm is covered.",
+          "pros": [
+            "<strong>Lighter, because more of you is covered</strong>",
+            "<strong>Moves sweat off the forearm</strong> — the first place a sleeve runs hot",
+            "<strong>Stretch through the elbow</strong> on every shooting motion"
+          ]
+        },
+        "sublimation": {
+          "desc": "The standard knit is here for programs printing heavy artwork down the sleeve. <strong>A smooth closed face reproduces a full-length sponsor mark more precisely</strong> than a stretch knit that moves as the arm does.",
+          "pros": [
+            "<strong>Sharpest sleeve artwork</strong> for a full-length mark",
+            "<strong>More structure</strong> under a jersey",
+            "<strong>Runs warmer</strong> — the honest cost"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Cold Venues and Winter Tournaments",
+        "desc": "The real cold-weather problem for a Florida program is indoors. <strong>A tournament hall at 65 degrees with two hours between games</strong> is where a roster actually gets cold, not a parking lot in January.",
+        "points": [
+          "Full arm coverage between games",
+          "Layers under a jersey without bulk",
+          "Packs flat for a travel bag"
+        ]
+      },
+      {
+        "fit": "perfect",
+        "title": "Programs With a Lot to Print",
+        "desc": "Two sleeves roughly double the printable area of a shirt. <strong>Sponsors, memorial patches and championship years go here</strong> and leave the chest clear.",
+        "points": [
+          "Full-length sleeve sponsor marks",
+          "Memorial patches with real space",
+          "Chest stays clear for the main mark"
+        ]
+      },
+      {
+        "fit": "good",
+        "title": "Under-Jersey Base Layers",
+        "desc": "Players who wear a single compression sleeve for shooting comfort often prefer this instead, in team colours, so the whole bench matches. <strong>It solves a comfort habit without looking like a mismatch.</strong>",
+        "points": [
+          "Narrow forearm sits flat under a jersey",
+          "Ribbed cuffs stay at the wrist",
+          "Team colours rather than black compression"
+        ]
+      },
+      {
+        "fit": "consider",
+        "title": "Hot Un-Air-Conditioned Gyms",
+        "desc": "Full sleeves are the wrong answer to a hot hall, whatever the fabric. <strong>If your venues run warm, the short-sleeve or sleeveless version costs less and will be worn more.</strong>",
+        "points": [
+          "Order short-sleeve for warm venues",
+          "Or sleeveless for outdoor courts",
+          "Same artwork, different cut"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "Sleeve Artwork",
+        "desc": "The single reason most programs choose this cut. <strong>A sponsor can run the full length of the arm</strong>, which nothing else in the range allows.",
+        "options": [
+          "Full-length sponsor",
+          "Repeating pattern",
+          "Upper-arm badge",
+          "Cuff detail"
+        ]
+      },
+      {
+        "title": "Memorial and Commemorative Patches",
+        "desc": "A sleeve gives a patch real space rather than squeezing it beside a number. <strong>Dates, initials and dedications print at a size that can actually be read.</strong>",
+        "options": [
+          "Sleeve patch",
+          "Cuff dedication",
+          "Inside-hem message",
+          "None"
+        ]
+      },
+      {
+        "title": "Cuff Style",
+        "desc": "Ribbed by default so the sleeve stays at the wrist. <strong>A plain hem is available where the shirt is worn loose</strong> rather than under a jersey.",
+        "options": [
+          "Ribbed (default)",
+          "Plain hem",
+          "Contrast rib",
+          "Thumbhole"
+        ]
+      },
+      {
+        "title": "Chest and Back",
+        "desc": "With the sleeves carrying the sponsors, <strong>the chest is usually left to a single clean mark</strong> and the back to a name or year.",
+        "options": [
+          "Left-chest",
+          "Full-chest",
+          "Back name",
+          "Back year"
+        ]
+      }
+    ],
+    "construction": [
+      {
+        "title": "Narrow Forearm Taper",
+        "body": "The sleeve narrows from elbow to wrist rather than running straight. <strong>A straight sleeve bunches at the elbow under a jersey</strong>, and that bunching is what players notice within one possession."
+      },
+      {
+        "title": "Ribbed Cuffs",
+        "body": "A knitted rib at the wrist rather than a hem. <strong>A hemmed cuff rides to the elbow on the first shooting motion</strong> and stays there for the rest of the game."
+      },
+      {
+        "title": "Flatlock Shoulder Seam",
+        "body": "Laid flat where a jersey strap would otherwise sit on top of a raised seam. <strong>This is the one seam that is under something else all game.</strong>"
+      },
+      {
+        "title": "Extended Body Length",
+        "body": "Cut slightly longer than the short-sleeve shirt so it stays tucked when the arms are raised. <strong>A shirt that pulls out on every rebound is a shirt nobody wears twice.</strong>"
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Cold wash, inside out</strong> — sleeve artwork takes the most abrasion in a machine."
+      },
+      {
+        "text": "<strong>Air dry flat</strong> — hanging a wet long-sleeve stretches the cuffs over time."
+      },
+      {
+        "text": "<strong>Wash before first wear</strong> if worn as a base layer — new knit sits closer after one cycle."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No fabric softener</strong> — it relaxes the cuff rib, which is what holds the sleeve down."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No high-heat drying</strong> — heat is what kills a rib cuff first."
+      }
+    ],
+    "floridaNote": "<strong>The cold in Florida basketball is a building, not a season.</strong> Tournament venues and larger arenas run their air conditioning hard, and a roster sitting for two hours between games in a 65-degree hall gets genuinely cold. That is what this shirt is for here. It is not a garment for a July outdoor court, and we would rather say so than sell it as one.",
+    "sizing": {
+      "tabs": [
+        "adult"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Long-Sleeve Shirt",
+          "steps": [
+            "<strong>Chest:</strong> Fullest point, arms relaxed, tape horizontal.",
+            "<strong>Sleeve length:</strong> From the centre back of the neck, across the shoulder, down to the wrist bone. This is the measurement that decides the size here.",
+            "<strong>Long arms:</strong> Where chest and sleeve disagree, follow the sleeve and size up. A short sleeve on a long arm cannot be fixed.",
+            "<strong>As a base layer:</strong> Take the normal size — it should sit close under a jersey, not loose."
+          ]
+        }
+      ]
+    }
   },
   "moisture-wicking-basketball-shirt": {
     "noun": "Shirt",
@@ -1309,7 +1647,177 @@
     "fabricIntro": "This is our <strong>moisture-wicking performance polyester</strong> — the fiber is spun with channels that move sweat along their length rather than absorbing it. It is the fabric we recommend by default for any player who runs hot or plays back-to-back games.",
     "sizingIntro": "Wicking works best in <strong>light contact with the skin</strong>, so this shirt is cut closer than a shooting shirt. Take the normal size for a base layer; size up only if it will be worn as an outer layer over a jersey.",
     "bestForIntro": "This is the right shirt for <strong>players who sweat heavily and venues without real air conditioning</strong>. If you want a loose warm-up layer for the bench, a standard short-sleeve shirt is a better cut.",
-    "notFitIntro": "A close-cut technical shirt is not a bench layer. If you want something to pull on over a jersey, these are cut for it."
+    "notFitIntro": "A close-cut technical shirt is not a bench layer. If you want something to pull on over a jersey, these are cut for it.",
+    "sections": [
+      "pov",
+      "pfb",
+      "pwb",
+      "psg",
+      "pco"
+    ],
+    "fabrics": {
+      "list": [
+        "wicking",
+        "mesh",
+        "sublimation"
+      ],
+      "recommended": "wicking",
+      "notes": {
+        "wicking": {
+          "desc": "This shirt exists because of this fabric, so it is worth being precise about what it does. <strong>The fibre is extruded with grooves running along its length</strong>; liquid moves along those channels by capillary action to the outer face, where a far larger surface area lets it evaporate. Cotton does the opposite — it absorbs into the fibre and holds.",
+          "pros": [
+            "<strong>Structural, not a coating</strong> — it still works after a hundred washes",
+            "<strong>Dries while being worn</strong> rather than after",
+            "<strong>Never gains weight</strong> — no clinging by the third quarter"
+          ]
+        },
+        "mesh": {
+          "desc": "Mesh solves the same problem by a different route: <strong>let the air in rather than move the sweat out</strong>. In still, humid Florida air the wicking route usually wins, because there is not much airflow for mesh to work with.",
+          "pros": [
+            "<strong>Better in moving air</strong> — outdoor courts with a breeze",
+            "<strong>Less effective in still humidity</strong> than wicking",
+            "<strong>Visible weave</strong> — reads more casual"
+          ]
+        },
+        "sublimation": {
+          "desc": "The standard knit is the durable option. <strong>It manages sweat less well and survives daily abuse better</strong>, which is the right trade if this shirt is doing everything rather than being a game-day layer.",
+          "pros": [
+            "<strong>Toughest of the three</strong>",
+            "<strong>Sharpest artwork</strong> on a smooth face",
+            "<strong>Holds sweat longer</strong> — the reason it is not recommended here"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Players Who Run Hot",
+        "desc": "Every roster has two or three. <strong>The fabric does its work regardless of who is wearing it</strong>, so kitting the whole squad in it costs the same as kitting them in anything else and singles nobody out.",
+        "points": [
+          "Same price as the standard knit",
+          "Whole-squad order, no special cases",
+          "Works as a base layer or on its own"
+        ]
+      },
+      {
+        "fit": "perfect",
+        "title": "Back-to-Back Game Days",
+        "desc": "A tournament Saturday is three games with an hour between. <strong>A shirt that is still wet for game two is a shirt that gets abandoned</strong>, and this is the fabric that is not.",
+        "points": [
+          "Dries between games rather than after",
+          "One shirt covers a full day",
+          "Pairs with mesh shorts for a full hot-weather kit"
+        ]
+      },
+      {
+        "fit": "good",
+        "title": "Under-Jersey Base Layer",
+        "desc": "Cut close enough to sit under a game jersey without bunching. <strong>The wicking works best in light contact with skin</strong>, which is exactly how a base layer is worn.",
+        "points": [
+          "Close cut, no bunching at the shoulder",
+          "Flatlock seams under a jersey strap",
+          "Team colours rather than generic black"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "Fine Artwork and Gradients",
+        "desc": "A smooth wicking face holds fine detail well. <strong>Thin outlines, small type and gradient fills all reproduce cleanly</strong> — the things a textured fabric breaks up.",
+        "options": [
+          "Gradient fills",
+          "Fine outlines",
+          "Small type",
+          "Photographic fill"
+        ]
+      },
+      {
+        "title": "Chest and Back Marks",
+        "desc": "Standard placements, and the ones that survive being worn under a jersey. <strong>A chest mark disappears under a game top</strong>, so most base-layer orders put the design on the back.",
+        "options": [
+          "Left-chest",
+          "Full-chest",
+          "Back name",
+          "Back number"
+        ]
+      },
+      {
+        "title": "Fit",
+        "desc": "Close by default, because the fabric works best against the skin. <strong>A relaxed cut is available</strong> where the shirt is worn on its own rather than layered.",
+        "options": [
+          "Athletic (default)",
+          "Relaxed",
+          "Base-layer close",
+          "Staff cut"
+        ]
+      },
+      {
+        "title": "Colour Matching",
+        "desc": "Matched from a Pantone value, a style guide or an existing garment, then stored. <strong>Base layers are reordered more often than anything else</strong>, so the stored match matters here.",
+        "options": [
+          "Pantone",
+          "Style guide",
+          "Existing garment",
+          "Physical sample"
+        ]
+      }
+    ],
+    "construction": [
+      {
+        "title": "Channelled Fibre Yarn",
+        "body": "The performance is in the yarn, not in a finish applied to it. <strong>Grooves run the length of each fibre</strong>, and capillary action pulls liquid along them to the outer surface. Nothing washes off because nothing was applied."
+      },
+      {
+        "title": "Flatlock Seams Throughout",
+        "body": "Every seam laid flat. <strong>A close-fitting shirt has no slack to keep a raised seam off the skin</strong>, and a raised seam under a jersey strap is where chafing starts."
+      },
+      {
+        "title": "Bonded Neckline",
+        "body": "Bonded rather than stitched, so nothing sits proud at the collar. <strong>On a base layer the neck is the one place a seam is always visible</strong> above the jersey."
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Cold wash</strong> — enough for a fabric that does not hold soil in the first place."
+      },
+      {
+        "text": "<strong>Wash after every use</strong> — wicking fabric moves sweat out, and that sweat sits on the outer face."
+      },
+      {
+        "text": "<strong>Air dry</strong> — it dries faster than a machine can anyway."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No fabric softener, ever</strong> — this is the fabric it damages most, coating the channels the wicking depends on."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No high heat</strong> — heat closes the fibre structure that does the work."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No bleach</strong> — attacks the dye, not the odour."
+      }
+    ],
+    "floridaNote": "<strong>Humidity is why wicking beats mesh in most Florida gyms.</strong> Mesh needs moving air to work — it lets heat out through the weave, but only if there is somewhere for it to go. Inside a still, humid hall there is not much airflow, and moving sweat to a surface where it can evaporate does more than opening the fabric up. Outdoors, with a breeze, the calculation reverses.",
+    "sizing": {
+      "tabs": [
+        "adult",
+        "youth"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Wicking Shirt",
+          "steps": [
+            "<strong>Chest:</strong> Fullest point, arms relaxed. This cut is closer than a shooting shirt.",
+            "<strong>Base layer:</strong> Take the normal size. It should sit in light contact with the skin — that is how the fabric works.",
+            "<strong>Worn alone:</strong> A player who wants a looser feel should size up one, accepting slightly less wicking effect.",
+            "<strong>Length:</strong> Check the body-length column if the shirt will be tucked."
+          ]
+        }
+      ]
+    }
   },
   "lightweight-basketball-shirt": {
     "noun": "Shirt",
@@ -1363,7 +1871,153 @@
     "fabricIntro": "Built from a <strong>thinner gauge of our performance polyester</strong>. It keeps the same sweat-pull behavior as our standard weight with meaningfully less material, which is what makes it the coolest shirt we make that is not open mesh.",
     "sizingIntro": "Lightweight shirts are cut close. <strong>A player who wants a looser fit should size up</strong>; a player wearing it under a game jersey should take the normal size. Measure the chest at the fullest point with arms relaxed.",
     "bestForIntro": "The right pick for <strong>the hottest weeks of the year and for base layers</strong>. For a bench or warm-up layer worn over a jersey, a standard-weight shirt holds its shape better.",
-    "notFitIntro": "A thin shirt is not the most durable option for daily contact work. For heavy repeated wear, these hold up longer."
+    "notFitIntro": "A thin shirt is not the most durable option for daily contact work. For heavy repeated wear, these hold up longer.",
+    "sections": [
+      "pov",
+      "psg",
+      "pwb",
+      "pfb",
+      "pco"
+    ],
+    "fabrics": {
+      "list": [
+        "wicking",
+        "mesh"
+      ],
+      "recommended": "wicking",
+      "notes": {
+        "wicking": {
+          "desc": "Spun to a thinner gauge than our standard wicking knit. <strong>The channelled fibre still does its work with less material around it</strong>, which is the whole design: keep the sweat management, drop the weight.",
+          "pros": [
+            "<strong>Lightest closed-face shirt we make</strong>",
+            "<strong>Keeps the wicking</strong> despite the thinner yarn",
+            "<strong>More translucent</strong> — the honest trade for the weight"
+          ]
+        },
+        "mesh": {
+          "desc": "If you want lighter still, mesh is the next step — but it takes a different route. <strong>This shirt is thin and closed; mesh is normal weight and open.</strong> Under bright lighting the two look nothing alike.",
+          "pros": [
+            "<strong>Cooler in moving air</strong>",
+            "<strong>Visibly open weave</strong>",
+            "<strong>Better for outdoor courts</strong> than a thin closed knit"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "August Conditioning and Two-a-Days",
+        "desc": "The hottest weeks on a Florida calendar, with two sessions a day. <strong>Less fabric holds less water</strong>, so the morning shirt is dry by the afternoon session.",
+        "points": [
+          "Dries between two sessions the same day",
+          "Least weight of any closed-face shirt",
+          "Cheap enough to order two per player"
+        ]
+      },
+      {
+        "fit": "perfect",
+        "title": "Under-Jersey Base Layers",
+        "desc": "The thinnest option adds nothing at the shoulder seam, which is where a base layer shows through. <strong>Under a game jersey this is invisible in a way a standard shirt is not.</strong>",
+        "points": [
+          "No bulk at the shoulder",
+          "Flatlock seams under a jersey strap",
+          "Sits close without gripping"
+        ]
+      },
+      {
+        "fit": "consider",
+        "title": "Standalone Team Wear",
+        "desc": "A thin fabric is more translucent than a standard one — noticeably so under bright gym lighting on a light colour. <strong>For a shirt worn on its own, order a standard weight or a darker shade.</strong>",
+        "points": [
+          "Darker colours hide it entirely",
+          "Or order the standard-weight version",
+          "Not an issue as a base layer"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "Artwork on a Thin Face",
+        "desc": "Fine detail reproduces beautifully, but <strong>heavy solid blocks show slightly from the reverse</strong> on a very light fabric. We flag that at proof rather than after delivery.",
+        "options": [
+          "Fine linework",
+          "Gradient fills",
+          "Light solid blocks",
+          "Reviewed at proof"
+        ]
+      },
+      {
+        "title": "Colour Choice",
+        "desc": "Directly relevant here rather than a style question. <strong>Mid and dark colours hide translucency</strong>; a pale shirt on a light fabric will show more under arena lighting.",
+        "options": [
+          "Dark team base",
+          "Mid tone",
+          "Light (reviewed)",
+          "Match existing kit"
+        ]
+      },
+      {
+        "title": "Chest and Back",
+        "desc": "Standard placements. <strong>Base-layer orders usually put the mark on the back</strong>, since the chest disappears under a jersey.",
+        "options": [
+          "Left-chest",
+          "Back name",
+          "Back number",
+          "Blank"
+        ]
+      }
+    ],
+    "construction": [
+      {
+        "title": "Flatlock Shoulder Seams",
+        "body": "Laid flush against the skin. <strong>A thin fabric cannot disguise a raised seam</strong> the way a heavier one does, and the shoulder is where a jersey strap presses on it."
+      },
+      {
+        "title": "Bonded Hem",
+        "body": "Bonded rather than folded, removing a layer at the waist. <strong>On a base layer a folded hem is a visible ridge</strong> under a game jersey."
+      },
+      {
+        "title": "Thin-Gauge Yarn",
+        "body": "The same channelled wicking fibre spun finer. <strong>The performance is unchanged; there is simply less of it</strong>, which is where both the comfort and the translucency come from."
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Cold wash, inside out</strong> — a thin knit takes more abrasion in a full drum."
+      },
+      {
+        "text": "<strong>Air dry</strong> — it is dry in minutes and heat is harder on fine yarn."
+      },
+      {
+        "text": "<strong>Wash with like fabrics</strong> — zips find a thin shirt first."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No fabric softener</strong> — it coats the wicking channels."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No tumble drying</strong> — the fabric here we would most rather you kept out of a dryer."
+      }
+    ],
+    "floridaNote": "<strong>August in Florida is the case this shirt was made for.</strong> Two-a-days in a hall that has been closed all summer, where the first session is over before the air conditioning has caught up. Less fabric is the simplest thing that helps, and the shirt dries on a rail between sessions rather than going back on damp. For September onwards, a standard weight will last longer.",
+    "sizing": {
+      "tabs": [
+        "adult"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Lightweight Shirt",
+          "steps": [
+            "<strong>Chest:</strong> Fullest point, arms relaxed. This is a close cut.",
+            "<strong>Roomier fit:</strong> A player who dislikes a close shirt should size up one — a thin fabric shows the fit more than a heavy one.",
+            "<strong>Base layer:</strong> Normal size. It should sit close without gripping.",
+            "<strong>Colour note:</strong> If ordering a pale colour to wear on its own, ask for a fabric sample first."
+          ]
+        }
+      ]
+    }
   },
   "training-basketball-shirt": {
     "noun": "Shirt",
@@ -1417,7 +2071,159 @@
     "fabricIntro": "This uses a <strong>denser, anti-pill knit than our game or lightweight shirts</strong>. It gives up a little airflow for a lot of durability, which is the right trade for a garment that goes through the wash four times a week.",
     "sizingIntro": "Training shirts are cut <strong>roomier than a game or base-layer shirt</strong>. Most players take their normal size; for a program buying one order to last a full season of growth, size up for younger players.",
     "bestForIntro": "Training shirts fit <strong>programs that practice far more often than they play</strong>, which is nearly all of them. For game day, warm-ups, or photos, a shooting shirt looks the part where this one will not.",
-    "notFitIntro": "This is built for the practice floor, not the camera. For warm-ups, team photos and bench wear, choose one of these."
+    "notFitIntro": "This is built for the practice floor, not the camera. For warm-ups, team photos and bench wear, choose one of these.",
+    "sections": [
+      "pov",
+      "pwb",
+      "pfb",
+      "psg",
+      "pco"
+    ],
+    "fabrics": {
+      "list": [
+        "sublimation"
+      ],
+      "recommended": "sublimation",
+      "notes": {
+        "sublimation": {
+          "desc": "Only one fabric is offered here, deliberately. A training shirt is judged on <strong>how it looks after two hundred wears and two hundred washes</strong>, and the standard polyester is the only knit in our range built for that number. Offering a lighter option would be selling you a shirt that fails first.",
+          "pros": [
+            "<strong>Anti-pill surface</strong> — still reads as team kit in March",
+            "<strong>Densest knit we offer</strong> — resists rack and bench abrasion",
+            "<strong>Cheapest to reorder</strong> when one goes missing mid-season"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Daily Practice Across a Full Season",
+        "desc": "Four sessions a week for four months. <strong>Everything about this shirt is built around that arithmetic</strong> rather than around how it photographs on day one.",
+        "points": [
+          "Reinforced shoulder and side seams",
+          "Anti-pill knit holds its face",
+          "Priced for two per player"
+        ]
+      },
+      {
+        "fit": "perfect",
+        "title": "Weight Room and Conditioning",
+        "desc": "Cut with more room through the chest and shoulder than a basketball top, because <strong>overhead lifting needs range a game cut does not give</strong>.",
+        "points": [
+          "Extra shoulder range for overhead work",
+          "Longer hem stays down in floor work",
+          "Dense knit resists equipment abrasion"
+        ]
+      },
+      {
+        "fit": "good",
+        "title": "Program-Wide Identity",
+        "desc": "The cheapest way to make everything a program does look like the same program. <strong>Weight room, bus, camp, summer league</strong> — all in the same shirt.",
+        "points": [
+          "Lowest per-unit price in the range",
+          "Simple layout, fast reorders",
+          "Adult and youth on one order"
+        ]
+      },
+      {
+        "fit": "consider",
+        "title": "Game Day and Photos",
+        "desc": "This shirt is built to survive, not to be photographed. <strong>For warm-ups, bench and team pictures, a shooting shirt looks the part where this one will not.</strong>",
+        "points": [
+          "Order short-sleeve shooting shirts for match day",
+          "Or long-sleeve for cold venues",
+          "Same colours, different garment"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "Team Mark",
+        "desc": "Usually a single chest mark and nothing else. <strong>The restraint is what holds the price down</strong> enough to buy two per player, which matters more here than artwork.",
+        "options": [
+          "Left-chest",
+          "Full-chest",
+          "Small centre",
+          "Back only"
+        ]
+      },
+      {
+        "title": "Squad Numbers",
+        "desc": "Optional and printed large. <strong>A coach identifying a player across a full gym</strong> needs a different size than an official at the scorer's table.",
+        "options": [
+          "Large practice size",
+          "Small",
+          "Sequential 1-30",
+          "None"
+        ]
+      },
+      {
+        "title": "Colour Split",
+        "desc": "Two colours on one order splits a session instantly. <strong>The same trick that works for practice jerseys works here.</strong>",
+        "options": [
+          "Two-colour split",
+          "Single colour",
+          "By squad",
+          "By position group"
+        ]
+      }
+    ],
+    "construction": [
+      {
+        "title": "Reinforced Shoulder Seam",
+        "body": "Double-stitched across the shoulder. <strong>Overhead lifting loads that seam in a way basketball never does</strong>, and it is the first seam to fail on a shirt used in a weight room."
+      },
+      {
+        "title": "Reinforced Side Seams",
+        "body": "The second-highest stress point, and the one that goes when a shirt is pulled off over the head repeatedly. <strong>Two hundred wears is two hundred pull-offs.</strong>"
+      },
+      {
+        "title": "Shape-Retaining Neckline",
+        "body": "Bound and stitched so it does not stretch into a loop. <strong>A stretched neck is the single most common reason a training shirt gets retired</strong> long before the fabric wears out."
+      },
+      {
+        "title": "Anti-Pill Dense Knit",
+        "body": "A tighter yarn count resists the surface fuzzing that makes older kit look worn. <strong>The shirt fades in appearance long before it fails structurally</strong>, and this is what delays that."
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Hot wash is fine</strong> — this is the one garment here genuinely built for it."
+      },
+      {
+        "text": "<strong>Tumble dry low</strong> — practical for kit washed four times a week."
+      },
+      {
+        "text": "<strong>Wash inside out</strong> — protects the printed mark through hundreds of cycles."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No fabric softener</strong> — build-up shows fastest on the most-washed garment you own."
+      },
+      {
+        "dont": true,
+        "text": "<strong>Do not wash with hook-and-loop</strong> — velcro pills a knit surface faster than wear does."
+      }
+    ],
+    "floridaNote": "<strong>Two hundred wears in Florida humidity is the real test.</strong> Kit that does not dry properly between sessions develops odour that no wash removes, and that is what usually retires practice gear here — not wear. Two shirts per player, alternated, solves it completely, and this is priced so that is realistic rather than aspirational.",
+    "sizing": {
+      "tabs": [
+        "adult",
+        "youth"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Training Shirt",
+          "steps": [
+            "<strong>Chest:</strong> Fullest point, arms relaxed. This cut is roomier than a game or base-layer shirt.",
+            "<strong>Shoulder range:</strong> If the shirt is mainly for the weight room, size up one for overhead range.",
+            "<strong>Growing players:</strong> For a season-long youth order, size up — it fits properly by February.",
+            "<strong>Two per player:</strong> Order the same size twice. A player alternating two different fits notices."
+          ]
+        }
+      ]
+    }
   },
   "sleeveless-basketball-tank-top": {
     "noun": "Tank Top",
