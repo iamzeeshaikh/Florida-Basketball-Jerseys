@@ -50,7 +50,199 @@
     "fabricIntro": "Game shorts are made from <strong>the same sublimation polyester as the jersey they pair with</strong>, so the set matches under gym lighting. The weight is chosen for a warm Florida gym in the fourth quarter — light enough to breathe, heavy enough to hang properly rather than cling.",
     "sizingIntro": "Shorts are sized on <strong>waist and hip measurements</strong>, not chest. Measure around the natural waist where the band will sit, then check the inseam column for the length your program prefers. When a player is between sizes, size up — the drawcord takes in the waist, but nobody can add length.",
     "bestForIntro": "Game shorts are the right choice for <strong>teams buying a matched uniform set</strong> — a jersey and short that read as one design. If you only need bottoms for the practice floor, a lighter and cheaper pair will serve you better.",
-    "notFitIntro": "Game shorts are built for match day. If most of your wear is drills and scrimmages, you are paying for a finish you will not see — these alternatives cost less and hold up just as well in practice."
+    "notFitIntro": "Game shorts are built for match day. If most of your wear is drills and scrimmages, you are paying for a finish you will not see — these alternatives cost less and hold up just as well in practice.",
+    "sections": [
+      "pov",
+      "pco",
+      "pfb",
+      "psg",
+      "pwb"
+    ],
+    "fabrics": {
+      "list": [
+        "sublimation",
+        "wicking",
+        "mesh"
+      ],
+      "recommended": "sublimation",
+      "notes": {
+        "sublimation": {
+          "desc": "Game shorts default to our standard sublimation polyester because <strong>a closed, smooth face is what makes a short hang correctly</strong>. On match day the short is seen standing still as often as moving — free throws, timeouts, the huddle — and a closed knit holds its line where an open one collapses against the leg.",
+          "pros": [
+            "<strong>Hangs rather than clings</strong> — the short keeps its shape on a stationary player",
+            "<strong>Sharpest side-panel reproduction</strong> — fine stripes and piping stay crisp",
+            "<strong>Matches the jersey exactly</strong> — same fabric, same dye run, same fade over a season"
+          ]
+        },
+        "wicking": {
+          "desc": "The wicking option adds 8% spandex, which shows up in <strong>a deep defensive stance more than anywhere else</strong>. Programs that play a lot of switching defence often prefer it for the extra give through the seat and thigh.",
+          "pros": [
+            "<strong>4-way stretch with spandex</strong> — more give in a low stance",
+            "<strong>Moves sweat by fibre channel</strong> — works in cool, air-conditioned gyms",
+            "<strong>Slightly lighter</strong> at 145 GSM against 155"
+          ]
+        },
+        "mesh": {
+          "desc": "Mesh is available on game shorts, and worth it if your home venue runs hot. <strong>The trade is a visibly open weave</strong>, which reads less formal under arena lighting than the closed knit most programs choose for match day.",
+          "pros": [
+            "<strong>Coolest option by a distance</strong> — the choice if your gym has no air conditioning",
+            "<strong>Dries between games</strong> on a tournament Saturday",
+            "<strong>Reads casual</strong> — the reason it is not the default here"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Teams Buying a Matched Uniform Set",
+        "desc": "This is the short designed to go with a jersey rather than alongside one. <strong>Both are printed from the same colour file in the same run</strong>, which is the only reliable way to stop a set looking almost-matched.",
+        "points": [
+          "Side panels line up between top and short",
+          "One stored colour for both pieces",
+          "Reorders in later seasons still match"
+        ]
+      },
+      {
+        "fit": "perfect",
+        "title": "Varsity and JV Programs",
+        "desc": "A school running two squads needs kit that reads as one program across both. <strong>Game shorts hold a formal line under arena lighting</strong> in a way a practice or mesh short does not.",
+        "points": [
+          "Mixed adult and youth sizes on one order",
+          "School colours matched from a style guide",
+          "Numbers on the leg optional and sized to your league"
+        ]
+      },
+      {
+        "fit": "good",
+        "title": "Travel and AAU Rosters",
+        "desc": "Tournament play is hard on shorts — three games a day, hotel laundry, a bag that lives in a car. <strong>The bar-tacked hem and gusseted seams are what survive that</strong>, though a second pair per player is worth budgeting.",
+        "points": [
+          "Reinforced at the two points that fail first",
+          "Sublimated colour survives hotel washing",
+          "Second pair costs less than a mid-season replacement"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "Side Panel Design",
+        "desc": "The side panel is what an audience actually sees of a short. <strong>On a game short it usually continues a line from the jersey</strong> rather than standing alone, which is why we build both from one artwork file.",
+        "options": [
+          "Continue the jersey panel",
+          "Solid team block",
+          "Tapered stripe",
+          "Contrast piping"
+        ]
+      },
+      {
+        "title": "Waistband Treatment",
+        "desc": "Visible whether the jersey is tucked or not. <strong>Most game shorts use a plain matched band</strong> and put the design work into the side panel, but a team-name repeat is available.",
+        "options": [
+          "Plain matched",
+          "Contrast band",
+          "Team name repeat",
+          "Two-tone"
+        ]
+      },
+      {
+        "title": "Leg Numbers",
+        "desc": "Some leagues require a number on the short as well as the jersey. <strong>Check your rulebook before ordering</strong> — adding them after the fact means a reprint, not a patch.",
+        "options": [
+          "League-required size",
+          "Small game size",
+          "Front or side",
+          "None"
+        ]
+      },
+      {
+        "title": "Inseam Length",
+        "desc": "Specify it once and the whole run matches. <strong>Nine inches is what most Florida adult programs order</strong>; youth squads usually take seven.",
+        "options": [
+          "7 inch",
+          "9 inch",
+          "11 inch",
+          "Mixed by player"
+        ]
+      },
+      {
+        "title": "Pocket Options",
+        "desc": "Game shorts ship without pockets by default, because <strong>most leagues prohibit them on court</strong>. They can be added for warm-up or coaching versions of the same design.",
+        "options": [
+          "No pockets (default)",
+          "Hidden side pockets",
+          "Coaching version with pockets"
+        ]
+      },
+      {
+        "title": "Colour Matching",
+        "desc": "Send the jersey, a Pantone value or a previous order. <strong>The match is made once and stored</strong>, which is what keeps a set together across seasons.",
+        "options": [
+          "Pantone match",
+          "Match existing jersey",
+          "School style guide",
+          "Physical sample"
+        ]
+      }
+    ],
+    "construction": [
+      {
+        "title": "Gusseted Side Seams",
+        "body": "A triangular panel set into the side seam widens the leg opening as the player strides. <strong>On a closed knit this is what prevents the hem pulling across the thigh</strong> at the top of a jump."
+      },
+      {
+        "title": "Bar-Tacked Hem Corners",
+        "body": "The hem split takes more stress than any other point on a game short. <strong>Both corners carry a dense bar-tack</strong>, which is the difference between a short that lasts a season and one that starts fraying in January."
+      },
+      {
+        "title": "Double-Stitched Waistband",
+        "body": "The waistband is stitched twice along its full length rather than once. <strong>It is the seam that carries the whole garment's weight</strong> and the one that gives out first on cheaper shorts."
+      },
+      {
+        "title": "Internal Drawcord Channel",
+        "body": "The cord runs inside the band and never exits at the front. <strong>Nothing is visible on the outside of a match-day short</strong>, and there is no tie to work loose during contact."
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Machine wash cold, inside out</strong> — protects the printed side panels from abrasion."
+      },
+      {
+        "text": "<strong>Wash with like colours</strong> — a matched set should be laundered together to age together."
+      },
+      {
+        "text": "<strong>Air dry</strong> — a closed knit holds its line better without heat."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No fabric softener</strong> — it leaves a film that dulls printed colour over a season."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No ironing on the panel</strong> — direct heat on sublimated artwork is the one thing that can damage it."
+      },
+      {
+        "dont": true,
+        "text": "<strong>Do not bleach</strong> — bleach attacks the dye, not dirt, on a sublimated garment."
+      }
+    ],
+    "floridaNote": "<strong>Match day in a Florida gym:</strong> most high school venues in the state are air-conditioned and a closed knit is the right call — it holds a formal line and the heat is handled by the building. If your home court is outdoor, or a hall without working air conditioning, order this same design in mesh instead: identical artwork, identical colours, a fabric that lets the heat out.",
+    "sizing": {
+      "tabs": [
+        "shorts"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Game Shorts",
+          "steps": [
+            "<strong>Waist:</strong> Measure around the natural waist where the band sits, just above the hip bone. Do not measure at the belly button.",
+            "<strong>Hip:</strong> Measure the fullest part of the seat with feet together — this decides comfort in a defensive stance more than the waist does.",
+            "<strong>Inseam:</strong> From the crotch seam down the inner leg to the hem you want. Nine inches is standard for adult Florida programs.",
+            "<strong>Match to the jersey:</strong> Order both together so the run is printed from one file. A player may take different sizes top and bottom."
+          ]
+        }
+      ]
+    }
   },
   "basketball-practice-shorts": {
     "noun": "Shorts",
@@ -103,7 +295,181 @@
     "fabricIntro": "These are built from a <strong>hard-wearing polyester chosen for wash cycles, not for photographs</strong>. It is the same fiber family as the game shorts, in a weight that dries fast between back-to-back sessions in a humid Florida gym.",
     "sizingIntro": "Practice shorts run <strong>slightly looser than game shorts at the same size</strong>, which most players prefer for drills. Measure the natural waist and match the closest size. If your program wants one order to cover growth across a season, size up for younger players.",
     "bestForIntro": "Practice shorts make sense for <strong>any program where players train more often than they play</strong> — which is nearly all of them. If you need a pair that matches your game jersey exactly, order game shorts instead.",
-    "notFitIntro": "These are not built to match a game jersey panel-for-panel. If the shorts will be worn on match day alongside a sublimated top, choose from these instead."
+    "notFitIntro": "These are not built to match a game jersey panel-for-panel. If the shorts will be worn on match day alongside a sublimated top, choose from these instead.",
+    "sections": [
+      "pov",
+      "pfb",
+      "pwb",
+      "psg",
+      "pco"
+    ],
+    "fabrics": {
+      "list": [
+        "sublimation",
+        "mesh"
+      ],
+      "recommended": "sublimation",
+      "notes": {
+        "sublimation": {
+          "desc": "Practice shorts are judged on wash cycles, not on photographs, and the standard polyester is the most wash-durable fabric we offer. <strong>Fifty hot cycles is the test</strong>, and a closed knit at 155 GSM comes through it looking like kit rather than like something recovered from a lost-property bin.",
+          "pros": [
+            "<strong>Most durable of our fabrics</strong> — built for four washes a week",
+            "<strong>Resists pilling</strong> where a lighter knit fuzzes",
+            "<strong>Cheapest to reorder</strong> mid-season when a pair goes missing"
+          ]
+        },
+        "mesh": {
+          "desc": "Worth choosing if your practice court is outdoors or your gym has no air conditioning. <strong>Mesh trades some durability for a lot of airflow</strong>, which on a daily-use garment is a real trade rather than a free upgrade.",
+          "pros": [
+            "<strong>Much cooler for outdoor sessions</strong>",
+            "<strong>Dries overnight</strong> between back-to-back days",
+            "<strong>Snags more easily</strong> — the honest cost of an open weave"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Programs Buying Two Pairs Per Player",
+        "desc": "The whole point of a practice short is that there is a clean one tomorrow. <strong>These are priced so a squad of fifteen can have thirty pairs</strong> without touching the uniform budget.",
+        "points": [
+          "No minimum order",
+          "Same price whether you order 15 or 60",
+          "Reorder a single pair mid-season without a setup charge"
+        ]
+      },
+      {
+        "fit": "perfect",
+        "title": "Daily Training and Drill Work",
+        "desc": "Four sessions a week for four months is roughly seventy wears and seventy washes. <strong>Everything here is built around that number</strong> rather than around how the short looks on day one.",
+        "points": [
+          "Double-needle waistband and hem",
+          "Sublimated colour cannot crack in a hot wash",
+          "Simple layout keeps the price where it needs to be"
+        ]
+      },
+      {
+        "fit": "good",
+        "title": "Camps and Clinics",
+        "desc": "A summer camp needs kit that identifies groups and survives a week of hard use. <strong>Two contrasting colours split a session instantly</strong>, and numbers may repeat because nobody is checking a roster.",
+        "points": [
+          "Two-colour orders split squads without pinnies",
+          "Numbers can repeat across colours",
+          "Cheap enough to send home with participants"
+        ]
+      },
+      {
+        "fit": "consider",
+        "title": "Match-Day Wear",
+        "desc": "These will not match a game jersey panel for panel — the layout is deliberately simpler and the colour is matched to your base rather than to a specific set. <strong>They are practice kit, and they look like it.</strong>",
+        "points": [
+          "Order game shorts for match day",
+          "Or run practice shorts in the same base colour",
+          "Both can be printed from one stored colour"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "Two-Colour Squad Split",
+        "desc": "The single most useful thing you can specify on a practice order. <strong>Half the run in one colour, half in another</strong>, and five-on-five takes thirty seconds instead of a hunt for pinnies.",
+        "options": [
+          "Two-colour split",
+          "Three-colour split",
+          "Single colour",
+          "Match by squad"
+        ]
+      },
+      {
+        "title": "Leg Numbers",
+        "desc": "Practice numbers are printed larger than game numbers on purpose. <strong>A coach calls a player from the far baseline</strong>, not from the scorer's table.",
+        "options": [
+          "Large practice size",
+          "Repeat across colours",
+          "Sequential 1-30",
+          "None"
+        ]
+      },
+      {
+        "title": "Base Colour and Accent",
+        "desc": "Practice kit keeps to two colours because that is what keeps it cheap. <strong>Your team base plus one accent</strong> is the standard layout here.",
+        "options": [
+          "Team base",
+          "One accent",
+          "Plain single colour",
+          "Match existing practice kit"
+        ]
+      },
+      {
+        "title": "Waistband",
+        "desc": "A plain matched band on practice shorts, almost always. <strong>The budget is better spent on a second pair</strong> than on a printed waistband nobody sees at training.",
+        "options": [
+          "Plain matched",
+          "Contrast band",
+          "Team name repeat"
+        ]
+      }
+    ],
+    "construction": [
+      {
+        "title": "Double-Needle Waistband",
+        "body": "Two parallel rows of stitching along the full band. <strong>On a garment washed four times a week this is the seam that decides its life</strong>, and it is the first place a cheap practice short comes apart."
+      },
+      {
+        "title": "Double-Needle Hem",
+        "body": "The hem takes the same treatment for the same reason. <strong>A single-stitched hem on a daily-use short unravels from one broken thread</strong>; a double row does not."
+      },
+      {
+        "title": "Reinforced Crotch Seam",
+        "body": "The four-way seam junction is the highest-stress point on any short. <strong>An extra pass of stitching there</strong> is what stops a split during a lunge in the third week of preseason."
+      },
+      {
+        "title": "Colourfast Sublimated Dye",
+        "body": "The colour is inside the fibre rather than on it. <strong>Seventy hot washes will not fade it</strong>, which is the whole argument for sublimating practice kit rather than screen-printing it."
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Hot wash is fine</strong> — sublimated colour is unaffected, and practice kit needs it."
+      },
+      {
+        "text": "<strong>Tumble dry low</strong> — these are the one garment here built to take a dryer."
+      },
+      {
+        "text": "<strong>Wash colours separately</strong> if you ordered a two-colour squad split."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No fabric softener</strong> — it builds up on daily-washed kit faster than on anything else."
+      },
+      {
+        "dont": true,
+        "text": "<strong>Do not bleach</strong> — it attacks the dye rather than the stain."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No high-heat drying</strong> — low is fine; high relaxes the waistband over a season."
+      }
+    ],
+    "floridaNote": "<strong>Practice in Florida means humidity, not just heat.</strong> A short that does not dry overnight goes on damp the next day, and that is how a program ends up with kit that smells by October. These dry fast enough to hang on a rail at 6pm and be ready at 6am — and if your training court is outdoors, order the mesh version instead and accept the trade in durability.",
+    "sizing": {
+      "tabs": [
+        "shorts",
+        "youth"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Practice Shorts",
+          "steps": [
+            "<strong>Waist:</strong> Around the natural waist. Practice shorts run looser than game shorts at the same size, which most players prefer.",
+            "<strong>Hip:</strong> The fullest part of the seat. If a player is between sizes here rather than at the waist, size up.",
+            "<strong>Growing players:</strong> For a youth programme buying one order to last a season, size up. The drawcord covers the difference in November.",
+            "<strong>Two pairs:</strong> Order the same size twice rather than one of each — a player wearing two different fits notices."
+          ]
+        }
+      ]
+    }
   },
   "mesh-basketball-shorts": {
     "noun": "Shorts",
@@ -403,7 +769,172 @@
     "fabricIntro": "Built from a <strong>thinner gauge of our moisture-wicking performance polyester</strong>. It carries the same sweat-pull behavior as our standard weight with less material, which is what makes it the lightest non-mesh short we produce.",
     "sizingIntro": "Lightweight shorts are cut close, so <strong>a player who prefers a roomier short should size up</strong>. Measure the natural waist and check the inseam column — this style is most often ordered one inch shorter than a standard game short.",
     "bestForIntro": "These suit <strong>fast-tempo programs and players who dislike extra fabric</strong>. If your team plays a physical, contact-heavy style, a standard-weight game short will take the abuse better.",
-    "notFitIntro": "A lighter fabric is not the toughest option in a contact-heavy program. If your shorts take a beating every session, these will last longer."
+    "notFitIntro": "A lighter fabric is not the toughest option in a contact-heavy program. If your shorts take a beating every session, these will last longer.",
+    "sections": [
+      "pov",
+      "psg",
+      "pfb",
+      "pco",
+      "pwb"
+    ],
+    "fabrics": {
+      "list": [
+        "wicking",
+        "mesh",
+        "sublimation"
+      ],
+      "recommended": "wicking",
+      "notes": {
+        "wicking": {
+          "desc": "The lightweight short is built on the wicking knit rather than the standard one, and the 8% spandex is the reason. <strong>Take fabric away from a short and it needs to stretch more, not less</strong> — there is less material to accommodate a stride, so the give has to come from the fibre.",
+          "pros": [
+            "<strong>4-way stretch</strong> — carries the range a thin fabric would otherwise lose",
+            "<strong>145 GSM against 155</strong> — the weight saving you can actually feel",
+            "<strong>Moves sweat by fibre channel</strong> rather than relying on airflow"
+          ]
+        },
+        "mesh": {
+          "desc": "Lighter still, but a different kind of light: <strong>mesh removes material by opening the weave</strong> where this short removes it by thinning the yarn. Mesh is cooler; this is closer-fitting and holds a cleaner line.",
+          "pros": [
+            "<strong>Coolest of the three</strong> for outdoor play",
+            "<strong>Less structured</strong> — reads casual next to a thin closed knit",
+            "<strong>Snags more easily</strong> on benches and racks"
+          ]
+        },
+        "sublimation": {
+          "desc": "The standard weight is here for programmes that want the same design in a tougher short. <strong>Ten extra GSM does not sound like much and is very noticeable over a season</strong> of daily contact work.",
+          "pros": [
+            "<strong>Most durable</strong> — the right call if one pair does everything",
+            "<strong>Sharpest artwork</strong> on a smooth closed face",
+            "<strong>Heavier on the leg</strong> — the trade you are making"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Guards and Fast-Tempo Programs",
+        "desc": "A team that spends the game in transition notices fabric weight in the fourth quarter. <strong>Less material on the leg is not a marketing claim at that tempo</strong> — it is the difference players report first.",
+        "points": [
+          "Least weight of any closed-knit short we make",
+          "Flatlock seams sit flush at speed",
+          "Cut narrower through the thigh"
+        ]
+      },
+      {
+        "fit": "good",
+        "title": "Layering Over Compression Tights",
+        "desc": "Programs that run compression underneath need a short that does not add bulk at the hip. <strong>The narrow waistband is built for exactly that stack.</strong>",
+        "points": [
+          "Narrow band reduces bulk at the waist",
+          "Size up one for a comfortable stack",
+          "Works with full-length or three-quarter tights"
+        ]
+      },
+      {
+        "fit": "consider",
+        "title": "Contact-Heavy Programs",
+        "desc": "A thinner yarn is a thinner yarn. <strong>If your squad plays a physical style and one pair does every session</strong>, the standard-weight short will outlast this by a clear margin.",
+        "points": [
+          "Order game or training shorts for heavy contact",
+          "Or buy two pairs of these for the same money",
+          "Same artwork either way"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "Side Panel Design",
+        "desc": "A narrow panel on a shorter cut, so <strong>designs that work on a game short can crowd here</strong>. We adjust the artwork to the panel rather than scaling it down.",
+        "options": [
+          "Tapered stripe",
+          "Solid block",
+          "Gradient fade",
+          "Minimal / none"
+        ]
+      },
+      {
+        "title": "Inseam Length",
+        "desc": "This style is most often ordered an inch shorter than a standard game short. <strong>Seven inches is the common request</strong> for guards.",
+        "options": [
+          "5 inch",
+          "7 inch",
+          "9 inch",
+          "Mixed by player"
+        ]
+      },
+      {
+        "title": "Waistband Width",
+        "desc": "Narrow by default, because bulk at the hip is what this short is built to avoid. <strong>A standard band is available if the short is worn on its own.</strong>",
+        "options": [
+          "Narrow (default)",
+          "Standard",
+          "Contrast",
+          "Plain matched"
+        ]
+      },
+      {
+        "title": "Colour Matching",
+        "desc": "Match to an existing top or a Pantone value. <strong>Stored once and reused</strong> so a later reorder is the same shade.",
+        "options": [
+          "Pantone match",
+          "Match existing kit",
+          "Style guide",
+          "Physical sample"
+        ]
+      }
+    ],
+    "construction": [
+      {
+        "title": "Flatlock Seams Throughout",
+        "body": "Every seam is laid flat rather than stood proud. <strong>On a thin fabric there is nothing to hide a raised seam</strong> — what a heavier short absorbs, this one would press into the skin over a full game."
+      },
+      {
+        "title": "Narrow Bonded Waistband",
+        "body": "The band is narrower and bonded rather than folded, which removes a layer at the hip. <strong>That is where a short worn over tights bunches</strong>, and where the bulk would otherwise show under a jersey."
+      },
+      {
+        "title": "Single-Fold Hem",
+        "body": "A single fold rather than a banded hem, taking weight off the leg opening. <strong>It is why the hem moves with the stride</strong> instead of swinging behind it."
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Cold wash, inside out</strong> — a thin knit is more exposed to abrasion in a full machine."
+      },
+      {
+        "text": "<strong>Air dry</strong> — heat is harder on a light yarn than on a heavy one."
+      },
+      {
+        "text": "<strong>Wash with like fabrics</strong> — zips and studs find a thin short first."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No fabric softener</strong> — it flattens the stretch that this short depends on."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No tumble drying</strong> — the one garment here where we would genuinely rather you did not."
+      }
+    ],
+    "floridaNote": "<strong>Weight against airflow — the choice worth making deliberately.</strong> In a hot Florida gym there are two ways to be cooler: less fabric, or fabric you can breathe through. This short takes the first route and keeps a clean closed face; mesh takes the second and looks it. For an air-conditioned arena, less weight is usually the better answer. For an outdoor court in July, airflow wins.",
+    "sizing": {
+      "tabs": [
+        "shorts"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Lightweight Shorts",
+          "steps": [
+            "<strong>Waist:</strong> Around the natural waist. This cut runs closer than a game short, so a player who likes room should size up.",
+            "<strong>Hip:</strong> The fullest part of the seat, feet together. A close cut shows a tight hip measurement sooner than a loose one.",
+            "<strong>Over tights:</strong> If these are worn over compression, measure over the tights and allow one size.",
+            "<strong>Inseam:</strong> Most orders come in an inch shorter than the same player's game short."
+          ]
+        }
+      ]
+    }
   },
   "training-basketball-shorts": {
     "noun": "Shorts",
@@ -456,7 +987,167 @@
     "fabricIntro": "These use a <strong>denser performance knit than our game or mesh shorts</strong>, chosen specifically for the weight room. It resists snagging on equipment and holds its shape through repeated deep-knee work, at the cost of a little airflow.",
     "sizingIntro": "Training shorts are cut with <strong>more room through the thigh and seat</strong> than a game short. Most players take their normal size; if the shorts will be worn over compression shorts in the weight room, allow one size of room.",
     "bestForIntro": "Training shorts fit <strong>programs that want their identity worn everywhere, not only at tip-off</strong> — weight room, conditioning, preseason, and travel days. For match play, order game shorts that match your jersey.",
-    "notFitIntro": "These are built for the weight room rather than the floor. If you need shorts for games or for hot outdoor courts, start with these instead."
+    "notFitIntro": "These are built for the weight room rather than the floor. If you need shorts for games or for hot outdoor courts, start with these instead.",
+    "sections": [
+      "pov",
+      "pwb",
+      "pfb",
+      "pco",
+      "psg"
+    ],
+    "fabrics": {
+      "list": [
+        "sublimation",
+        "wicking"
+      ],
+      "recommended": "sublimation",
+      "notes": {
+        "sublimation": {
+          "desc": "The weight room is a snagging environment — knurled bars, bench edges, rack uprights, turf. <strong>A dense closed knit is the only sensible answer</strong>, and the standard polyester is the densest fabric we offer.",
+          "pros": [
+            "<strong>Most snag-resistant</strong> of our fabrics",
+            "<strong>Holds shape through deep-knee work</strong>",
+            "<strong>Survives daily use</strong> across a full off-season block"
+          ]
+        },
+        "wicking": {
+          "desc": "Worth it for conditioning blocks rather than lifting. <strong>Sprint and interval work produces sweat faster than a closed knit clears it</strong>, and the spandex content helps through a full stride.",
+          "pros": [
+            "<strong>Better for running work</strong> than for lifting",
+            "<strong>More stretch</strong> through a full sprint stride",
+            "<strong>Snags more easily</strong> on equipment than the standard knit"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Weight Room and Strength Blocks",
+        "desc": "A squat needs range the basketball cut does not give, and a barbell needs a waistband that stays put. <strong>Both are built into this short specifically</strong>, which is why it is not simply a practice short in another colour.",
+        "points": [
+          "Wider high-rise band stays under a bar",
+          "Extra room through thigh and seat",
+          "Dense knit resists rack and bench abrasion"
+        ]
+      },
+      {
+        "fit": "perfect",
+        "title": "Preseason Conditioning",
+        "desc": "Six weeks of running, sleds and circuits before a ball is picked up. <strong>The longer inseam is for floor and mobility work</strong>, where a short game cut rides up through every rep.",
+        "points": [
+          "Longer inseam for floor work",
+          "Handles daily use across a full block",
+          "Same colour as the rest of your kit"
+        ]
+      },
+      {
+        "fit": "good",
+        "title": "Everyday Team Wear and Travel",
+        "desc": "Programs that want their identity visible off the court use these as the default. <strong>They look like team kit without looking like a uniform</strong>, which is what makes them wearable on a bus.",
+        "points": [
+          "Simple layout reads as team wear",
+          "Pockets available on this cut",
+          "Cheapest way to kit a whole program"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "Pocket Options",
+        "desc": "The one short here where pockets are normal rather than an exception. <strong>Off-court wear needs somewhere for a phone and a key</strong>, and no league rule applies in the weight room.",
+        "options": [
+          "Hidden side pockets",
+          "Open side pockets",
+          "Zip pocket",
+          "No pockets"
+        ]
+      },
+      {
+        "title": "Waistband Height",
+        "desc": "High-rise by default so it stays put under a bar. <strong>A standard band is available</strong> for programs using these mainly as travel wear.",
+        "options": [
+          "High-rise (default)",
+          "Standard",
+          "Contrast",
+          "Team name repeat"
+        ]
+      },
+      {
+        "title": "Team Mark Placement",
+        "desc": "Training kit usually carries a small mark rather than full artwork. <strong>Hip is the standard placement</strong> — visible in a squat rack, out of the way otherwise.",
+        "options": [
+          "Hip mark",
+          "Leg mark",
+          "Waistband only",
+          "Full side panel"
+        ]
+      },
+      {
+        "title": "Inseam Length",
+        "desc": "Longer than a game short as standard, because <strong>floor work and mobility sessions ride a short cut up</strong> on every rep.",
+        "options": [
+          "9 inch",
+          "11 inch (default)",
+          "Mixed by player"
+        ]
+      }
+    ],
+    "construction": [
+      {
+        "title": "Wide High-Rise Waistband",
+        "body": "Wider and set higher than any other short here. <strong>Under a loaded bar a narrow band rolls</strong>, and once it rolls it stays rolled for the set."
+      },
+      {
+        "title": "Extra Seat and Thigh Room",
+        "body": "Cut with more material through the seat and thigh than a basketball short. <strong>A deep squat needs room a game cut does not give</strong>, and taking it from the hem instead would change the look."
+      },
+      {
+        "title": "Dense Anti-Snag Knit",
+        "body": "A tighter yarn count than practice or mesh shorts. <strong>Knurled bars and bench edges pull threads out of an open weave</strong> within weeks; this resists them."
+      },
+      {
+        "title": "Reinforced Pocket Bags",
+        "body": "Where pockets are ordered, the bag is stitched to the waistband seam rather than hung from the side. <strong>A phone in an unsupported pocket tears the side seam</strong>, which is the usual failure on training shorts."
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Wash after every session</strong> — weight room kit picks up more than court kit does."
+      },
+      {
+        "text": "<strong>Warm wash is fine</strong> — a dense knit takes it without shrinking."
+      },
+      {
+        "text": "<strong>Empty the pockets</strong> — the most common cause of a torn pocket bag is a wash, not a workout."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No fabric softener</strong> — it reduces the fibre's grip and the band starts to slip."
+      },
+      {
+        "dont": true,
+        "text": "<strong>Do not wash with hook-and-loop</strong> — velcro finds a knit surface every time."
+      }
+    ],
+    "floridaNote": "<strong>Florida weight rooms are frequently the hottest room in the building.</strong> Many school gyms condition the court and not the annexe, which means the strength block happens in still, humid air with no airflow at all. A dense knit is still the right fabric here — equipment abrasion beats heat as the thing that destroys training shorts — but order the wicking option if your conditioning work happens outdoors.",
+    "sizing": {
+      "tabs": [
+        "shorts",
+        "youth"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Training Shorts",
+          "steps": [
+            "<strong>Waist:</strong> Around the natural waist. This cut is roomier than a game short; most players take their normal size.",
+            "<strong>Seat and thigh:</strong> Measure the fullest point of each. This is the cut where those two matter more than the waist.",
+            "<strong>Over compression:</strong> If worn over compression shorts in the weight room, allow one size.",
+            "<strong>Inseam:</strong> Eleven inches is standard here — longer than a game short on purpose, for floor work."
+          ]
+        }
+      ]
+    }
   },
   "short-sleeve-basketball-shirt": {
     "noun": "Shirt",
