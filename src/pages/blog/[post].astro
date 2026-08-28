@@ -1,0 +1,123 @@
+---
+// One blog post. Content lives in src/data/blog.json as structured sections
+// rather than as markdown, so the internal-linking rules can be checked by a
+// script rather than by eye: one link per paragraph, a descriptive anchor of
+// three to eight words, and a href that resolves to a route that exists.
+// scripts/check-links.mjs enforces all three against the built HTML.
+import posts from '../../data/blog.json';
+import Shell from '../../layouts/Shell.astro';
+import { makePage } from '../../lib/newpage.js';
+import { faqSchema, breadcrumbSchema, schemaTags } from '../../lib/schema.js';
+import { PROD_ORIGIN } from '../../lib/site.js';
+
+export function getStaticPaths() {
+  return posts.map((post) => ({ params: { post: post.slug }, props: { post } }));
+}
+
+const { post } = Astro.props;
+const route = `/blog/${post.slug}/`;
+const page = makePage({
+  route, title: post.title, description: post.description,
+  ogType: 'article', styles: ['/assets/fbj-blog.css'],
+});
+
+// Three more posts to read, chosen by the author rather than by recency.
+const related = (post.related || [])
+  .map((s) => posts.find((p) => p.slug === s))
+  .filter(Boolean)
+  .slice(0, 3);
+
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
+  headline: post.title,
+  description: post.description,
+  datePublished: post.date,
+  dateModified: post.date,
+  author: { '@type': 'Organization', name: 'Florida Basketball Jerseys' },
+  publisher: {
+    '@type': 'Organization',
+    name: 'Florida Basketball Jerseys',
+    logo: { '@type': 'ImageObject', url: `${PROD_ORIGIN}/logo.png` },
+  },
+  mainEntityOfPage: { '@type': 'WebPage', '@id': `${PROD_ORIGIN}${route}` },
+  articleSection: post.topic,
+};
+
+const jsonLd = schemaTags([
+  articleSchema,
+  faqSchema(post.faqs || []),
+  breadcrumbSchema(route, post.title),
+]);
+
+const readDate = new Date(post.date).toLocaleDateString('en-US', {
+  year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC',
+});
+---
+<Shell page={page}>
+  <article class="fbj-bl-wrap">
+
+    <header class="fbj-bl-head">
+      <div class="fbj-bl-narrow">
+        <div class="fbj-bl-kicker">{post.topic}</div>
+        <h1 class="fbj-bl-h1" set:html={post.h1} />
+        <p class="fbj-bl-standfirst" set:html={post.standfirst} />
+        <div class="fbj-bl-meta">
+          <span>{readDate}</span>
+          <span>{post.readMinutes} min read</span>
+          <span>Florida Basketball Jerseys</span>
+        </div>
+      </div>
+    </header>
+
+    <div class="fbj-bl-body">
+      <div class="fbj-bl-narrow">
+        {post.sections.map((s) => (
+          <>
+            {s.h2 && <h2 set:html={s.h2} />}
+            {(s.paras || []).map((p) => <p set:html={p} />)}
+            {s.list && <ul>{s.list.map((li) => <li set:html={li} />)}</ul>}
+            {s.pull && <div class="fbj-bl-pull"><p set:html={s.pull} /></div>}
+          </>
+        ))}
+
+        {post.faqs?.length > 0 && (
+          <section class="fbj-bl-faq">
+            <h2>Common <span>Questions</span></h2>
+            {post.faqs.map((f) => (
+              <div class="fbj-bl-faq-item">
+                <h3 class="fbj-bl-faq-q">{f.q}</h3>
+                <p class="fbj-bl-faq-a" set:html={f.a} />
+              </div>
+            ))}
+          </section>
+        )}
+
+        {related.length > 0 && (
+          <section class="fbj-bl-more">
+            <h2>Read next</h2>
+            <div class="fbj-bl-grid">
+              {related.map((r) => (
+                <a class="fbj-bl-card" href={`/blog/${r.slug}/`}>
+                  <span class="fbj-bl-card-topic">{r.topic}</span>
+                  <h3 class="fbj-bl-card-title">{r.title}</h3>
+                  <p>{r.description}</p>
+                </a>
+              ))}
+            </div>
+          </section>
+        )}
+      </div>
+    </div>
+
+    <section class="fbj-bl-cta">
+      <div class="fbj-bl-inner">
+        <h2>Ready for a <span>Quote?</span></h2>
+        <p set:html={post.cta} />
+        <a class="fbj-bl-btn" href="/get-a-quote/">Get a Free Quote</a>
+      </div>
+    </section>
+
+  </article>
+  <Fragment set:html={jsonLd} />
+</Shell>

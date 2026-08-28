@@ -78,7 +78,7 @@
           "desc": "The wicking option adds 8% spandex, which shows up in <strong>a deep defensive stance more than anywhere else</strong>. Programs that play a lot of switching defence often prefer it for the extra give through the seat and thigh.",
           "pros": [
             "<strong>4-way stretch with spandex</strong> — more give in a low stance",
-            "<strong>Moves sweat by fibre channel</strong> — works in cool, air-conditioned gyms",
+            "<strong>Moves sweat by fiber channel</strong> — works in cool, air-conditioned gyms",
             "<strong>Slightly lighter</strong> at 145 GSM against 155"
           ]
         },
@@ -96,10 +96,10 @@
       {
         "fit": "perfect",
         "title": "Teams Buying a Matched Uniform Set",
-        "desc": "This is the short designed to go with a jersey rather than alongside one. <strong>Both are printed from the same colour file in the same run</strong>, which is the only reliable way to stop a set looking almost-matched.",
+        "desc": "This is the short designed to go with a jersey rather than alongside one. <strong>Both are printed from the same color file in the same run</strong>, which is the only reliable way to stop a set looking almost-matched.",
         "points": [
           "Side panels line up between top and short",
-          "One stored colour for both pieces",
+          "One stored color for both pieces",
           "Reorders in later seasons still match"
         ]
       },
@@ -109,7 +109,7 @@
         "desc": "A school running two squads needs kit that reads as one program across both. <strong>Game shorts hold a formal line under arena lighting</strong> in a way a practice or mesh short does not.",
         "points": [
           "Mixed adult and youth sizes on one order",
-          "School colours matched from a style guide",
+          "School colors matched from a style guide",
           "Numbers on the leg optional and sized to your league"
         ]
       },
@@ -119,7 +119,7 @@
         "desc": "Tournament play is hard on shorts — three games a day, hotel laundry, a bag that lives in a car. <strong>The bar-tacked hem and gusseted seams are what survive that</strong>, though a second pair per player is worth budgeting.",
         "points": [
           "Reinforced at the two points that fail first",
-          "Sublimated colour survives hotel washing",
+          "Sublimated color survives hotel washing",
           "Second pair costs less than a mid-season replacement"
         ]
       }
@@ -175,7 +175,7 @@
         ]
       },
       {
-        "title": "Colour Matching",
+        "title": "Color Matching",
         "desc": "Send the jersey, a Pantone value or a previous order. <strong>The match is made once and stored</strong>, which is what keeps a set together across seasons.",
         "options": [
           "Pantone match",
@@ -208,14 +208,14 @@
         "text": "<strong>Machine wash cold, inside out</strong> — protects the printed side panels from abrasion."
       },
       {
-        "text": "<strong>Wash with like colours</strong> — a matched set should be laundered together to age together."
+        "text": "<strong>Wash with like colors</strong> — a matched set should be laundered together to age together."
       },
       {
         "text": "<strong>Air dry</strong> — a closed knit holds its line better without heat."
       },
       {
         "dont": true,
-        "text": "<strong>No fabric softener</strong> — it leaves a film that dulls printed colour over a season."
+        "text": "<strong>No fabric softener</strong> — it leaves a film that dulls printed color over a season."
       },
       {
         "dont": true,
@@ -226,7 +226,7 @@
         "text": "<strong>Do not bleach</strong> — bleach attacks the dye, not dirt, on a sublimated garment."
       }
     ],
-    "floridaNote": "<strong>Match day in a Florida gym:</strong> most high school venues in the state are air-conditioned and a closed knit is the right call — it holds a formal line and the heat is handled by the building. If your home court is outdoor, or a hall without working air conditioning, order this same design in mesh instead: identical artwork, identical colours, a fabric that lets the heat out.",
+    "floridaNote": "<strong>Match day in a Florida gym:</strong> most high school venues in the state are air-conditioned and a closed knit is the right call — it holds a formal line and the heat is handled by the building. If your home court is outdoor, or a hall without working air conditioning, order this same design in mesh instead: identical artwork, identical colors, a fabric that lets the heat out.",
     "sizing": {
       "tabs": [
         "shorts"
@@ -345,39 +345,39 @@
         "desc": "Four sessions a week for four months is roughly seventy wears and seventy washes. <strong>Everything here is built around that number</strong> rather than around how the short looks on day one.",
         "points": [
           "Double-needle waistband and hem",
-          "Sublimated colour cannot crack in a hot wash",
+          "Sublimated color cannot crack in a hot wash",
           "Simple layout keeps the price where it needs to be"
         ]
       },
       {
         "fit": "good",
         "title": "Camps and Clinics",
-        "desc": "A summer camp needs kit that identifies groups and survives a week of hard use. <strong>Two contrasting colours split a session instantly</strong>, and numbers may repeat because nobody is checking a roster.",
+        "desc": "A summer camp needs kit that identifies groups and survives a week of hard use. <strong>Two contrasting colors split a session instantly</strong>, and numbers may repeat because nobody is checking a roster.",
         "points": [
-          "Two-colour orders split squads without pinnies",
-          "Numbers can repeat across colours",
+          "Two-color orders split squads without pinnies",
+          "Numbers can repeat across colors",
           "Cheap enough to send home with participants"
         ]
       },
       {
         "fit": "consider",
         "title": "Match-Day Wear",
-        "desc": "These will not match a game jersey panel for panel — the layout is deliberately simpler and the colour is matched to your base rather than to a specific set. <strong>They are practice kit, and they look like it.</strong>",
+        "desc": "These will not match a game jersey panel for panel — the layout is deliberately simpler and the color is matched to your base rather than to a specific set. <strong>They are practice kit, and they look like it.</strong>",
         "points": [
           "Order game shorts for match day",
-          "Or run practice shorts in the same base colour",
-          "Both can be printed from one stored colour"
+          "Or run practice shorts in the same base color",
+          "Both can be printed from one stored color"
         ]
       }
     ],
     "customization": [
       {
-        "title": "Two-Colour Squad Split",
-        "desc": "The single most useful thing you can specify on a practice order. <strong>Half the run in one colour, half in another</strong>, and five-on-five takes thirty seconds instead of a hunt for pinnies.",
+        "title": "Two-Color Squad Split",
+        "desc": "The single most useful thing you can specify on a practice order. <strong>Half the run in one color, half in another</strong>, and five-on-five takes thirty seconds instead of a hunt for pinnies.",
         "options": [
-          "Two-colour split",
-          "Three-colour split",
-          "Single colour",
+          "Two-color split",
+          "Three-color split",
+          "Single color",
           "Match by squad"
         ]
       },
@@ -386,18 +386,18 @@
         "desc": "Practice numbers are printed larger than game numbers on purpose. <strong>A coach calls a player from the far baseline</strong>, not from the scorer's table.",
         "options": [
           "Large practice size",
-          "Repeat across colours",
+          "Repeat across colors",
           "Sequential 1-30",
           "None"
         ]
       },
       {
-        "title": "Base Colour and Accent",
-        "desc": "Practice kit keeps to two colours because that is what keeps it cheap. <strong>Your team base plus one accent</strong> is the standard layout here.",
+        "title": "Base Color and Accent",
+        "desc": "Practice kit keeps to two colors because that is what keeps it cheap. <strong>Your team base plus one accent</strong> is the standard layout here.",
         "options": [
           "Team base",
           "One accent",
-          "Plain single colour",
+          "Plain single color",
           "Match existing practice kit"
         ]
       },
@@ -425,19 +425,19 @@
         "body": "The four-way seam junction is the highest-stress point on any short. <strong>An extra pass of stitching there</strong> is what stops a split during a lunge in the third week of preseason."
       },
       {
-        "title": "Colourfast Sublimated Dye",
-        "body": "The colour is inside the fibre rather than on it. <strong>Seventy hot washes will not fade it</strong>, which is the whole argument for sublimating practice kit rather than screen-printing it."
+        "title": "Colorfast Sublimated Dye",
+        "body": "The color is inside the fiber rather than on it. <strong>Seventy hot washes will not fade it</strong>, which is the whole argument for sublimating practice kit rather than screen-printing it."
       }
     ],
     "care": [
       {
-        "text": "<strong>Hot wash is fine</strong> — sublimated colour is unaffected, and practice kit needs it."
+        "text": "<strong>Hot wash is fine</strong> — sublimated color is unaffected, and practice kit needs it."
       },
       {
         "text": "<strong>Tumble dry low</strong> — these are the one garment here built to take a dryer."
       },
       {
-        "text": "<strong>Wash colours separately</strong> if you ordered a two-colour squad split."
+        "text": "<strong>Wash colors separately</strong> if you ordered a two-color squad split."
       },
       {
         "dont": true,
@@ -464,7 +464,7 @@
           "steps": [
             "<strong>Waist:</strong> Around the natural waist. Practice shorts run looser than game shorts at the same size, which most players prefer.",
             "<strong>Hip:</strong> The fullest part of the seat. If a player is between sizes here rather than at the waist, size up.",
-            "<strong>Growing players:</strong> For a youth programme buying one order to last a season, size up. The drawcord covers the difference in November.",
+            "<strong>Growing players:</strong> For a youth program buying one order to last a season, size up. The drawcord covers the difference in November.",
             "<strong>Two pairs:</strong> Order the same size twice rather than one of each — a player wearing two different fits notices."
           ]
         }
@@ -544,14 +544,14 @@
             "<strong>Air moves through the leg panel</strong> — heat leaves rather than pooling against the thigh",
             "<strong>Bonded inner panel</strong> — the short stays fully opaque without closing the weave",
             "<strong>Dries between games</strong> — an open knit sheds moisture far faster than a closed one",
-            "<strong>Heavier ink lay-down</strong> — colour reads solid across the weave instead of dotted"
+            "<strong>Heavier ink lay-down</strong> — color reads solid across the weave instead of dotted"
           ]
         },
         "wicking": {
           "desc": "The moisture-wicking option closes the weave and moves sweat chemically instead of letting air through it. On shorts this is the better answer for <strong>an air-conditioned gym in January</strong>, where airflow is not the problem and a closed face holds a sharper line for match play.",
           "pros": [
             "<strong>Closed face, sharper line</strong> — holds its shape better than mesh under gym lighting",
-            "<strong>Moves sweat by fibre channel</strong> — works when the air around the player is already cool",
+            "<strong>Moves sweat by fiber channel</strong> — works when the air around the player is already cool",
             "<strong>Slight stretch content</strong> — 8% spandex gives more give through a deep defensive stance"
           ]
         },
@@ -603,7 +603,7 @@
         "points": [
           "Consider a wicking or sublimation short for main-court games",
           "Or run mesh for summer and a closed knit for the season",
-          "Both can be printed from the same colour file"
+          "Both can be printed from the same color file"
         ]
       }
     ],
@@ -649,8 +649,8 @@
         ]
       },
       {
-        "title": "Colour Matching",
-        "desc": "Shorts almost always have to match a top that already exists. <strong>Send the jersey, a Pantone value or a previous order</strong> and the colour is matched to it and stored for reorders.",
+        "title": "Color Matching",
+        "desc": "Shorts almost always have to match a top that already exists. <strong>Send the jersey, a Pantone value or a previous order</strong> and the color is matched to it and stored for reorders.",
         "options": [
           "Pantone match",
           "Match existing kit",
@@ -786,11 +786,11 @@
       "recommended": "wicking",
       "notes": {
         "wicking": {
-          "desc": "The lightweight short is built on the wicking knit rather than the standard one, and the 8% spandex is the reason. <strong>Take fabric away from a short and it needs to stretch more, not less</strong> — there is less material to accommodate a stride, so the give has to come from the fibre.",
+          "desc": "The lightweight short is built on the wicking knit rather than the standard one, and the 8% spandex is the reason. <strong>Take fabric away from a short and it needs to stretch more, not less</strong> — there is less material to accommodate a stride, so the give has to come from the fiber.",
           "pros": [
             "<strong>4-way stretch</strong> — carries the range a thin fabric would otherwise lose",
             "<strong>145 GSM against 155</strong> — the weight saving you can actually feel",
-            "<strong>Moves sweat by fibre channel</strong> rather than relying on airflow"
+            "<strong>Moves sweat by fiber channel</strong> rather than relying on airflow"
           ]
         },
         "mesh": {
@@ -802,7 +802,7 @@
           ]
         },
         "sublimation": {
-          "desc": "The standard weight is here for programmes that want the same design in a tougher short. <strong>Ten extra GSM does not sound like much and is very noticeable over a season</strong> of daily contact work.",
+          "desc": "The standard weight is here for programs that want the same design in a tougher short. <strong>Ten extra GSM does not sound like much and is very noticeable over a season</strong> of daily contact work.",
           "pros": [
             "<strong>Most durable</strong> — the right call if one pair does everything",
             "<strong>Sharpest artwork</strong> on a smooth closed face",
@@ -875,7 +875,7 @@
         ]
       },
       {
-        "title": "Colour Matching",
+        "title": "Color Matching",
         "desc": "Match to an existing top or a Pantone value. <strong>Stored once and reused</strong> so a later reorder is the same shade.",
         "options": [
           "Pantone match",
@@ -1024,7 +1024,7 @@
       {
         "fit": "perfect",
         "title": "Weight Room and Strength Blocks",
-        "desc": "A squat needs range the basketball cut does not give, and a barbell needs a waistband that stays put. <strong>Both are built into this short specifically</strong>, which is why it is not simply a practice short in another colour.",
+        "desc": "A squat needs range the basketball cut does not give, and a barbell needs a waistband that stays put. <strong>Both are built into this short specifically</strong>, which is why it is not simply a practice short in another color.",
         "points": [
           "Wider high-rise band stays under a bar",
           "Extra room through thigh and seat",
@@ -1038,7 +1038,7 @@
         "points": [
           "Longer inseam for floor work",
           "Handles daily use across a full block",
-          "Same colour as the rest of your kit"
+          "Same color as the rest of your kit"
         ]
       },
       {
@@ -1123,7 +1123,7 @@
       },
       {
         "dont": true,
-        "text": "<strong>No fabric softener</strong> — it reduces the fibre's grip and the band starts to slip."
+        "text": "<strong>No fabric softener</strong> — it reduces the fiber's grip and the band starts to slip."
       },
       {
         "dont": true,
@@ -1251,7 +1251,7 @@
         "desc": "This is the garment in most program photographs, and the one that has to still look new in March. <strong>A pressed logo starts cracking by January; a dyed one does not.</strong>",
         "points": [
           "Artwork cannot crack or peel",
-          "Same colour in the last photo as the first",
+          "Same color in the last photo as the first",
           "Coaching staff sizes on the same order"
         ]
       },
@@ -1273,7 +1273,7 @@
         "options": [
           "Full-chest",
           "Left-chest",
-          "Centre crest",
+          "Center crest",
           "Wordmark"
         ]
       },
@@ -1310,9 +1310,9 @@
       },
       {
         "title": "Staff Versions",
-        "desc": "Coaching staff usually want the same design in a different colour or a fuller cut. <strong>Both go on the same order at the same price.</strong>",
+        "desc": "Coaching staff usually want the same design in a different color or a fuller cut. <strong>Both go on the same order at the same price.</strong>",
         "options": [
-          "Same design, staff colour",
+          "Same design, staff color",
           "Fuller cut",
           "Polo collar",
           "Name on chest"
@@ -1349,7 +1349,7 @@
       },
       {
         "dont": true,
-        "text": "<strong>No fabric softener</strong> — it dulls a large colour block faster than a small one."
+        "text": "<strong>No fabric softener</strong> — it dulls a large color block faster than a small one."
       }
     ],
     "floridaNote": "<strong>A shooting shirt is a layer, and Florida gyms are warm.</strong> Programs here often warm up in the shirt and take it off before tip-off rather than wearing it through a bench rotation. That argues for the standard knit rather than the wicking one — it is worn for twenty minutes, not two hours, so structure and how it photographs matter more than sweat management.",
@@ -1480,11 +1480,11 @@
       {
         "fit": "good",
         "title": "Under-Jersey Base Layers",
-        "desc": "Players who wear a single compression sleeve for shooting comfort often prefer this instead, in team colours, so the whole bench matches. <strong>It solves a comfort habit without looking like a mismatch.</strong>",
+        "desc": "Players who wear a single compression sleeve for shooting comfort often prefer this instead, in team colors, so the whole bench matches. <strong>It solves a comfort habit without looking like a mismatch.</strong>",
         "points": [
           "Narrow forearm sits flat under a jersey",
           "Ribbed cuffs stay at the wrist",
-          "Team colours rather than black compression"
+          "Team colors rather than black compression"
         ]
       },
       {
@@ -1587,7 +1587,7 @@
           "title": "How to Measure — Long-Sleeve Shirt",
           "steps": [
             "<strong>Chest:</strong> Fullest point, arms relaxed, tape horizontal.",
-            "<strong>Sleeve length:</strong> From the centre back of the neck, across the shoulder, down to the wrist bone. This is the measurement that decides the size here.",
+            "<strong>Sleeve length:</strong> From the center back of the neck, across the shoulder, down to the wrist bone. This is the measurement that decides the size here.",
             "<strong>Long arms:</strong> Where chest and sleeve disagree, follow the sleeve and size up. A short sleeve on a long arm cannot be fixed.",
             "<strong>As a base layer:</strong> Take the normal size — it should sit close under a jersey, not loose."
           ]
@@ -1664,7 +1664,7 @@
       "recommended": "wicking",
       "notes": {
         "wicking": {
-          "desc": "This shirt exists because of this fabric, so it is worth being precise about what it does. <strong>The fibre is extruded with grooves running along its length</strong>; liquid moves along those channels by capillary action to the outer face, where a far larger surface area lets it evaporate. Cotton does the opposite — it absorbs into the fibre and holds.",
+          "desc": "This shirt exists because of this fabric, so it is worth being precise about what it does. <strong>The fiber is extruded with grooves running along its length</strong>; liquid moves along those channels by capillary action to the outer face, where a far larger surface area lets it evaporate. Cotton does the opposite — it absorbs into the fiber and holds.",
           "pros": [
             "<strong>Structural, not a coating</strong> — it still works after a hundred washes",
             "<strong>Dries while being worn</strong> rather than after",
@@ -1717,7 +1717,7 @@
         "points": [
           "Close cut, no bunching at the shoulder",
           "Flatlock seams under a jersey strap",
-          "Team colours rather than generic black"
+          "Team colors rather than generic black"
         ]
       }
     ],
@@ -1753,7 +1753,7 @@
         ]
       },
       {
-        "title": "Colour Matching",
+        "title": "Color Matching",
         "desc": "Matched from a Pantone value, a style guide or an existing garment, then stored. <strong>Base layers are reordered more often than anything else</strong>, so the stored match matters here.",
         "options": [
           "Pantone",
@@ -1765,8 +1765,8 @@
     ],
     "construction": [
       {
-        "title": "Channelled Fibre Yarn",
-        "body": "The performance is in the yarn, not in a finish applied to it. <strong>Grooves run the length of each fibre</strong>, and capillary action pulls liquid along them to the outer surface. Nothing washes off because nothing was applied."
+        "title": "Channelled Fiber Yarn",
+        "body": "The performance is in the yarn, not in a finish applied to it. <strong>Grooves run the length of each fiber</strong>, and capillary action pulls liquid along them to the outer surface. Nothing washes off because nothing was applied."
       },
       {
         "title": "Flatlock Seams Throughout",
@@ -1793,7 +1793,7 @@
       },
       {
         "dont": true,
-        "text": "<strong>No high heat</strong> — heat closes the fibre structure that does the work."
+        "text": "<strong>No high heat</strong> — heat closes the fiber structure that does the work."
       },
       {
         "dont": true,
@@ -1887,7 +1887,7 @@
       "recommended": "wicking",
       "notes": {
         "wicking": {
-          "desc": "Spun to a thinner gauge than our standard wicking knit. <strong>The channelled fibre still does its work with less material around it</strong>, which is the whole design: keep the sweat management, drop the weight.",
+          "desc": "Spun to a thinner gauge than our standard wicking knit. <strong>The channelled fiber still does its work with less material around it</strong>, which is the whole design: keep the sweat management, drop the weight.",
           "pros": [
             "<strong>Lightest closed-face shirt we make</strong>",
             "<strong>Keeps the wicking</strong> despite the thinner yarn",
@@ -1928,9 +1928,9 @@
       {
         "fit": "consider",
         "title": "Standalone Team Wear",
-        "desc": "A thin fabric is more translucent than a standard one — noticeably so under bright gym lighting on a light colour. <strong>For a shirt worn on its own, order a standard weight or a darker shade.</strong>",
+        "desc": "A thin fabric is more translucent than a standard one — noticeably so under bright gym lighting on a light color. <strong>For a shirt worn on its own, order a standard weight or a darker shade.</strong>",
         "points": [
-          "Darker colours hide it entirely",
+          "Darker colors hide it entirely",
           "Or order the standard-weight version",
           "Not an issue as a base layer"
         ]
@@ -1948,8 +1948,8 @@
         ]
       },
       {
-        "title": "Colour Choice",
-        "desc": "Directly relevant here rather than a style question. <strong>Mid and dark colours hide translucency</strong>; a pale shirt on a light fabric will show more under arena lighting.",
+        "title": "Color Choice",
+        "desc": "Directly relevant here rather than a style question. <strong>Mid and dark colors hide translucency</strong>; a pale shirt on a light fabric will show more under arena lighting.",
         "options": [
           "Dark team base",
           "Mid tone",
@@ -1979,7 +1979,7 @@
       },
       {
         "title": "Thin-Gauge Yarn",
-        "body": "The same channelled wicking fibre spun finer. <strong>The performance is unchanged; there is simply less of it</strong>, which is where both the comfort and the translucency come from."
+        "body": "The same channelled wicking fiber spun finer. <strong>The performance is unchanged; there is simply less of it</strong>, which is where both the comfort and the translucency come from."
       }
     ],
     "care": [
@@ -2013,7 +2013,7 @@
             "<strong>Chest:</strong> Fullest point, arms relaxed. This is a close cut.",
             "<strong>Roomier fit:</strong> A player who dislikes a close shirt should size up one — a thin fabric shows the fit more than a heavy one.",
             "<strong>Base layer:</strong> Normal size. It should sit close without gripping.",
-            "<strong>Colour note:</strong> If ordering a pale colour to wear on its own, ask for a fabric sample first."
+            "<strong>Color note:</strong> If ordering a pale color to wear on its own, ask for a fabric sample first."
           ]
         }
       ]
@@ -2133,7 +2133,7 @@
         "points": [
           "Order short-sleeve shooting shirts for match day",
           "Or long-sleeve for cold venues",
-          "Same colours, different garment"
+          "Same colors, different garment"
         ]
       }
     ],
@@ -2144,7 +2144,7 @@
         "options": [
           "Left-chest",
           "Full-chest",
-          "Small centre",
+          "Small center",
           "Back only"
         ]
       },
@@ -2159,11 +2159,11 @@
         ]
       },
       {
-        "title": "Colour Split",
-        "desc": "Two colours on one order splits a session instantly. <strong>The same trick that works for practice jerseys works here.</strong>",
+        "title": "Color Split",
+        "desc": "Two colors on one order splits a session instantly. <strong>The same trick that works for practice jerseys works here.</strong>",
         "options": [
-          "Two-colour split",
-          "Single colour",
+          "Two-color split",
+          "Single color",
           "By squad",
           "By position group"
         ]
@@ -2373,8 +2373,8 @@
         ]
       },
       {
-        "title": "Armhole Binding Colour",
-        "desc": "The binding traces the most recognisable line on a tank. <strong>A contrast binding defines the silhouette from the bleachers</strong> more than any other single choice.",
+        "title": "Armhole Binding Color",
+        "desc": "The binding traces the most recognizable line on a tank. <strong>A contrast binding defines the silhouette from the bleachers</strong> more than any other single choice.",
         "options": [
           "Contrast bind",
           "Matched bind",
@@ -2394,9 +2394,9 @@
       },
       {
         "title": "Number Placement",
-        "desc": "Governed by your league more than by taste. <strong>Front-centre and back are standard</strong>; some competitions specify a minimum height.",
+        "desc": "Governed by your league more than by taste. <strong>Front-center and back are standard</strong>; some competitions specify a minimum height.",
         "options": [
-          "Front centre",
+          "Front center",
           "Front left",
           "Back standard",
           "League-specified height"
@@ -2443,7 +2443,7 @@
       },
       {
         "dont": true,
-        "text": "<strong>No fabric softener</strong> — it dulls a large uninterrupted colour area faster than a small one."
+        "text": "<strong>No fabric softener</strong> — it dulls a large uninterrupted color area faster than a small one."
       },
       {
         "dont": true,
@@ -2592,7 +2592,7 @@
         "points": [
           "Closed-knit tank for main-court games",
           "Or run mesh for summer only",
-          "Same colour file for both"
+          "Same color file for both"
         ]
       }
     ],
@@ -2618,8 +2618,8 @@
         ]
       },
       {
-        "title": "Colour Across a Weave",
-        "desc": "Mesh needs a heavier ink lay-down to read solid. <strong>Deep, saturated colours work best</strong>; a pale pastel on an open weave looks washed out at distance.",
+        "title": "Color Across a Weave",
+        "desc": "Mesh needs a heavier ink lay-down to read solid. <strong>Deep, saturated colors work best</strong>; a pale pastel on an open weave looks washed out at distance.",
         "options": [
           "Deep saturated",
           "Two-tone",
@@ -2766,7 +2766,7 @@
       "recommended": "wicking",
       "notes": {
         "wicking": {
-          "desc": "The whole point of the performance tank. <strong>Channelled fibre pulls sweat to the outer face where it evaporates</strong>, and the 8% spandex gives at the armhole under a shooting motion. On a competition garment worn for four quarters, both matter more than they do on practice kit.",
+          "desc": "The whole point of the performance tank. <strong>Channelled fiber pulls sweat to the outer face where it evaporates</strong>, and the 8% spandex gives at the armhole under a shooting motion. On a competition garment worn for four quarters, both matter more than they do on practice kit.",
           "pros": [
             "<strong>Sweat moved rather than absorbed</strong>",
             "<strong>4-way stretch at the armhole</strong> where a tank is under most tension",
@@ -2797,7 +2797,7 @@
         "title": "Varsity and Competitive Programs",
         "desc": "The tank a program buys when the budget allows the better fabric. <strong>The difference is not dramatic on any single night</strong> — it is that players stop mentioning the uniform, which is what a uniform should do.",
         "points": [
-          "Wicking fibre and vented side panels",
+          "Wicking fiber and vented side panels",
           "Flatlock seams throughout",
           "Holds its cut for a full season"
         ]
@@ -2826,9 +2826,9 @@
     "customization": [
       {
         "title": "Contrast Side Panels",
-        "desc": "The vented panels are a design surface as well as a construction feature. <strong>Most tanks do not give you a third colour area</strong>; this one does, and it runs the full length of the torso.",
+        "desc": "The vented panels are a design surface as well as a construction feature. <strong>Most tanks do not give you a third color area</strong>; this one does, and it runs the full length of the torso.",
         "options": [
-          "Contrast colour",
+          "Contrast color",
           "Tonal",
           "Gradient",
           "Matched"
@@ -2901,7 +2901,7 @@
         "text": "<strong>Wash after every game</strong> — wicking moves sweat to the outer face, where it sits."
       },
       {
-        "text": "<strong>Air dry</strong> — heat closes the fibre structure that does the work."
+        "text": "<strong>Air dry</strong> — heat closes the fiber structure that does the work."
       },
       {
         "dont": true,
@@ -2916,7 +2916,7 @@
         "text": "<strong>Do not bleach</strong> — attacks the dye rather than the odour."
       }
     ],
-    "floridaNote": "<strong>The fourth quarter is where Florida decides a uniform.</strong> Most gyms in this state are warm and humid even when air-conditioned, and by the last five minutes a standard polyester tank has taken on sweat and started to cling. The vented panels and the wicking fibre are aimed squarely at those five minutes. Everything else about this tank is the same as the standard one.",
+    "floridaNote": "<strong>The fourth quarter is where Florida decides a uniform.</strong> Most gyms in this state are warm and humid even when air-conditioned, and by the last five minutes a standard polyester tank has taken on sweat and started to cling. The vented panels and the wicking fiber are aimed squarely at those five minutes. Everything else about this tank is the same as the standard one.",
     "sizing": {
       "tabs": [
         "adult"
@@ -3023,10 +3023,10 @@
       {
         "fit": "perfect",
         "title": "Squad Splits Without Pinnies",
-        "desc": "Order half the run in one colour and half in another and five-on-five takes thirty seconds. <strong>Pinnies get lost, smell, and nobody wants to wear one</strong> — two colours of practice jersey solve all three permanently.",
+        "desc": "Order half the run in one color and half in another and five-on-five takes thirty seconds. <strong>Pinnies get lost, smell, and nobody wants to wear one</strong> — two colors of practice jersey solve all three permanently.",
         "points": [
-          "Two colours on one order, one price",
-          "Numbers may repeat across colours",
+          "Two colors on one order, one price",
+          "Numbers may repeat across colors",
           "No pinnie inventory to manage"
         ]
       },
@@ -3043,9 +3043,9 @@
       {
         "fit": "good",
         "title": "Camps and Clinics",
-        "desc": "A week-long camp needs kit that identifies groups and survives hard use. <strong>Sublimated colour cannot crack in a hot wash</strong>, which is what separates this from screen-printed camp shirts.",
+        "desc": "A week-long camp needs kit that identifies groups and survives hard use. <strong>Sublimated color cannot crack in a hot wash</strong>, which is what separates this from screen-printed camp shirts.",
         "points": [
-          "Group colours for rotations",
+          "Group colors for rotations",
           "Survives a week of daily use",
           "Cheap enough to send home with participants"
         ]
@@ -3053,13 +3053,13 @@
     ],
     "customization": [
       {
-        "title": "Two-Colour Squad Split",
+        "title": "Two-Color Squad Split",
         "desc": "The single most useful line on a practice order. <strong>Specify the split at order time</strong> rather than buying two separate runs — it is one price and one delivery.",
         "options": [
           "Half and half",
           "Three-way split",
           "By position group",
-          "Single colour"
+          "Single color"
         ]
       },
       {
@@ -3067,18 +3067,18 @@
         "desc": "Printed larger than game numbers. <strong>A coach calls a player from the far baseline</strong>, not from the scorer's table, and the size is set for that distance.",
         "options": [
           "Large practice size",
-          "Repeat across colours",
+          "Repeat across colors",
           "Sequential 1-30",
           "None"
         ]
       },
       {
-        "title": "Base Colour and Accent",
-        "desc": "Two colours keeps the price where it needs to be. <strong>Your team base plus one accent</strong> is the standard layout, and it is what most programs order.",
+        "title": "Base Color and Accent",
+        "desc": "Two colors keeps the price where it needs to be. <strong>Your team base plus one accent</strong> is the standard layout, and it is what most programs order.",
         "options": [
           "Team base",
           "One accent",
-          "Plain single colour",
+          "Plain single color",
           "Match existing kit"
         ]
       },
@@ -3087,7 +3087,7 @@
         "desc": "A small chest mark rather than full artwork. <strong>Practice kit should look like it belongs to the program</strong> without costing what game kit costs.",
         "options": [
           "Left-chest",
-          "Small centre",
+          "Small center",
           "Back only",
           "None"
         ]
@@ -3109,13 +3109,13 @@
     ],
     "care": [
       {
-        "text": "<strong>Hot wash is fine</strong> — practice kit needs it and sublimated colour is unaffected."
+        "text": "<strong>Hot wash is fine</strong> — practice kit needs it and sublimated color is unaffected."
       },
       {
         "text": "<strong>Tumble dry low</strong> — practical for kit washed four times a week."
       },
       {
-        "text": "<strong>Wash the two colours separately</strong> if you ordered a squad split."
+        "text": "<strong>Wash the two colors separately</strong> if you ordered a squad split."
       },
       {
         "dont": true,
@@ -3138,7 +3138,7 @@
           "steps": [
             "<strong>Chest:</strong> Fullest point, arms relaxed. Practice jerseys run looser than game jerseys at the same size.",
             "<strong>Two per player:</strong> Order the same size twice. A player alternating two different fits will complain about one of them.",
-            "<strong>Squad splits:</strong> Order both colours in the same size per player so a split does not become a sizing problem.",
+            "<strong>Squad splits:</strong> Order both colors in the same size per player so a split does not become a sizing problem.",
             "<strong>Growing players:</strong> Size up for a season-long youth order."
           ]
         }
@@ -3249,7 +3249,7 @@
         "points": [
           "Order practice jerseys for the court",
           "Or mesh for hot outdoor sessions",
-          "Same colours across both"
+          "Same colors across both"
         ]
       }
     ],
@@ -3260,18 +3260,18 @@
         "options": [
           "Left-chest",
           "Full-chest",
-          "Small centre",
+          "Small center",
           "Back only"
         ]
       },
       {
-        "title": "Colour Split by Group",
-        "desc": "Strength groups, position groups or year groups. <strong>A colour split in the weight room does the same job it does on the court</strong> — instant grouping without a whiteboard.",
+        "title": "Color Split by Group",
+        "desc": "Strength groups, position groups or year groups. <strong>A color split in the weight room does the same job it does on the court</strong> — instant grouping without a whiteboard.",
         "options": [
           "By strength group",
           "By position",
           "By year",
-          "Single colour"
+          "Single color"
         ]
       },
       {
@@ -3412,11 +3412,11 @@
           "pros": [
             "<strong>Softer face</strong> than the adult training knit",
             "<strong>Survives a parent's laundry</strong> — hot wash, tumble dry, no care ritual",
-            "<strong>Colour cannot crack</strong> however it is washed"
+            "<strong>Color cannot crack</strong> however it is washed"
           ]
         },
         "mesh": {
-          "desc": "For rec programmes playing outdoors or in halls without air conditioning. <strong>Children overheat faster than adults</strong> and complain about it sooner, which makes mesh a more common choice in youth basketball than in high school.",
+          "desc": "For rec programs playing outdoors or in halls without air conditioning. <strong>Children overheat faster than adults</strong> and complain about it sooner, which makes mesh a more common choice in youth basketball than in high school.",
           "pros": [
             "<strong>Much cooler for outdoor rec play</strong>",
             "<strong>Dries between weeknight sessions</strong>",
@@ -3432,7 +3432,7 @@
         "desc": "A league buying for twelve teams needs kit that is cheap, identifiable and survives being laundered by a hundred different families. <strong>All three are what this jersey is for.</strong>",
         "points": [
           "League-wide orders at one price",
-          "Colours stored per team for reorders",
+          "Colors stored per team for reorders",
           "No care instructions a parent has to follow"
         ]
       },
@@ -3449,10 +3449,10 @@
       {
         "fit": "good",
         "title": "Squad Splits at Youth Level",
-        "desc": "Two colours split a session instantly, and at youth level that matters more — <strong>younger players lose pinnies faster than anyone</strong>, and nobody wants to wear one twice.",
+        "desc": "Two colors split a session instantly, and at youth level that matters more — <strong>younger players lose pinnies faster than anyone</strong>, and nobody wants to wear one twice.",
         "points": [
-          "Two colours on one order",
-          "Numbers repeat across colours",
+          "Two colors on one order",
+          "Numbers repeat across colors",
           "Large numbers readable across a rec gym"
         ]
       }
@@ -3469,12 +3469,12 @@
         ]
       },
       {
-        "title": "Two-Colour Split",
-        "desc": "The most useful thing on a youth order. <strong>One order, two colours, five-on-five in thirty seconds</strong> without a bag of pinnies nobody returns.",
+        "title": "Two-Color Split",
+        "desc": "The most useful thing on a youth order. <strong>One order, two colors, five-on-five in thirty seconds</strong> without a bag of pinnies nobody returns.",
         "options": [
           "Half and half",
           "By age group",
-          "Single colour",
+          "Single color",
           "Three-way"
         ]
       },
@@ -3511,14 +3511,14 @@
         "text": "<strong>Tumble dry</strong> — no care label to follow and nothing to go wrong."
       },
       {
-        "text": "<strong>Colour cannot transfer</strong> — the dye is inside the fibre, so a red jersey will not pink a white wash."
+        "text": "<strong>Color cannot transfer</strong> — the dye is inside the fiber, so a red jersey will not pink a white wash."
       },
       {
         "dont": true,
         "text": "<strong>Fabric softener is the only thing to avoid</strong>, and it is not urgent."
       }
     ],
-    "floridaNote": "<strong>Youth basketball in Florida is played in the warmest halls in the state.</strong> Community centres and church gyms are rarely conditioned to the standard a high school arena is, and children overheat faster than adults and say so sooner. If your programme plays in one of those, order the mesh version — the difference is more noticeable at this age than at any other.",
+    "floridaNote": "<strong>Youth basketball in Florida is played in the warmest halls in the state.</strong> Community centers and church gyms are rarely conditioned to the standard a high school arena is, and children overheat faster than adults and say so sooner. If your program plays in one of those, order the mesh version — the difference is more noticeable at this age than at any other.",
     "sizing": {
       "tabs": [
         "youth"
@@ -3604,7 +3604,7 @@
       "recommended": "sublimation",
       "notes": {
         "sublimation": {
-          "desc": "Both pieces of a set are made from the same fabric, and that is not a convenience — it is the point. <strong>Identical fabric means identical drape, identical colour and identical fading</strong>. A set built from two different knits looks like one garment older than the other by February.",
+          "desc": "Both pieces of a set are made from the same fabric, and that is not a convenience — it is the point. <strong>Identical fabric means identical drape, identical color and identical fading</strong>. A set built from two different knits looks like one garment older than the other by February.",
           "pros": [
             "<strong>Top and bottom age together</strong>",
             "<strong>One dye run for both pieces</strong>",
@@ -3612,7 +3612,7 @@
           ]
         },
         "wicking": {
-          "desc": "Available across the set for programmes that want it. <strong>Specify it for both pieces or neither</strong> — a wicking jersey over a standard short is exactly the mismatch a set is supposed to prevent.",
+          "desc": "Available across the set for programs that want it. <strong>Specify it for both pieces or neither</strong> — a wicking jersey over a standard short is exactly the mismatch a set is supposed to prevent.",
           "pros": [
             "<strong>Better sweat management</strong> for both pieces",
             "<strong>4-way stretch</strong> top and bottom",
@@ -3628,14 +3628,14 @@
         "desc": "A full set designed as one artwork. <strong>The side panel on the short continues the line of the jersey</strong> rather than approximating it, which only happens when both are built from one file.",
         "points": [
           "Panels line up across the set",
-          "One stored colour for both pieces",
+          "One stored color for both pieces",
           "Sized independently per garment"
         ]
       },
       {
         "fit": "perfect",
         "title": "College and Club Programs",
-        "desc": "Programs that reorder year after year, where the real risk is a year-three jersey that does not match year-one shorts. <strong>The colour is matched once and stored against the account.</strong>",
+        "desc": "Programs that reorder year after year, where the real risk is a year-three jersey that does not match year-one shorts. <strong>The color is matched once and stored against the account.</strong>",
         "points": [
           "Reorders match previous seasons",
           "Roster sizing help at no charge",
@@ -3686,7 +3686,7 @@
       },
       {
         "title": "Sponsor Placement",
-        "desc": "Where your competition permits it. <strong>A set gives you a short as well as a jersey</strong>, which is one more surface than most programmes remember they have.",
+        "desc": "Where your competition permits it. <strong>A set gives you a short as well as a jersey</strong>, which is one more surface than most programs remember they have.",
         "options": [
           "Chest",
           "Upper back",
@@ -3695,7 +3695,7 @@
         ]
       },
       {
-        "title": "Colour Matching",
+        "title": "Color Matching",
         "desc": "Matched from a Pantone value, a school style guide or a physical sample, then stored. <strong>This is the single thing that makes a set reorderable.</strong>",
         "options": [
           "Pantone",
@@ -3708,7 +3708,7 @@
     "construction": [
       {
         "title": "Single Dye Run for the Set",
-        "body": "Both pieces are printed together from one colour file. <strong>Printing a jersey now and shorts in three months is how sets end up subtly mismatched</strong> — a small dye variation is invisible alone and obvious side by side."
+        "body": "Both pieces are printed together from one color file. <strong>Printing a jersey now and shorts in three months is how sets end up subtly mismatched</strong> — a small dye variation is invisible alone and obvious side by side."
       },
       {
         "title": "Bound Jersey Armholes and Neck",
@@ -3735,7 +3735,7 @@
       },
       {
         "dont": true,
-        "text": "<strong>No fabric softener</strong> — it dulls large colour areas, and a set has two of them."
+        "text": "<strong>No fabric softener</strong> — it dulls large color areas, and a set has two of them."
       },
       {
         "dont": true,
@@ -3841,7 +3841,7 @@
           ]
         },
         "sublimation": {
-          "desc": "The standard knit is available and holds more structure. <strong>Programmes running both a men's and a women's squad sometimes choose it for both</strong> so the two sets are identical in every respect but the pattern.",
+          "desc": "The standard knit is available and holds more structure. <strong>Programs running both a men's and a women's squad sometimes choose it for both</strong> so the two sets are identical in every respect but the pattern.",
           "pros": [
             "<strong>Matches a men's set exactly</strong>",
             "<strong>More structure</strong> in the hem and armhole",
@@ -3864,9 +3864,9 @@
       {
         "fit": "perfect",
         "title": "Programs Running Both Squads",
-        "desc": "Same fabric, same colours, same design language, two patterns. <strong>Both squads read as one program</strong> while each set fits the players wearing it.",
+        "desc": "Same fabric, same colors, same design language, two patterns. <strong>Both squads read as one program</strong> while each set fits the players wearing it.",
         "points": [
-          "Identical colours across both squads",
+          "Identical colors across both squads",
           "One design file, two patterns",
           "Ordered together at one price"
         ]
@@ -3888,9 +3888,9 @@
         "desc": "A chest logo sits differently on a shaped body than on a straight-sided one. <strong>Artwork is positioned for the pattern rather than reused from the men's file</strong>, which is the difference between a logo that sits right and one that distorts.",
         "options": [
           "Adjusted chest placement",
-          "Centred crest",
+          "Centered crest",
           "Wordmark",
-          "Off-centre"
+          "Off-center"
         ]
       },
       {
@@ -3915,7 +3915,7 @@
       },
       {
         "title": "Shorts Inseam",
-        "desc": "Cut for a different waist-to-hip proportion, and the inseam is specified separately. <strong>Most women's programmes order shorter than the men's standard</strong>, and it is worth asking the roster rather than assuming.",
+        "desc": "Cut for a different waist-to-hip proportion, and the inseam is specified separately. <strong>Most women's programs order shorter than the men's standard</strong>, and it is worth asking the roster rather than assuming.",
         "options": [
           "5 inch",
           "7 inch",
@@ -3925,11 +3925,11 @@
       },
       {
         "title": "Matching the Men's Set",
-        "desc": "Where a programme runs both, the two sets share a colour file and a design. <strong>Only the pattern differs.</strong>",
+        "desc": "Where a program runs both, the two sets share a color file and a design. <strong>Only the pattern differs.</strong>",
         "options": [
           "Match men's design",
           "Independent design",
-          "Shared colours only",
+          "Shared colors only",
           "Tonal variation"
         ]
       }
@@ -3971,7 +3971,7 @@
         "text": "<strong>No high-heat drying</strong> — a shaped seam loses its line before a straight one does."
       }
     ],
-    "floridaNote": "<strong>Florida programmes often run boys' and girls' squads from one budget and one order.</strong> That is exactly the situation where resized men's kit gets bought, because it is one fewer pattern to specify. Ordering both patterns costs the same and takes the same time — the colour file, the design and the delivery are shared, and only the cut differs.",
+    "floridaNote": "<strong>Florida programs often run boys' and girls' squads from one budget and one order.</strong> That is exactly the situation where resized men's kit gets bought, because it is one fewer pattern to specify. Ordering both patterns costs the same and takes the same time — the color file, the design and the delivery are shared, and only the cut differs.",
     "sizing": {
       "tabs": [
         "adult",
@@ -4062,11 +4062,11 @@
           "pros": [
             "<strong>Softer face</strong> than the adult standard",
             "<strong>Survives family laundry</strong> — no care label to follow",
-            "<strong>Colour cannot crack</strong> however it is washed"
+            "<strong>Color cannot crack</strong> however it is washed"
           ]
         },
         "mesh": {
-          "desc": "Common in youth basketball because <strong>children overheat faster than adults and say so sooner</strong>. If your league plays in community centres or church halls, this is worth the trade in durability.",
+          "desc": "Common in youth basketball because <strong>children overheat faster than adults and say so sooner</strong>. If your league plays in community centers or church halls, this is worth the trade in durability.",
           "pros": [
             "<strong>Much cooler in an unconditioned hall</strong>",
             "<strong>Bonded number panel</strong> keeps digits readable",
@@ -4079,10 +4079,10 @@
       {
         "fit": "perfect",
         "title": "Youth Leagues Buying for Every Team",
-        "desc": "Twelve teams, one order, twelve colorways. <strong>Each team's shade is stored separately</strong>, so a replacement jersey in year two arrives the same colour as the rest of that team's set.",
+        "desc": "Twelve teams, one order, twelve colorways. <strong>Each team's shade is stored separately</strong>, so a replacement jersey in year two arrives the same color as the rest of that team's set.",
         "points": [
           "League-wide pricing",
-          "Colours stored per team",
+          "Colors stored per team",
           "One delivery, sorted by team"
         ]
       },
@@ -4119,12 +4119,12 @@
         ]
       },
       {
-        "title": "Team Colours Across a League",
-        "desc": "Where a league orders for every team at once, each colorway is specified and stored separately. <strong>That is what makes year-two replacements possible</strong> without a colour mismatch.",
+        "title": "Team Colors Across a League",
+        "desc": "Where a league orders for every team at once, each colorway is specified and stored separately. <strong>That is what makes year-two replacements possible</strong> without a color mismatch.",
         "options": [
-          "Per-team colours",
+          "Per-team colors",
           "League palette",
-          "Sponsor colours",
+          "Sponsor colors",
           "Match previous season"
         ]
       },
@@ -4174,14 +4174,14 @@
         "text": "<strong>Tumble dry</strong> — no care ritual for a parent to remember or follow."
       },
       {
-        "text": "<strong>No colour transfer</strong> — the dye is inside the fibre, so a red set will not pink a white wash."
+        "text": "<strong>No color transfer</strong> — the dye is inside the fiber, so a red set will not pink a white wash."
       },
       {
         "dont": true,
         "text": "<strong>Fabric softener is the only thing worth avoiding</strong>, and it is not urgent."
       }
     ],
-    "floridaNote": "<strong>Youth basketball in this state is played in the warmest venues in it.</strong> Community centres, church halls and school auxiliary gyms are rarely conditioned to the standard a high school arena is. Children notice heat sooner and complain about it sooner, so if your league plays in those buildings, order the mesh version — the difference is more noticeable at this age than at any other.",
+    "floridaNote": "<strong>Youth basketball in this state is played in the warmest venues in it.</strong> Community centers, church halls and school auxiliary gyms are rarely conditioned to the standard a high school arena is. Children notice heat sooner and complain about it sooner, so if your league plays in those buildings, order the mesh version — the difference is more noticeable at this age than at any other.",
     "sizing": {
       "tabs": [
         "youth",
@@ -4276,7 +4276,7 @@
           ]
         },
         "sublimation": {
-          "desc": "Listed because some programmes order a reversible set and a single-layer set together — <strong>reversibles for tournaments, single layer for the hot months</strong>. It is the same design, half the weight, one colorway.",
+          "desc": "Listed because some programs order a reversible set and a single-layer set together — <strong>reversibles for tournaments, single layer for the hot months</strong>. It is the same design, half the weight, one colorway.",
           "pros": [
             "<strong>Half the weight</strong> of a reversible",
             "<strong>Much cooler</strong> in an unconditioned hall",
@@ -4302,7 +4302,7 @@
         "desc": "The clearest cost case in the range: <strong>a reversible set is far less than two single-layer sets</strong> and takes one order rather than two.",
         "points": [
           "Cheaper than two sets by a wide margin",
-          "One order, one delivery, one colour match",
+          "One order, one delivery, one color match",
           "Both faces designed together"
         ]
       },
@@ -4358,7 +4358,7 @@
       },
       {
         "title": "Shorts Reversibility",
-        "desc": "The shorts reverse too, and are designed with the jerseys. <strong>A reversible jersey over single-colour shorts defeats the point</strong> on the away side.",
+        "desc": "The shorts reverse too, and are designed with the jerseys. <strong>A reversible jersey over single-color shorts defeats the point</strong> on the away side.",
         "options": [
           "Both pieces reversible",
           "Jersey only",
@@ -4407,7 +4407,7 @@
         "text": "<strong>Do not iron</strong> — heat and pressure on a bonded panel is the fastest way to ruin it."
       }
     ],
-    "floridaNote": "<strong>Reversibles are a travel answer, not a heat answer.</strong> At 240 GSM combined they are the warmest garment on this site, and in an unconditioned Florida hall in August a player will feel it. Programmes here that play a lot of summer basketball often run reversibles for tournament season and a single-layer set for the hot months — same design, printed from the same stored colour.",
+    "floridaNote": "<strong>Reversibles are a travel answer, not a heat answer.</strong> At 240 GSM combined they are the warmest garment on this site, and in an unconditioned Florida hall in August a player will feel it. Programs here that play a lot of summer basketball often run reversibles for tournament season and a single-layer set for the hot months — same design, printed from the same stored color.",
     "sizing": {
       "tabs": [
         "adult",
@@ -4495,7 +4495,7 @@
       "recommended": "sublimation",
       "notes": {
         "sublimation": {
-          "desc": "This product is the process, so the fabric is not really a choice. <strong>Dye sublimation only bonds to polyester</strong> — the dye sublimes to a gas under heat and pressure and enters the fibre itself, and there is nothing in a natural fibre for it to bond with. A 155 GSM 100% polyester is what the process requires and what it is optimised for.",
+          "desc": "This product is the process, so the fabric is not really a choice. <strong>Dye sublimation only bonds to polyester</strong> — the dye sublimes to a gas under heat and pressure and enters the fiber itself, and there is nothing in a natural fiber for it to bond with. A 155 GSM 100% polyester is what the process requires and what it is optimised for.",
           "pros": [
             "<strong>Required by the process</strong>, not chosen for cost",
             "<strong>Smooth face</strong> gives the highest print definition we can reach",
@@ -4507,7 +4507,7 @@
           "pros": [
             "<strong>Sublimates almost as cleanly</strong> as pure polyester",
             "<strong>4-way stretch</strong>",
-            "<strong>Slight colour shift risk</strong> on the spandex fraction, managed at proof"
+            "<strong>Slight color shift risk</strong> on the spandex fraction, managed at proof"
           ]
         },
         "mesh": {
@@ -4528,7 +4528,7 @@
         "points": [
           "Photographic and gradient fills",
           "Edge-to-edge with no borders",
-          "No per-colour charge, ever"
+          "No per-color charge, ever"
         ]
       },
       {
@@ -4537,7 +4537,7 @@
         "desc": "A jersey that looks the same in its fourth season as its first. <strong>There is nothing on the surface to degrade</strong>, so the failure mode is the fabric wearing out rather than the design falling off it.",
         "points": [
           "Artwork cannot crack, peel or fade",
-          "Colours stored for exact reorders",
+          "Colors stored for exact reorders",
           "Fourth-season jerseys still match first-season ones"
         ]
       },
@@ -4554,10 +4554,10 @@
     ],
     "customization": [
       {
-        "title": "No Colour Limits",
-        "desc": "The entire design is laid down in one pass, so <strong>a twelve-colour design costs exactly what a two-colour design costs</strong>. This is the single biggest practical difference from screen printing.",
+        "title": "No Color Limits",
+        "desc": "The entire design is laid down in one pass, so <strong>a twelve-color design costs exactly what a two-color design costs</strong>. This is the single biggest practical difference from screen printing.",
         "options": [
-          "Unlimited colours",
+          "Unlimited colors",
           "Gradients",
           "Photographic fills",
           "Patterns"
@@ -4565,7 +4565,7 @@
       },
       {
         "title": "Edge-to-Edge Printing",
-        "desc": "Colour reaches the seam. <strong>No white borders, no template boundaries</strong>, and a design can wrap from front to side panel without stopping.",
+        "desc": "Color reaches the seam. <strong>No white borders, no template boundaries</strong>, and a design can wrap from front to side panel without stopping.",
         "options": [
           "Full bleed",
           "Wrap-around",
@@ -4607,12 +4607,12 @@
     ],
     "construction": [
       {
-        "title": "Dye Bonded Into the Fibre",
-        "body": "Under heat and pressure the solid dye becomes a gas and enters the polymer itself. <strong>When it cools it is part of the fibre</strong> — which is why there is no layer to crack, no edge to lift, and no added weight where the artwork sits."
+        "title": "Dye Bonded Into the Fiber",
+        "body": "Under heat and pressure the solid dye becomes a gas and enters the polymer itself. <strong>When it cools it is part of the fiber</strong> — which is why there is no layer to crack, no edge to lift, and no added weight where the artwork sits."
       },
       {
         "title": "Printed Before Assembly",
-        "body": "Panels are printed flat and then cut and sewn. <strong>That is how colour reaches the seam</strong> — a finished garment cannot be printed to its own edge, which is why decorated jerseys have borders and these do not."
+        "body": "Panels are printed flat and then cut and sewn. <strong>That is how color reaches the seam</strong> — a finished garment cannot be printed to its own edge, which is why decorated jerseys have borders and these do not."
       },
       {
         "title": "Bound Armholes and Neck",
@@ -4631,7 +4631,7 @@
         "text": "<strong>Air dry</strong> — keeps the structure and the bound edges."
       },
       {
-        "text": "<strong>Wash with like colours</strong> — the dye will not transfer, but other garments' dye can."
+        "text": "<strong>Wash with like colors</strong> — the dye will not transfer, but other garments' dye can."
       },
       {
         "dont": true,
@@ -4639,11 +4639,11 @@
       },
       {
         "dont": true,
-        "text": "<strong>No fabric softener</strong> — it dulls large colour areas over a season."
+        "text": "<strong>No fabric softener</strong> — it dulls large color areas over a season."
       },
       {
         "dont": true,
-        "text": "<strong>Do not bleach</strong> — bleach attacks dye, and here the dye is the fibre."
+        "text": "<strong>Do not bleach</strong> — bleach attacks dye, and here the dye is the fiber."
       }
     ],
     "floridaNote": "<strong>Sublimation suits this climate for a reason people rarely name:</strong> there is no applied layer to trap heat or sweat against the skin. A screen-printed or vinyl number is a plastic patch on the fabric, and in a humid Florida gym that patch does not breathe. A sublimated number breathes exactly as much as the fabric around it, because it is the fabric.",
@@ -4745,7 +4745,7 @@
       {
         "fit": "perfect",
         "title": "Tournament and Showcase Weekends",
-        "desc": "Three games in a day, and the second one requires the other colour. <strong>One garment per player covers the whole schedule</strong> and halves what goes in the bag.",
+        "desc": "Three games in a day, and the second one requires the other color. <strong>One garment per player covers the whole schedule</strong> and halves what goes in the bag.",
         "points": [
           "Light and dark on the same day",
           "One jersey per player for a full weekend",
@@ -4758,7 +4758,7 @@
         "desc": "The clearest cost argument in the range. <strong>A reversible costs far less than two single-layer jerseys</strong> and takes one order rather than two.",
         "points": [
           "Substantially cheaper than two jerseys",
-          "One colour match covering both faces",
+          "One color match covering both faces",
           "One delivery"
         ]
       },
@@ -4804,8 +4804,8 @@
         ]
       },
       {
-        "title": "Edge Binding Colour",
-        "desc": "The bound edge is visible on both faces, so it is one choice serving two designs. <strong>A two-tone bind gives each face its own edge colour.</strong>",
+        "title": "Edge Binding Color",
+        "desc": "The bound edge is visible on both faces, so it is one choice serving two designs. <strong>A two-tone bind gives each face its own edge color.</strong>",
         "options": [
           "Two-tone",
           "Matched to home",
@@ -4851,7 +4851,7 @@
         "text": "<strong>Do not iron</strong> — heat and pressure on a bonded panel ruins it."
       }
     ],
-    "floridaNote": "<strong>This is a travel garment, not a hot-weather one.</strong> At 240 GSM it is the warmest thing on the site, and in an unconditioned Florida hall in August a player will notice. Programmes here that play a lot of summer basketball often run reversibles through tournament season and single-layer jerseys through the hot months — same stored colour, same design, half the weight.",
+    "floridaNote": "<strong>This is a travel garment, not a hot-weather one.</strong> At 240 GSM it is the warmest thing on the site, and in an unconditioned Florida hall in August a player will notice. Programs here that play a lot of summer basketball often run reversibles through tournament season and single-layer jerseys through the hot months — same stored color, same design, half the weight.",
     "sizing": {
       "tabs": [
         "adult"
@@ -4945,7 +4945,7 @@
           ]
         },
         "wicking": {
-          "desc": "The closed-face alternative, for programmes that want cool without a visible weave. <strong>It manages sweat chemically rather than letting air through</strong> — the better answer in a still, cool hall.",
+          "desc": "The closed-face alternative, for programs that want cool without a visible weave. <strong>It manages sweat chemically rather than letting air through</strong> — the better answer in a still, cool hall.",
           "pros": [
             "<strong>Closed face</strong>, sharper under lights",
             "<strong>Better in still air</strong> than an open weave",
@@ -4958,7 +4958,7 @@
       {
         "fit": "perfect",
         "title": "Summer League and Outdoor Courts",
-        "desc": "The hottest basketball played in Florida, in the venues least equipped for it. <strong>An open weave is the largest single change available to a programme playing there.</strong>",
+        "desc": "The hottest basketball played in Florida, in the venues least equipped for it. <strong>An open weave is the largest single change available to a program playing there.</strong>",
         "points": [
           "Heat leaves through the fabric",
           "One jersey covers a three-game Saturday",
@@ -4978,11 +4978,11 @@
       {
         "fit": "consider",
         "title": "Main-Court Match Day",
-        "desc": "The weave is visible from a few feet and reads casual next to a closed knit. <strong>A programme that cares about the sharpest look on a main court usually notices.</strong>",
+        "desc": "The weave is visible from a few feet and reads casual next to a closed knit. <strong>A program that cares about the sharpest look on a main court usually notices.</strong>",
         "points": [
           "Closed-knit jersey for main-court games",
           "Or mesh for summer only",
-          "Same colour file across both"
+          "Same color file across both"
         ]
       }
     ],
@@ -5008,8 +5008,8 @@
         ]
       },
       {
-        "title": "Colour on an Open Weave",
-        "desc": "Deep saturated colours read solid across mesh; <strong>pale tones look washed out at distance</strong> because there is less surface reflecting them. We flag this at proof.",
+        "title": "Color on an Open Weave",
+        "desc": "Deep saturated colors read solid across mesh; <strong>pale tones look washed out at distance</strong> because there is less surface reflecting them. We flag this at proof.",
         "options": [
           "Deep saturated",
           "Two-tone",
@@ -5152,7 +5152,7 @@
       "recommended": "wicking",
       "notes": {
         "wicking": {
-          "desc": "Spun to a thinner gauge than our standard knit, and built on the wicking fibre rather than plain polyester. <strong>Taking material out of a jersey means the give has to come from somewhere</strong>, and 8% spandex is where it comes from here.",
+          "desc": "Spun to a thinner gauge than our standard knit, and built on the wicking fiber rather than plain polyester. <strong>Taking material out of a jersey means the give has to come from somewhere</strong>, and 8% spandex is where it comes from here.",
           "pros": [
             "<strong>145 GSM against 155</strong> — a weight difference you feel by the fourth quarter",
             "<strong>Keeps a flat, closed face</strong> unlike mesh",
@@ -5160,7 +5160,7 @@
           ]
         },
         "sublimation": {
-          "desc": "The standard weight, for programmes that want the same design tougher. <strong>Ten GSM sounds trivial and is very noticeable over a season</strong> of contact.",
+          "desc": "The standard weight, for programs that want the same design tougher. <strong>Ten GSM sounds trivial and is very noticeable over a season</strong> of contact.",
           "pros": [
             "<strong>More durable</strong> across a full season",
             "<strong>Sharpest artwork</strong>",
@@ -5191,7 +5191,7 @@
       {
         "fit": "good",
         "title": "Warm Gyms That Still Want a Formal Look",
-        "desc": "The middle ground most programmes are actually looking for. <strong>Mesh is cooler but reads casual; full weight looks sharpest but runs hot.</strong>",
+        "desc": "The middle ground most programs are actually looking for. <strong>Mesh is cooler but reads casual; full weight looks sharpest but runs hot.</strong>",
         "points": [
           "Closed face under arena lighting",
           "Meaningful heat reduction",
@@ -5221,7 +5221,7 @@
         ]
       },
       {
-        "title": "Colour Depth",
+        "title": "Color Depth",
         "desc": "Relevant here rather than cosmetic. <strong>A light fabric shows a hint of the reverse face</strong>, so heavy solid blocks on a pale ground are reviewed at proof.",
         "options": [
           "Deep team base",
@@ -5252,7 +5252,7 @@
       },
       {
         "title": "Thin-Gauge Wicking Yarn",
-        "body": "The same channelled fibre spun finer. <strong>The sweat management is unchanged; there is simply less material</strong>, which is where both the comfort and the translucency come from."
+        "body": "The same channelled fiber spun finer. <strong>The sweat management is unchanged; there is simply less material</strong>, which is where both the comfort and the translucency come from."
       }
     ],
     "care": [
@@ -5282,7 +5282,7 @@
           "steps": [
             "<strong>Chest:</strong> Fullest point, arms relaxed. This cut is close to standard.",
             "<strong>Roomier fit:</strong> Size up one if a player dislikes a close jersey — a thin fabric shows the fit more than a heavy one.",
-            "<strong>Pale colours:</strong> Ask for a fabric sample before ordering a light ground in this weight.",
+            "<strong>Pale colors:</strong> Ask for a fabric sample before ordering a light ground in this weight.",
             "<strong>No shrinkage:</strong> Polyester holds its size through hot washes."
           ]
         }
@@ -5418,7 +5418,7 @@
     "customization": [
       {
         "title": "Uninterrupted Front and Back",
-        "desc": "Two full surfaces with no seam through either. <strong>Programmes consistently under-use this</strong>, placing a chest logo where a full-bleed design would work.",
+        "desc": "Two full surfaces with no seam through either. <strong>Programs consistently under-use this</strong>, placing a chest logo where a full-bleed design would work.",
         "options": [
           "Full bleed",
           "Chest logo",
@@ -5428,7 +5428,7 @@
       },
       {
         "title": "Armhole Binding",
-        "desc": "The binding traces the most recognisable line on the garment. <strong>A contrast bind defines the silhouette from the bleachers</strong> more than any other single choice.",
+        "desc": "The binding traces the most recognizable line on the garment. <strong>A contrast bind defines the silhouette from the bleachers</strong> more than any other single choice.",
         "options": [
           "Contrast",
           "Matched",
@@ -5450,7 +5450,7 @@
         "title": "Number Placement",
         "desc": "Set by your league rather than by preference. <strong>Some competitions specify a minimum digit height</strong>, and it is cheaper to check than to reprint.",
         "options": [
-          "Front centre",
+          "Front center",
           "Front left",
           "Back standard",
           "League-specified"
@@ -5480,7 +5480,7 @@
       },
       {
         "dont": true,
-        "text": "<strong>No fabric softener</strong> — it dulls a large uninterrupted colour area faster than a small one."
+        "text": "<strong>No fabric softener</strong> — it dulls a large uninterrupted color area faster than a small one."
       },
       {
         "dont": true,
@@ -5591,7 +5591,7 @@
           ]
         },
         "mesh": {
-          "desc": "Sleeved and open. <strong>The combination most Florida programmes reach for when the rules require sleeves and the venue is hot</strong> — it satisfies the rulebook without the heat penalty.",
+          "desc": "Sleeved and open. <strong>The combination most Florida programs reach for when the rules require sleeves and the venue is hot</strong> — it satisfies the rulebook without the heat penalty.",
           "pros": [
             "<strong>Sleeves without the heat</strong>",
             "<strong>Bonded number panel</strong>",
@@ -5706,7 +5706,7 @@
           "steps": [
             "<strong>Chest:</strong> Fullest point, arms relaxed.",
             "<strong>Bicep:</strong> Around the fullest part of the upper arm. A player with heavier arms should follow this rather than the chest, and size up if it is close.",
-            "<strong>Sleeve length:</strong> Standard falls mid-bicep. Check the column if your programme prefers longer.",
+            "<strong>Sleeve length:</strong> Standard falls mid-bicep. Check the column if your program prefers longer.",
             "<strong>Between sizes:</strong> Size up. A sleeve that grips cannot be let out."
           ]
         }
@@ -5781,7 +5781,7 @@
       "recommended": "wicking",
       "notes": {
         "wicking": {
-          "desc": "Full sleeves cover roughly twice the skin a short-sleeve jersey does, and the fabric has to account for it. <strong>145 GSM with sweat channels along the fibre</strong> is the difference between a long-sleeve jersey that gets worn and one that lives in a bag.",
+          "desc": "Full sleeves cover roughly twice the skin a short-sleeve jersey does, and the fabric has to account for it. <strong>145 GSM with sweat channels along the fiber</strong> is the difference between a long-sleeve jersey that gets worn and one that lives in a bag.",
           "pros": [
             "<strong>Lighter, because more of you is covered</strong>",
             "<strong>Moves sweat off the forearm</strong> — the first place a sleeve runs hot",
@@ -5789,7 +5789,7 @@
           ]
         },
         "sublimation": {
-          "desc": "The standard knit for programmes printing heavy artwork down the sleeve. <strong>A smooth closed face holds a full-length sponsor mark</strong> more precisely than a stretch knit that moves with the arm.",
+          "desc": "The standard knit for programs printing heavy artwork down the sleeve. <strong>A smooth closed face holds a full-length sponsor mark</strong> more precisely than a stretch knit that moves with the arm.",
           "pros": [
             "<strong>Sharpest full-length sleeve artwork</strong>",
             "<strong>More structure</strong>",
@@ -5906,7 +5906,7 @@
           "title": "How to Measure — Long-Sleeve Jerseys",
           "steps": [
             "<strong>Chest:</strong> Fullest point, arms relaxed.",
-            "<strong>Sleeve length:</strong> From the centre back of the neck, across the shoulder, to the wrist bone. This is the measurement that decides the size.",
+            "<strong>Sleeve length:</strong> From the center back of the neck, across the shoulder, to the wrist bone. This is the measurement that decides the size.",
             "<strong>Long arms:</strong> Where chest and sleeve disagree, follow the sleeve and size up. A short sleeve on a long arm cannot be fixed.",
             "<strong>Cuffs:</strong> The rib should sit at the wrist bone, not over the hand."
           ]
@@ -5989,7 +5989,7 @@
           ]
         },
         "wicking": {
-          "desc": "For programmes whose players warm up in it and then keep it on through a bench rotation. <strong>Two hours on a bench is long enough for sweat management to matter</strong>; twenty minutes of warm-up is not.",
+          "desc": "For programs whose players warm up in it and then keep it on through a bench rotation. <strong>Two hours on a bench is long enough for sweat management to matter</strong>; twenty minutes of warm-up is not.",
           "pros": [
             "<strong>Better for long bench wear</strong>",
             "<strong>Lighter</strong>",
@@ -6002,7 +6002,7 @@
       {
         "fit": "perfect",
         "title": "Pre-Game and Bench Wear",
-        "desc": "What a squad is wearing when the crowd arrives and the cameras come out. <strong>It answers to no league rule at all</strong>, so the front is free for the clearest statement of who the programme is.",
+        "desc": "What a squad is wearing when the crowd arrives and the cameras come out. <strong>It answers to no league rule at all</strong>, so the front is free for the clearest statement of who the program is.",
         "points": [
           "No roster number required",
           "Full-chest logo at any size",
@@ -6012,10 +6012,10 @@
       {
         "fit": "perfect",
         "title": "Team Photos and Senior Night",
-        "desc": "The garment in most programme photographs, and the one that has to still look new in March. <strong>A pressed logo cracks by January; a dyed one does not.</strong>",
+        "desc": "The garment in most program photographs, and the one that has to still look new in March. <strong>A pressed logo cracks by January; a dyed one does not.</strong>",
         "points": [
           "Artwork cannot crack or peel",
-          "Same colour in the last photo as the first",
+          "Same color in the last photo as the first",
           "Staff sizes on the same order"
         ]
       },
@@ -6033,11 +6033,11 @@
     "customization": [
       {
         "title": "Full-Chest Logo",
-        "desc": "The whole front is available, which a game jersey never is. <strong>Programmes consistently go too small here</strong> — this is the place to go large.",
+        "desc": "The whole front is available, which a game jersey never is. <strong>Programs consistently go too small here</strong> — this is the place to go large.",
         "options": [
           "Full-chest",
           "Left-chest",
-          "Centre crest",
+          "Center crest",
           "Wordmark"
         ]
       },
@@ -6054,9 +6054,9 @@
       },
       {
         "title": "Staff Versions",
-        "desc": "Coaching staff usually want the same design in a fuller cut or a different colour. <strong>Both go on the same order at the same price.</strong>",
+        "desc": "Coaching staff usually want the same design in a fuller cut or a different color. <strong>Both go on the same order at the same price.</strong>",
         "options": [
-          "Staff colour",
+          "Staff color",
           "Fuller cut",
           "Polo collar",
           "Name on chest"
@@ -6064,7 +6064,7 @@
       },
       {
         "title": "Snap or Pullover",
-        "desc": "A pullover comes off over the head; a snap front comes off without disturbing the jersey underneath. <strong>Programmes with a strict warm-up routine usually prefer snaps.</strong>",
+        "desc": "A pullover comes off over the head; a snap front comes off without disturbing the jersey underneath. <strong>Programs with a strict warm-up routine usually prefer snaps.</strong>",
         "options": [
           "Pullover (default)",
           "Snap front",
@@ -6086,10 +6086,10 @@
       },
       {
         "dont": true,
-        "text": "<strong>No fabric softener</strong> — it dulls a large colour block faster than a small one."
+        "text": "<strong>No fabric softener</strong> — it dulls a large color block faster than a small one."
       }
     ],
-    "floridaNote": "<strong>Florida programmes tend to warm up in this and take it off before tip-off</strong> rather than wearing it through a bench rotation — the gyms are warm enough that nobody keeps a second layer on. That argues for the standard knit over the wicking one: it is worn for twenty minutes, so how it holds its shape and photographs matters more than how it handles sweat.",
+    "floridaNote": "<strong>Florida programs tend to warm up in this and take it off before tip-off</strong> rather than wearing it through a bench rotation — the gyms are warm enough that nobody keeps a second layer on. That argues for the standard knit over the wicking one: it is worn for twenty minutes, so how it holds its shape and photographs matters more than how it handles sweat.",
     "sizing": {
       "tabs": [
         "adult",
@@ -6180,7 +6180,7 @@
           "pros": [
             "<strong>Softer face</strong> than the adult standard",
             "<strong>Survives family laundry</strong> — no care label to follow",
-            "<strong>Colour cannot crack</strong> however it is washed"
+            "<strong>Color cannot crack</strong> however it is washed"
           ]
         },
         "mesh": {
@@ -6210,14 +6210,14 @@
         "desc": "Twelve teams, one order, twelve colorways. <strong>Each team's shade is stored separately</strong>, so a replacement in year two matches the rest of that team's set.",
         "points": [
           "League-wide pricing",
-          "Colours stored per team",
+          "Colors stored per team",
           "One delivery, sorted by team"
         ]
       },
       {
         "fit": "good",
         "title": "Middle School and Academy Squads",
-        "desc": "Programmes that want a real uniform rather than numbered shirts. <strong>Numbers print one size up as standard</strong>, because a rec gym is read from further back than an arena.",
+        "desc": "Programs that want a real uniform rather than numbered shirts. <strong>Numbers print one size up as standard</strong>, because a rec gym is read from further back than an arena.",
         "points": [
           "Oversized numbers included",
           "Mixed youth sizes on one order",
@@ -6267,7 +6267,7 @@
       },
       {
         "title": "Softer Face Finish",
-        "body": "The same fibre, finished softer. <strong>Comfort complaints at youth level are about texture far more often than fit</strong>, and they are the reason kit gets left at home."
+        "body": "The same fiber, finished softer. <strong>Comfort complaints at youth level are about texture far more often than fit</strong>, and they are the reason kit gets left at home."
       }
     ],
     "care": [
@@ -6278,14 +6278,14 @@
         "text": "<strong>Tumble dry</strong> — no care ritual for a parent to follow."
       },
       {
-        "text": "<strong>No colour transfer</strong> — the dye is inside the fibre, so a red jersey will not pink a white wash."
+        "text": "<strong>No color transfer</strong> — the dye is inside the fiber, so a red jersey will not pink a white wash."
       },
       {
         "dont": true,
         "text": "<strong>Fabric softener is the only thing to avoid</strong>, and it is not urgent."
       }
     ],
-    "floridaNote": "<strong>Youth basketball here is played in the warmest venues in the state.</strong> Community centres, church halls and school auxiliary gyms are rarely conditioned to an arena standard, and children notice heat sooner and say so sooner. If your league plays in those buildings, order the mesh version — at this age the difference in complaints is immediate.",
+    "floridaNote": "<strong>Youth basketball here is played in the warmest venues in the state.</strong> Community centers, church halls and school auxiliary gyms are rarely conditioned to an arena standard, and children notice heat sooner and say so sooner. If your league plays in those buildings, order the mesh version — at this age the difference in complaints is immediate.",
     "sizing": {
       "tabs": [
         "youth"
@@ -6445,7 +6445,7 @@
       },
       {
         "title": "Undyed Panels Where Specified",
-        "body": "Available in a range of base colours or fully undyed. <strong>An undyed white blank is the most decorator-friendly option</strong>, because it takes any transfer colour without a ground shift."
+        "body": "Available in a range of base colors or fully undyed. <strong>An undyed white blank is the most decorator-friendly option</strong>, because it takes any transfer color without a ground shift."
       },
       {
         "title": "Bound Armholes and Neck",
@@ -6467,7 +6467,7 @@
         "text": "<strong>Do not press at high temperature</strong> — polyester dye-migrates and white lettering turns pink over a few weeks."
       }
     ],
-    "floridaNote": "<strong>One thing to pass to your decorator, especially on strong colours:</strong> polyester dye-migrates under high heat, and Florida shops working through a summer rush sometimes run presses hot to move volume. A red or navy blank pressed too hot will bleed dye into white vinyl within a few weeks of delivery. Low-temperature transfers avoid it completely, and any shop that works with sublimated polyester will know the setting.",
+    "floridaNote": "<strong>One thing to pass to your decorator, especially on strong colors:</strong> polyester dye-migrates under high heat, and Florida shops working through a summer rush sometimes run presses hot to move volume. A red or navy blank pressed too hot will bleed dye into white vinyl within a few weeks of delivery. Low-temperature transfers avoid it completely, and any shop that works with sublimated polyester will know the setting.",
     "sizing": {
       "tabs": [
         "adult",
@@ -6478,7 +6478,7 @@
           "title": "How to Measure — Blank Jerseys",
           "steps": [
             "<strong>Chest:</strong> Fullest point, arms relaxed — identical to our decorated jerseys.",
-            "<strong>Ordering before the roster is set:</strong> Most programmes order a size spread rather than a per-player list. A typical high school spread runs S through 2XL weighted to M and L.",
+            "<strong>Ordering before the roster is set:</strong> Most programs order a size spread rather than a per-player list. A typical high school spread runs S through 2XL weighted to M and L.",
             "<strong>Allow for decoration:</strong> Nothing changes the fit, but a heavy applied graphic across the chest can stiffen a smaller size noticeably.",
             "<strong>No shrinkage:</strong> Polyester holds its size. Order what you intend to wear."
           ]
@@ -6561,7 +6561,7 @@
           ]
         },
         "mesh": {
-          "desc": "A plain mesh jersey is the cheapest cool option we make. <strong>Solid colour and open weave</strong>, with numbers on a bonded panel.",
+          "desc": "A plain mesh jersey is the cheapest cool option we make. <strong>Solid color and open weave</strong>, with numbers on a bonded panel.",
           "pros": [
             "<strong>Cheapest cool jersey</strong> in the range",
             "<strong>Bonded number panel</strong>",
@@ -6574,7 +6574,7 @@
       {
         "fit": "perfect",
         "title": "Tight Budgets and Large Rosters",
-        "desc": "The cheapest finished jersey here. <strong>A single-colour layout is the least expensive thing to produce</strong>, and on a roster of thirty that difference is the whole order.",
+        "desc": "The cheapest finished jersey here. <strong>A single-color layout is the least expensive thing to produce</strong>, and on a roster of thirty that difference is the whole order.",
         "points": [
           "Lowest price for a finished jersey",
           "Arrives numbered and ready to play in",
@@ -6584,7 +6584,7 @@
       {
         "fit": "perfect",
         "title": "Programs Wanting the Classic Look",
-        "desc": "A solid jersey with clean numerals still reads as the most serious uniform in most gyms. <strong>This is not only the budget choice</strong> — plenty of programmes choose it on purpose.",
+        "desc": "A solid jersey with clean numerals still reads as the most serious uniform in most gyms. <strong>This is not only the budget choice</strong> — plenty of programs choose it on purpose.",
         "points": [
           "Classic solid appearance",
           "Number styling carries the whole design",
@@ -6594,10 +6594,10 @@
       {
         "fit": "consider",
         "title": "Programs With an Identity to Show",
-        "desc": "A single solid colour cannot carry a crest, a pattern or a sponsor block. <strong>If your identity depends on any of those, a full-design jersey is worth the difference.</strong>",
+        "desc": "A single solid color cannot carry a crest, a pattern or a sponsor block. <strong>If your identity depends on any of those, a full-design jersey is worth the difference.</strong>",
         "points": [
           "Sublimated jerseys carry full artwork",
-          "No per-colour charge on those either",
+          "No per-color charge on those either",
           "Same garment underneath"
         ]
       }
@@ -6625,14 +6625,14 @@
       },
       {
         "dont": true,
-        "text": "<strong>No fabric softener</strong> — a large flat colour area shows dulling sooner than a patterned one."
+        "text": "<strong>No fabric softener</strong> — a large flat color area shows dulling sooner than a patterned one."
       },
       {
         "dont": true,
         "text": "<strong>Do not bleach</strong> — it attacks the dye rather than the stain."
       }
     ],
-    "floridaNote": "<strong>A plain jersey in a light colour is the cheapest way to be cool in a Florida gym.</strong> Solid white or a pale team colour reflects rather than absorbs, the fabric is the same as everything else here, and there is no dark dyed panel adding heat. For programmes on a tight budget in an unconditioned hall, that combination is worth more than any fabric upgrade.",
+    "floridaNote": "<strong>A plain jersey in a light color is the cheapest way to be cool in a Florida gym.</strong> Solid white or a pale team color reflects rather than absorbs, the fabric is the same as everything else here, and there is no dark dyed panel adding heat. For programs on a tight budget in an unconditioned hall, that combination is worth more than any fabric upgrade.",
     "sizing": {
       "tabs": [
         "adult",
@@ -6644,7 +6644,7 @@
           "steps": [
             "<strong>Chest:</strong> Fullest point, arms relaxed, tape horizontal.",
             "<strong>No shrinkage:</strong> Polyester holds its dimensions. Order the size you intend to wear.",
-            "<strong>Large rosters:</strong> Most programmes ordering thirty or more send a size spread rather than a per-player list.",
+            "<strong>Large rosters:</strong> Most programs ordering thirty or more send a size spread rather than a per-player list.",
             "<strong>Reorders:</strong> A simple layout reprints exactly, so a replacement in year three matches the originals."
           ]
         }
@@ -6740,7 +6740,7 @@
           "pros": [
             "<strong>Moves sweat before it dries into salt marks</strong>",
             "<strong>Closed face</strong>",
-            "<strong>Still absorbs heat</strong> — the ground colour decides that"
+            "<strong>Still absorbs heat</strong> — the ground color decides that"
           ]
         }
       }
@@ -6748,10 +6748,10 @@
     "audience": [
       {
         "fit": "perfect",
-        "title": "Away Kits for Any Primary Colour",
-        "desc": "The reason black is the most-ordered away colour in the sport. <strong>Orange, teal, gold, maroon — every accent reads cleanly on it</strong>, which is not true of most grounds.",
+        "title": "Away Kits for Any Primary Color",
+        "desc": "The reason black is the most-ordered away color in the sport. <strong>Orange, teal, gold, maroon — every accent reads cleanly on it</strong>, which is not true of most grounds.",
         "points": [
-          "Works with any accent colour a programme owns",
+          "Works with any accent color a program owns",
           "Hides court dust across a season",
           "Highest contrast for light numerals"
         ]
@@ -6790,7 +6790,7 @@
       },
       {
         "title": "Accent Panels",
-        "desc": "Black is a ground rather than a limit. <strong>Any accent colour reads on it</strong>, which is exactly why programmes with unusual primaries choose it.",
+        "desc": "Black is a ground rather than a limit. <strong>Any accent color reads on it</strong>, which is exactly why programs with unusual primaries choose it.",
         "options": [
           "Single accent",
           "Two accents",
@@ -6828,21 +6828,21 @@
         "text": "<strong>Cold wash, inside out</strong> — dark grounds show abrasion marks sooner than light ones."
       },
       {
-        "text": "<strong>Wash with dark colours</strong> — not because the dye transfers, but because lint from light garments shows on black more than anything else."
+        "text": "<strong>Wash with dark colors</strong> — not because the dye transfers, but because lint from light garments shows on black more than anything else."
       },
       {
         "text": "<strong>Air dry</strong>."
       },
       {
         "dont": true,
-        "text": "<strong>No fabric softener</strong> — build-up is visible on black long before it shows on other colours."
+        "text": "<strong>No fabric softener</strong> — build-up is visible on black long before it shows on other colors."
       },
       {
         "dont": true,
         "text": "<strong>Do not bleach</strong> — on a fully dyed panel this is immediately and permanently visible."
       }
     ],
-    "floridaNote": "<strong>The one colour where the Florida climate genuinely argues against a choice.</strong> A black jersey under direct sun runs noticeably hotter than a light one, and that is a property of the colour rather than the fabric. If your programme plays outdoors or in unconditioned halls, order black in mesh — the open weave takes back most of the difference. Indoors, in a conditioned arena, it costs you nothing.",
+    "floridaNote": "<strong>The one color where the Florida climate genuinely argues against a choice.</strong> A black jersey under direct sun runs noticeably hotter than a light one, and that is a property of the color rather than the fabric. If your program plays outdoors or in unconditioned halls, order black in mesh — the open weave takes back most of the difference. Indoors, in a conditioned arena, it costs you nothing.",
     "sizing": {
       "tabs": [
         "adult",
@@ -6929,9 +6929,9 @@
       "recommended": "sublimation",
       "notes": {
         "sublimation": {
-          "desc": "White is built on a heavier-opacity version of the standard knit, and that is not an upsell. <strong>A thin white fabric goes translucent under arena lighting</strong> — the one failure mode no other colour has — so this is the only ground where we specify extra body as standard.",
+          "desc": "White is built on a heavier-opacity version of the standard knit, and that is not an upsell. <strong>A thin white fabric goes translucent under arena lighting</strong> — the one failure mode no other color has — so this is the only ground where we specify extra body as standard.",
           "pros": [
-            "<strong>Built to an opacity standard</strong>, heavier than our coloured jerseys",
+            "<strong>Built to an opacity standard</strong>, heavier than our colored jerseys",
             "<strong>Every accent reproduces at true value</strong> on an undyed ground",
             "<strong>Reflects heat</strong> rather than absorbing it"
           ]
@@ -6950,7 +6950,7 @@
       {
         "fit": "perfect",
         "title": "Traditional Home Kits",
-        "desc": "White has been the home colour in basketball for as long as the rule existed. <strong>It remains the ground every accent colour reproduces most faithfully on</strong>, because nothing is dyed underneath it.",
+        "desc": "White has been the home color in basketball for as long as the rule existed. <strong>It remains the ground every accent color reproduces most faithfully on</strong>, because nothing is dyed underneath it.",
         "points": [
           "Accents print at their true value",
           "Classic home appearance",
@@ -6962,7 +6962,7 @@
         "title": "Outdoor and Hot Venues",
         "desc": "The practical case rather than the traditional one. <strong>A white jersey reflects radiant heat rather than absorbing it</strong>, which on an outdoor Florida court in May is measurable.",
         "points": [
-          "Coolest ground colour available",
+          "Coolest ground color available",
           "Pairs with light shorts for a full hot-weather kit",
           "Available in mesh for extreme heat"
         ]
@@ -6970,7 +6970,7 @@
       {
         "fit": "consider",
         "title": "Programs Without Laundry Support",
-        "desc": "The honest downside. <strong>White shows court dust, sweat marks and grass in a way no other colour does</strong>, and a programme without a reliable laundry routine will notice within a month.",
+        "desc": "The honest downside. <strong>White shows court dust, sweat marks and grass in a way no other color does</strong>, and a program without a reliable laundry routine will notice within a month.",
         "points": [
           "Order two per player if possible",
           "Or run white home and a dark away",
@@ -6980,8 +6980,8 @@
     ],
     "customization": [
       {
-        "title": "Accent Colour at True Value",
-        "desc": "On an undyed ground, every accent prints exactly as specified. <strong>On a dyed ground the base shifts the accent slightly</strong>, which is why colour-critical designs are proofed on white.",
+        "title": "Accent Color at True Value",
+        "desc": "On an undyed ground, every accent prints exactly as specified. <strong>On a dyed ground the base shifts the accent slightly</strong>, which is why color-critical designs are proofed on white.",
         "options": [
           "Any accent",
           "Two-tone",
@@ -7013,7 +7013,7 @@
     "construction": [
       {
         "title": "Higher Opacity Knit",
-        "body": "Specified heavier than our coloured jerseys. <strong>Translucency under arena lighting is the one failure unique to white</strong>, and extra body is the only reliable fix."
+        "body": "Specified heavier than our colored jerseys. <strong>Translucency under arena lighting is the one failure unique to white</strong>, and extra body is the only reliable fix."
       },
       {
         "title": "Bound Armholes and Neck",
@@ -7021,7 +7021,7 @@
       },
       {
         "title": "Undyed Base Fabric",
-        "body": "The ground is the fabric's own colour rather than a dyed panel. <strong>That is why accents reproduce at their true value</strong> and why a white jersey never has a dye run to match."
+        "body": "The ground is the fabric's own color rather than a dyed panel. <strong>That is why accents reproduce at their true value</strong> and why a white jersey never has a dye run to match."
       }
     ],
     "care": [
@@ -7043,7 +7043,7 @@
         "text": "<strong>No fabric softener</strong> — it holds soil on a white ground rather than releasing it."
       }
     ],
-    "floridaNote": "<strong>White is the correct answer to a hot outdoor court, and the wrong one to a laundry problem.</strong> It reflects heat better than anything else on this site, and it shows red clay, court dust and grass better than anything else too. Programmes here that play outdoors usually order two per player and accept the upkeep — the heat difference is worth it.",
+    "floridaNote": "<strong>White is the correct answer to a hot outdoor court, and the wrong one to a laundry problem.</strong> It reflects heat better than anything else on this site, and it shows red clay, court dust and grass better than anything else too. Programs here that play outdoors usually order two per player and accept the upkeep — the heat difference is worth it.",
     "sizing": {
       "tabs": [
         "adult",
@@ -7054,7 +7054,7 @@
           "title": "How to Measure — White Shirts",
           "steps": [
             "<strong>Chest:</strong> Fullest point, arms relaxed.",
-            "<strong>White reads fuller:</strong> The same size looks slightly larger in white than in a dark colour. Allow for it if you run white home against a dark away kit.",
+            "<strong>White reads fuller:</strong> The same size looks slightly larger in white than in a dark color. Allow for it if you run white home against a dark away kit.",
             "<strong>Opacity:</strong> The heavier knit is standard on white; you do not need to size up to compensate for anything.",
             "<strong>No shrinkage:</strong> Polyester holds its size through hot washes."
           ]
@@ -7131,11 +7131,11 @@
       "recommended": "sublimation",
       "notes": {
         "sublimation": {
-          "desc": "Blue is the most-reordered colour in school athletics, which makes <strong>run-to-run consistency the property that matters most</strong>. The standard knit takes dye most predictably of our three fabrics, so a jersey printed three years apart lands on the same shade.",
+          "desc": "Blue is the most-reordered color in school athletics, which makes <strong>run-to-run consistency the property that matters most</strong>. The standard knit takes dye most predictably of our three fabrics, so a jersey printed three years apart lands on the same shade.",
           "pros": [
-            "<strong>Most predictable dye uptake</strong> — critical on a reordered colour",
+            "<strong>Most predictable dye uptake</strong> — critical on a reordered color",
             "<strong>Deepest navy</strong> on a closed face",
-            "<strong>Standard for school programmes</strong>"
+            "<strong>Standard for school programs</strong>"
           ]
         },
         "wicking": {
@@ -7147,7 +7147,7 @@
           ]
         },
         "mesh": {
-          "desc": "Blue on an open weave reads lighter at distance than the same blue on a closed face, because <strong>less surface is reflecting the colour</strong>. Deep navy handles this better than a mid blue.",
+          "desc": "Blue on an open weave reads lighter at distance than the same blue on a closed face, because <strong>less surface is reflecting the color</strong>. Deep navy handles this better than a mid blue.",
           "pros": [
             "<strong>Navy holds up well</strong> on mesh",
             "<strong>Mid blues read lighter</strong> at distance",
@@ -7159,7 +7159,7 @@
     "audience": [
       {
         "fit": "perfect",
-        "title": "Schools Matching an Institutional Colour",
+        "title": "Schools Matching an Institutional Color",
         "desc": "Blue is where the shade question is hardest, because <strong>navy, royal, columbia and carolina are four different identities</strong> that a supplier can casually treat as one. A school whose banners are navy will not accept royal.",
         "points": [
           "Matched from a Pantone value or a style guide",
@@ -7170,7 +7170,7 @@
       {
         "fit": "perfect",
         "title": "Long-Running Programs",
-        "desc": "The programmes that reorder every season are the ones a drifting shade hurts. <strong>A stored match is the difference between a squad in one colour and a squad in two.</strong>",
+        "desc": "The programs that reorder every season are the ones a drifting shade hurts. <strong>A stored match is the difference between a squad in one color and a squad in two.</strong>",
         "points": [
           "Same file used for every reorder",
           "Replacement jerseys match existing sets",
@@ -7180,7 +7180,7 @@
       {
         "fit": "good",
         "title": "Programs Wanting Practical Dark Kit",
-        "desc": "Navy hides court marks nearly as well as black while <strong>absorbing measurably less heat</strong>. In Florida that combination is why so many programmes here run navy rather than black.",
+        "desc": "Navy hides court marks nearly as well as black while <strong>absorbing measurably less heat</strong>. In Florida that combination is why so many programs here run navy rather than black.",
         "points": [
           "Hides court dust",
           "Cooler than black under sun",
@@ -7191,7 +7191,7 @@
     "customization": [
       {
         "title": "Which Blue",
-        "desc": "The first and most important decision. <strong>Send a Pantone number, a school style guide, or a jersey you already own</strong> — not a photograph, which shifts colour on every screen it passes through.",
+        "desc": "The first and most important decision. <strong>Send a Pantone number, a school style guide, or a jersey you already own</strong> — not a photograph, which shifts color on every screen it passes through.",
         "options": [
           "Pantone value",
           "Style guide",
@@ -7200,7 +7200,7 @@
         ]
       },
       {
-        "title": "Accent Colour",
+        "title": "Accent Color",
         "desc": "Blue is the most forgiving ground for accents. <strong>White, gold, silver and orange all read strongly against every blue in the family.</strong>",
         "options": [
           "White",
@@ -7228,7 +7228,7 @@
       },
       {
         "title": "Bound Armholes and Neck",
-        "body": "Bound rather than hemmed, so the edges hold their line across the seasons a long-running programme keeps a jersey."
+        "body": "Bound rather than hemmed, so the edges hold their line across the seasons a long-running program keeps a jersey."
       },
       {
         "title": "Flatlock Seams",
@@ -7240,7 +7240,7 @@
         "text": "<strong>Cold wash, inside out</strong>."
       },
       {
-        "text": "<strong>Wash with like colours</strong> — the dye will not transfer, but other garments' will."
+        "text": "<strong>Wash with like colors</strong> — the dye will not transfer, but other garments' will."
       },
       {
         "text": "<strong>Air dry</strong>."
@@ -7254,7 +7254,7 @@
         "text": "<strong>Do not bleach</strong>."
       }
     ],
-    "floridaNote": "<strong>Navy is the practical dark colour for this state.</strong> It does most of what black does — hides court dust, takes any accent, reads formally under arena lighting — while absorbing meaningfully less radiant heat. Programmes here that would default to black elsewhere frequently run navy instead, and outdoors that choice is worth more than any fabric upgrade.",
+    "floridaNote": "<strong>Navy is the practical dark color for this state.</strong> It does most of what black does — hides court dust, takes any accent, reads formally under arena lighting — while absorbing meaningfully less radiant heat. Programs here that would default to black elsewhere frequently run navy instead, and outdoors that choice is worth more than any fabric upgrade.",
     "sizing": {
       "tabs": [
         "adult",
@@ -7341,7 +7341,7 @@
       "recommended": "sublimation",
       "notes": {
         "sublimation": {
-          "desc": "Red is the least forgiving colour we print, and the reason is that <strong>small variations in dye load shift it between orange-red and blue-red</strong> — a difference the eye catches instantly across twelve jerseys hanging together. The standard knit takes red most predictably, which is why a set is specified on it.",
+          "desc": "Red is the least forgiving color we print, and the reason is that <strong>small variations in dye load shift it between orange-red and blue-red</strong> — a difference the eye catches instantly across twelve jerseys hanging together. The standard knit takes red most predictably, which is why a set is specified on it.",
           "pros": [
             "<strong>Most predictable red uptake</strong> of our fabrics",
             "<strong>Both pieces from one dye run</strong>",
@@ -7362,7 +7362,7 @@
       {
         "fit": "perfect",
         "title": "Programs Built on a Red Identity",
-        "desc": "Red has the highest visual presence of any colour in a gym, which is why so many identities are built on it. <strong>Getting the shade right is the whole job</strong>, and it is where most suppliers are careless.",
+        "desc": "Red has the highest visual presence of any color in a gym, which is why so many identities are built on it. <strong>Getting the shade right is the whole job</strong>, and it is where most suppliers are careless.",
         "points": [
           "Matched from a Pantone value or sample",
           "Stored for every future reorder",
@@ -7372,7 +7372,7 @@
       {
         "fit": "perfect",
         "title": "Teams Buying a Matched Set",
-        "desc": "Red is the colour where a split order shows most. <strong>A jersey printed now and shorts printed in three months will sit visibly apart</strong>, and nothing can be done about it afterwards.",
+        "desc": "Red is the color where a split order shows most. <strong>A jersey printed now and shorts printed in three months will sit visibly apart</strong>, and nothing can be done about it afterwards.",
         "points": [
           "One dye run for both pieces",
           "Design continues across the set",
@@ -7382,7 +7382,7 @@
       {
         "fit": "good",
         "title": "Youth and Rec Leagues",
-        "desc": "Red reads from the back of any hall, which matters in venues with poor sightlines. <strong>The most visible uniform colour available</strong>, at no extra cost.",
+        "desc": "Red reads from the back of any hall, which matters in venues with poor sightlines. <strong>The most visible uniform color available</strong>, at no extra cost.",
         "points": [
           "Highest visibility of any ground",
           "White and gold numerals read strongly",
@@ -7393,7 +7393,7 @@
     "customization": [
       {
         "title": "Which Red",
-        "desc": "Send a Pantone value or a physical sample. <strong>Red shifts more between screen and fabric than any colour except purple</strong>, and a phone photograph is not a usable reference.",
+        "desc": "Send a Pantone value or a physical sample. <strong>Red shifts more between screen and fabric than any color except purple</strong>, and a phone photograph is not a usable reference.",
         "options": [
           "Pantone value",
           "Physical sample",
@@ -7402,7 +7402,7 @@
         ]
       },
       {
-        "title": "Accent Colour",
+        "title": "Accent Color",
         "desc": "White and gold read strongest on red. <strong>Black works but flattens it</strong>; a dark accent on a saturated ground loses the vibrancy that made you choose red.",
         "options": [
           "White",
@@ -7425,7 +7425,7 @@
     "construction": [
       {
         "title": "Single Dye Run for Both Pieces",
-        "body": "Jersey and shorts printed together from one colour file. <strong>On red this is not a nicety — a half-shade difference between top and bottom is plainly visible</strong> and cannot be corrected after delivery."
+        "body": "Jersey and shorts printed together from one color file. <strong>On red this is not a nicety — a half-shade difference between top and bottom is plainly visible</strong> and cannot be corrected after delivery."
       },
       {
         "title": "Bound Edges Throughout",
@@ -7468,7 +7468,7 @@
             "<strong>Size each garment separately:</strong> A player may take a Large jersey and Medium shorts, and the order form expects it.",
             "<strong>Chest for the top</strong>, fullest point, arms relaxed.",
             "<strong>Waist and hip for the shorts</strong> — the hip decides comfort in a defensive stance.",
-            "<strong>Order both together</strong> so the set is printed in one run. This matters more on red than on any other colour."
+            "<strong>Order both together</strong> so the set is printed in one run. This matters more on red than on any other color."
           ]
         }
       ]
@@ -7543,7 +7543,7 @@
       "recommended": "wicking",
       "notes": {
         "wicking": {
-          "desc": "We recommend the wicking knit on grey for one specific reason: <strong>grey shows sweat marks more visibly than any other colour, light or dark</strong>. A fabric that moves moisture to the outer face and spreads it does not develop the dark patches that make a grey jersey look worse than it is.",
+          "desc": "We recommend the wicking knit on grey for one specific reason: <strong>grey shows sweat marks more visibly than any other color, light or dark</strong>. A fabric that moves moisture to the outer face and spreads it does not develop the dark patches that make a grey jersey look worse than it is.",
           "pros": [
             "<strong>Spreads moisture instead of pooling it</strong> — the whole argument on grey",
             "<strong>Lighter at 145 GSM</strong>",
@@ -7572,17 +7572,17 @@
       {
         "fit": "perfect",
         "title": "Third and Alternate Kits",
-        "desc": "A programme with a home and an away already has its two league options. <strong>Grey is what it wears for showcases, alumni games and the tournament where both teams brought navy.</strong>",
+        "desc": "A program with a home and an away already has its two league options. <strong>Grey is what it wears for showcases, alumni games and the tournament where both teams brought navy.</strong>",
         "points": [
-          "Commits to no accent colour",
-          "Solves a colour-clash fixture",
+          "Commits to no accent color",
+          "Solves a color-clash fixture",
           "Reads modern rather than traditional"
         ]
       },
       {
         "fit": "good",
         "title": "Warm Gyms",
-        "desc": "A mid-grey sits between black and white on heat. <strong>It absorbs meaningfully less than black while hiding court dust far better than white</strong> — a practical middle ground neither traditional colour occupies.",
+        "desc": "A mid-grey sits between black and white on heat. <strong>It absorbs meaningfully less than black while hiding court dust far better than white</strong> — a practical middle ground neither traditional color occupies.",
         "points": [
           "Cooler than black",
           "Hides marks better than white",
@@ -7592,7 +7592,7 @@
       {
         "fit": "consider",
         "title": "Programs Without a Sweat Plan",
-        "desc": "The honest caution. <strong>Grey shows sweat more than any other ground colour</strong>, and on the standard knit that is visible from the stands by the second quarter.",
+        "desc": "The honest caution. <strong>Grey shows sweat more than any other ground color</strong>, and on the standard knit that is visible from the stands by the second quarter.",
         "points": [
           "Order the wicking fabric on grey",
           "Or mesh, which marks less",
@@ -7602,8 +7602,8 @@
     ],
     "customization": [
       {
-        "title": "Accent Colour",
-        "desc": "The most accommodating ground we offer. <strong>Every accent reads cleanly on grey, light or dark</strong>, which is not true of any other colour here.",
+        "title": "Accent Color",
+        "desc": "The most accommodating ground we offer. <strong>Every accent reads cleanly on grey, light or dark</strong>, which is not true of any other color here.",
         "options": [
           "Any accent",
           "Two-tone",
@@ -7648,7 +7648,7 @@
     ],
     "care": [
       {
-        "text": "<strong>Wash promptly</strong> — sweat left to dry on grey leaves salt marks that show more than on any other colour."
+        "text": "<strong>Wash promptly</strong> — sweat left to dry on grey leaves salt marks that show more than on any other color."
       },
       {
         "text": "<strong>Cold wash, inside out</strong>."
@@ -7665,7 +7665,7 @@
         "text": "<strong>Do not bleach</strong> — on grey this leaves a permanent pale patch rather than lifting a stain."
       }
     ],
-    "floridaNote": "<strong>Grey and Florida humidity need one decision made together.</strong> This is the colour that shows sweat most, and this is a state where players sweat through a jersey in the first quarter. Order it in the wicking fabric or in mesh, not the standard knit — the difference is visible from the stands, and it is the single reason a grey kit either looks sharp all season or looks tired by December.",
+    "floridaNote": "<strong>Grey and Florida humidity need one decision made together.</strong> This is the color that shows sweat most, and this is a state where players sweat through a jersey in the first quarter. Order it in the wicking fabric or in mesh, not the standard knit — the difference is visible from the stands, and it is the single reason a grey kit either looks sharp all season or looks tired by December.",
     "sizing": {
       "tabs": [
         "adult"
@@ -7754,7 +7754,7 @@
           "desc": "A camo pattern needs a smooth, continuous face to resolve properly. <strong>Multi-tone artwork on a closed knit holds its shapes</strong>; the same file on an open weave loses the boundaries between tones and turns to noise at distance.",
           "pros": [
             "<strong>Pattern resolves cleanly</strong> at every distance",
-            "<strong>No per-colour charge</strong> however many tones the pattern uses",
+            "<strong>No per-color charge</strong> however many tones the pattern uses",
             "<strong>Number panel prints solid</strong> over the pattern"
           ]
         },
@@ -7772,7 +7772,7 @@
       {
         "fit": "perfect",
         "title": "Military Appreciation Games",
-        "desc": "The most common reason a programme orders camo, and usually a fixed date in November. <strong>These orders are scheduled backward from the game</strong>, not forward from the order.",
+        "desc": "The most common reason a program orders camo, and usually a fixed date in November. <strong>These orders are scheduled backward from the game</strong>, not forward from the order.",
         "points": [
           "Dated schedule worked back from the fixture",
           "No setup charge for a short run",
@@ -7782,7 +7782,7 @@
       {
         "fit": "perfect",
         "title": "One-Off and Fundraising Runs",
-        "desc": "Sublimation has no per-colour cost, so <strong>a full multi-tone camo costs the same to print as a plain jersey</strong>. That is what makes a run of fifteen economic when screen printing would not be.",
+        "desc": "Sublimation has no per-color cost, so <strong>a full multi-tone camo costs the same to print as a plain jersey</strong>. That is what makes a run of fifteen economic when screen printing would not be.",
         "points": [
           "Same price as a solid jersey",
           "Economic at fifteen units",
@@ -7802,10 +7802,10 @@
     ],
     "customization": [
       {
-        "title": "Camo in Your Team Colours",
-        "desc": "Not restricted to military tones. <strong>A navy-and-gold camo, or red-and-black</strong>, is what most school programmes actually want — the pattern language without the costume.",
+        "title": "Camo in Your Team Colors",
+        "desc": "Not restricted to military tones. <strong>A navy-and-gold camo, or red-and-black</strong>, is what most school programs actually want — the pattern language without the costume.",
         "options": [
-          "Team-colour camo",
+          "Team-color camo",
           "Traditional woodland",
           "Digital / pixel",
           "Two-tone simplified"
@@ -7843,7 +7843,7 @@
       },
       {
         "title": "Single-Pass Multi-Tone Print",
-        "body": "However many tones the pattern carries, it is laid down in one pass. <strong>That is why colour count does not affect the price</strong> and why a short run is affordable."
+        "body": "However many tones the pattern carries, it is laid down in one pass. <strong>That is why color count does not affect the price</strong> and why a short run is affordable."
       }
     ],
     "care": [
@@ -7873,7 +7873,7 @@
           "title": "How to Measure — Camo Jerseys",
           "steps": [
             "<strong>Chest:</strong> Fullest point, arms relaxed.",
-            "<strong>Order extras:</strong> Appreciation kits are frequently auctioned or kept afterwards. Most programmes order a few spares in popular sizes.",
+            "<strong>Order extras:</strong> Appreciation kits are frequently auctioned or kept afterwards. Most programs order a few spares in popular sizes.",
             "<strong>Pattern reads fuller:</strong> A busy pattern looks slightly larger than a solid at the same size, though not enough to change the size you order.",
             "<strong>Date first:</strong> Send us the game date with your enquiry so we can confirm the schedule before anything else."
           ]
@@ -7950,7 +7950,7 @@
       "recommended": "sublimation",
       "notes": {
         "sublimation": {
-          "desc": "Green covers a wider range than any other team colour, and <strong>the standard knit reproduces the whole family most faithfully</strong> — from a deep forest to a bright kelly. That range is the reason green orders go wrong more often than any other.",
+          "desc": "Green covers a wider range than any other team color, and <strong>the standard knit reproduces the whole family most faithfully</strong> — from a deep forest to a bright kelly. That range is the reason green orders go wrong more often than any other.",
           "pros": [
             "<strong>Reproduces the whole green family</strong> accurately",
             "<strong>Most predictable across a large run</strong>",
@@ -8010,7 +8010,7 @@
     "customization": [
       {
         "title": "Which Green",
-        "desc": "The decision the whole order rests on. <strong>Forest, hunter, kelly, emerald and lime are genuinely different</strong>, and a programme whose banners are forest will not accept kelly.",
+        "desc": "The decision the whole order rests on. <strong>Forest, hunter, kelly, emerald and lime are genuinely different</strong>, and a program whose banners are forest will not accept kelly.",
         "options": [
           "Pantone value",
           "Style guide",
@@ -8019,7 +8019,7 @@
         ]
       },
       {
-        "title": "Accent Colour",
+        "title": "Accent Color",
         "desc": "Gold, white and silver read strongly against every green in the family. <strong>Contrast is rarely a problem here</strong>, whichever green you choose.",
         "options": [
           "Gold",
@@ -8059,7 +8059,7 @@
         "text": "<strong>Cold wash, inside out</strong>."
       },
       {
-        "text": "<strong>Wash with like colours</strong>."
+        "text": "<strong>Wash with like colors</strong>."
       },
       {
         "text": "<strong>Air dry</strong>."
@@ -8073,7 +8073,7 @@
         "text": "<strong>Do not bleach</strong> — on green this leaves a yellow patch rather than a pale one."
       }
     ],
-    "floridaNote": "<strong>Bright greens hold up better than deep ones under Florida sun.</strong> A kelly or emerald reflects considerably more radiant heat than a forest or hunter, which for an outdoor or unconditioned venue is worth factoring into the shade decision rather than treating it as purely an identity question. If your school colour is a deep green and you play outdoors, the mesh version takes most of that back.",
+    "floridaNote": "<strong>Bright greens hold up better than deep ones under Florida sun.</strong> A kelly or emerald reflects considerably more radiant heat than a forest or hunter, which for an outdoor or unconditioned venue is worth factoring into the shade decision rather than treating it as purely an identity question. If your school color is a deep green and you play outdoors, the mesh version takes most of that back.",
     "sizing": {
       "tabs": [
         "adult",
@@ -8161,7 +8161,7 @@
       "recommended": "sublimation",
       "notes": {
         "sublimation": {
-          "desc": "Orange and red are the two hardest colours to reproduce faithfully, and <strong>the standard knit takes orange most predictably</strong>. On a closed smooth face the colour lands where it was specified; on other fabrics it drifts toward brown or toward yellow.",
+          "desc": "Orange and red are the two hardest colors to reproduce faithfully, and <strong>the standard knit takes orange most predictably</strong>. On a closed smooth face the color lands where it was specified; on other fabrics it drifts toward brown or toward yellow.",
           "pros": [
             "<strong>Most predictable orange uptake</strong>",
             "<strong>Brightest reproduction</strong> on a smooth face",
@@ -8169,7 +8169,7 @@
           ]
         },
         "mesh": {
-          "desc": "Orange on an open weave loses saturation at distance, because <strong>less surface is reflecting a colour that depends on brightness</strong>. It shifts toward a muted apricot from the bleachers.",
+          "desc": "Orange on an open weave loses saturation at distance, because <strong>less surface is reflecting a color that depends on brightness</strong>. It shifts toward a muted apricot from the bleachers.",
           "pros": [
             "<strong>Coolest option</strong>",
             "<strong>Loses saturation</strong> at distance",
@@ -8190,7 +8190,7 @@
       {
         "fit": "perfect",
         "title": "Florida School Programs",
-        "desc": "Orange is a Florida colour in a way it is not elsewhere — <strong>the state's best-known college and professional programmes are built on it</strong>, and school teams across Florida follow. It is the colour we match most often here.",
+        "desc": "Orange is a Florida color in a way it is not elsewhere — <strong>the state's best-known college and professional programs are built on it</strong>, and school teams across Florida follow. It is the color we match most often here.",
         "points": [
           "Matched from a physical reference",
           "Stored for future reorders",
@@ -8210,7 +8210,7 @@
       {
         "fit": "good",
         "title": "Outdoor and Warm Venues",
-        "desc": "A bright ground reflects considerably more radiant heat than black or navy. <strong>Orange is one of the cooler dark-adjacent colours available</strong>, which suits this state.",
+        "desc": "A bright ground reflects considerably more radiant heat than black or navy. <strong>Orange is one of the cooler dark-adjacent colors available</strong>, which suits this state.",
         "points": [
           "Reflects more heat than navy or black",
           "Available in mesh for extreme heat",
@@ -8230,7 +8230,7 @@
         ]
       },
       {
-        "title": "Accent Colour",
+        "title": "Accent Color",
         "desc": "Navy, black and white all read strongly. <strong>The one accent to avoid is a mid-yellow</strong>, which sits too close on the wheel to hold contrast from the bleachers.",
         "options": [
           "Navy",
@@ -8253,7 +8253,7 @@
     "construction": [
       {
         "title": "Matched From a Physical Reference",
-        "body": "Orange is confirmed against a chip or a garment rather than a screen value. <strong>This is the colour where a monitor match is most likely to be wrong</strong>, and the error only becomes visible on delivery."
+        "body": "Orange is confirmed against a chip or a garment rather than a screen value. <strong>This is the color where a monitor match is most likely to be wrong</strong>, and the error only becomes visible on delivery."
       },
       {
         "title": "Consistent Across the Run",
@@ -8280,7 +8280,7 @@
         "text": "<strong>Do not bleach</strong>."
       }
     ],
-    "floridaNote": "<strong>Orange is the colour we are asked for most in this state, and the one we most often have to re-match.</strong> Programmes send a screenshot of a college jersey and expect that shade; screens make orange from light and fabric makes it from dye, and the two do not line up. Send a physical reference — a chip, a garment, a printed style guide — and it will be right the first time.",
+    "floridaNote": "<strong>Orange is the color we are asked for most in this state, and the one we most often have to re-match.</strong> Programs send a screenshot of a college jersey and expect that shade; screens make orange from light and fabric makes it from dye, and the two do not line up. Send a physical reference — a chip, a garment, a printed style guide — and it will be right the first time.",
     "sizing": {
       "tabs": [
         "adult",
@@ -8367,7 +8367,7 @@
       "recommended": "sublimation",
       "notes": {
         "sublimation": {
-          "desc": "Yellow shows dye variation more clearly than any colour except red, because <strong>a bright ground has nothing to hide a shift in</strong>. The standard knit takes it most consistently, which is what keeps a jersey and shorts printed together looking like one set.",
+          "desc": "Yellow shows dye variation more clearly than any color except red, because <strong>a bright ground has nothing to hide a shift in</strong>. The standard knit takes it most consistently, which is what keeps a jersey and shorts printed together looking like one set.",
           "pros": [
             "<strong>Most consistent yellow</strong> across a run",
             "<strong>Both pieces from one dye run</strong>",
@@ -8398,7 +8398,7 @@
       {
         "fit": "perfect",
         "title": "Outdoor and Hot Venues",
-        "desc": "One of the coolest grounds available. <strong>A bright yellow reflects far more radiant heat than any dark colour</strong>, which in Florida is a real advantage rather than a marginal one.",
+        "desc": "One of the coolest grounds available. <strong>A bright yellow reflects far more radiant heat than any dark color</strong>, which in Florida is a real advantage rather than a marginal one.",
         "points": [
           "Reflects heat rather than absorbing it",
           "Available in mesh for extreme heat",
@@ -8478,10 +8478,10 @@
       },
       {
         "dont": true,
-        "text": "<strong>Do not bleach</strong> — on yellow, chlorine shifts the colour rather than lifting the stain."
+        "text": "<strong>Do not bleach</strong> — on yellow, chlorine shifts the color rather than lifting the stain."
       }
     ],
-    "floridaNote": "<strong>Yellow is one of the best grounds for outdoor Florida play and one of the hardest to keep clean.</strong> It reflects heat about as well as white, and it shows red clay and court dust nearly as clearly. Programmes here that play outdoors usually run yellow as a home kit with a darker away, so the bright set is worn on the better surface.",
+    "floridaNote": "<strong>Yellow is one of the best grounds for outdoor Florida play and one of the hardest to keep clean.</strong> It reflects heat about as well as white, and it shows red clay and court dust nearly as clearly. Programs here that play outdoors usually run yellow as a home kit with a darker away, so the bright set is worn on the better surface.",
     "sizing": {
       "tabs": [
         "adult",
@@ -8493,7 +8493,7 @@
           "steps": [
             "<strong>Size each garment separately</strong> — chest for the jersey, waist and hip for the shorts.",
             "<strong>Bright grounds read fuller</strong> than dark ones at the same size.",
-            "<strong>Order both together</strong> so the set is printed in one run. On yellow this matters more than on most colours.",
+            "<strong>Order both together</strong> so the set is printed in one run. On yellow this matters more than on most colors.",
             "<strong>Roster sizing:</strong> Send heights and weights and we will size the squad at no charge."
           ]
         }
@@ -8568,7 +8568,7 @@
       "recommended": "sublimation",
       "notes": {
         "sublimation": {
-          "desc": "Purple is the colour most likely to arrive wrong from any supplier, and the reason is fundamental: <strong>screens build purple from red and blue light, fabric builds it from dye</strong>, and the two gamuts do not overlap cleanly. The standard knit is the most predictable of our fabrics on it.",
+          "desc": "Purple is the color most likely to arrive wrong from any supplier, and the reason is fundamental: <strong>screens build purple from red and blue light, fabric builds it from dye</strong>, and the two gamuts do not overlap cleanly. The standard knit is the most predictable of our fabrics on it.",
           "pros": [
             "<strong>Most predictable purple</strong> of our fabrics",
             "<strong>Deepest saturation</strong> on a closed face",
@@ -8589,7 +8589,7 @@
       {
         "fit": "perfect",
         "title": "Schools With an Institutional Purple",
-        "desc": "The colour where a screen match is most likely to fail. <strong>A purple that looks right on a phone frequently prints noticeably more blue, or more maroon</strong>, than the programme expected.",
+        "desc": "The color where a screen match is most likely to fail. <strong>A purple that looks right on a phone frequently prints noticeably more blue, or more maroon</strong>, than the program expected.",
         "points": [
           "Matched from a physical chip",
           "Stored rather than re-judged each time",
@@ -8620,7 +8620,7 @@
     "customization": [
       {
         "title": "Matching the Purple",
-        "desc": "A physical reference, not a screen value. <strong>This is the colour where that instruction matters most</strong>, and where ignoring it produces the most disappointing delivery.",
+        "desc": "A physical reference, not a screen value. <strong>This is the color where that instruction matters most</strong>, and where ignoring it produces the most disappointing delivery.",
         "options": [
           "Pantone chip",
           "Physical garment",
@@ -8629,8 +8629,8 @@
         ]
       },
       {
-        "title": "Accent Colour",
-        "desc": "Gold, white and silver read powerfully against purple. <strong>The combination is unusually strong</strong> and is part of why programmes that pick purple tend to keep it.",
+        "title": "Accent Color",
+        "desc": "Gold, white and silver read powerfully against purple. <strong>The combination is unusually strong</strong> and is part of why programs that pick purple tend to keep it.",
         "options": [
           "Gold",
           "White",
@@ -8652,7 +8652,7 @@
     "construction": [
       {
         "title": "Matched From a Physical Chip",
-        "body": "Purple is confirmed against a physical reference before production. <strong>The gap between screen purple and fabric purple is the widest of any colour we print</strong>, and it is invisible until delivery."
+        "body": "Purple is confirmed against a physical reference before production. <strong>The gap between screen purple and fabric purple is the widest of any color we print</strong>, and it is invisible until delivery."
       },
       {
         "title": "Stored, Not Re-Judged",
@@ -8668,7 +8668,7 @@
         "text": "<strong>Cold wash, inside out</strong>."
       },
       {
-        "text": "<strong>Wash with like colours</strong>."
+        "text": "<strong>Wash with like colors</strong>."
       },
       {
         "text": "<strong>Air dry out of direct sun</strong> — purple is among the more sun-sensitive dyes over years of outdoor use."
@@ -8682,7 +8682,7 @@
         "text": "<strong>Do not bleach</strong> — on purple this produces a pink patch, not a pale one."
       }
     ],
-    "floridaNote": "<strong>Sun exposure matters more on purple than on most colours.</strong> Programmes playing regular outdoor games in Florida sun will see a deep purple shift slightly over several seasons — less than a screen-printed graphic would, since the dye is inside the fibre, but more than a navy or black would. Air drying out of direct sun is a small habit that noticeably extends it.",
+    "floridaNote": "<strong>Sun exposure matters more on purple than on most colors.</strong> Programs playing regular outdoor games in Florida sun will see a deep purple shift slightly over several seasons — less than a screen-printed graphic would, since the dye is inside the fiber, but more than a navy or black would. Air drying out of direct sun is a small habit that noticeably extends it.",
     "sizing": {
       "tabs": [
         "adult"
@@ -8692,8 +8692,8 @@
           "title": "How to Measure — Purple Jerseys",
           "steps": [
             "<strong>Chest:</strong> Fullest point, arms relaxed.",
-            "<strong>Deep purples read slimmer</strong> than light grounds at the same size, in line with other dark colours.",
-            "<strong>Ask for a swatch</strong> before a large order. On this colour it is the single most useful thing you can do.",
+            "<strong>Deep purples read slimmer</strong> than light grounds at the same size, in line with other dark colors.",
+            "<strong>Ask for a swatch</strong> before a large order. On this color it is the single most useful thing you can do.",
             "<strong>No shrinkage:</strong> Polyester holds its size."
           ]
         }
@@ -8770,7 +8770,7 @@
           "desc": "Awareness jerseys are frequently auctioned or kept afterwards rather than worn out, so <strong>the standard knit is specified for how it survives being a keepsake</strong> rather than a season. A sublimated print does not crack in storage the way a pressed graphic on a memento jersey does.",
           "pros": [
             "<strong>Survives as a keepsake</strong> — nothing to crack in storage",
-            "<strong>No per-colour charge</strong> on ribbon graphics or dedications",
+            "<strong>No per-color charge</strong> on ribbon graphics or dedications",
             "<strong>Individual names free</strong> on every jersey"
           ]
         },
@@ -8844,7 +8844,7 @@
           "Soft rose",
           "Mid pink",
           "Magenta",
-          "Two-tone with team colour"
+          "Two-tone with team color"
         ]
       }
     ],
@@ -8867,7 +8867,7 @@
         "text": "<strong>No fabric softener</strong> — it dulls a bright ground."
       }
     ],
-    "floridaNote": "<strong>Awareness games in Florida cluster in October, and October is our busiest month.</strong> That combination catches programmes out every year: the date cannot move, and the queue is longest exactly when these orders arrive. Send the game date with your enquiry and we will work backward from it and tell you plainly whether it is achievable — rather than accepting the order and hoping.",
+    "floridaNote": "<strong>Awareness games in Florida cluster in October, and October is our busiest month.</strong> That combination catches programs out every year: the date cannot move, and the queue is longest exactly when these orders arrive. Send the game date with your enquiry and we will work backward from it and tell you plainly whether it is achievable — rather than accepting the order and hoping.",
     "sizing": {
       "tabs": [
         "adult",
@@ -8878,7 +8878,7 @@
           "title": "How to Measure — Pink Jerseys",
           "steps": [
             "<strong>Chest:</strong> Fullest point, arms relaxed.",
-            "<strong>Order spares:</strong> Where jerseys are auctioned or sold afterwards, most programmes add a few extras in popular sizes rather than exactly one per player.",
+            "<strong>Order spares:</strong> Where jerseys are auctioned or sold afterwards, most programs add a few extras in popular sizes rather than exactly one per player.",
             "<strong>Supporter sizing:</strong> Jerseys sold to families follow normal adult sizing, up to 5XL.",
             "<strong>Date first:</strong> Send the game date with your enquiry before anything else."
           ]

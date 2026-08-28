@@ -1,0 +1,57 @@
+---
+import posts from '../../data/blog.json';
+import Shell from '../../layouts/Shell.astro';
+import { makePage } from '../../lib/newpage.js';
+import { breadcrumbSchema, schemaTags } from '../../lib/schema.js';
+
+const route = '/blog/';
+const page = makePage({
+  route,
+  title: 'Basketball Uniform Guides & Advice | Florida Basketball Jerseys',
+  description:
+    'Practical guides to ordering basketball uniforms — fabric for Florida heat, sublimation versus screen printing, sizing a roster, league rules, cost and turnaround.',
+  styles: ['/assets/fbj-blog.css'],
+});
+
+const sorted = [...posts].sort((a, b) => b.date.localeCompare(a.date));
+const jsonLd = schemaTags([breadcrumbSchema(route, 'Guides')]);
+---
+<Shell page={page}>
+  <div class="fbj-bl-wrap">
+    <header class="fbj-bl-head">
+      <div class="fbj-bl-inner">
+        <div class="fbj-bl-kicker">Guides &amp; advice</div>
+        <h1 class="fbj-bl-h1">Getting a Uniform Order <span>Right</span></h1>
+        <p class="fbj-bl-standfirst">
+          Everything we end up explaining on the phone, written down: which fabric suits which
+          Florida gym, what actually drives the price, how to size a roster you have not measured,
+          and the league rules that cause reprints.
+        </p>
+      </div>
+    </header>
+
+    <div class="fbj-bl-body">
+      <div class="fbj-bl-inner">
+        <div class="fbj-bl-grid">
+          {sorted.map((p) => (
+            <a class="fbj-bl-card" href={`/blog/${p.slug}/`}>
+              <span class="fbj-bl-card-topic">{p.topic}</span>
+              <h2 class="fbj-bl-card-title">{p.title}</h2>
+              <p>{p.description}</p>
+              <span class="fbj-bl-card-meta">{p.readMinutes} min read</span>
+            </a>
+          ))}
+        </div>
+      </div>
+    </div>
+
+    <section class="fbj-bl-cta">
+      <div class="fbj-bl-inner">
+        <h2>Still Not <span>Sure?</span></h2>
+        <p>Tell us what your gym is like and when you need the kit. We will tell you which fabric is worth paying for and whether your date is achievable.</p>
+        <a class="fbj-bl-btn" href="/get-a-quote/">Get a Free Quote</a>
+      </div>
+    </section>
+  </div>
+  <Fragment set:html={jsonLd} />
+</Shell>

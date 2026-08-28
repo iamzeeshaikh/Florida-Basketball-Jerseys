@@ -109,6 +109,24 @@ const SPELLING = [
   [/\b(S|s)pecialis(e|ed|es|ing|t|ts)\b/g, (m, c, s) => `${c}pecializ${s}`],
   [/\b(C|c)entre(s?)\b/g, (m, c, s) => `${c}enter${s}`],
   [/\b(P|p)ractise\b/g, (m, c) => `${c}ractice`],
+  // Added after 602 British spellings were found in copy written for this
+  // site — mine included. The first list covered eight stems; these are the
+  // ones that actually turned up in the drafts.
+  [/\b(P|p)rogramme(s?)\b/g, (m, c, s) => `${c}rogram${s}`],
+  [/\b(B|b)ehaviour(s?)\b/g, (m, c, s) => `${c}ehavior${s}`],
+  [/\b(F|f)avourite(s?)\b/g, (m, c, s) => `${c}avorite${s}`],
+  // Compounds need naming: `\bmetre` cannot match inside "Centimetres",
+  // which is what the captured size-guide toggle says on all 42 product pages.
+  [/\b(C|c)entimetre(s?)\b/g, (m, c, s) => `${c}entimeter${s}`],
+  [/\b(M|m)illimetre(s?)\b/g, (m, c, s) => `${c}illimeter${s}`],
+  [/\b(m|M)etre(s?)\b/g, (m, c, s) => `${c === 'M' ? 'M' : 'm'}eter${s}`],
+  [/\b(O|o)rganis(er|ers)\b/g, (m, c, s) => `${c}rganiz${s}`],
+  [/\blabell(ed|ing)\b/g, (m, s) => `label${s}`],
+  [/\b(R|r)ecognis(e|ed|es|ing|able)\b/g, (m, c, s) => `${c}ecogniz${s}`],
+  [/\b(R|r)ealis(e|ed|es|ing)\b/g, (m, c, s) => `${c}ealiz${s}`],
+  [/\b(A|a)nalys(e|ed|es|ing)\b/g, (m, c, s) => `${c}nalyz${s}`],
+  [/\btravelling\b/g, () => 'traveling'],
+  [/\bmodelling\b/g, () => 'modeling'],
   // grey -> gray is deliberately NOT here. "Grey Basketball Jersey" is a
   // product's actual name, its slug, and 356 strings across the site; changing
   // the spelling would rename the product. That is a decision for whoever owns
@@ -313,6 +331,22 @@ export function stripAuthoringComments(html) {
     /CHANGE THIS|TEMPLATE VARIABLES|^<!--\s*e\.g\./i.test(c) ? '' : c);
 }
 
+/**
+ * Drop the section-divider comments from the captured block.
+ *
+ * `<!-- ===== CUSTOMISATION CARDS GRID ===== -->` and its neighbours are
+ * markup documentation for whoever was editing the template by hand. Nobody
+ * edits it by hand now — the sections are generated — so they are dead weight
+ * on 42 pages, and they carry British spellings that the text pass cannot
+ * reach, because an HTML comment starts with `<` and is skipped as a tag.
+ *
+ * Scoped to the product block deliberately. Stripping every comment site-wide
+ * would also remove any that turn out to matter.
+ */
+export function stripDividerComments(html) {
+  return html.replace(/<!--\s*=+[\s\S]*?=+\s*-->/g, '');
+}
+
 /** Lift the five inline <style> blocks; they are served from one file now. */
 export function stripSectionStyles(html) {
   return html.replace(/<style[^>]*>[\s\S]*?<\/style>/g, (m) =>
@@ -353,6 +387,7 @@ export function applyProductContent(html, slug) {
   block = stripSectionStyles(block);
   block = fillBlock(block, c);
   block = arrangeSections(block, c.sections);
+  block = stripDividerComments(block);
 
   return polishPage(html.slice(0, s) + block + html.slice(e));
 }
