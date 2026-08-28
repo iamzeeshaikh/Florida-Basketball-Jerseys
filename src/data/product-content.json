@@ -292,7 +292,65 @@
           "Physical sample"
         ]
       }
-    ]
+    ],
+    "sizing": {
+      "tabs": [
+        "shorts"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Shorts",
+          "steps": [
+            "<strong>Waist:</strong> Measure around the natural waist, where the band will actually sit — usually just above the hip bone, not at the belly button.",
+            "<strong>Hip:</strong> Measure around the fullest part of the seat with feet together. On a short this matters more than waist for comfort in a defensive stance.",
+            "<strong>Inseam:</strong> Measure from the crotch seam down the inner leg to where you want the hem to finish. Most Florida programs specify 9 inches for adults.",
+            "<strong>Between sizes:</strong> Size up. The internal drawcord takes in a waist that is slightly loose; nothing can add length to a short that is too small."
+          ]
+        }
+      ]
+    },
+    "construction": [
+      {
+        "title": "Gusseted Side Seams",
+        "body": "A triangular panel is set into the side seam so the leg opening widens as the player strides. <strong>Without it, a mesh short binds at the top of a jump</strong> — the open knit has less give in the direction the seam runs, which is exactly where a closed-knit short would stretch."
+      },
+      {
+        "title": "Bonded Inner Panel",
+        "body": "The front and seat panels carry a second bonded layer. This is what lets the rest of the short stay fully open: <strong>opacity is solved locally rather than by closing the whole weave</strong>, so the leg keeps its airflow."
+      },
+      {
+        "title": "Bar-Tacked Hem Corners",
+        "body": "The two hem corners take the most stress on any pair of shorts, and on an open knit they are also the weakest point. <strong>Each is bar-tacked — a dense cluster of stitches</strong> — which is why these do not start unravelling at the split."
+      },
+      {
+        "title": "Internal Drawcord",
+        "body": "The drawcord runs inside a channel in the waistband rather than exiting at the front. <strong>Nothing is visible on the outside of the short</strong>, and there is no tie to come loose or catch during contact."
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Machine wash cold</strong> — an open knit releases sweat and salt easily, so a cold cycle is enough."
+      },
+      {
+        "text": "<strong>Wash inside out</strong> — protects the bonded inner panel from abrasion against zips and studs."
+      },
+      {
+        "text": "<strong>Air dry</strong> — mesh dries in minutes in Florida air; a dryer is genuinely unnecessary."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No fabric softener</strong> — it coats the weave and closes the openings that make these worth buying."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No high-heat drying</strong> — heat relaxes the knit and the leg opening loses its shape."
+      },
+      {
+        "dont": true,
+        "text": "<strong>Do not wash with hook-and-loop</strong> — velcro on other kit will snag an open weave every time."
+      }
+    ],
+    "floridaNote": "<strong>Why mesh, in this state specifically:</strong> a closed-knit short holds a layer of warm, humid air against the thigh, and Florida gives you humid air to start with. An open weave lets that layer move. On an outdoor court in July the fabric is doing more work than any other choice on the order form — and because it dries in minutes in this climate, one pair genuinely covers a three-game Saturday."
   },
   "lightweight-basketball-shorts": {
     "noun": "Shorts",

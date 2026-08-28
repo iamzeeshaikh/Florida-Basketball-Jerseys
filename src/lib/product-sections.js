@@ -35,6 +35,7 @@
 import content from '../data/product-content.json';
 import {
   renderAudience, renderCustomization, renderFabricButtons, renderFabricPanels,
+  renderSizeTabs, renderMeasure, renderConstruction, renderCare, sizeTabIds,
 } from './product-render.js';
 
 /** Start of the block: the <style> that opens just before the first section. */
@@ -224,7 +225,41 @@ export function fillBlock(block, c) {
       renderFabricPanels(c.fabrics.list, c.fabrics.recommended, c.fabrics.notes || {}));
   }
 
+  if (c.construction) h = replaceInner(h, 'fbj-pfb-construction', 'div', renderConstruction(c.construction));
+  if (c.care) h = replaceInner(h, 'fbj-pfb-care-grid', 'div', renderCare(c.care));
+  if (c.floridaNote) h = replaceInner(h, 'fbj-pfb-florida-text', 'p', c.floridaNote);
+
+  if (c.sizing) {
+    if (c.sizing.tabs) {
+      h = replaceInner(h, 'fbj-psg-tabs', 'div', renderSizeTabs(c.sizing.tabs));
+      // Drop the tables the product does not use. A pair of shorts carried an
+      // adult jersey chest chart and a youth jersey chart it had no use for —
+      // 476 words identical on all 42 pages, two thirds of them irrelevant to
+      // whichever page you were on.
+      const keep = new Set(c.sizing.tabs.map((k) => `fbj-psg-${k}`));
+      for (const id of sizeTabIds()) if (!keep.has(id)) h = removeElementById(h, id);
+    }
+    if (c.sizing.measure) h = replaceInner(h, 'fbj-psg-measure', 'div', renderMeasure(c.sizing.measure));
+  }
+
   return h;
+}
+
+/** Remove one element and everything inside it, matched by id. */
+function removeElementById(html, id) {
+  const open = new RegExp(`<(\\w+)\\b[^>]*id="${id}"[^>]*>`);
+  const m = open.exec(html);
+  if (!m) return html;
+  const tag = m[1];
+  const step = new RegExp(`<(/?)${tag}\\b[^>]*>`, 'g');
+  step.lastIndex = m.index + m[0].length;
+  let depth = 1;
+  let hit;
+  while ((hit = step.exec(html)) !== null) {
+    depth += hit[1] ? -1 : 1;
+    if (depth === 0) return html.slice(0, m.index) + html.slice(hit.index + hit[0].length);
+  }
+  return html;
 }
 
 /**

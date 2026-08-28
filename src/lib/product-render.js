@@ -159,3 +159,76 @@ export function renderFabricPanels(list, recommended, notes) {
         </div>`;
   }).join('\n');
 }
+
+// ── size guide ───────────────────────────────────────────────────────────────
+//
+// Every product page carried all three tables — adult jerseys, youth jerseys
+// and shorts — which is 476 identical words and, on a pair of shorts, two
+// charts nobody on that page needs. A product now names the tables that apply
+// to it. That is both the largest single cut in shared text and the more
+// useful page: a shorts chart on a shorts page, and a jersey chart on a jersey.
+
+const SIZE_TABS = {
+  adult: { id: 'fbj-psg-adult', label: 'Adult Jerseys', badge: 'S – 5XL',
+    icon: '<circle cx="7" cy="5" r="2.5" stroke="currentColor" stroke-width="1.3" fill="none"/><path d="M2 13v-2a5 5 0 0110 0v2" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" fill="none"/>' },
+  youth: { id: 'fbj-psg-youth', label: 'Youth Jerseys', badge: 'XS – XL',
+    icon: '<circle cx="7" cy="4.5" r="2" stroke="currentColor" stroke-width="1.3" fill="none"/><path d="M2.5 12.5v-2a4.5 4.5 0 019 0v2" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" fill="none"/>' },
+  shorts: { id: 'fbj-psg-shorts', label: 'Shorts', badge: 'XS – 5XL',
+    icon: '<rect x="2.5" y="3" width="9" height="8" rx="1.5" stroke="currentColor" stroke-width="1.3" fill="none"/><path d="M7 11v2" stroke="currentColor" stroke-width="1.3"/>' },
+};
+
+export function sizeTabIds() {
+  return Object.values(SIZE_TABS).map((t) => t.id);
+}
+
+export function renderSizeTabs(tabs) {
+  return tabs.map((key, i) => {
+    const t = SIZE_TABS[key];
+    if (!t) return '';
+    return `
+      <button class="fbj-psg-tab${i === 0 ? ' fbj-psg-tab-active' : ''}" onclick="fbj_psg_tab(this,'${t.id}')" role="tab" aria-selected="${i === 0}">
+        <svg width="13" height="13" viewBox="0 0 14 14" fill="none" aria-hidden="true">${t.icon}</svg>
+        ${esc(t.label)}
+        <span class="fbj-psg-tab-badge">${esc(t.badge)}</span>
+      </button>`;
+  }).join('\n');
+}
+
+/** How to measure — the steps that matter for THIS garment. */
+export function renderMeasure(cards) {
+  return cards.map((c, i) => `
+      <div class="fbj-psg-measure-card">
+        <div class="fbj-psg-measure-head">
+          <div class="fbj-psg-measure-icon" aria-hidden="true">${icon(i + 4)}</div>
+          <div class="fbj-psg-measure-title">${esc(c.title)}</div>
+        </div>
+        <div class="fbj-psg-measure-steps">${c.steps.map((s, n) => `
+          <div class="fbj-psg-measure-step">
+            <div class="fbj-psg-measure-step-num" aria-hidden="true">${n + 1}</div>
+            <span>${s}</span>
+          </div>`).join('')}
+        </div>
+      </div>`).join('\n');
+}
+
+// ── how the garment is put together ──────────────────────────────────────────
+export function renderConstruction(cards) {
+  return cards.map((c, i) => `
+      <div class="fbj-pfb-con-card" role="listitem">
+        <div class="fbj-pfb-con-icon" aria-hidden="true">${icon(i + 1)}</div>
+        <div class="fbj-pfb-con-title">${esc(c.title)}</div>
+        <p class="fbj-pfb-con-body">${c.body}</p>
+      </div>`).join('\n');
+}
+
+// ── looking after it ─────────────────────────────────────────────────────────
+const CARE_DO = '<svg width="13" height="13" viewBox="0 0 14 14" fill="none"><path d="M2.5 7l3 3 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+const CARE_DONT = '<svg width="13" height="13" viewBox="0 0 14 14" fill="none"><path d="M3.5 3.5l7 7M10.5 3.5l-7 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>';
+
+export function renderCare(items) {
+  return items.map((c) => `
+          <div class="fbj-pfb-care-item">
+            <div class="fbj-pfb-care-item-icon fbj-pfb-care-item-icon--${c.dont ? 'dont' : 'do'}" aria-hidden="true">${c.dont ? CARE_DONT : CARE_DO}</div>
+            <div class="fbj-pfb-care-item-text">${c.text}</div>
+          </div>`).join('');
+}
