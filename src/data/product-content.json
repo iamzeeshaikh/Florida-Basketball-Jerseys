@@ -156,7 +156,143 @@
     "fabricIntro": "These are built from <strong>athletic mesh — an open knit whose whole purpose is airflow</strong>. It is the lightest fabric we offer for shorts and the fastest drying, which is why it is the default recommendation for outdoor courts and un-air-conditioned gyms in Florida.",
     "sizingIntro": "Mesh has more give than a flat knit, so <strong>most players take their usual size rather than sizing up</strong>. Measure the natural waist. If the shorts will be worn over compression tights in winter training, allow one size of room.",
     "bestForIntro": "Mesh shorts are the right call for <strong>teams playing in heat</strong> — outdoor courts, summer league, preseason conditioning, and any gym without real air conditioning. For a formal match-day set, a flat-knit game short holds a crisper line.",
-    "notFitIntro": "Mesh is built for airflow, not for a structured match-day look. If your program wants a sharper, more formal short, these are the better fit."
+    "notFitIntro": "Mesh is built for airflow, not for a structured match-day look. If your program wants a sharper, more formal short, these are the better fit.",
+    "sections": [
+      "pov",
+      "pfb",
+      "psg",
+      "pwb",
+      "pco"
+    ],
+    "fabrics": {
+      "list": [
+        "mesh",
+        "wicking",
+        "sublimation"
+      ],
+      "recommended": "mesh",
+      "notes": {
+        "mesh": {
+          "desc": "Athletic mesh is the reason these shorts exist. The knit is built with <strong>thousands of deliberate openings rather than a closed face</strong>, so warm air leaves through the fabric instead of collecting against the thigh. On a short this matters more than on a top: the leg is a large muscle group generating heat through every possession, and it is the area most players report as the first place they overheat.",
+          "pros": [
+            "<strong>Air moves through the leg panel</strong> — heat leaves rather than pooling against the thigh",
+            "<strong>Bonded inner panel</strong> — the short stays fully opaque without closing the weave",
+            "<strong>Dries between games</strong> — an open knit sheds moisture far faster than a closed one",
+            "<strong>Heavier ink lay-down</strong> — colour reads solid across the weave instead of dotted"
+          ]
+        },
+        "wicking": {
+          "desc": "The moisture-wicking option closes the weave and moves sweat chemically instead of letting air through it. On shorts this is the better answer for <strong>an air-conditioned gym in January</strong>, where airflow is not the problem and a closed face holds a sharper line for match play.",
+          "pros": [
+            "<strong>Closed face, sharper line</strong> — holds its shape better than mesh under gym lighting",
+            "<strong>Moves sweat by fibre channel</strong> — works when the air around the player is already cool",
+            "<strong>Slight stretch content</strong> — 8% spandex gives more give through a deep defensive stance"
+          ]
+        },
+        "sublimation": {
+          "desc": "Our standard sublimation polyester is the middle option: <strong>a closed, smooth face that reproduces artwork most precisely</strong>. If your shorts carry a detailed side panel or a fine sponsor mark, this is the fabric that will hold it, at the cost of the airflow mesh gives you.",
+          "pros": [
+            "<strong>Sharpest artwork reproduction</strong> — a smooth face holds fine type and thin outlines",
+            "<strong>Most structured drape</strong> — the short hangs rather than clings on a still player",
+            "<strong>Hardest wearing of the three</strong> — the right pick if the same pair is worn daily"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Outdoor and Un-Air-Conditioned Courts",
+        "desc": "This is the situation mesh shorts were built for. <strong>Florida park courts, church gyms and school auxiliary halls</strong> regularly run ten to fifteen degrees warmer than a main arena, and the leg is where players feel it first.",
+        "points": [
+          "Air moves through the panel rather than trapping heat",
+          "Dries fast enough for a second game the same day",
+          "Bonded panel keeps the short opaque in bright sun"
+        ]
+      },
+      {
+        "fit": "perfect",
+        "title": "Summer League and July Camps",
+        "desc": "A summer roster plays more basketball in six weeks than a school season fits in three months, usually in the hottest venues on the calendar. <strong>Mesh is the single change that makes that schedule bearable.</strong>",
+        "points": [
+          "Three games a day on one pair",
+          "Washes and dries overnight between camp days",
+          "No minimum order, so a six-week roster is economic"
+        ]
+      },
+      {
+        "fit": "good",
+        "title": "Programs With High-Sweat Players",
+        "desc": "Every roster has two or three players who run visibly hotter than the rest. <strong>Ordering the whole squad in mesh costs the same as ordering them in anything else</strong>, and solves it without singling anyone out.",
+        "points": [
+          "Same price as a closed-knit short",
+          "No separate order or different-looking kit",
+          "Pairs with a mesh tank for a full open-weave set"
+        ]
+      },
+      {
+        "fit": "consider",
+        "title": "Formal Match-Day Sets",
+        "desc": "Mesh reads casual next to a closed knit — the weave is visible at a few feet, and a program that wants the sharpest possible look on a main court usually notices. <strong>It performs; it just does not photograph as crisply.</strong>",
+        "points": [
+          "Consider a wicking or sublimation short for main-court games",
+          "Or run mesh for summer and a closed knit for the season",
+          "Both can be printed from the same colour file"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "Side Panel Design",
+        "desc": "The side panel is the most visible surface on a pair of shorts from the stands, and on mesh it is the panel that carries the team's identity. <strong>Solid blocks, tapered stripes and full-length gradients all print here.</strong>",
+        "options": [
+          "Solid team block",
+          "Tapered stripe",
+          "Gradient fade",
+          "Contrast piping"
+        ]
+      },
+      {
+        "title": "Waistband Treatment",
+        "desc": "The waistband is the one part of a short that is always visible, including when a jersey is untucked. <strong>Team name, a repeat pattern or a plain contrast band</strong> are all available; the drawcord is internal either way.",
+        "options": [
+          "Team name repeat",
+          "Contrast band",
+          "Two-tone",
+          "Plain matched"
+        ]
+      },
+      {
+        "title": "Leg Numbers",
+        "desc": "A number on the leg lets a coach identify a player across a full gym when the jersey is turned away. <strong>Practice programs use these constantly</strong>; game shorts usually keep them smaller or leave them off.",
+        "options": [
+          "Large practice size",
+          "Small game size",
+          "Front or side placement",
+          "None"
+        ]
+      },
+      {
+        "title": "Inseam Length",
+        "desc": "Inseam is a fit decision as much as a style one, and it is the thing most often left to chance in a team order. <strong>Specify it once and every pair in the run matches.</strong>",
+        "options": [
+          "7 inch",
+          "9 inch",
+          "11 inch",
+          "Mixed by player"
+        ]
+      },
+      {
+        "title": "Colour Matching",
+        "desc": "Shorts almost always have to match a top that already exists. <strong>Send the jersey, a Pantone value or a previous order</strong> and the colour is matched to it and stored for reorders.",
+        "options": [
+          "Pantone match",
+          "Match existing kit",
+          "School style guide",
+          "Physical sample"
+        ]
+      }
+    ]
   },
   "lightweight-basketball-shorts": {
     "noun": "Shorts",

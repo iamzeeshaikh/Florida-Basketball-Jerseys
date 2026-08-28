@@ -33,6 +33,9 @@
 //   • corrects British spellings on a US site (customise, fibre, colour…)
 
 import content from '../data/product-content.json';
+import {
+  renderAudience, renderCustomization, renderFabricButtons, renderFabricPanels,
+} from './product-render.js';
 
 /** Start of the block: the <style> that opens just before the first section. */
 export function blockStart(html) {
@@ -53,9 +56,33 @@ export function blockEnd(html) {
 // Anchored on the class rather than on surrounding text so that filling one
 // slot can never disturb its neighbours.
 
+/**
+ * Replace the inner HTML of one element, matched by class.
+ *
+ * The close tag is found by COUNTING, not by regex. A lazy `[\s\S]*?</div>`
+ * stops at the first close tag it meets, which for any container holding
+ * nested elements is one of the children — so replacing the inner HTML of a
+ * card grid left every original card in place and merely inserted the new ones
+ * above them. That showed up as nine audience cards on a page meant to have
+ * four, and fourteen fabric buttons on a page meant to have three.
+ */
 function replaceInner(html, cls, tag, inner) {
-  const open = new RegExp(`(<${tag}\\b[^>]*class="${cls}"[^>]*>)([\\s\\S]*?)(</${tag}>)`);
-  return html.replace(open, (m, a, _b, c) => `${a}${inner}${c}`);
+  const open = new RegExp(`<${tag}\\b[^>]*class="${cls}"[^>]*>`);
+  const m = open.exec(html);
+  if (!m) return html;
+
+  const start = m.index + m[0].length;
+  const step = new RegExp(`<(/?)${tag}\\b[^>]*>`, 'g');
+  step.lastIndex = start;
+  let depth = 1;
+  let hit;
+  while ((hit = step.exec(html)) !== null) {
+    depth += hit[1] ? -1 : 1;
+    if (depth === 0) {
+      return html.slice(0, start) + inner + html.slice(hit.index);
+    }
+  }
+  return html;                       // unbalanced markup: leave it alone
 }
 
 const esc = (s) => String(s ?? '')
@@ -184,7 +211,52 @@ export function fillBlock(block, c) {
   h = replaceInner(h, 'fbj-pwb-h2', 'h2', `Who ${det} ${n} ${verb}<br><span>Best For</span>`);
   h = replaceInner(h, 'fbj-pwb-eyebrow', 'div', `${verbBe} ${det.toLowerCase() === 'these' ? 'These' : 'This'} ${n} Right for You?`);
 
+  // ── the bodies, not just the headings ──────────────────────────────────────
+  // Filling only the marked slots left 2,850 identical words on every page
+  // against 782 that were about the product. These four blocks are where that
+  // sat, so they are generated per product too.
+  if (c.audience) h = replaceInner(h, 'fbj-pwb-grid', 'div', renderAudience(c.audience));
+  if (c.customization) h = replaceInner(h, 'fbj-pco-grid', 'div', renderCustomization(c.customization));
+  if (c.fabrics) {
+    h = replaceInner(h, 'fbj-pfb-selector', 'div',
+      `<div class="fbj-pfb-selector-head">Select Fabric Type</div>${renderFabricButtons(c.fabrics.list, c.fabrics.recommended)}`);
+    h = replaceInner(h, 'fbj-pfb-detail', 'div',
+      renderFabricPanels(c.fabrics.list, c.fabrics.recommended, c.fabrics.notes || {}));
+  }
+
   return h;
+}
+
+/**
+ * Reorder — and drop — whole sections, per product.
+ *
+ * Unique words are not enough on their own: five sections in the same order on
+ * all 42 pages still reads as one template wearing different copy. A product
+ * declares which sections it carries and in what sequence, so a pair of shorts
+ * leads with sizing where a colored jersey leads with what can be customized,
+ * and a blank jersey drops the customization section altogether because there
+ * is nothing on it to customize.
+ *
+ * Anything a product does not list is left out. Anything it lists that is not
+ * in the page is skipped rather than faked.
+ */
+const SECTION_ORDER_DEFAULT = ['pov', 'pco', 'pfb', 'psg', 'pwb'];
+
+export function arrangeSections(block, wanted) {
+  const order = wanted && wanted.length ? wanted : SECTION_ORDER_DEFAULT;
+  const marks = SECTION_ORDER_DEFAULT
+    .map((k) => ({ k, i: block.indexOf(`<section class="fbj-${k}-wrap"`) }))
+    .filter((m) => m.i >= 0)
+    .sort((a, b) => a.i - b.i);
+  if (marks.length === 0) return block;
+
+  const head = block.slice(0, marks[0].i);
+  const parts = {};
+  marks.forEach((m, n) => {
+    parts[m.k] = block.slice(m.i, n + 1 < marks.length ? marks[n + 1].i : block.length);
+  });
+
+  return head + order.map((k) => parts[k] || '').join('');
 }
 
 /**
@@ -241,6 +313,7 @@ export function applyProductContent(html, slug) {
   let block = html.slice(s, e);
   block = stripSectionStyles(block);
   block = fillBlock(block, c);
+  block = arrangeSections(block, c.sections);
 
   return polishPage(html.slice(0, s) + block + html.slice(e));
 }
