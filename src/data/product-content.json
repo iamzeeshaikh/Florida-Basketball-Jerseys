@@ -3588,7 +3588,182 @@
     "fabricIntro": "Both pieces are built from the <strong>same sublimation polyester</strong>, which is the point: identical fabric means identical drape, identical color, and identical fading over a season. Alternative fabrics are available, but we recommend matching them across the set.",
     "sizingIntro": "Uniform sets are sized <strong>per garment, not as one size</strong> — a player may take a Large jersey and Medium shorts, and the order form allows that. Measure chest for the top and natural waist for the bottom.",
     "bestForIntro": "A full set is right for <strong>programs buying game-day kit</strong> — varsity, college, club, and adult league. If you only need to replace one half, order the jersey or shorts on their own.",
-    "notFitIntro": "A full set is more than you need if you are replacing one piece or kitting out practice. These cost less for that."
+    "notFitIntro": "A full set is more than you need if you are replacing one piece or kitting out practice. These cost less for that.",
+    "sections": [
+      "pov",
+      "pco",
+      "psg",
+      "pfb",
+      "pwb"
+    ],
+    "fabrics": {
+      "list": [
+        "sublimation",
+        "wicking"
+      ],
+      "recommended": "sublimation",
+      "notes": {
+        "sublimation": {
+          "desc": "Both pieces of a set are made from the same fabric, and that is not a convenience — it is the point. <strong>Identical fabric means identical drape, identical colour and identical fading</strong>. A set built from two different knits looks like one garment older than the other by February.",
+          "pros": [
+            "<strong>Top and bottom age together</strong>",
+            "<strong>One dye run for both pieces</strong>",
+            "<strong>Structure for a formal match-day line</strong>"
+          ]
+        },
+        "wicking": {
+          "desc": "Available across the set for programmes that want it. <strong>Specify it for both pieces or neither</strong> — a wicking jersey over a standard short is exactly the mismatch a set is supposed to prevent.",
+          "pros": [
+            "<strong>Better sweat management</strong> for both pieces",
+            "<strong>4-way stretch</strong> top and bottom",
+            "<strong>Must be ordered for the whole set</strong>"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Men's Varsity Game Kit",
+        "desc": "A full set designed as one artwork. <strong>The side panel on the short continues the line of the jersey</strong> rather than approximating it, which only happens when both are built from one file.",
+        "points": [
+          "Panels line up across the set",
+          "One stored colour for both pieces",
+          "Sized independently per garment"
+        ]
+      },
+      {
+        "fit": "perfect",
+        "title": "College and Club Programs",
+        "desc": "Programs that reorder year after year, where the real risk is a year-three jersey that does not match year-one shorts. <strong>The colour is matched once and stored against the account.</strong>",
+        "points": [
+          "Reorders match previous seasons",
+          "Roster sizing help at no charge",
+          "Mixed sizes across the roster on one order"
+        ]
+      },
+      {
+        "fit": "good",
+        "title": "Adult and Corporate Leagues",
+        "desc": "A social league team that wants to look like a program rather than a group of people in similar shirts. <strong>No minimum order</strong>, so a team of eight is as economic as a squad of twenty.",
+        "points": [
+          "No minimum",
+          "Wide adult size range to 5XL",
+          "Sponsor placement across both pieces"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "One Design Across Two Garments",
+        "desc": "The defining feature of ordering a set. <strong>Side panels, waistband trim and number styling carry from top to bottom</strong>, which is not something you can retrofit by buying the pieces separately.",
+        "options": [
+          "Continuous side panel",
+          "Matched trim",
+          "Independent designs",
+          "Tonal pairing"
+        ]
+      },
+      {
+        "title": "Number Styling",
+        "desc": "Front, back and optionally the leg, within your league's rules. <strong>The same font and outline weight across all three placements</strong> is what makes a set read as one design.",
+        "options": [
+          "Block",
+          "Varsity",
+          "Outlined",
+          "League standard"
+        ]
+      },
+      {
+        "title": "Player Names",
+        "desc": "Back of the jersey, in the same typeface as the numbers. <strong>Names add nothing to the price</strong>, since everything is printed in one pass regardless of how many differ.",
+        "options": [
+          "Surname",
+          "First name",
+          "Nickname",
+          "None"
+        ]
+      },
+      {
+        "title": "Sponsor Placement",
+        "desc": "Where your competition permits it. <strong>A set gives you a short as well as a jersey</strong>, which is one more surface than most programmes remember they have.",
+        "options": [
+          "Chest",
+          "Upper back",
+          "Short leg",
+          "Waistband"
+        ]
+      },
+      {
+        "title": "Colour Matching",
+        "desc": "Matched from a Pantone value, a school style guide or a physical sample, then stored. <strong>This is the single thing that makes a set reorderable.</strong>",
+        "options": [
+          "Pantone",
+          "Style guide",
+          "Physical sample",
+          "Match previous order"
+        ]
+      }
+    ],
+    "construction": [
+      {
+        "title": "Single Dye Run for the Set",
+        "body": "Both pieces are printed together from one colour file. <strong>Printing a jersey now and shorts in three months is how sets end up subtly mismatched</strong> — a small dye variation is invisible alone and obvious side by side."
+      },
+      {
+        "title": "Bound Jersey Armholes and Neck",
+        "body": "Bound rather than hemmed so both edges keep their line. <strong>A curling armhole is what makes a two-year-old uniform look old</strong> more than any amount of fading."
+      },
+      {
+        "title": "Gusseted Short Side Seams",
+        "body": "A triangular panel widens the leg opening through a stride. <strong>The same construction as our game shorts</strong>, because that is what the set's lower half is."
+      },
+      {
+        "title": "Reinforced Hem Splits",
+        "body": "Bar-tacked on both garments. <strong>The jersey hem split and the short hem split fail the same way</strong> and are reinforced the same way."
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Wash the set together</strong> — two pieces laundered differently age differently, which is the whole thing a set is meant to avoid."
+      },
+      {
+        "text": "<strong>Cold wash, inside out</strong> — protects the printed panels on both garments."
+      },
+      {
+        "text": "<strong>Air dry</strong> — keeps the structure that gives a set its formal line."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No fabric softener</strong> — it dulls large colour areas, and a set has two of them."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No ironing on artwork</strong> — direct heat is the only real risk to a sublimated print."
+      },
+      {
+        "dont": true,
+        "text": "<strong>Do not bleach</strong> — it attacks the dye rather than the stain."
+      }
+    ],
+    "floridaNote": "<strong>Most Florida high school arenas are air-conditioned, and the standard knit is right for them.</strong> Where a set struggles is an outdoor court or an unconditioned hall, and there the answer is not a different jersey — it is ordering the whole set in the wicking fabric, both pieces, so the match-up survives. Half a set in one fabric is the one thing worth avoiding here.",
+    "sizing": {
+      "tabs": [
+        "adult",
+        "shorts"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Uniform Set",
+          "steps": [
+            "<strong>Size each garment separately:</strong> A player may take a Large jersey and Medium shorts. The order form allows it and most rosters use it.",
+            "<strong>Chest for the top:</strong> Fullest point, arms relaxed, tape horizontal.",
+            "<strong>Waist and hip for the shorts:</strong> Natural waist where the band sits, and the fullest part of the seat.",
+            "<strong>Send us the roster:</strong> Heights and weights with your quote request and we will size every player at no charge."
+          ]
+        }
+      ]
+    }
   },
   "women-basketball-uniforms": {
     "noun": "Uniforms",
@@ -3642,7 +3817,178 @@
     "fabricIntro": "The same <strong>sublimation polyester as our men's sets</strong>, so a program running both squads gets identical color and identical wear. The cut differs; the material deliberately does not.",
     "sizingIntro": "Use the <strong>women's size columns</strong>, not the men's — the two are not interchangeable, and a men's Medium is not a women's Medium. Measure chest for the top and natural waist for the shorts, and size each garment independently.",
     "bestForIntro": "A women's set is right for <strong>any women's program buying game kit</strong>. If your squad has historically worn resized men's uniforms, this is the change players notice first.",
-    "notFitIntro": "A full set is more than you need for practice or for replacing one piece. These cover that."
+    "notFitIntro": "A full set is more than you need for practice or for replacing one piece. These cover that.",
+    "sections": [
+      "pov",
+      "psg",
+      "pco",
+      "pwb",
+      "pfb"
+    ],
+    "fabrics": {
+      "list": [
+        "sublimation",
+        "wicking"
+      ],
+      "recommended": "wicking",
+      "notes": {
+        "wicking": {
+          "desc": "We recommend the wicking knit on women's sets rather than the standard one, for a specific reason: <strong>the pattern is shaped rather than straight-sided</strong>, and a fabric with 4-way stretch follows a shaped seam more comfortably than a stiffer knit does through a full shooting motion.",
+          "pros": [
+            "<strong>4-way stretch follows a shaped seam</strong>",
+            "<strong>Lighter at 145 GSM</strong>",
+            "<strong>Moves sweat off the skin</strong> in a close cut"
+          ]
+        },
+        "sublimation": {
+          "desc": "The standard knit is available and holds more structure. <strong>Programmes running both a men's and a women's squad sometimes choose it for both</strong> so the two sets are identical in every respect but the pattern.",
+          "pros": [
+            "<strong>Matches a men's set exactly</strong>",
+            "<strong>More structure</strong> in the hem and armhole",
+            "<strong>Less give</strong> through a shaped seam"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Women's Varsity and JV",
+        "desc": "A set cut from a women's pattern rather than scaled down from a men's one. <strong>If your squad has worn resized men's kit, this is the change players notice first</strong> — usually within one practice.",
+        "points": [
+          "Higher, closer armhole that does not gape",
+          "Shaped through the body",
+          "Shorts cut for a different waist-to-hip ratio"
+        ]
+      },
+      {
+        "fit": "perfect",
+        "title": "Programs Running Both Squads",
+        "desc": "Same fabric, same colours, same design language, two patterns. <strong>Both squads read as one program</strong> while each set fits the players wearing it.",
+        "points": [
+          "Identical colours across both squads",
+          "One design file, two patterns",
+          "Ordered together at one price"
+        ]
+      },
+      {
+        "fit": "good",
+        "title": "College and Adult Leagues",
+        "desc": "Any women's team that has spent years in kit designed for someone else. <strong>No minimum order</strong>, so a club side of nine is as economic as a college roster.",
+        "points": [
+          "No minimum",
+          "Full women's size range",
+          "Sponsor placement adjusted for the pattern"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "Placement for a Shaped Pattern",
+        "desc": "A chest logo sits differently on a shaped body than on a straight-sided one. <strong>Artwork is positioned for the pattern rather than reused from the men's file</strong>, which is the difference between a logo that sits right and one that distorts.",
+        "options": [
+          "Adjusted chest placement",
+          "Centred crest",
+          "Wordmark",
+          "Off-centre"
+        ]
+      },
+      {
+        "title": "Number Placement",
+        "desc": "Positioned so a closer armhole never crops the digits. <strong>This is the most common fault on resized kit</strong> — a number set for a men's armhole runs into a women's one.",
+        "options": [
+          "Pattern-adjusted",
+          "League standard",
+          "Front and back",
+          "Back only"
+        ]
+      },
+      {
+        "title": "Neckline Style",
+        "desc": "Round, v-neck or scoop, bound to match the armholes. <strong>The neckline is the most visible line on a women's jersey</strong> in a team photograph.",
+        "options": [
+          "Round",
+          "V-neck",
+          "Scoop",
+          "Contrast bind"
+        ]
+      },
+      {
+        "title": "Shorts Inseam",
+        "desc": "Cut for a different waist-to-hip proportion, and the inseam is specified separately. <strong>Most women's programmes order shorter than the men's standard</strong>, and it is worth asking the roster rather than assuming.",
+        "options": [
+          "5 inch",
+          "7 inch",
+          "9 inch",
+          "Mixed by player"
+        ]
+      },
+      {
+        "title": "Matching the Men's Set",
+        "desc": "Where a programme runs both, the two sets share a colour file and a design. <strong>Only the pattern differs.</strong>",
+        "options": [
+          "Match men's design",
+          "Independent design",
+          "Shared colours only",
+          "Tonal variation"
+        ]
+      }
+    ],
+    "construction": [
+      {
+        "title": "Higher, Closer Armhole",
+        "body": "Set higher and cut closer than the men's pattern. <strong>A gaping armhole through a shooting motion is the single most common complaint about resized kit</strong>, and it is a pattern problem rather than a sizing one."
+      },
+      {
+        "title": "Shaped Body Seams",
+        "body": "The body is shaped through the waist rather than straight-sided. <strong>A straight jersey on a shaped frame either hangs loose or pulls</strong>, and neither is fixed by changing size."
+      },
+      {
+        "title": "Narrower Shoulder",
+        "body": "The shoulder seam sits further in than the men's pattern. <strong>A shoulder seam that falls onto the upper arm makes a jersey look borrowed</strong>, however well the chest fits."
+      },
+      {
+        "title": "Shorts Cut for a Different Ratio",
+        "body": "A different waist-to-hip proportion, not simply a smaller version of the men's short. <strong>This is where resized kit fails most visibly</strong> and most uncomfortably."
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Wash the set together</strong> so both pieces age at the same rate."
+      },
+      {
+        "text": "<strong>Cold wash, inside out</strong> — protects printed panels on both garments."
+      },
+      {
+        "text": "<strong>Air dry</strong> — heat relaxes bound edges, and this pattern has more of them."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No fabric softener</strong> — worst on the wicking knit we recommend here."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No high-heat drying</strong> — a shaped seam loses its line before a straight one does."
+      }
+    ],
+    "floridaNote": "<strong>Florida programmes often run boys' and girls' squads from one budget and one order.</strong> That is exactly the situation where resized men's kit gets bought, because it is one fewer pattern to specify. Ordering both patterns costs the same and takes the same time — the colour file, the design and the delivery are shared, and only the cut differs.",
+    "sizing": {
+      "tabs": [
+        "adult",
+        "shorts"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Women's Uniform Set",
+          "steps": [
+            "<strong>Use the women's columns:</strong> A men's Medium is not a women's Medium. The two scales are not interchangeable and this is where most orders go wrong.",
+            "<strong>Chest for the top:</strong> Fullest point, arms relaxed. Measure over a sports bra if one is normally worn.",
+            "<strong>Waist and hip for the shorts:</strong> Both, not just the waist. The hip measurement decides comfort in a defensive stance.",
+            "<strong>Size each garment separately:</strong> Different sizes top and bottom are normal and the order form expects it."
+          ]
+        }
+      ]
+    }
   },
   "youth-basketball-uniforms": {
     "noun": "Uniforms",
@@ -3696,7 +4042,163 @@
     "fabricIntro": "Built from the <strong>same sublimation polyester as our adult sets</strong> in a slightly softer finish. Younger players notice fabric against the skin more than adults do, and a uniform that is uncomfortable gets complained about all season.",
     "sizingIntro": "Youth sizing runs on <strong>height and chest together</strong>; where the two disagree, follow the chest for the jersey and the waist for the shorts. For a season-long order, size up — a set slightly large in November fits properly by February.",
     "bestForIntro": "Youth sets are right for <strong>leagues, middle school programs, and rec teams buying game kit</strong>. For practice, youth practice jerseys cost far less and take the same abuse.",
-    "notFitIntro": "A game set is more than a practice night needs. For training and scrimmages, these are the sensible buy."
+    "notFitIntro": "A game set is more than a practice night needs. For training and scrimmages, these are the sensible buy.",
+    "sections": [
+      "pov",
+      "psg",
+      "pwb",
+      "pco",
+      "pfb"
+    ],
+    "fabrics": {
+      "list": [
+        "sublimation",
+        "mesh"
+      ],
+      "recommended": "sublimation",
+      "notes": {
+        "sublimation": {
+          "desc": "The same knit as our adult sets in a softer finish. <strong>Children register fabric against the skin far more than adults do</strong>, and a uniform that is uncomfortable becomes a complaint every game night for a whole season.",
+          "pros": [
+            "<strong>Softer face</strong> than the adult standard",
+            "<strong>Survives family laundry</strong> — no care label to follow",
+            "<strong>Colour cannot crack</strong> however it is washed"
+          ]
+        },
+        "mesh": {
+          "desc": "Common in youth basketball because <strong>children overheat faster than adults and say so sooner</strong>. If your league plays in community centres or church halls, this is worth the trade in durability.",
+          "pros": [
+            "<strong>Much cooler in an unconditioned hall</strong>",
+            "<strong>Bonded number panel</strong> keeps digits readable",
+            "<strong>Snags more easily</strong> — a real cost at this age"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Youth Leagues Buying for Every Team",
+        "desc": "Twelve teams, one order, twelve colourways. <strong>Each team's shade is stored separately</strong>, so a replacement jersey in year two arrives the same colour as the rest of that team's set.",
+        "points": [
+          "League-wide pricing",
+          "Colours stored per team",
+          "One delivery, sorted by team"
+        ]
+      },
+      {
+        "fit": "perfect",
+        "title": "Players Growing Through the Season",
+        "desc": "The problem adult kit never has. <strong>Extra body length, a deeper armhole and a longer drawcord range</strong> absorb a season of growth without looking oversized in November.",
+        "points": [
+          "Growth allowed for in the pattern",
+          "Shorts taken in early, let out later",
+          "Fits properly by February if sized up"
+        ]
+      },
+      {
+        "fit": "good",
+        "title": "School and Academy Programs",
+        "desc": "Middle school and academy squads that want a proper uniform rather than numbered shirts. <strong>Oversized numbers as standard</strong>, because a rec gym is read from further back than an arena.",
+        "points": [
+          "Numbers one size up as standard",
+          "Mixed youth sizes on one order",
+          "Sponsor space on the back"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "Oversized Numbers",
+        "desc": "Printed a size larger than adult kit by default. <strong>Volunteer officials and parents read from further away in a community hall</strong>, and the extra size costs nothing at the print stage.",
+        "options": [
+          "Oversized (default)",
+          "Standard",
+          "League-specified",
+          "Front and back"
+        ]
+      },
+      {
+        "title": "Team Colours Across a League",
+        "desc": "Where a league orders for every team at once, each colourway is specified and stored separately. <strong>That is what makes year-two replacements possible</strong> without a colour mismatch.",
+        "options": [
+          "Per-team colours",
+          "League palette",
+          "Sponsor colours",
+          "Match previous season"
+        ]
+      },
+      {
+        "title": "Sponsor Recognition",
+        "desc": "Rec teams are frequently funded by a local business, and the sponsor mark is often what pays for the order. <strong>It costs nothing extra to include.</strong>",
+        "options": [
+          "Back sponsor",
+          "Chest sponsor",
+          "Short leg",
+          "None"
+        ]
+      },
+      {
+        "title": "Player Names",
+        "desc": "Uncommon at youth level and free when wanted. <strong>Some leagues prohibit names on youth kit</strong> — worth checking before ordering.",
+        "options": [
+          "Surname",
+          "First name",
+          "None (default)"
+        ]
+      }
+    ],
+    "construction": [
+      {
+        "title": "Growth-Allowed Pattern",
+        "body": "Extra length through the jersey body and a slightly deeper armhole. <strong>A season of growth is absorbed rather than outgrown</strong>, without the set looking too big on day one."
+      },
+      {
+        "title": "Extended Drawcord Range",
+        "body": "A longer cord than the adult short. <strong>The waist can be taken in properly in October and let out by March</strong>, which is the difference between one set and two."
+      },
+      {
+        "title": "Bound Neckline",
+        "body": "Bound so it stays comfortable as shoulders broaden. <strong>A neckline that has become tight is why a child stops wearing a jersey</strong>, and it is rarely reported until the season is over."
+      },
+      {
+        "title": "Reinforced Seams Throughout",
+        "body": "The same double-needle construction as adult kit. <strong>Youth uniforms are not treated more gently</strong> — usually the reverse, and the laundry is harsher too."
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Any household wash is fine</strong> — hot, cold, with everything else. That is deliberate."
+      },
+      {
+        "text": "<strong>Tumble dry</strong> — no care ritual for a parent to remember or follow."
+      },
+      {
+        "text": "<strong>No colour transfer</strong> — the dye is inside the fibre, so a red set will not pink a white wash."
+      },
+      {
+        "dont": true,
+        "text": "<strong>Fabric softener is the only thing worth avoiding</strong>, and it is not urgent."
+      }
+    ],
+    "floridaNote": "<strong>Youth basketball in this state is played in the warmest venues in it.</strong> Community centres, church halls and school auxiliary gyms are rarely conditioned to the standard a high school arena is. Children notice heat sooner and complain about it sooner, so if your league plays in those buildings, order the mesh version — the difference is more noticeable at this age than at any other.",
+    "sizing": {
+      "tabs": [
+        "youth",
+        "shorts"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Youth Uniform Set",
+          "steps": [
+            "<strong>Height and chest together</strong> for the jersey; where the two disagree, follow the chest.",
+            "<strong>Waist for the shorts</strong>, and check the hip if the player is between sizes.",
+            "<strong>Size up once for the season:</strong> slightly large in November fits properly by February. Do not size up twice.",
+            "<strong>Send us the roster:</strong> heights and weights with your quote request and we will size every player at no charge."
+          ]
+        }
+      ]
+    }
   },
   "reversible-basketball-uniforms": {
     "noun": "Uniforms",
@@ -3750,7 +4252,179 @@
     "fabricIntro": "Reversibles use a <strong>bonded double-layer construction</strong>: two sublimated faces joined so neither shows through the other. It is heavier and warmer than a single-layer jersey by design — that is the cost of carrying two kits in one garment.",
     "sizingIntro": "A reversible sits slightly fuller than a single-layer jersey because it is two fabrics. <strong>Most players take their usual size</strong>; a player who likes a very close fit should consider sizing down, and check the armhole column if your league specifies a depth.",
     "bestForIntro": "Reversibles are made for <strong>travel and AAU rosters, tournament weekends, and programs working from one budget</strong>. In an un-air-conditioned Florida gym in August, a single-layer set will be cooler.",
-    "notFitIntro": "Two bonded layers run warmer than one. If your gyms are hot or your season is a summer one, these will be more comfortable."
+    "notFitIntro": "Two bonded layers run warmer than one. If your gyms are hot or your season is a summer one, these will be more comfortable.",
+    "sections": [
+      "pov",
+      "pfb",
+      "pco",
+      "pwb",
+      "psg"
+    ],
+    "fabrics": {
+      "list": [
+        "reversible",
+        "sublimation"
+      ],
+      "recommended": "reversible",
+      "notes": {
+        "reversible": {
+          "desc": "Two sublimated faces bonded back to back, at 240 GSM combined. <strong>Neither side shows through the other</strong>, which is the whole engineering problem — a light home face over a dark away face will ghost badly if the bond and the opacity are not right.",
+          "pros": [
+            "<strong>Two complete kits in one garment</strong>",
+            "<strong>Neither face shows through</strong> the other",
+            "<strong>Warmer than a single layer</strong> — the honest cost of carrying two kits"
+          ]
+        },
+        "sublimation": {
+          "desc": "Listed because some programmes order a reversible set and a single-layer set together — <strong>reversibles for tournaments, single layer for the hot months</strong>. It is the same design, half the weight, one colourway.",
+          "pros": [
+            "<strong>Half the weight</strong> of a reversible",
+            "<strong>Much cooler</strong> in an unconditioned hall",
+            "<strong>One colourway only</strong>"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Travel and AAU Tournament Rosters",
+        "desc": "A tournament weekend can require light and dark on the same day, and a travel bag has limited room. <strong>One set per player covers both requirements</strong> and halves what has to be packed and laundered.",
+        "points": [
+          "Home and away in one garment",
+          "One bag for a three-game Saturday",
+          "Half the laundry between games"
+        ]
+      },
+      {
+        "fit": "perfect",
+        "title": "Programs Working From One Budget",
+        "desc": "The clearest cost case in the range: <strong>a reversible set is far less than two single-layer sets</strong> and takes one order rather than two.",
+        "points": [
+          "Cheaper than two sets by a wide margin",
+          "One order, one delivery, one colour match",
+          "Both faces designed together"
+        ]
+      },
+      {
+        "fit": "good",
+        "title": "Rec Leagues and Scrimmage Use",
+        "desc": "The same garment that solves home and away also splits a squad in a second. <strong>Turn half the roster inside out and five-on-five is set up</strong> with no pinnies at all.",
+        "points": [
+          "Instant squad splits",
+          "No pinnie inventory",
+          "Works for camps and clinics too"
+        ]
+      },
+      {
+        "fit": "consider",
+        "title": "Hot and Outdoor Play",
+        "desc": "Two bonded layers are warmer than one, and no fabric choice changes that. <strong>In an August outdoor tournament a single-layer set will be more comfortable</strong>, and we would rather say so.",
+        "points": [
+          "Order single-layer for summer",
+          "Or run both and alternate",
+          "Same design across both"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "Two Complete Designs",
+        "desc": "You are specifying two kits, not one. <strong>Usually a light home face and a dark away face</strong>, though two entirely different looks are equally possible at the same price.",
+        "options": [
+          "Light / dark pair",
+          "Two full designs",
+          "Tonal pair",
+          "Same design, inverted"
+        ]
+      },
+      {
+        "title": "Number Registration",
+        "desc": "The numbers on both faces have to sit in register so neither side reads as the back of the other. <strong>This is the detail cheap reversibles get wrong</strong>, and it is visible from the bleachers.",
+        "options": [
+          "Registered both faces",
+          "Independent placement",
+          "League-specified size"
+        ]
+      },
+      {
+        "title": "Edge Binding",
+        "desc": "The armhole and hem are bound rather than hemmed, on both faces. <strong>A bonded double layer curls at an unbound edge</strong> after a season of being turned inside out.",
+        "options": [
+          "Contrast bind",
+          "Matched bind",
+          "Two-tone (one per face)"
+        ]
+      },
+      {
+        "title": "Shorts Reversibility",
+        "desc": "The shorts reverse too, and are designed with the jerseys. <strong>A reversible jersey over single-colour shorts defeats the point</strong> on the away side.",
+        "options": [
+          "Both pieces reversible",
+          "Jersey only",
+          "Matched pairs"
+        ]
+      }
+    ],
+    "construction": [
+      {
+        "title": "Bonded Double Layer",
+        "body": "Two sublimated faces joined across the whole panel rather than only at the seams. <strong>An edge-bonded reversible separates and bubbles</strong> in the middle of the chest after a season."
+      },
+      {
+        "title": "Registered Number Placement",
+        "body": "Numbers on each face are set to align with the other. <strong>Out of register, the away number shows as a shadow behind the home number</strong> under arena lighting."
+      },
+      {
+        "title": "Bound Armholes and Hems",
+        "body": "Every edge bound on both faces. <strong>This is what stops the two layers curling apart</strong> at exactly the points that get pulled when a jersey is turned."
+      },
+      {
+        "title": "Flat Bonded Seams",
+        "body": "Seams bonded flat rather than stitched proud, because <strong>a seam that is comfortable on one face may not be on the other</strong>. Both sides have to be wearable."
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Cold wash only</strong> — heat is what separates a bonded layer over time."
+      },
+      {
+        "text": "<strong>Air dry flat</strong> — hanging a wet double-layer garment stretches the bond at the shoulders."
+      },
+      {
+        "text": "<strong>Wash right side out, alternating</strong> — so both faces get the same wear over a season."
+      },
+      {
+        "dont": true,
+        "text": "<strong>Never tumble dry</strong> — the one garment here where a dryer will genuinely shorten its life."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No fabric softener</strong> — it works into the bond between the layers."
+      },
+      {
+        "dont": true,
+        "text": "<strong>Do not iron</strong> — heat and pressure on a bonded panel is the fastest way to ruin it."
+      }
+    ],
+    "floridaNote": "<strong>Reversibles are a travel answer, not a heat answer.</strong> At 240 GSM combined they are the warmest garment on this site, and in an unconditioned Florida hall in August a player will feel it. Programmes here that play a lot of summer basketball often run reversibles for tournament season and a single-layer set for the hot months — same design, printed from the same stored colour.",
+    "sizing": {
+      "tabs": [
+        "adult",
+        "shorts"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Reversible Set",
+          "steps": [
+            "<strong>Chest:</strong> Fullest point, arms relaxed. A reversible sits fuller than a single layer because it is two fabrics.",
+            "<strong>Close fit:</strong> A player who wants a very close fit should size down one — the extra layer adds body.",
+            "<strong>Armhole:</strong> Check your league's maximum depth. Bound double-layer edges sit slightly differently from single-layer ones.",
+            "<strong>Shorts:</strong> Waist and hip as normal. Reversible shorts are fuller than single-layer at the same size."
+          ]
+        }
+      ]
+    }
   },
   "sublimated-basketball-jerseys": {
     "noun": "Jerseys",
