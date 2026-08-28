@@ -2,6 +2,7 @@
 import pages from '../data/pages.json';
 import { rewrite, dropFontImports } from '../lib/site.js';
 import { applyProductContent, polishPage } from '../lib/product-sections.js';
+import { extractFaqs, faqSchema, breadcrumbSchema, pageTitleFrom, schemaTags } from '../lib/schema.js';
 import Shell from '../layouts/Shell.astro';
 
 export function getStaticPaths() {
@@ -27,5 +28,18 @@ const productSlug = page.route.startsWith('/product/')
 // the site-wide corrections — the dead product link and the British spellings
 // appear on category, policy and landing pages too.
 const html = productSlug ? applyProductContent(page.content, productSlug) : polishPage(page.content);
+
+// Structured data is derived from the FINISHED html, after the sections have
+// been filled — so the markup describes the page that is actually served
+// rather than the captured original. 629 questions across the catalogue were
+// visible to readers and invisible to search; see src/lib/schema.js.
+const faqs = extractFaqs(html);
+const jsonLd = schemaTags([
+  faqSchema(faqs),
+  breadcrumbSchema(page.route, pageTitleFrom(html)),
+]);
 ---
-<Shell page={page}><Fragment set:html={dropFontImports(rewrite(html))} /></Shell>
+<Shell page={page}>
+  <Fragment set:html={dropFontImports(rewrite(html))} />
+  {jsonLd && <Fragment set:html={jsonLd} />}
+</Shell>
