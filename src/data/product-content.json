@@ -5135,7 +5135,159 @@
     "fabricIntro": "Built from a <strong>thinner gauge of our sublimation polyester</strong>. It keeps the flat face and sharp print of the full-weight jersey with noticeably less material, which is what puts it between a standard jersey and open mesh.",
     "sizingIntro": "Lightweight jerseys are cut close to the standard fit. <strong>A player who prefers a roomier jersey should size up.</strong> Measure the chest at the fullest point with arms relaxed; polyester does not shrink, so order the size you want to wear.",
     "bestForIntro": "This is the right jersey for <strong>warm gyms where a program still wants a sharp match-day look</strong>. For the hottest outdoor play, mesh is cooler; for heavy contact, a full-weight jersey lasts longer.",
-    "notFitIntro": "A lighter knit is not the toughest option for a contact-heavy program. If your kit takes a beating, these hold up longer."
+    "notFitIntro": "A lighter knit is not the toughest option for a contact-heavy program. If your kit takes a beating, these hold up longer.",
+    "sections": [
+      "pov",
+      "pfb",
+      "psg",
+      "pco",
+      "pwb"
+    ],
+    "fabrics": {
+      "list": [
+        "wicking",
+        "sublimation",
+        "mesh"
+      ],
+      "recommended": "wicking",
+      "notes": {
+        "wicking": {
+          "desc": "Spun to a thinner gauge than our standard knit, and built on the wicking fibre rather than plain polyester. <strong>Taking material out of a jersey means the give has to come from somewhere</strong>, and 8% spandex is where it comes from here.",
+          "pros": [
+            "<strong>145 GSM against 155</strong> — a weight difference you feel by the fourth quarter",
+            "<strong>Keeps a flat, closed face</strong> unlike mesh",
+            "<strong>Slightly more translucent</strong> — the honest trade"
+          ]
+        },
+        "sublimation": {
+          "desc": "The standard weight, for programmes that want the same design tougher. <strong>Ten GSM sounds trivial and is very noticeable over a season</strong> of contact.",
+          "pros": [
+            "<strong>More durable</strong> across a full season",
+            "<strong>Sharpest artwork</strong>",
+            "<strong>Heavier on the shoulder</strong>"
+          ]
+        },
+        "mesh": {
+          "desc": "The other route to lighter. <strong>This jersey is thin and closed; mesh is normal weight and open</strong> — under arena lighting they look nothing alike.",
+          "pros": [
+            "<strong>Cooler in moving air</strong>",
+            "<strong>Visibly open weave</strong>",
+            "<strong>Better outdoors</strong>"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Fast-Tempo Programs",
+        "desc": "A team that spends the game in transition notices fabric weight in the fourth quarter. <strong>This is the lightest closed-face jersey we make</strong>, and the difference is reported by guards first.",
+        "points": [
+          "Least weight of any closed-face jersey",
+          "Flatlock seams at speed",
+          "Keeps a sharp match-day line"
+        ]
+      },
+      {
+        "fit": "good",
+        "title": "Warm Gyms That Still Want a Formal Look",
+        "desc": "The middle ground most programmes are actually looking for. <strong>Mesh is cooler but reads casual; full weight looks sharpest but runs hot.</strong>",
+        "points": [
+          "Closed face under arena lighting",
+          "Meaningful heat reduction",
+          "Same artwork as the full-weight jersey"
+        ]
+      },
+      {
+        "fit": "consider",
+        "title": "Contact-Heavy Programs",
+        "desc": "A thinner yarn is a thinner yarn. <strong>If your squad plays physically and one jersey does every game</strong>, the standard weight will last measurably longer.",
+        "points": [
+          "Standard weight for heavy contact",
+          "Or two of these for the same money",
+          "Identical design either way"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "Fine Artwork",
+        "desc": "A thin smooth face holds detail beautifully. <strong>Small type, thin outlines and gradients reproduce cleanly</strong> where mesh would break them up.",
+        "options": [
+          "Fine linework",
+          "Gradients",
+          "Small type",
+          "Photographic fill"
+        ]
+      },
+      {
+        "title": "Colour Depth",
+        "desc": "Relevant here rather than cosmetic. <strong>A light fabric shows a hint of the reverse face</strong>, so heavy solid blocks on a pale ground are reviewed at proof.",
+        "options": [
+          "Deep team base",
+          "Mid tone",
+          "Light (reviewed)",
+          "Two-tone"
+        ]
+      },
+      {
+        "title": "Number and Name Styling",
+        "desc": "Standard placements within your league's rules. <strong>A lighter fabric drapes closer</strong>, so a large number sits flatter here than on a heavier jersey.",
+        "options": [
+          "Block",
+          "Varsity",
+          "Outlined",
+          "League standard"
+        ]
+      }
+    ],
+    "construction": [
+      {
+        "title": "Flatlock Shoulder Seams",
+        "body": "Laid flush against the body. <strong>A thin fabric has nothing to absorb a raised seam</strong>, and the shoulder carries the whole garment's weight."
+      },
+      {
+        "title": "Bound Armholes and Neck",
+        "body": "Bound rather than hemmed, and more important here than on a heavy jersey. <strong>A lighter knit stretches out of shape faster at a raw edge.</strong>"
+      },
+      {
+        "title": "Thin-Gauge Wicking Yarn",
+        "body": "The same channelled fibre spun finer. <strong>The sweat management is unchanged; there is simply less material</strong>, which is where both the comfort and the translucency come from."
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Cold wash, inside out</strong> — a thin knit takes more abrasion in a full drum."
+      },
+      {
+        "text": "<strong>Air dry</strong> — it is dry in minutes and heat is harder on fine yarn."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No fabric softener</strong> — it flattens the stretch this jersey depends on."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No tumble drying</strong> — the fabric here we would most rather you kept out of a dryer."
+      }
+    ],
+    "floridaNote": "<strong>Two ways to be cooler, and it is worth choosing deliberately.</strong> Less fabric, or fabric you can breathe through. This jersey takes the first route and keeps a clean closed face; mesh takes the second and looks it. For an air-conditioned Florida arena, less weight is usually the better answer. For an outdoor court in July, airflow wins outright.",
+    "sizing": {
+      "tabs": [
+        "adult"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Lightweight Jerseys",
+          "steps": [
+            "<strong>Chest:</strong> Fullest point, arms relaxed. This cut is close to standard.",
+            "<strong>Roomier fit:</strong> Size up one if a player dislikes a close jersey — a thin fabric shows the fit more than a heavy one.",
+            "<strong>Pale colours:</strong> Ask for a fabric sample before ordering a light ground in this weight.",
+            "<strong>No shrinkage:</strong> Polyester holds its size through hot washes."
+          ]
+        }
+      ]
+    }
   },
   "sleeveless-basketball-jerseys": {
     "noun": "Jerseys",
@@ -5189,7 +5341,170 @@
     "fabricIntro": "These are built from our <strong>sublimation polyester in a mid weight</strong> — light enough for a hot gym, structured enough that the armhole and hem hold their line through a full season.",
     "sizingIntro": "Sleeveless jerseys are sized on <strong>chest measurement</strong> at the fullest point, arms relaxed. Check the armhole column if your league specifies a maximum depth. Between sizes, size down for a competitive fit or up for a relaxed one.",
     "bestForIntro": "The sleeveless cut suits <strong>most game situations and most Florida gyms</strong>. Where it does not work is a league or district that requires sleeves on a uniform.",
-    "notFitIntro": "Some leagues and school districts require sleeves. If yours does, these are cut for the same play with sleeves attached."
+    "notFitIntro": "Some leagues and school districts require sleeves. If yours does, these are cut for the same play with sleeves attached.",
+    "sections": [
+      "pov",
+      "psg",
+      "pco",
+      "pwb",
+      "pfb"
+    ],
+    "fabrics": {
+      "list": [
+        "sublimation",
+        "wicking",
+        "mesh"
+      ],
+      "recommended": "sublimation",
+      "notes": {
+        "sublimation": {
+          "desc": "A sleeveless jersey has fewer seams than anything else in the range, so <strong>the fabric carries more of the garment's shape by itself</strong>. The standard 155 GSM knit has the body to hold the armhole and hem lines through a full season.",
+          "pros": [
+            "<strong>Holds the armhole line</strong> — the shape that defines the cut",
+            "<strong>Uninterrupted print surface</strong> front and back",
+            "<strong>Most durable</strong> over a competitive season"
+          ]
+        },
+        "wicking": {
+          "desc": "Adds stretch where a sleeveless jersey needs it most. <strong>The armhole is under more tension than any other point</strong> at the top of a shooting motion.",
+          "pros": [
+            "<strong>More give at the armhole</strong>",
+            "<strong>Lighter at 145 GSM</strong>",
+            "<strong>Less structure</strong> in the hem"
+          ]
+        },
+        "mesh": {
+          "desc": "Open weave on an already-open cut. <strong>As much heat as a uniform top can shed</strong>, at the cost of a visible weave.",
+          "pros": [
+            "<strong>Coolest combination available</strong>",
+            "<strong>Bonded number panel</strong>",
+            "<strong>Reads casual</strong> under lights"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Standard League Game Kit",
+        "desc": "The silhouette most rulebooks were written around. <strong>If your competition specifies a basketball uniform without qualification, this is what it means.</strong>",
+        "points": [
+          "Competitive armhole depth",
+          "Number placement to common league rules",
+          "Adult and youth on one order"
+        ]
+      },
+      {
+        "fit": "perfect",
+        "title": "Designs That Run Edge to Edge",
+        "desc": "No sleeve seam means front and back are each one surface. <strong>A design can cross the whole chest uninterrupted</strong>, which no sleeved cut allows.",
+        "points": [
+          "No seam through the artwork",
+          "Full-bleed side panels",
+          "Prints to the edge"
+        ]
+      },
+      {
+        "fit": "consider",
+        "title": "Sleeve-Required Competitions",
+        "desc": "Some Florida districts and rec leagues require sleeves. <strong>A sleeveless jersey will not pass that check</strong> whatever else it does well.",
+        "points": [
+          "Check the rulebook first",
+          "Short-sleeve jerseys satisfy it",
+          "Same design with sleeves added"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "Uninterrupted Front and Back",
+        "desc": "Two full surfaces with no seam through either. <strong>Programmes consistently under-use this</strong>, placing a chest logo where a full-bleed design would work.",
+        "options": [
+          "Full bleed",
+          "Chest logo",
+          "Panel split",
+          "Wordmark"
+        ]
+      },
+      {
+        "title": "Armhole Binding",
+        "desc": "The binding traces the most recognisable line on the garment. <strong>A contrast bind defines the silhouette from the bleachers</strong> more than any other single choice.",
+        "options": [
+          "Contrast",
+          "Matched",
+          "Two-tone",
+          "Piped"
+        ]
+      },
+      {
+        "title": "Side Panels",
+        "desc": "Running armhole to hem uninterrupted — <strong>the longest continuous design line on any jersey here.</strong>",
+        "options": [
+          "Full-length",
+          "Tapered",
+          "Solid",
+          "None"
+        ]
+      },
+      {
+        "title": "Number Placement",
+        "desc": "Set by your league rather than by preference. <strong>Some competitions specify a minimum digit height</strong>, and it is cheaper to check than to reprint.",
+        "options": [
+          "Front centre",
+          "Front left",
+          "Back standard",
+          "League-specified"
+        ]
+      }
+    ],
+    "construction": [
+      {
+        "title": "Competitive Armhole Depth",
+        "body": "Deep enough for a full shooting motion, shallow enough not to gape at the side. <strong>This single measurement decides whether a sleeveless jersey works</strong>, and it is what cheap kit gets wrong."
+      },
+      {
+        "title": "Bound Armholes",
+        "body": "Bound with a folded strip rather than hemmed. <strong>A hemmed armhole curls after a few washes and never recovers</strong>; a bound one holds for the life of the garment."
+      },
+      {
+        "title": "Bar-Tacked Hem Splits",
+        "body": "Reinforced side splits let the hem move over the hip on a rebound. <strong>The bar-tack is what stops the split running</strong> once it has been stretched a few hundred times."
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Cold wash, inside out</strong> — the large front print is the most exposed surface."
+      },
+      {
+        "text": "<strong>Hang to dry</strong> — folding wet lets the armhole set out of shape."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No fabric softener</strong> — it dulls a large uninterrupted colour area faster than a small one."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No ironing on the print</strong> — direct heat is the only real risk to sublimated artwork."
+      }
+    ],
+    "floridaNote": "<strong>The cut solves more heat than the fabric does.</strong> Shoulders and upper arms shed heat faster than any other surface on the body, and this cut simply leaves them uncovered. Before paying for a technical fabric to fix a hot gym, note that the cut has already done most of the work — and if you need more, the same jersey is available in mesh.",
+    "sizing": {
+      "tabs": [
+        "adult",
+        "youth"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Sleeveless Jerseys",
+          "steps": [
+            "<strong>Chest:</strong> Fullest point, arms relaxed, tape horizontal.",
+            "<strong>Armhole depth:</strong> Check against your league's maximum before ordering — the measurement most likely to fail a uniform check.",
+            "<strong>Between sizes:</strong> Down for a competitive fit, up for a relaxed one. A sleeveless cut shows this choice more than a sleeved one.",
+            "<strong>Over compression:</strong> Allow one size if worn over a compression top."
+          ]
+        }
+      ]
+    }
   },
   "short-sleeve-basketball-jerseys": {
     "noun": "Jerseys",
@@ -5243,7 +5558,160 @@
     "fabricIntro": "The same <strong>sublimation polyester as our sleeveless jerseys</strong>, in a mid weight. More of the arm is covered, so this cut runs a little warmer — if your venues are hot, ask about the lightweight or mesh version of the same sleeve pattern.",
     "sizingIntro": "Sized on <strong>chest measurement</strong>, with the sleeve cut proportionally. A player with heavier arms should check the bicep column rather than relying on chest alone, and size up if it is close.",
     "bestForIntro": "Short-sleeve jerseys are for <strong>programs whose league or district requires sleeves</strong>, and for cooler venues where a sleeve is welcome. If your rules permit sleeveless, that cut is cooler and cheaper.",
-    "notFitIntro": "If your league does not require sleeves, a sleeveless cut is cooler and gives more shoulder range for the same money."
+    "notFitIntro": "If your league does not require sleeves, a sleeveless cut is cooler and gives more shoulder range for the same money.",
+    "sections": [
+      "pov",
+      "pwb",
+      "pco",
+      "psg",
+      "pfb"
+    ],
+    "fabrics": {
+      "list": [
+        "sublimation",
+        "wicking",
+        "mesh"
+      ],
+      "recommended": "wicking",
+      "notes": {
+        "wicking": {
+          "desc": "More of the arm is covered than on a sleeveless jersey, so the fabric has to work harder. <strong>We recommend the wicking knit here rather than the standard one</strong> — the upper arm is a large surface, and covering it with a plain polyester is where a sleeved jersey starts to feel warm.",
+          "pros": [
+            "<strong>Moves sweat off the upper arm</strong>",
+            "<strong>Stretch through the bicep</strong> at the top of a shot",
+            "<strong>Lighter at 145 GSM</strong> to offset the extra coverage"
+          ]
+        },
+        "sublimation": {
+          "desc": "The standard knit gives the sharpest sleeve artwork. <strong>If a sponsor mark runs down the sleeve, a smooth closed face reproduces it best.</strong>",
+          "pros": [
+            "<strong>Sharpest sleeve reproduction</strong>",
+            "<strong>Most durable</strong>",
+            "<strong>Runs warmer</strong> with the arm covered"
+          ]
+        },
+        "mesh": {
+          "desc": "Sleeved and open. <strong>The combination most Florida programmes reach for when the rules require sleeves and the venue is hot</strong> — it satisfies the rulebook without the heat penalty.",
+          "pros": [
+            "<strong>Sleeves without the heat</strong>",
+            "<strong>Bonded number panel</strong>",
+            "<strong>Reads casual</strong> on a main court"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Leagues and Districts Requiring Sleeves",
+        "desc": "The reason this cut exists. <strong>A sleeveless jersey will not pass a sleeve-required uniform check</strong>, and finding that out at a first game is an expensive way to learn it.",
+        "points": [
+          "Satisfies a sleeve requirement",
+          "Same competition build as our sleeveless jerseys",
+          "Available in mesh if your venue is hot"
+        ]
+      },
+      {
+        "fit": "good",
+        "title": "Programs With Sponsors to Place",
+        "desc": "Sleeves add two print panels a sleeveless jersey does not have. <strong>Sponsor marks move to the arm and the chest stays clear</strong> for the number.",
+        "points": [
+          "Two extra print panels",
+          "Chest stays uncrowded",
+          "Patches sit properly rather than squeezed"
+        ]
+      },
+      {
+        "fit": "consider",
+        "title": "Hot Venues Without a Sleeve Rule",
+        "desc": "If your rules permit sleeveless, that cut is cooler, cheaper and gives more shoulder range. <strong>A sleeve is a requirement to satisfy, not an upgrade to buy.</strong>",
+        "points": [
+          "Sleeveless is cooler and cheaper",
+          "More shoulder range at the top of a shot",
+          "Same design either way"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "Sleeve Panels",
+        "desc": "Two surfaces a sleeveless jersey does not give you. <strong>Sponsor marks, district badges and memorial patches</strong> all live here, which frees the chest.",
+        "options": [
+          "Sponsor",
+          "District badge",
+          "Memorial patch",
+          "Contrast sleeve"
+        ]
+      },
+      {
+        "title": "Shoulder Line",
+        "desc": "Set-in or raglan-influenced. <strong>A raglan line gives more range at the top of a shot</strong>; a set-in line looks more traditional in a photograph.",
+        "options": [
+          "Set-in",
+          "Raglan-influenced",
+          "Contrast raglan",
+          "Matched"
+        ]
+      },
+      {
+        "title": "Bicep Opening",
+        "desc": "Relaxed by default. <strong>A tight bicep opening grips at the top of a shooting motion</strong>, which is the single most common complaint about sleeved basketball jerseys.",
+        "options": [
+          "Relaxed (default)",
+          "Athletic",
+          "Wide",
+          "Banded"
+        ]
+      }
+    ],
+    "construction": [
+      {
+        "title": "Raglan-Influenced Shoulder Seam",
+        "body": "The seam runs further toward the collar than a straight set-in sleeve. <strong>A conventional set-in sleeve restricts the top of a shooting stroke</strong>, and that restriction is why sleeved basketball kit has a reputation."
+      },
+      {
+        "title": "Relaxed Bicep Opening",
+        "body": "Cut wider than a fitted athletic tee. <strong>The sleeve should not grip or pull across the shoulder</strong> when the arm comes overhead."
+      },
+      {
+        "title": "Hemmed Sleeve Ends",
+        "body": "Cleanly hemmed rather than banded, so the sleeve stays where it sits. <strong>A banded cuff on a basketball sleeve rides up and then bunches at the bicep.</strong>"
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Cold wash, inside out</strong> — sleeve artwork takes the most abrasion in a machine."
+      },
+      {
+        "text": "<strong>Air dry</strong> — keeps the shoulder line and the hem."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No fabric softener</strong> — worst on the wicking knit recommended here."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No high-heat drying</strong> — the shoulder seam is the first thing to relax."
+      }
+    ],
+    "floridaNote": "<strong>If your league requires sleeves and your gym is hot, order this cut in mesh.</strong> That combination is common in Florida and it is the honest answer: the rulebook is satisfied, and an open weave takes most of the heat penalty back out of the extra coverage. It is a request we get every August.",
+    "sizing": {
+      "tabs": [
+        "adult",
+        "youth"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Short-Sleeve Jerseys",
+          "steps": [
+            "<strong>Chest:</strong> Fullest point, arms relaxed.",
+            "<strong>Bicep:</strong> Around the fullest part of the upper arm. A player with heavier arms should follow this rather than the chest, and size up if it is close.",
+            "<strong>Sleeve length:</strong> Standard falls mid-bicep. Check the column if your programme prefers longer.",
+            "<strong>Between sizes:</strong> Size up. A sleeve that grips cannot be let out."
+          ]
+        }
+      ]
+    }
   },
   "long-sleeve-basketball-jerseys": {
     "noun": "Jerseys",
@@ -5297,7 +5765,154 @@
     "fabricIntro": "Long-sleeve jerseys use a <strong>lighter knit than our short-sleeve version</strong>, deliberately — more of the body is covered, so the same weight would run hot. It is built to layer without adding bulk at the shoulder seam.",
     "sizingIntro": "Sized on chest as usual, but <strong>check the sleeve-length column too</strong>. A player with long arms is usually better one size up even when the chest measurement says otherwise. Worn as a base layer under another jersey, take the normal size.",
     "bestForIntro": "Long sleeves suit <strong>cold venues, winter tournaments, and programs with a lot to fit on a jersey</strong>. For a warm Florida gym with no air conditioning, this is the wrong cut.",
-    "notFitIntro": "Full sleeves are the wrong answer to a hot gym. If your venues run warm, these will be far more comfortable."
+    "notFitIntro": "Full sleeves are the wrong answer to a hot gym. If your venues run warm, these will be far more comfortable.",
+    "sections": [
+      "pov",
+      "pco",
+      "pfb",
+      "pwb",
+      "psg"
+    ],
+    "fabrics": {
+      "list": [
+        "wicking",
+        "sublimation"
+      ],
+      "recommended": "wicking",
+      "notes": {
+        "wicking": {
+          "desc": "Full sleeves cover roughly twice the skin a short-sleeve jersey does, and the fabric has to account for it. <strong>145 GSM with sweat channels along the fibre</strong> is the difference between a long-sleeve jersey that gets worn and one that lives in a bag.",
+          "pros": [
+            "<strong>Lighter, because more of you is covered</strong>",
+            "<strong>Moves sweat off the forearm</strong> — the first place a sleeve runs hot",
+            "<strong>Stretch through the elbow</strong> on every shot"
+          ]
+        },
+        "sublimation": {
+          "desc": "The standard knit for programmes printing heavy artwork down the sleeve. <strong>A smooth closed face holds a full-length sponsor mark</strong> more precisely than a stretch knit that moves with the arm.",
+          "pros": [
+            "<strong>Sharpest full-length sleeve artwork</strong>",
+            "<strong>More structure</strong>",
+            "<strong>Runs warmer</strong> — the cost"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Cold Venues and Winter Tournaments",
+        "desc": "The cold in Florida basketball is a building, not a season. <strong>A tournament hall at 65 degrees with two hours between games</strong> is where a roster actually gets cold.",
+        "points": [
+          "Full arm coverage between games",
+          "Layers under nothing — this is the jersey",
+          "Packs flat for a travel bag"
+        ]
+      },
+      {
+        "fit": "good",
+        "title": "Programs With a Lot to Print",
+        "desc": "Two full sleeves roughly double the printable area of a jersey. <strong>Sponsors, memorial patches and championship years fit here</strong> without crowding the chest.",
+        "points": [
+          "Full-length sleeve marks",
+          "Patches at a readable size",
+          "Chest clear for the number"
+        ]
+      },
+      {
+        "fit": "consider",
+        "title": "Hot Un-Air-Conditioned Gyms",
+        "desc": "Full sleeves are the wrong answer to a hot hall, whatever the fabric. <strong>If your venues run warm, a short-sleeve or sleeveless jersey costs less and will actually be worn.</strong>",
+        "points": [
+          "Short-sleeve for warm venues",
+          "Sleeveless for outdoor courts",
+          "Same artwork, different cut"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "Full-Length Sleeve Artwork",
+        "desc": "The main reason to choose this cut. <strong>A sponsor can run wrist to shoulder</strong>, which nothing else in the range allows.",
+        "options": [
+          "Full-length sponsor",
+          "Repeating pattern",
+          "Upper-arm badge",
+          "Cuff detail"
+        ]
+      },
+      {
+        "title": "Memorial and Commemorative Marks",
+        "desc": "A sleeve gives a patch real space instead of squeezing it beside a number. <strong>Dates, initials and dedications print at a size that can be read.</strong>",
+        "options": [
+          "Sleeve patch",
+          "Cuff dedication",
+          "Inside-hem message",
+          "None"
+        ]
+      },
+      {
+        "title": "Cuff Finish",
+        "desc": "Ribbed by default so the sleeve stays at the wrist. <strong>A hemmed cuff rides to the elbow on the first shooting motion.</strong>",
+        "options": [
+          "Ribbed (default)",
+          "Plain hem",
+          "Contrast rib",
+          "Thumbhole"
+        ]
+      }
+    ],
+    "construction": [
+      {
+        "title": "Narrow Forearm Taper",
+        "body": "The sleeve narrows from elbow to wrist. <strong>A straight sleeve bunches at the elbow</strong>, and that bunching is what players notice inside one possession."
+      },
+      {
+        "title": "Ribbed Cuffs",
+        "body": "A knitted rib rather than a hem. <strong>A hemmed cuff rides up on the first shot and stays there</strong> for the rest of the game."
+      },
+      {
+        "title": "Flatlock Shoulder Seam",
+        "body": "Laid flat. <strong>On a long-sleeve jersey the shoulder seam carries both the body and the sleeve</strong>, and it is the seam under most load."
+      },
+      {
+        "title": "Extended Body Length",
+        "body": "Cut slightly longer so it stays tucked when the arms are raised. <strong>A jersey that pulls out on every rebound gets abandoned.</strong>"
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Cold wash, inside out</strong> — sleeve artwork is the most exposed surface in a drum."
+      },
+      {
+        "text": "<strong>Air dry flat</strong> — hanging a wet long-sleeve stretches the cuffs."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No fabric softener</strong> — it relaxes the cuff rib, which is what holds the sleeve down."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No high-heat drying</strong> — heat kills a rib cuff before anything else."
+      }
+    ],
+    "floridaNote": "<strong>Long sleeves in Florida are for buildings, not weather.</strong> Tournament venues and larger arenas run their air conditioning hard, and a roster sitting two hours between games in a 65-degree hall gets genuinely cold. That is the case for this jersey here. It is not a July garment, and we would rather say so than sell it as one.",
+    "sizing": {
+      "tabs": [
+        "adult"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Long-Sleeve Jerseys",
+          "steps": [
+            "<strong>Chest:</strong> Fullest point, arms relaxed.",
+            "<strong>Sleeve length:</strong> From the centre back of the neck, across the shoulder, to the wrist bone. This is the measurement that decides the size.",
+            "<strong>Long arms:</strong> Where chest and sleeve disagree, follow the sleeve and size up. A short sleeve on a long arm cannot be fixed.",
+            "<strong>Cuffs:</strong> The rib should sit at the wrist bone, not over the hand."
+          ]
+        }
+      ]
+    }
   },
   "basketball-warm-up-jerseys": {
     "noun": "Jerseys",
@@ -5351,7 +5966,147 @@
     "fabricIntro": "Warm-up jerseys use a <strong>slightly heavier knit than a game jersey</strong>, because they are worn as an outer layer and need to hold their shape over another garment rather than sit against the skin.",
     "sizingIntro": "Size a warm-up <strong>one step up from the player's game jersey</strong> — it is meant to go on over the top. Measure the chest over the jersey that will actually be worn underneath, not over bare skin.",
     "bestForIntro": "Warm-up jerseys fit <strong>any program wanting a piece worn off the floor</strong> — warm-ups, bench, travel, photos and parent sales. They are not game garments and will not pass a uniform check.",
-    "notFitIntro": "This is a layer, not a game jersey — no roster numbers, no league compliance. For the garment players compete in, start here."
+    "notFitIntro": "This is a layer, not a game jersey — no roster numbers, no league compliance. For the garment players compete in, start here.",
+    "sections": [
+      "pov",
+      "pco",
+      "pwb",
+      "psg"
+    ],
+    "fabrics": {
+      "list": [
+        "sublimation",
+        "wicking"
+      ],
+      "recommended": "sublimation",
+      "notes": {
+        "sublimation": {
+          "desc": "A warm-up is worn over a game jersey, so it needs body rather than closeness. <strong>The standard knit holds its shape over another garment</strong>; a lighter fabric pulled over a jersey shows every ridge of the top underneath and reads cheap in a photograph.",
+          "pros": [
+            "<strong>Holds shape as an outer layer</strong>",
+            "<strong>Sharpest logo reproduction</strong> — this garment is photographed more than any other",
+            "<strong>Structured for team photos</strong>"
+          ]
+        },
+        "wicking": {
+          "desc": "For programmes whose players warm up in it and then keep it on through a bench rotation. <strong>Two hours on a bench is long enough for sweat management to matter</strong>; twenty minutes of warm-up is not.",
+          "pros": [
+            "<strong>Better for long bench wear</strong>",
+            "<strong>Lighter</strong>",
+            "<strong>Less body</strong> — shows the jersey underneath more"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Pre-Game and Bench Wear",
+        "desc": "What a squad is wearing when the crowd arrives and the cameras come out. <strong>It answers to no league rule at all</strong>, so the front is free for the clearest statement of who the programme is.",
+        "points": [
+          "No roster number required",
+          "Full-chest logo at any size",
+          "Comes off in one motion at the buzzer"
+        ]
+      },
+      {
+        "fit": "perfect",
+        "title": "Team Photos and Senior Night",
+        "desc": "The garment in most programme photographs, and the one that has to still look new in March. <strong>A pressed logo cracks by January; a dyed one does not.</strong>",
+        "points": [
+          "Artwork cannot crack or peel",
+          "Same colour in the last photo as the first",
+          "Staff sizes on the same order"
+        ]
+      },
+      {
+        "fit": "good",
+        "title": "Booster and Parent Sales",
+        "desc": "Families will wear a warm-up top; they will not wear a game jersey. <strong>It is the one piece of kit that can fund itself.</strong>",
+        "points": [
+          "Adult sizes to 5XL",
+          "No minimum on a top-up order",
+          "Same design the squad wears"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "Full-Chest Logo",
+        "desc": "The whole front is available, which a game jersey never is. <strong>Programmes consistently go too small here</strong> — this is the place to go large.",
+        "options": [
+          "Full-chest",
+          "Left-chest",
+          "Centre crest",
+          "Wordmark"
+        ]
+      },
+      {
+        "title": "Back Treatment",
+        "desc": "No roster number is required, so the back is free. <strong>Senior years, championship dates and season slogans live here.</strong>",
+        "options": [
+          "Team name",
+          "Season year",
+          "Player name",
+          "Slogan",
+          "Blank"
+        ]
+      },
+      {
+        "title": "Staff Versions",
+        "desc": "Coaching staff usually want the same design in a fuller cut or a different colour. <strong>Both go on the same order at the same price.</strong>",
+        "options": [
+          "Staff colour",
+          "Fuller cut",
+          "Polo collar",
+          "Name on chest"
+        ]
+      },
+      {
+        "title": "Snap or Pullover",
+        "desc": "A pullover comes off over the head; a snap front comes off without disturbing the jersey underneath. <strong>Programmes with a strict warm-up routine usually prefer snaps.</strong>",
+        "options": [
+          "Pullover (default)",
+          "Snap front",
+          "Quarter-zip",
+          "Full zip"
+        ]
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Cold wash, inside out</strong> — protects the large front logo, which is the point of the garment."
+      },
+      {
+        "text": "<strong>Hang to dry</strong> — a warm-up lives on a hanger between games and should keep its line."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No ironing on the artwork</strong> — direct heat is the only genuine risk to a sublimated print."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No fabric softener</strong> — it dulls a large colour block faster than a small one."
+      }
+    ],
+    "floridaNote": "<strong>Florida programmes tend to warm up in this and take it off before tip-off</strong> rather than wearing it through a bench rotation — the gyms are warm enough that nobody keeps a second layer on. That argues for the standard knit over the wicking one: it is worn for twenty minutes, so how it holds its shape and photographs matters more than how it handles sweat.",
+    "sizing": {
+      "tabs": [
+        "adult",
+        "youth"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Warm-Up Jerseys",
+          "steps": [
+            "<strong>Measure over the game jersey</strong> — this goes on over the top, not against the skin.",
+            "<strong>Size up one</strong> from the player's game jersey. That is the design rather than an error.",
+            "<strong>Staff sizes:</strong> Coaching staff usually want a fuller cut again — one above their normal shirt size.",
+            "<strong>Booster orders:</strong> Family sizing follows a normal adult shirt, with no over-layer allowance."
+          ]
+        }
+      ]
+    }
   },
   "youth-basketball-jerseys": {
     "noun": "Jerseys",
@@ -5405,7 +6160,148 @@
     "fabricIntro": "The <strong>same sublimation polyester as our adult jerseys in a slightly softer finish</strong>. Younger players notice fabric against the skin far more than adults do, and an uncomfortable jersey gets complained about for a whole season.",
     "sizingIntro": "Youth sizing runs on <strong>height and chest together</strong>; where the two disagree, follow the chest. For a season-long order, size up — a jersey slightly large in November fits properly by February.",
     "bestForIntro": "Youth jerseys fit <strong>leagues, middle school programs and rec teams buying game kit</strong>. For practice, youth practice jerseys cost far less and take the same abuse.",
-    "notFitIntro": "This is game kit. For weeknight training and scrimmages, these cost a fraction and wear just as hard."
+    "notFitIntro": "This is game kit. For weeknight training and scrimmages, these cost a fraction and wear just as hard.",
+    "sections": [
+      "pov",
+      "psg",
+      "pwb",
+      "pco",
+      "pfb"
+    ],
+    "fabrics": {
+      "list": [
+        "sublimation",
+        "mesh"
+      ],
+      "recommended": "sublimation",
+      "notes": {
+        "sublimation": {
+          "desc": "The same knit as our adult jerseys in a softer finish. <strong>Children register fabric against the skin far more than adults do</strong>, and a jersey a child finds scratchy becomes a complaint every game night for a season — usually reported to a parent rather than a coach.",
+          "pros": [
+            "<strong>Softer face</strong> than the adult standard",
+            "<strong>Survives family laundry</strong> — no care label to follow",
+            "<strong>Colour cannot crack</strong> however it is washed"
+          ]
+        },
+        "mesh": {
+          "desc": "Common at youth level because <strong>children overheat faster than adults and say so sooner</strong>. If your league plays in community halls, the difference is more noticeable at this age than any other.",
+          "pros": [
+            "<strong>Much cooler in an unconditioned hall</strong>",
+            "<strong>Bonded number panel</strong> keeps digits readable",
+            "<strong>Snags more easily</strong>"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Players Growing Through a Season",
+        "desc": "The problem adult kit never has. <strong>A jersey bought in October is worn by a different-sized child in March</strong>, and a jersey that fits half a season is a jersey bought twice.",
+        "points": [
+          "Extra body length and a deeper armhole",
+          "Neckline stays comfortable as shoulders broaden",
+          "Sized up in November, fits properly by February"
+        ]
+      },
+      {
+        "fit": "perfect",
+        "title": "Leagues Ordering for Every Team",
+        "desc": "Twelve teams, one order, twelve colourways. <strong>Each team's shade is stored separately</strong>, so a replacement in year two matches the rest of that team's set.",
+        "points": [
+          "League-wide pricing",
+          "Colours stored per team",
+          "One delivery, sorted by team"
+        ]
+      },
+      {
+        "fit": "good",
+        "title": "Middle School and Academy Squads",
+        "desc": "Programmes that want a real uniform rather than numbered shirts. <strong>Numbers print one size up as standard</strong>, because a rec gym is read from further back than an arena.",
+        "points": [
+          "Oversized numbers included",
+          "Mixed youth sizes on one order",
+          "Sponsor space on the back"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "Oversized Numbers",
+        "desc": "A size larger than adult kit by default. <strong>Volunteer officials and parents read from further away</strong> in a community hall, and the extra size costs nothing to print.",
+        "options": [
+          "Oversized (default)",
+          "Standard",
+          "League-specified",
+          "Front and back"
+        ]
+      },
+      {
+        "title": "Sponsor Recognition",
+        "desc": "Rec teams are frequently funded by a local business, and the sponsor mark is often what pays for the order. <strong>It costs nothing extra to include.</strong>",
+        "options": [
+          "Back sponsor",
+          "Chest sponsor",
+          "Sleeve",
+          "None"
+        ]
+      },
+      {
+        "title": "Player Names",
+        "desc": "Free where wanted, though <strong>some youth leagues prohibit names on kit</strong> — worth checking before ordering rather than after.",
+        "options": [
+          "Surname",
+          "First name",
+          "None (default)"
+        ]
+      }
+    ],
+    "construction": [
+      {
+        "title": "Growth-Allowed Cut",
+        "body": "Extra body length and a slightly deeper armhole than a straight youth scale. <strong>A season of growth is absorbed</strong> without the jersey looking oversized on day one."
+      },
+      {
+        "title": "Bound Neckline",
+        "body": "Bound so it stays comfortable as shoulders broaden. <strong>A neckline that has become tight is why a child stops wearing a jersey</strong>, and it is rarely reported until the season is over."
+      },
+      {
+        "title": "Softer Face Finish",
+        "body": "The same fibre, finished softer. <strong>Comfort complaints at youth level are about texture far more often than fit</strong>, and they are the reason kit gets left at home."
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Any household wash is fine</strong> — hot, cold, with everything else. That is deliberate."
+      },
+      {
+        "text": "<strong>Tumble dry</strong> — no care ritual for a parent to follow."
+      },
+      {
+        "text": "<strong>No colour transfer</strong> — the dye is inside the fibre, so a red jersey will not pink a white wash."
+      },
+      {
+        "dont": true,
+        "text": "<strong>Fabric softener is the only thing to avoid</strong>, and it is not urgent."
+      }
+    ],
+    "floridaNote": "<strong>Youth basketball here is played in the warmest venues in the state.</strong> Community centres, church halls and school auxiliary gyms are rarely conditioned to an arena standard, and children notice heat sooner and say so sooner. If your league plays in those buildings, order the mesh version — at this age the difference in complaints is immediate.",
+    "sizing": {
+      "tabs": [
+        "youth"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Youth Jerseys",
+          "steps": [
+            "<strong>Height and chest together</strong>; where the two disagree, follow the chest.",
+            "<strong>Size up once for the season</strong> — slightly large in November fits properly by February.",
+            "<strong>Do not size up twice</strong> — two sizes large is a jersey that never fits and gets in the way all season.",
+            "<strong>Send us the roster:</strong> heights and weights with a quote request and we will size every player at no charge."
+          ]
+        }
+      ]
+    }
   },
   "blank-basketball-jerseys": {
     "noun": "Jerseys",
@@ -5642,7 +6538,118 @@
     "fabricIntro": "Built from the <strong>same sublimation polyester as our full-design jerseys</strong>. A plain jersey is not a cheaper fabric — it is the same garment with a simpler layout, which is where the saving actually comes from.",
     "sizingIntro": "Sized on <strong>chest at the fullest point, arms relaxed</strong>, exactly as our other jerseys. Polyester does not shrink, so order the size you intend to wear.",
     "bestForIntro": "Plain jerseys fit <strong>tight budgets, large roster counts, and programs that want the classic solid look</strong>. If your identity depends on a logo or a distinctive pattern, a full-design jersey is worth the difference.",
-    "notFitIntro": "A single solid color cannot carry a detailed identity. If your program has a logo or pattern that matters, choose one of these."
+    "notFitIntro": "A single solid color cannot carry a detailed identity. If your program has a logo or pattern that matters, choose one of these.",
+    "sections": [
+      "pov",
+      "pwb",
+      "psg",
+      "pfb"
+    ],
+    "fabrics": {
+      "list": [
+        "sublimation",
+        "mesh"
+      ],
+      "recommended": "sublimation",
+      "notes": {
+        "sublimation": {
+          "desc": "A plain jersey is not a cheaper fabric — it is the same 155 GSM polyester with a simpler layout, and that is where the saving comes from. <strong>Nothing about the garment is reduced</strong>, only the number of design elements printed onto it.",
+          "pros": [
+            "<strong>Same fabric as our full-design jerseys</strong>",
+            "<strong>The saving is in the layout</strong>, not the cloth",
+            "<strong>Fastest to reorder</strong> — a simple file reprints exactly"
+          ]
+        },
+        "mesh": {
+          "desc": "A plain mesh jersey is the cheapest cool option we make. <strong>Solid colour and open weave</strong>, with numbers on a bonded panel.",
+          "pros": [
+            "<strong>Cheapest cool jersey</strong> in the range",
+            "<strong>Bonded number panel</strong>",
+            "<strong>Visible weave</strong>"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Tight Budgets and Large Rosters",
+        "desc": "The cheapest finished jersey here. <strong>A single-colour layout is the least expensive thing to produce</strong>, and on a roster of thirty that difference is the whole order.",
+        "points": [
+          "Lowest price for a finished jersey",
+          "Arrives numbered and ready to play in",
+          "No design stage to wait for"
+        ]
+      },
+      {
+        "fit": "perfect",
+        "title": "Programs Wanting the Classic Look",
+        "desc": "A solid jersey with clean numerals still reads as the most serious uniform in most gyms. <strong>This is not only the budget choice</strong> — plenty of programmes choose it on purpose.",
+        "points": [
+          "Classic solid appearance",
+          "Number styling carries the whole design",
+          "Reorders match exactly, years later"
+        ]
+      },
+      {
+        "fit": "consider",
+        "title": "Programs With an Identity to Show",
+        "desc": "A single solid colour cannot carry a crest, a pattern or a sponsor block. <strong>If your identity depends on any of those, a full-design jersey is worth the difference.</strong>",
+        "points": [
+          "Sublimated jerseys carry full artwork",
+          "No per-colour charge on those either",
+          "Same garment underneath"
+        ]
+      }
+    ],
+    "construction": [
+      {
+        "title": "Same Garment, Simpler Layout",
+        "body": "Identical cut, fabric, seams and bound edges to our full-design jerseys. <strong>The only difference is how many elements are printed</strong>, which is why the saving does not come out of the garment."
+      },
+      {
+        "title": "Bound Armholes and Neck",
+        "body": "Bound rather than hemmed, as on every jersey here. <strong>On a plain jersey the edges are more visible</strong>, because there is no panel design to draw the eye away from them."
+      },
+      {
+        "title": "Number Styling as the Design",
+        "body": "With no pattern, the numeral font, size and outline weight are the entire visual identity. <strong>Those are the choices worth spending proof time on</strong> rather than rushing."
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Cold wash, inside out</strong>."
+      },
+      {
+        "text": "<strong>Air dry</strong> — keeps the bound edges, which show more on a plain jersey."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No fabric softener</strong> — a large flat colour area shows dulling sooner than a patterned one."
+      },
+      {
+        "dont": true,
+        "text": "<strong>Do not bleach</strong> — it attacks the dye rather than the stain."
+      }
+    ],
+    "floridaNote": "<strong>A plain jersey in a light colour is the cheapest way to be cool in a Florida gym.</strong> Solid white or a pale team colour reflects rather than absorbs, the fabric is the same as everything else here, and there is no dark dyed panel adding heat. For programmes on a tight budget in an unconditioned hall, that combination is worth more than any fabric upgrade.",
+    "sizing": {
+      "tabs": [
+        "adult",
+        "youth"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Plain Jerseys",
+          "steps": [
+            "<strong>Chest:</strong> Fullest point, arms relaxed, tape horizontal.",
+            "<strong>No shrinkage:</strong> Polyester holds its dimensions. Order the size you intend to wear.",
+            "<strong>Large rosters:</strong> Most programmes ordering thirty or more send a size spread rather than a per-player list.",
+            "<strong>Reorders:</strong> A simple layout reprints exactly, so a replacement in year three matches the originals."
+          ]
+        }
+      ]
+    }
   },
   "black-basketball-jersey": {
     "noun": "Jersey",
