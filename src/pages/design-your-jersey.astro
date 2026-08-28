@@ -1,0 +1,410 @@
+---
+// A jersey designer that produces a SPEC, not a mockup.
+//
+// The preview exists to make choices concrete — you can see a contrast panel
+// against a base color and decide you do not like it. What it deliberately
+// does not do is promise the color you see. Screens build color from light and
+// fabric builds it from dye, and the two disagree most on exactly the colors
+// teams choose; the page says so plainly next to the preview rather than
+// leaving somebody to discover it on delivery.
+//
+// Submitting sends the spec to the same /api/quote endpoint every other form
+// on the site uses, so it lands with the same people in the same format.
+import Shell from '../layouts/Shell.astro';
+import { makePage } from '../lib/newpage.js';
+import { breadcrumbSchema, faqSchema, schemaTags } from '../lib/schema.js';
+
+const route = '/design-your-jersey/';
+const page = makePage({
+  route,
+  title: 'Design Your Own Basketball Jersey | Free Online Jersey Designer',
+  description:
+    'Build your team jersey — colors, panel style, neckline, team name and numbers — see it as you go, then send the spec for a free quote. No minimum order.',
+  styles: ['/assets/fbj-designer.css'],
+});
+
+const COLORS = [
+  ['#0B1F3A', 'Navy'], ['#111111', 'Black'], ['#FFFFFF', 'White'], ['#B01B2E', 'Red'],
+  ['#F4700A', 'Orange'], ['#F5C518', 'Gold'], ['#1D6F42', 'Forest'], ['#2E9E4F', 'Kelly'],
+  ['#1B4F9C', 'Royal'], ['#5B2D8E', 'Purple'], ['#8A8F98', 'Gray'], ['#D94E8F', 'Pink'],
+  ['#00A3A3', 'Teal'], ['#7A1F1F', 'Maroon'],
+];
+
+const faqs = [
+  { q: 'Is the color I see here the color I will get?', a: 'Not exactly, and we would rather say so here than on delivery. A screen makes color by adding light and fabric makes it by absorbing it, and the two ranges do not fully overlap — purple and orange sit furthest apart. Use the preview to decide layout and contrast, then send us a Pantone value or a physical sample for the actual color, and we match to that.' },
+  { q: 'Do I have to finish the design to get a quote?', a: 'No. Send whatever you have — even just the garment and a rough color direction. Our design team finishes it from there at no charge, and you approve a digital proof before anything is printed.' },
+  { q: 'Can I upload our existing logo?', a: 'Yes, on the quote form. A vector file is best because it scales to a full chest without softening. If you only have an image we redraw it as vector at no charge rather than printing a soft one.' },
+  { q: 'Does a more complicated design cost more?', a: 'No. The whole design is printed in one pass rather than one screen per color, so colors, gradients and panel styles do not change the price. What sets the price is the garment.' },
+];
+
+const jsonLd = schemaTags([faqSchema(faqs), breadcrumbSchema(route, 'Design Your Jersey')]);
+---
+<Shell page={page}>
+  <div class="fbj-dz">
+
+    <header class="fbj-dz-head">
+      <div class="fbj-dz-inner">
+        <div class="fbj-dz-kicker">Free jersey designer</div>
+        <h1 class="fbj-dz-h1">Design Your <span>Team Jersey</span></h1>
+        <p class="fbj-dz-lede">
+          Pick the garment, the colors, the panel style and the lettering, and watch it come together.
+          When it looks right, send the spec — our design team finishes it and you approve a proof
+          before anything is printed. <strong>Design and proofing are free.</strong>
+        </p>
+      </div>
+    </header>
+
+    <div class="fbj-dz-inner">
+      <div class="fbj-dz-main">
+
+        <!-- ── preview ─────────────────────────────────────────────── -->
+        <div class="fbj-dz-stage">
+          <div class="fbj-dz-views" role="group" aria-label="View" data-views>
+            <button type="button" class="fbj-dz-view" data-view="front" aria-pressed="true">Front</button>
+            <button type="button" class="fbj-dz-view" data-view="back" aria-pressed="false">Back</button>
+          </div>
+
+          <svg class="fbj-dz-canvas" viewBox="0 0 420 520" role="img" aria-label="Jersey preview" data-canvas>
+            <defs>
+              <clipPath id="dz-body-clip">
+                <path d="M150 52 Q210 92 270 52 L306 66 Q330 96 330 132 Q330 152 312 156 L300 122 L300 452
+                         Q210 472 120 452 L120 122 L108 156 Q90 152 90 132 Q90 96 114 66 Z" />
+              </clipPath>
+            </defs>
+
+            <!-- shorts (hidden unless the garment is shorts) -->
+            <g data-garment="shorts" style="display:none">
+              <clipPath id="dz-shorts-clip">
+                <path d="M104 96 L316 96 L312 330 Q272 344 232 330 L210 214 L188 330 Q148 344 108 330 Z"/>
+              </clipPath>
+              <path data-fill="base" d="M104 96 L316 96 L312 330 Q272 344 232 330 L210 214 L188 330 Q148 344 108 330 Z"
+                    stroke="#00000022" stroke-width="2"/>
+              <g clip-path="url(#dz-shorts-clip)">
+                <!-- waistband -->
+                <rect data-fill="accent" x="96" y="96" width="228" height="26"/>
+                <!-- side stripes, shown for every panel style except Plain -->
+                <g data-shorts-panel="on">
+                  <path data-fill="accent" d="M104 122 L128 122 L124 336 L108 336 Z"/>
+                  <path data-fill="accent" d="M292 122 L316 122 L312 336 L296 336 Z"/>
+                </g>
+              </g>
+              <text data-shorts-text="number" x="150" y="268" text-anchor="middle" font-family="Barlow Condensed, sans-serif"
+                    font-weight="800" font-size="48" data-fill-text="accent">23</text>
+            </g>
+
+            <!-- jersey: sleeveless, with cut armholes — a basketball cut rather
+                 than a tee. The body path and the clip path are the same shape,
+                 so a panel can never paint outside the garment. -->
+            <g data-garment="jersey">
+              <path data-fill="base"
+                    d="M150 52 Q210 92 270 52 L306 66 Q330 96 330 132 Q330 152 312 156 L300 122 L300 452
+                       Q210 472 120 452 L120 122 L108 156 Q90 152 90 132 Q90 96 114 66 Z"
+                    stroke="#00000022" stroke-width="2"/>
+
+              <g clip-path="url(#dz-body-clip)">
+                <g data-panel="side">
+                  <path data-fill="accent" d="M120 122 L146 122 L146 460 L120 456 Z"/>
+                  <path data-fill="accent" d="M274 122 L300 122 L300 456 L274 460 Z"/>
+                </g>
+                <g data-panel="shoulder" style="display:none">
+                  <path data-fill="accent"
+                        d="M150 52 Q210 92 270 52 L306 66 Q330 96 330 132 Q330 152 312 156 L300 122 L300 150
+                           L120 150 L120 122 L108 156 Q90 152 90 132 Q90 96 114 66 Z" opacity="0.96"/>
+                </g>
+                <g data-panel="stripe" style="display:none">
+                  <rect data-fill="accent" x="88" y="214" width="256" height="26"/>
+                  <rect data-fill="accent" x="88" y="250" width="256" height="12" opacity="0.75"/>
+                </g>
+                <g data-panel="fade" style="display:none">
+                  <defs>
+                    <linearGradient id="dz-fade" x1="0" y1="1" x2="0" y2="0">
+                      <stop offset="0%" data-stop="accent" stop-opacity="0.95"/>
+                      <stop offset="100%" data-stop="accent" stop-opacity="0"/>
+                    </linearGradient>
+                  </defs>
+                  <rect x="80" y="40" width="270" height="440" fill="url(#dz-fade)"/>
+                </g>
+                <g data-panel="none" style="display:none"></g>
+              </g>
+
+              <!-- neckline, drawn over whatever panel is showing -->
+              <path data-neck="crew" data-fill="accent" d="M150 52 Q210 92 270 52 L276 68 Q210 112 144 68 Z"/>
+              <path data-neck="v" data-fill="accent" style="display:none"
+                    d="M150 52 L210 116 L270 52 L278 66 L210 138 L142 66 Z"/>
+
+              <!-- lettering. Placed clear of the shoulder yoke, which reaches y=150. -->
+              <text data-jersey-text="team" x="210" y="206" text-anchor="middle" font-family="Barlow Condensed, sans-serif"
+                    font-weight="800" font-size="36" letter-spacing="2" data-fill-text="accent">TEAM</text>
+              <text data-jersey-text="number" x="210" y="342" text-anchor="middle" font-family="Barlow Condensed, sans-serif"
+                    font-weight="800" font-size="116" data-fill-text="accent">23</text>
+              <text data-jersey-text="player" x="210" y="196" text-anchor="middle" font-family="Barlow Condensed, sans-serif"
+                    font-weight="700" font-size="26" letter-spacing="3" style="display:none" data-fill-text="accent">PLAYER</text>
+            </g>
+          </svg>
+
+          <p class="fbj-dz-disclaimer">
+            <strong>The preview shows layout, not color.</strong> A screen makes color from light and fabric
+            makes it from dye, and the two do not fully overlap — purple and orange disagree most. Send a
+            Pantone value or a garment you already own and we match to that, then store it for reorders.
+          </p>
+        </div>
+
+        <!-- ── controls ────────────────────────────────────────────── -->
+        <form class="fbj-dz-panel" method="post" action="/api/quote" enctype="multipart/form-data" novalidate data-dz-form>
+          <input type="hidden" name="referer_title" value="Design Your Jersey | Florida Basketball Jerseys" />
+          <input type="hidden" name="page_url" value="" data-fill="url" />
+          <input type="hidden" name="form_fields[field_a858f27]" value="" data-spec-product />
+          <input type="hidden" name="form_fields[message]" value="" data-spec-message />
+          <div class="fbj-dz-hp" aria-hidden="true">
+            <label>Leave empty<input type="text" name="form_fields[field_228829a]" tabindex="-1" autocomplete="off" /></label>
+          </div>
+
+          <div class="fbj-dz-group">
+            <span class="fbj-dz-label">Garment</span>
+            <div class="fbj-dz-chips" role="group" data-opt="garment">
+              <button type="button" class="fbj-dz-chip" data-value="Jersey" aria-pressed="true">Jersey</button>
+              <button type="button" class="fbj-dz-chip" data-value="Shorts" aria-pressed="false">Shorts</button>
+              <button type="button" class="fbj-dz-chip" data-value="Full uniform set" aria-pressed="false">Full set</button>
+            </div>
+          </div>
+
+          <div class="fbj-dz-group">
+            <span class="fbj-dz-label">Base color</span>
+            <p class="fbj-dz-hint">Indicative only — the real match comes from your Pantone value or a sample.</p>
+            <div class="fbj-dz-swatches" role="group" data-opt="base">
+              {COLORS.map(([hex, name], i) => (
+                <button type="button" class="fbj-dz-sw" style={`background:${hex}`} data-value={hex}
+                        data-name={name} title={name} aria-label={name} aria-pressed={i === 0 ? 'true' : 'false'}></button>
+              ))}
+            </div>
+          </div>
+
+          <div class="fbj-dz-group">
+            <span class="fbj-dz-label">Accent color</span>
+            <div class="fbj-dz-swatches" role="group" data-opt="accent">
+              {COLORS.map(([hex, name], i) => (
+                <button type="button" class="fbj-dz-sw" style={`background:${hex}`} data-value={hex}
+                        data-name={name} title={name} aria-label={name} aria-pressed={i === 4 ? 'true' : 'false'}></button>
+              ))}
+            </div>
+          </div>
+
+          <div class="fbj-dz-group">
+            <span class="fbj-dz-label">Panel style</span>
+            <div class="fbj-dz-chips" role="group" data-opt="panel">
+              <button type="button" class="fbj-dz-chip" data-value="side" aria-pressed="true">Side panels</button>
+              <button type="button" class="fbj-dz-chip" data-value="shoulder" aria-pressed="false">Shoulder yoke</button>
+              <button type="button" class="fbj-dz-chip" data-value="stripe" aria-pressed="false">Chest stripe</button>
+              <button type="button" class="fbj-dz-chip" data-value="fade" aria-pressed="false">Gradient fade</button>
+              <button type="button" class="fbj-dz-chip" data-value="none" aria-pressed="false">Plain</button>
+            </div>
+          </div>
+
+          <div class="fbj-dz-group">
+            <span class="fbj-dz-label">Neckline</span>
+            <div class="fbj-dz-chips" role="group" data-opt="neck">
+              <button type="button" class="fbj-dz-chip" data-value="crew" aria-pressed="true">Crew</button>
+              <button type="button" class="fbj-dz-chip" data-value="v" aria-pressed="false">V-neck</button>
+            </div>
+          </div>
+
+          <div class="fbj-dz-group">
+            <span class="fbj-dz-label">Lettering</span>
+            <div class="fbj-dz-field"><input type="text" maxlength="16" placeholder="Team name" data-in="team" value="TEAM" aria-label="Team name" /></div>
+            <div class="fbj-dz-row">
+              <div class="fbj-dz-field"><input type="text" maxlength="3" placeholder="Number" data-in="number" value="23" aria-label="Number" /></div>
+              <div class="fbj-dz-field"><input type="text" maxlength="14" placeholder="Player name (optional)" data-in="player" aria-label="Player name" /></div>
+            </div>
+          </div>
+
+          <div class="fbj-dz-group">
+            <span class="fbj-dz-label">Your spec so far</span>
+            <div class="fbj-dz-spec" data-spec-view aria-live="polite"></div>
+          </div>
+
+          <div class="fbj-dz-group">
+            <span class="fbj-dz-label">Send it for a free quote</span>
+            <div class="fbj-dz-row">
+              <div class="fbj-dz-field"><input type="text" name="form_fields[name]" placeholder="Your name" autocomplete="name" /></div>
+              <div class="fbj-dz-field"><input type="tel" name="form_fields[field_f54cfcb]" placeholder="Phone" autocomplete="tel" required /></div>
+            </div>
+            <div class="fbj-dz-field"><input type="email" name="form_fields[email]" placeholder="Email" autocomplete="email" required /></div>
+            <div class="fbj-dz-row">
+              <div class="fbj-dz-field"><input type="text" data-in="qty" placeholder="How many?" aria-label="Quantity" /></div>
+              <div class="fbj-dz-field"><input type="text" data-in="date" placeholder="Date needed" aria-label="Date needed" /></div>
+            </div>
+            <div class="fbj-dz-field">
+              <input type="file" name="form_fields[field_e4013ab][]" accept="image/*,.pdf,.ai,.eps,.svg" aria-label="Attach your logo" />
+            </div>
+            <button class="fbj-dz-btn" type="submit">Send My Design</button>
+            <p class="fbj-dz-msg" role="status" aria-live="polite" data-dz-msg></p>
+          </div>
+        </form>
+
+      </div>
+
+      <section style="padding: 30px 0 56px;">
+        <h2 style="font-family:'Barlow Condensed',sans-serif;font-weight:800;text-transform:uppercase;font-size:30px;margin:0 0 18px;">Questions</h2>
+        {faqs.map((f) => (
+          <div style="border-top:1px solid #E2E8F0;padding:18px 0;">
+            <h3 style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:20px;margin:0 0 8px;">{f.q}</h3>
+            <p style="margin:0;font-size:15.5px;line-height:1.68;color:#46586B;max-width:76ch;">{f.a}</p>
+          </div>
+        ))}
+      </section>
+    </div>
+  </div>
+  <Fragment set:html={jsonLd} />
+</Shell>
+
+<script is:inline>
+(function () {
+  var form = document.querySelector('[data-dz-form]');
+  var svg = document.querySelector('[data-canvas]');
+  if (!form || !svg) return;
+
+  var state = {
+    garment: 'Jersey', base: '#0B1F3A', baseName: 'Navy', accent: '#F4700A', accentName: 'Orange',
+    panel: 'side', neck: 'crew', team: 'TEAM', number: '23', player: '', qty: '', date: '', view: 'front',
+  };
+
+  var url = form.querySelector('[data-fill="url"]');
+  if (url) url.value = window.location.href;
+
+  function paint() {
+    var showShorts = state.garment === 'Shorts';
+    svg.querySelector('[data-garment="jersey"]').style.display = showShorts ? 'none' : '';
+    svg.querySelector('[data-garment="shorts"]').style.display = showShorts ? '' : 'none';
+
+    // Front and back are the same on a pair of shorts, so the toggle would be
+    // a control that does nothing. Hide it rather than leave it inert.
+    var views = document.querySelector('[data-views]');
+    if (views) views.style.display = showShorts ? 'none' : '';
+
+    var shortsPanel = svg.querySelector('[data-shorts-panel]');
+    if (shortsPanel) shortsPanel.style.display = state.panel === 'none' ? 'none' : '';
+
+    svg.querySelectorAll('[data-fill="base"]').forEach(function (el) { el.setAttribute('fill', state.base); });
+    svg.querySelectorAll('[data-fill="accent"]').forEach(function (el) { el.setAttribute('fill', state.accent); });
+    svg.querySelectorAll('[data-stop="accent"]').forEach(function (el) { el.setAttribute('stop-color', state.accent); });
+    svg.querySelectorAll('[data-fill-text="accent"]').forEach(function (el) { el.setAttribute('fill', state.accent); });
+
+    svg.querySelectorAll('[data-panel]').forEach(function (g) {
+      g.style.display = g.getAttribute('data-panel') === state.panel ? '' : 'none';
+    });
+    svg.querySelectorAll('[data-neck]').forEach(function (g) {
+      g.style.display = g.getAttribute('data-neck') === state.neck ? '' : 'none';
+    });
+
+    // Scoped per garment. The first version used [data-text="number"], and
+    // querySelector returned the SHORTS number because that group comes first
+    // in the SVG — so typing a number updated a hidden element and the jersey
+    // kept saying 23 no matter what was typed.
+    var team = svg.querySelector('[data-jersey-text="team"]');
+    var number = svg.querySelector('[data-jersey-text="number"]');
+    var player = svg.querySelector('[data-jersey-text="player"]');
+    var shortsNumber = svg.querySelector('[data-shorts-text="number"]');
+    if (shortsNumber) shortsNumber.textContent = state.number;
+    var back = state.view === 'back';
+
+    // The back of a jersey carries the player's name above the number and no
+    // team name; the front carries the team name. Showing the same face twice
+    // would make the toggle decorative.
+    team.style.display = back ? 'none' : '';
+    team.textContent = state.team.toUpperCase();
+    player.style.display = back && state.player ? '' : 'none';
+    player.textContent = state.player.toUpperCase();
+    number.textContent = state.number;
+
+    describe();
+  }
+
+  function describe() {
+    var el = form.querySelector('[data-spec-view]');
+    var isShorts = state.garment === 'Shorts';
+    var panelName = { side: 'Side panels', shoulder: 'Shoulder yoke', stripe: 'Chest stripe', fade: 'Gradient fade', none: 'Plain' }[state.panel];
+
+    var bits = [
+      ['Garment', state.garment],
+      ['Base color', state.baseName],
+      ['Accent color', state.accentName],
+    ];
+    // A pair of shorts has no neckline and no chest stripe. Listing either
+    // would put something in the spec that the factory cannot act on, and the
+    // spec is what a real person reads before quoting.
+    if (isShorts) {
+      bits.push(['Trim', state.panel === 'none' ? 'Plain, matched waistband' : 'Side stripes + waistband']);
+      bits.push(['Leg number', state.number || 'None']);
+    } else {
+      bits.push(['Panel style', panelName]);
+      bits.push(['Neckline', state.neck === 'v' ? 'V-neck' : 'Crew']);
+      bits.push(['Team name', state.team || '—']);
+      bits.push(['Number', state.number || '—']);
+      if (state.player) bits.push(['Player name', state.player]);
+    }
+    if (state.qty) bits.push(['Quantity', state.qty]);
+    if (state.date) bits.push(['Date needed', state.date]);
+
+    el.innerHTML = bits.map(function (b) { return '<b>' + b[0] + ':</b> ' + b[1]; }).join('<br>');
+    form.querySelector('[data-spec-product]').value = state.garment + ' — ' + state.baseName + ' / ' + state.accentName;
+    form.querySelector('[data-spec-message]').value =
+      'Design submitted from the jersey designer.\n' +
+      bits.map(function (b) { return b[0] + ': ' + b[1]; }).join('\n') +
+      '\n\nNote: colors above are the designer\'s indicative swatches, not a matched value.';
+  }
+
+  function group(name, apply) {
+    form.querySelectorAll('[data-opt="' + name + '"] button').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        btn.parentElement.querySelectorAll('button').forEach(function (b) { b.setAttribute('aria-pressed', 'false'); });
+        btn.setAttribute('aria-pressed', 'true');
+        apply(btn);
+        paint();
+      });
+    });
+  }
+
+  group('garment', function (b) { state.garment = b.dataset.value; });
+  group('base', function (b) { state.base = b.dataset.value; state.baseName = b.dataset.name; });
+  group('accent', function (b) { state.accent = b.dataset.value; state.accentName = b.dataset.name; });
+  group('panel', function (b) { state.panel = b.dataset.value; });
+  group('neck', function (b) { state.neck = b.dataset.value; });
+
+  form.querySelectorAll('[data-in]').forEach(function (input) {
+    input.addEventListener('input', function () { state[input.dataset.in] = input.value; paint(); });
+  });
+
+  document.querySelectorAll('.fbj-dz-view').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      document.querySelectorAll('.fbj-dz-view').forEach(function (b) { b.setAttribute('aria-pressed', 'false'); });
+      btn.setAttribute('aria-pressed', 'true');
+      state.view = btn.dataset.view;
+      paint();
+    });
+  });
+
+  var msgEl = form.querySelector('[data-dz-msg]');
+  var btn = form.querySelector('button[type=submit]');
+  function say(t, k) { msgEl.textContent = t; msgEl.className = 'fbj-dz-msg' + (k ? ' fbj-dz-msg--' + k : ''); }
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var email = form.querySelector('input[type=email]');
+    var phone = form.querySelector('input[type=tel]');
+    if (!email.value || email.value.indexOf('@') < 1) { say('Please enter a valid email address.', 'err'); email.focus(); return; }
+    if (!phone.value.trim()) { say('Please add a phone number so we can reach you.', 'err'); phone.focus(); return; }
+    describe();
+    btn.disabled = true; say('Sending your design…');
+    fetch(form.action, { method: 'POST', body: new FormData(form) })
+      .then(function (r) { return r.json().catch(function () { return { success: r.ok }; }); })
+      .then(function (d) {
+        if (d && d.success) { say('Got it. Our design team will come back to you within 24 hours with a proof.', 'ok'); }
+        else { say((d && d.message) || 'Something went wrong. Please call us or try again.', 'err'); }
+      })
+      .catch(function () { say('Something went wrong. Please call us or try again.', 'err'); })
+      .then(function () { btn.disabled = false; });
+  });
+
+  paint();
+})();
+</script>

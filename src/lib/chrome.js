@@ -39,6 +39,22 @@ function citiesColumn() {
 
 const COMPANY_COL = '<div class="fbj-ftr-col">\n        <div class="fbj-ftr-col-title">Company</div>';
 
+/**
+ * A link to the jersey designer, in the footer's Company column.
+ *
+ * Same reasoning as the cities column: a page nothing links to is reachable
+ * only from the sitemap, which is not somewhere a reader walks.
+ */
+function addDesigner(html) {
+  if (!html || html.includes('/design-your-jersey/')) return html;
+  const anchor = '<a href="/how-it-works" class="fbj-ftr-col-link">How It Works</a>';
+  const i = html.indexOf(anchor);
+  if (i < 0) return html;
+  return html.slice(0, i)
+    + '<a href="/design-your-jersey/" class="fbj-ftr-col-link">Design Your Jersey</a>\n          '
+    + html.slice(i);
+}
+
 function addCities(html) {
   if (!html || html.includes('Cities We Serve')) return html;
   const i = html.indexOf(COMPANY_COL);
@@ -59,8 +75,8 @@ const tokens = {
  */
 export function region(name, page) {
   const diff = page.chromeDiff?.[name];
-  if (!diff) return addCities(stripChromeStyles(dropFontImports(rewrite(chrome[name]))));
+  if (!diff) return addDesigner(addCities(stripChromeStyles(dropFontImports(rewrite(chrome[name])))));
   const out = tokens[name].slice();
   for (const [i, tag] of Object.entries(diff)) out[i] = tag;
-  return addCities(stripChromeStyles(dropFontImports(rewrite(out.join('')))));
+  return addDesigner(addCities(stripChromeStyles(dropFontImports(rewrite(out.join(''))))));
 }
