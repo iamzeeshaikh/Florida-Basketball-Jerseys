@@ -6703,7 +6703,163 @@
     "fabricIntro": "Built from <strong>sublimation polyester with the black dyed through the panel</strong> rather than left as base fabric. If your program plays outdoors in Florida heat, ask about the mesh version — an open weave takes most of the heat penalty out of a dark jersey.",
     "sizingIntro": "Measure the chest at the fullest point with arms relaxed. <strong>Dark jerseys read slightly slimmer than light ones at the same size</strong>, which is worth knowing if you are matching a black away kit to a white home kit for the same roster.",
     "bestForIntro": "Black suits <strong>away kits, indoor programs, and any team whose accent color needs a neutral ground</strong>. For hot outdoor play, a white or light jersey stays measurably cooler.",
-    "notFitIntro": "A dark jersey absorbs more heat than a light one, which is real on an outdoor Florida court. For those venues, consider these."
+    "notFitIntro": "A dark jersey absorbs more heat than a light one, which is real on an outdoor Florida court. For those venues, consider these.",
+    "sections": [
+      "pov",
+      "pfb",
+      "pco",
+      "psg",
+      "pwb"
+    ],
+    "fabrics": {
+      "list": [
+        "sublimation",
+        "mesh",
+        "wicking"
+      ],
+      "recommended": "mesh",
+      "notes": {
+        "mesh": {
+          "desc": "We recommend mesh on black specifically, and the reason is physics rather than preference. <strong>A black panel absorbs far more radiant heat than a light one</strong>, and an open weave is the only thing that takes that penalty back. In this state that combination is worth more than it would be almost anywhere else.",
+          "pros": [
+            "<strong>Offsets the heat a dark panel absorbs</strong>",
+            "<strong>Bonded number panel</strong> keeps light numerals crisp",
+            "<strong>Reads casual</strong> — the trade for a main-court look"
+          ]
+        },
+        "sublimation": {
+          "desc": "The standard knit gives black its best appearance — <strong>a smooth closed face makes a dark ground look deep rather than flat</strong>. It is the right choice for an air-conditioned arena where the heat is the building's problem.",
+          "pros": [
+            "<strong>Deepest, richest black</strong> on a closed face",
+            "<strong>Sharpest light numerals</strong>",
+            "<strong>Absorbs the most heat</strong> of the three"
+          ]
+        },
+        "wicking": {
+          "desc": "The middle option. <strong>A closed face with sweat management</strong>, which on a dark jersey matters because black shows salt marks more than mid-tones do.",
+          "pros": [
+            "<strong>Moves sweat before it dries into salt marks</strong>",
+            "<strong>Closed face</strong>",
+            "<strong>Still absorbs heat</strong> — the ground colour decides that"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Away Kits for Any Primary Colour",
+        "desc": "The reason black is the most-ordered away colour in the sport. <strong>Orange, teal, gold, maroon — every accent reads cleanly on it</strong>, which is not true of most grounds.",
+        "points": [
+          "Works with any accent colour a programme owns",
+          "Hides court dust across a season",
+          "Highest contrast for light numerals"
+        ]
+      },
+      {
+        "fit": "good",
+        "title": "Indoor Air-Conditioned Arenas",
+        "desc": "Where the heat penalty of a dark panel does not apply. <strong>In a properly conditioned Florida high school arena, black costs you nothing</strong> and looks the part.",
+        "points": [
+          "No heat penalty indoors",
+          "Deepest appearance on the standard knit",
+          "Standard league sizing"
+        ]
+      },
+      {
+        "fit": "consider",
+        "title": "Outdoor and Unconditioned Play",
+        "desc": "This is the one honest caution on black. <strong>Under direct Florida sun a black jersey is measurably hotter</strong> than a white one, and no fabric fully removes that.",
+        "points": [
+          "Order the mesh version if you play outdoors",
+          "Or run black away and white home",
+          "Same design on both"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "Numeral Contrast",
+        "desc": "Light numerals on black give the highest contrast combination in the sport. <strong>A dark accent numeral will disappear from the bleachers</strong>, and we flag it at proof rather than printing it.",
+        "options": [
+          "White",
+          "Silver",
+          "Gold",
+          "Team accent (reviewed)"
+        ]
+      },
+      {
+        "title": "Accent Panels",
+        "desc": "Black is a ground rather than a limit. <strong>Any accent colour reads on it</strong>, which is exactly why programmes with unusual primaries choose it.",
+        "options": [
+          "Single accent",
+          "Two accents",
+          "Gradient",
+          "Tonal black-on-black"
+        ]
+      },
+      {
+        "title": "Tonal Designs",
+        "desc": "Black-on-black patterns work here in a way they do not on lighter grounds. <strong>A tonal design reads as texture at distance</strong> and as a pattern up close.",
+        "options": [
+          "Tonal pattern",
+          "Matte / gloss effect",
+          "Subtle crest",
+          "None"
+        ]
+      }
+    ],
+    "construction": [
+      {
+        "title": "Dyed Through the Panel",
+        "body": "Sublimation prints light to dark, so a black ground means <strong>the entire panel is dyed rather than left as base fabric</strong>. That makes consistency across a large run more demanding than on white, and it is why your black is matched and stored once."
+      },
+      {
+        "title": "Bound Armholes and Neck",
+        "body": "Bound rather than hemmed. <strong>On a dark jersey a curling edge shows as a pale line</strong> where the fabric's cut edge turns outward — more visible than on any light ground."
+      },
+      {
+        "title": "Flatlock Seams",
+        "body": "Laid flat against the body, standard across our jerseys."
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Cold wash, inside out</strong> — dark grounds show abrasion marks sooner than light ones."
+      },
+      {
+        "text": "<strong>Wash with dark colours</strong> — not because the dye transfers, but because lint from light garments shows on black more than anything else."
+      },
+      {
+        "text": "<strong>Air dry</strong>."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No fabric softener</strong> — build-up is visible on black long before it shows on other colours."
+      },
+      {
+        "dont": true,
+        "text": "<strong>Do not bleach</strong> — on a fully dyed panel this is immediately and permanently visible."
+      }
+    ],
+    "floridaNote": "<strong>The one colour where the Florida climate genuinely argues against a choice.</strong> A black jersey under direct sun runs noticeably hotter than a light one, and that is a property of the colour rather than the fabric. If your programme plays outdoors or in unconditioned halls, order black in mesh — the open weave takes back most of the difference. Indoors, in a conditioned arena, it costs you nothing.",
+    "sizing": {
+      "tabs": [
+        "adult",
+        "youth"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Black Jerseys",
+          "steps": [
+            "<strong>Chest:</strong> Fullest point, arms relaxed.",
+            "<strong>Dark grounds read slimmer:</strong> The same size looks closer-fitting in black than in white. Worth knowing if you run a black away kit against a white home kit on one roster.",
+            "<strong>Order both together:</strong> If you are buying home and away, order in one run so both are cut and sized identically.",
+            "<strong>No shrinkage:</strong> Polyester holds its size."
+          ]
+        }
+      ]
+    }
   },
   "white-basketball-shirt": {
     "noun": "Shirt",
@@ -6757,7 +6913,154 @@
     "fabricIntro": "This uses a <strong>heavier-opacity knit than our colored shirts</strong>. That is deliberate: white is the only ground where a thin fabric becomes see-through under arena lighting, so it is built with more body specifically to avoid it.",
     "sizingIntro": "Measure the chest at the fullest point with arms relaxed. <strong>White reads slightly fuller than a dark shirt at the same size</strong> — worth allowing for if you are matching a white home kit against a black away kit on the same roster.",
     "bestForIntro": "White is right for <strong>home kits, outdoor play, and team photos</strong>. It is the highest-maintenance color we sell, so most programs choosing it order two per player rather than one.",
-    "notFitIntro": "White shows everything a court can put on it. If your season is heavy on outdoor or practice wear, a darker ground stays presentable longer."
+    "notFitIntro": "White shows everything a court can put on it. If your season is heavy on outdoor or practice wear, a darker ground stays presentable longer.",
+    "sections": [
+      "pov",
+      "pfb",
+      "pwb",
+      "pco",
+      "psg"
+    ],
+    "fabrics": {
+      "list": [
+        "sublimation",
+        "wicking"
+      ],
+      "recommended": "sublimation",
+      "notes": {
+        "sublimation": {
+          "desc": "White is built on a heavier-opacity version of the standard knit, and that is not an upsell. <strong>A thin white fabric goes translucent under arena lighting</strong> — the one failure mode no other colour has — so this is the only ground where we specify extra body as standard.",
+          "pros": [
+            "<strong>Built to an opacity standard</strong>, heavier than our coloured jerseys",
+            "<strong>Every accent reproduces at true value</strong> on an undyed ground",
+            "<strong>Reflects heat</strong> rather than absorbing it"
+          ]
+        },
+        "wicking": {
+          "desc": "Available, with a caution. <strong>The wicking knit is lighter, and lighter on white means more translucent</strong> under bright lighting. We would ask for a fabric sample to be checked before ordering it in white.",
+          "pros": [
+            "<strong>Better sweat management</strong>",
+            "<strong>More translucent</strong> — check a sample first",
+            "<strong>Lighter at 145 GSM</strong>"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Traditional Home Kits",
+        "desc": "White has been the home colour in basketball for as long as the rule existed. <strong>It remains the ground every accent colour reproduces most faithfully on</strong>, because nothing is dyed underneath it.",
+        "points": [
+          "Accents print at their true value",
+          "Classic home appearance",
+          "Standard league sizing and numbering"
+        ]
+      },
+      {
+        "fit": "perfect",
+        "title": "Outdoor and Hot Venues",
+        "desc": "The practical case rather than the traditional one. <strong>A white jersey reflects radiant heat rather than absorbing it</strong>, which on an outdoor Florida court in May is measurable.",
+        "points": [
+          "Coolest ground colour available",
+          "Pairs with light shorts for a full hot-weather kit",
+          "Available in mesh for extreme heat"
+        ]
+      },
+      {
+        "fit": "consider",
+        "title": "Programs Without Laundry Support",
+        "desc": "The honest downside. <strong>White shows court dust, sweat marks and grass in a way no other colour does</strong>, and a programme without a reliable laundry routine will notice within a month.",
+        "points": [
+          "Order two per player if possible",
+          "Or run white home and a dark away",
+          "Cold wash and prompt washing help"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "Accent Colour at True Value",
+        "desc": "On an undyed ground, every accent prints exactly as specified. <strong>On a dyed ground the base shifts the accent slightly</strong>, which is why colour-critical designs are proofed on white.",
+        "options": [
+          "Any accent",
+          "Two-tone",
+          "Gradient",
+          "Photographic fill"
+        ]
+      },
+      {
+        "title": "Numeral Contrast",
+        "desc": "Dark numerals give the strongest reading. <strong>A pale accent numeral on white will not carry from the bleachers</strong>, and we flag it at proof.",
+        "options": [
+          "Navy",
+          "Black",
+          "Team dark",
+          "Pale (reviewed)"
+        ]
+      },
+      {
+        "title": "Panel Design",
+        "desc": "White shows a panel design more clearly than any other ground. <strong>Side panels and shoulder blocks read at their full contrast</strong> here.",
+        "options": [
+          "Full side panel",
+          "Shoulder block",
+          "Piping",
+          "Plain"
+        ]
+      }
+    ],
+    "construction": [
+      {
+        "title": "Higher Opacity Knit",
+        "body": "Specified heavier than our coloured jerseys. <strong>Translucency under arena lighting is the one failure unique to white</strong>, and extra body is the only reliable fix."
+      },
+      {
+        "title": "Bound Armholes and Neck",
+        "body": "Bound rather than hemmed. <strong>On white, a curled edge collects dirt along the fold</strong> and shows as a grey line within a season."
+      },
+      {
+        "title": "Undyed Base Fabric",
+        "body": "The ground is the fabric's own colour rather than a dyed panel. <strong>That is why accents reproduce at their true value</strong> and why a white jersey never has a dye run to match."
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Wash promptly after use</strong> — this matters more on white than on anything else here."
+      },
+      {
+        "text": "<strong>Cold wash, inside out, with whites</strong>."
+      },
+      {
+        "text": "<strong>Air dry out of direct sun</strong> — prolonged sun on wet white polyester can yellow it slightly over time."
+      },
+      {
+        "dont": true,
+        "text": "<strong>Do not bleach</strong> — chlorine yellows polyester rather than whitening it, and the effect is permanent."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No fabric softener</strong> — it holds soil on a white ground rather than releasing it."
+      }
+    ],
+    "floridaNote": "<strong>White is the correct answer to a hot outdoor court, and the wrong one to a laundry problem.</strong> It reflects heat better than anything else on this site, and it shows red clay, court dust and grass better than anything else too. Programmes here that play outdoors usually order two per player and accept the upkeep — the heat difference is worth it.",
+    "sizing": {
+      "tabs": [
+        "adult",
+        "youth"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — White Shirts",
+          "steps": [
+            "<strong>Chest:</strong> Fullest point, arms relaxed.",
+            "<strong>White reads fuller:</strong> The same size looks slightly larger in white than in a dark colour. Allow for it if you run white home against a dark away kit.",
+            "<strong>Opacity:</strong> The heavier knit is standard on white; you do not need to size up to compensate for anything.",
+            "<strong>No shrinkage:</strong> Polyester holds its size through hot washes."
+          ]
+        }
+      ]
+    }
   },
   "blue-basketball-jersey": {
     "noun": "Jersey",
@@ -6811,7 +7114,164 @@
     "fabricIntro": "Standard <strong>sublimation polyester with the blue dyed through the panel</strong>. Navy absorbs somewhat more heat than a light ground but noticeably less than black, which is part of why it is the most-used school color in warm states.",
     "sizingIntro": "Measure the chest at the fullest point, arms relaxed. Mid- and dark-blue jerseys read <strong>slightly slimmer than white at the same size</strong>, so if your program runs a navy away and a white home kit, expect them to look a little different on the same player.",
     "bestForIntro": "Blue suits <strong>school programs, long-running teams, and anyone who has to match an existing institutional color</strong>. It works equally as a home or away kit.",
-    "notFitIntro": "If you do not need a specific institutional shade, a simpler plain jersey gets you the same garment for less."
+    "notFitIntro": "If you do not need a specific institutional shade, a simpler plain jersey gets you the same garment for less.",
+    "sections": [
+      "pov",
+      "pco",
+      "pfb",
+      "pwb",
+      "psg"
+    ],
+    "fabrics": {
+      "list": [
+        "sublimation",
+        "wicking",
+        "mesh"
+      ],
+      "recommended": "sublimation",
+      "notes": {
+        "sublimation": {
+          "desc": "Blue is the most-reordered colour in school athletics, which makes <strong>run-to-run consistency the property that matters most</strong>. The standard knit takes dye most predictably of our three fabrics, so a jersey printed three years apart lands on the same shade.",
+          "pros": [
+            "<strong>Most predictable dye uptake</strong> — critical on a reordered colour",
+            "<strong>Deepest navy</strong> on a closed face",
+            "<strong>Standard for school programmes</strong>"
+          ]
+        },
+        "wicking": {
+          "desc": "The poly-spandex blend takes dye slightly differently on the 8% spandex fraction. <strong>On navy this is invisible; on a bright royal it can read half a shade softer</strong>, which we check at proof.",
+          "pros": [
+            "<strong>Fine on navy</strong>",
+            "<strong>Slight softening on bright royal</strong> — proofed",
+            "<strong>4-way stretch</strong>"
+          ]
+        },
+        "mesh": {
+          "desc": "Blue on an open weave reads lighter at distance than the same blue on a closed face, because <strong>less surface is reflecting the colour</strong>. Deep navy handles this better than a mid blue.",
+          "pros": [
+            "<strong>Navy holds up well</strong> on mesh",
+            "<strong>Mid blues read lighter</strong> at distance",
+            "<strong>Coolest option</strong>"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Schools Matching an Institutional Colour",
+        "desc": "Blue is where the shade question is hardest, because <strong>navy, royal, columbia and carolina are four different identities</strong> that a supplier can casually treat as one. A school whose banners are navy will not accept royal.",
+        "points": [
+          "Matched from a Pantone value or a style guide",
+          "The shade is stored against your account",
+          "Year-three reorders return the same blue"
+        ]
+      },
+      {
+        "fit": "perfect",
+        "title": "Long-Running Programs",
+        "desc": "The programmes that reorder every season are the ones a drifting shade hurts. <strong>A stored match is the difference between a squad in one colour and a squad in two.</strong>",
+        "points": [
+          "Same file used for every reorder",
+          "Replacement jerseys match existing sets",
+          "Works for home or away"
+        ]
+      },
+      {
+        "fit": "good",
+        "title": "Programs Wanting Practical Dark Kit",
+        "desc": "Navy hides court marks nearly as well as black while <strong>absorbing measurably less heat</strong>. In Florida that combination is why so many programmes here run navy rather than black.",
+        "points": [
+          "Hides court dust",
+          "Cooler than black under sun",
+          "White and gold accents read strongly"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "Which Blue",
+        "desc": "The first and most important decision. <strong>Send a Pantone number, a school style guide, or a jersey you already own</strong> — not a photograph, which shifts colour on every screen it passes through.",
+        "options": [
+          "Pantone value",
+          "Style guide",
+          "Existing garment",
+          "Physical sample"
+        ]
+      },
+      {
+        "title": "Accent Colour",
+        "desc": "Blue is the most forgiving ground for accents. <strong>White, gold, silver and orange all read strongly against every blue in the family.</strong>",
+        "options": [
+          "White",
+          "Gold",
+          "Silver",
+          "Orange",
+          "Two-tone"
+        ]
+      },
+      {
+        "title": "Numeral Style",
+        "desc": "Contrast is rarely a problem here, so the choice is genuinely stylistic. <strong>On blue, both light and dark numerals work</strong>, which is not true of most grounds.",
+        "options": [
+          "White block",
+          "Gold varsity",
+          "Outlined",
+          "Tonal"
+        ]
+      }
+    ],
+    "construction": [
+      {
+        "title": "Dyed Panel, Matched Once",
+        "body": "Blue is a fully dyed ground. <strong>The match is made once against your reference and stored</strong>, which is what makes a reorder in a later season land on the same shade rather than being judged again by eye."
+      },
+      {
+        "title": "Bound Armholes and Neck",
+        "body": "Bound rather than hemmed, so the edges hold their line across the seasons a long-running programme keeps a jersey."
+      },
+      {
+        "title": "Flatlock Seams",
+        "body": "Standard construction across our jerseys — laid flat against the body with nothing standing proud."
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Cold wash, inside out</strong>."
+      },
+      {
+        "text": "<strong>Wash with like colours</strong> — the dye will not transfer, but other garments' will."
+      },
+      {
+        "text": "<strong>Air dry</strong>."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No fabric softener</strong> — it dulls a dyed ground over a season."
+      },
+      {
+        "dont": true,
+        "text": "<strong>Do not bleach</strong>."
+      }
+    ],
+    "floridaNote": "<strong>Navy is the practical dark colour for this state.</strong> It does most of what black does — hides court dust, takes any accent, reads formally under arena lighting — while absorbing meaningfully less radiant heat. Programmes here that would default to black elsewhere frequently run navy instead, and outdoors that choice is worth more than any fabric upgrade.",
+    "sizing": {
+      "tabs": [
+        "adult",
+        "youth"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Blue Jerseys",
+          "steps": [
+            "<strong>Chest:</strong> Fullest point, arms relaxed.",
+            "<strong>Dark blues read slimmer</strong> than light ones at the same size — relevant if your home and away sit at opposite ends of the family.",
+            "<strong>Armhole:</strong> Check against your league's maximum depth if specified.",
+            "<strong>Roster sizing:</strong> Send heights and weights and we will size the squad at no charge."
+          ]
+        }
+      ]
+    }
   },
   "red-basketball-uniform": {
     "noun": "Uniform",
@@ -6865,7 +7325,154 @@
     "fabricIntro": "Both pieces use the <strong>same sublimation polyester from the same dye run</strong>. That matters more on red than on any other color: printing the top and bottom separately is how a set ends up subtly mismatched.",
     "sizingIntro": "Sets are sized <strong>per garment, not as one size</strong> — chest for the jersey, natural waist for the shorts, and a player may take different sizes in each. Order both together so the run stays matched.",
     "bestForIntro": "A red set suits <strong>programs building a high-visibility identity</strong> and any team wanting jersey and shorts guaranteed to match. If you only need to replace one piece, order that piece on its own.",
-    "notFitIntro": "A full set is more than you need to replace one garment or to kit out practice. These cover that for less."
+    "notFitIntro": "A full set is more than you need to replace one garment or to kit out practice. These cover that for less.",
+    "sections": [
+      "pov",
+      "pfb",
+      "psg",
+      "pwb",
+      "pco"
+    ],
+    "fabrics": {
+      "list": [
+        "sublimation",
+        "wicking"
+      ],
+      "recommended": "sublimation",
+      "notes": {
+        "sublimation": {
+          "desc": "Red is the least forgiving colour we print, and the reason is that <strong>small variations in dye load shift it between orange-red and blue-red</strong> — a difference the eye catches instantly across twelve jerseys hanging together. The standard knit takes red most predictably, which is why a set is specified on it.",
+          "pros": [
+            "<strong>Most predictable red uptake</strong> of our fabrics",
+            "<strong>Both pieces from one dye run</strong>",
+            "<strong>Deepest saturation</strong>"
+          ]
+        },
+        "wicking": {
+          "desc": "Available for the whole set. <strong>Specify it for both garments or neither</strong> — a wicking jersey over standard shorts is exactly the half-shade mismatch a set is meant to prevent, and red is where it shows.",
+          "pros": [
+            "<strong>Must be ordered for both pieces</strong>",
+            "<strong>4-way stretch</strong>",
+            "<strong>Slightly different red uptake</strong> from the standard knit"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Programs Built on a Red Identity",
+        "desc": "Red has the highest visual presence of any colour in a gym, which is why so many identities are built on it. <strong>Getting the shade right is the whole job</strong>, and it is where most suppliers are careless.",
+        "points": [
+          "Matched from a Pantone value or sample",
+          "Stored for every future reorder",
+          "Jersey and shorts from one run"
+        ]
+      },
+      {
+        "fit": "perfect",
+        "title": "Teams Buying a Matched Set",
+        "desc": "Red is the colour where a split order shows most. <strong>A jersey printed now and shorts printed in three months will sit visibly apart</strong>, and nothing can be done about it afterwards.",
+        "points": [
+          "One dye run for both pieces",
+          "Design continues across the set",
+          "Sized independently per garment"
+        ]
+      },
+      {
+        "fit": "good",
+        "title": "Youth and Rec Leagues",
+        "desc": "Red reads from the back of any hall, which matters in venues with poor sightlines. <strong>The most visible uniform colour available</strong>, at no extra cost.",
+        "points": [
+          "Highest visibility of any ground",
+          "White and gold numerals read strongly",
+          "Oversized numbers available"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "Which Red",
+        "desc": "Send a Pantone value or a physical sample. <strong>Red shifts more between screen and fabric than any colour except purple</strong>, and a phone photograph is not a usable reference.",
+        "options": [
+          "Pantone value",
+          "Physical sample",
+          "Style guide",
+          "Match previous order"
+        ]
+      },
+      {
+        "title": "Accent Colour",
+        "desc": "White and gold read strongest on red. <strong>Black works but flattens it</strong>; a dark accent on a saturated ground loses the vibrancy that made you choose red.",
+        "options": [
+          "White",
+          "Gold",
+          "Black",
+          "Two-tone"
+        ]
+      },
+      {
+        "title": "Set Continuity",
+        "desc": "One design across two garments. <strong>Side panels, waistband trim and numeral styling carry from jersey to shorts</strong>, which is the point of ordering a set.",
+        "options": [
+          "Continuous panel",
+          "Matched trim",
+          "Independent",
+          "Tonal"
+        ]
+      }
+    ],
+    "construction": [
+      {
+        "title": "Single Dye Run for Both Pieces",
+        "body": "Jersey and shorts printed together from one colour file. <strong>On red this is not a nicety — a half-shade difference between top and bottom is plainly visible</strong> and cannot be corrected after delivery."
+      },
+      {
+        "title": "Bound Edges Throughout",
+        "body": "Armholes, neck and hem splits bound on the jersey; waistband double-stitched on the shorts. <strong>Standard construction across the set</strong>, so both pieces wear at the same rate."
+      },
+      {
+        "title": "No Applied Decoration",
+        "body": "Everything is sublimated. <strong>Nothing is pressed onto the surface, so nothing can bleed later</strong> — which matters specifically on red, the classic dye-migration case."
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Cold wash, inside out</strong> — both pieces together, so the set ages together."
+      },
+      {
+        "text": "<strong>Wash with reds and darks</strong> for the first few cycles."
+      },
+      {
+        "text": "<strong>Air dry</strong>."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No fabric softener</strong> — it dulls a saturated ground faster than a muted one."
+      },
+      {
+        "dont": true,
+        "text": "<strong>Do not press anything onto it</strong> — a high-temperature press on red polyester pulls dye into whatever is applied, and white lettering turns pink within weeks."
+      }
+    ],
+    "floridaNote": "<strong>One warning worth passing on if you ever add anything locally.</strong> Red polyester is the textbook dye-migration case, and shops working through a Florida summer rush sometimes run presses hot to move volume. A number pressed onto red kit at too high a temperature will bleed within weeks and turn white lettering pink. Nothing we supply is pressed — it is all sublimated — but if you add a sponsor patch afterwards, ask for a low-temperature transfer.",
+    "sizing": {
+      "tabs": [
+        "adult",
+        "shorts"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Red Uniform Set",
+          "steps": [
+            "<strong>Size each garment separately:</strong> A player may take a Large jersey and Medium shorts, and the order form expects it.",
+            "<strong>Chest for the top</strong>, fullest point, arms relaxed.",
+            "<strong>Waist and hip for the shorts</strong> — the hip decides comfort in a defensive stance.",
+            "<strong>Order both together</strong> so the set is printed in one run. This matters more on red than on any other colour."
+          ]
+        }
+      ]
+    }
   },
   "grey-basketball-jersey": {
     "noun": "Jersey",
@@ -6919,7 +7526,162 @@
     "fabricIntro": "Standard sublimation polyester. For a grey game jersey we specifically recommend the <strong>moisture-wicking option rather than the base knit</strong>: grey shows sweat marks more than any other color, and a wicking fabric moves moisture to the outer face where it disperses.",
     "sizingIntro": "Measure the chest at the fullest point with arms relaxed. Mid-grey sits between white and black visually, so it reads <strong>close to true to size</strong> where a light or dark jersey can look fuller or slimmer.",
     "bestForIntro": "Grey is for <strong>third kits, showcases, alumni games and travel wear</strong>. As a primary home or away color it is unusual; most programs run it alongside a traditional pair.",
-    "notFitIntro": "For a league-mandated home or away kit, a traditional light or dark ground is the safer choice."
+    "notFitIntro": "For a league-mandated home or away kit, a traditional light or dark ground is the safer choice.",
+    "sections": [
+      "pov",
+      "pwb",
+      "pfb",
+      "pco",
+      "psg"
+    ],
+    "fabrics": {
+      "list": [
+        "wicking",
+        "sublimation",
+        "mesh"
+      ],
+      "recommended": "wicking",
+      "notes": {
+        "wicking": {
+          "desc": "We recommend the wicking knit on grey for one specific reason: <strong>grey shows sweat marks more visibly than any other colour, light or dark</strong>. A fabric that moves moisture to the outer face and spreads it does not develop the dark patches that make a grey jersey look worse than it is.",
+          "pros": [
+            "<strong>Spreads moisture instead of pooling it</strong> — the whole argument on grey",
+            "<strong>Lighter at 145 GSM</strong>",
+            "<strong>4-way stretch</strong>"
+          ]
+        },
+        "sublimation": {
+          "desc": "The standard knit gives a deeper, more even grey. <strong>It also shows sweat most</strong>, which on this ground is a real consideration rather than a footnote.",
+          "pros": [
+            "<strong>Most even grey</strong> on a closed face",
+            "<strong>Most durable</strong>",
+            "<strong>Shows sweat marks</strong> — the honest cost"
+          ]
+        },
+        "mesh": {
+          "desc": "Grey on an open weave reads lighter and more heathered at distance. <strong>It also hides sweat better than a closed grey</strong>, simply because there is less continuous surface to mark.",
+          "pros": [
+            "<strong>Hides sweat better</strong> than a closed grey",
+            "<strong>Reads heathered</strong> at distance",
+            "<strong>Coolest option</strong>"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Third and Alternate Kits",
+        "desc": "A programme with a home and an away already has its two league options. <strong>Grey is what it wears for showcases, alumni games and the tournament where both teams brought navy.</strong>",
+        "points": [
+          "Commits to no accent colour",
+          "Solves a colour-clash fixture",
+          "Reads modern rather than traditional"
+        ]
+      },
+      {
+        "fit": "good",
+        "title": "Warm Gyms",
+        "desc": "A mid-grey sits between black and white on heat. <strong>It absorbs meaningfully less than black while hiding court dust far better than white</strong> — a practical middle ground neither traditional colour occupies.",
+        "points": [
+          "Cooler than black",
+          "Hides marks better than white",
+          "Available in mesh for hot halls"
+        ]
+      },
+      {
+        "fit": "consider",
+        "title": "Programs Without a Sweat Plan",
+        "desc": "The honest caution. <strong>Grey shows sweat more than any other ground colour</strong>, and on the standard knit that is visible from the stands by the second quarter.",
+        "points": [
+          "Order the wicking fabric on grey",
+          "Or mesh, which marks less",
+          "Two per player if the schedule is heavy"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "Accent Colour",
+        "desc": "The most accommodating ground we offer. <strong>Every accent reads cleanly on grey, light or dark</strong>, which is not true of any other colour here.",
+        "options": [
+          "Any accent",
+          "Two-tone",
+          "Bright on neutral",
+          "Tonal grey"
+        ]
+      },
+      {
+        "title": "Numeral Direction",
+        "desc": "Numbers work light or dark on grey. <strong>This is a genuinely open choice</strong> rather than one dictated by contrast, which is unusual.",
+        "options": [
+          "Dark numerals",
+          "Light numerals",
+          "Outlined",
+          "Two-tone"
+        ]
+      },
+      {
+        "title": "Grey Depth",
+        "desc": "From a pale silver to a deep charcoal. <strong>Deeper greys hide sweat better and read closer to a dark kit</strong>; pale greys read more modern and mark faster.",
+        "options": [
+          "Silver",
+          "Mid grey",
+          "Charcoal",
+          "Heathered effect"
+        ]
+      }
+    ],
+    "construction": [
+      {
+        "title": "Even Dye Across the Panel",
+        "body": "Grey is unforgiving of uneven dye uptake — <strong>a patchy grey reads as a stained jersey rather than a design choice</strong>. Panels are printed and checked for evenness before assembly."
+      },
+      {
+        "title": "Bound Armholes and Neck",
+        "body": "Bound rather than hemmed, standard across our jerseys."
+      },
+      {
+        "title": "Flatlock Seams",
+        "body": "Laid flat, with nothing standing proud against the body."
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Wash promptly</strong> — sweat left to dry on grey leaves salt marks that show more than on any other colour."
+      },
+      {
+        "text": "<strong>Cold wash, inside out</strong>."
+      },
+      {
+        "text": "<strong>Air dry</strong>."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No fabric softener</strong> — build-up shows on a mid-tone ground sooner than on a dark one."
+      },
+      {
+        "dont": true,
+        "text": "<strong>Do not bleach</strong> — on grey this leaves a permanent pale patch rather than lifting a stain."
+      }
+    ],
+    "floridaNote": "<strong>Grey and Florida humidity need one decision made together.</strong> This is the colour that shows sweat most, and this is a state where players sweat through a jersey in the first quarter. Order it in the wicking fabric or in mesh, not the standard knit — the difference is visible from the stands, and it is the single reason a grey kit either looks sharp all season or looks tired by December.",
+    "sizing": {
+      "tabs": [
+        "adult"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Grey Jerseys",
+          "steps": [
+            "<strong>Chest:</strong> Fullest point, arms relaxed.",
+            "<strong>True to size:</strong> Mid-grey sits between light and dark visually, so it reads closer to true than either — useful if you are matching a third kit to an existing pair.",
+            "<strong>Armhole:</strong> Check your league's maximum depth if specified.",
+            "<strong>No shrinkage:</strong> Polyester holds its size."
+          ]
+        }
+      ]
+    }
   },
   "camo-basketball-jerseys": {
     "noun": "Jerseys",
