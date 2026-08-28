@@ -4079,7 +4079,7 @@
       {
         "fit": "perfect",
         "title": "Youth Leagues Buying for Every Team",
-        "desc": "Twelve teams, one order, twelve colourways. <strong>Each team's shade is stored separately</strong>, so a replacement jersey in year two arrives the same colour as the rest of that team's set.",
+        "desc": "Twelve teams, one order, twelve colorways. <strong>Each team's shade is stored separately</strong>, so a replacement jersey in year two arrives the same colour as the rest of that team's set.",
         "points": [
           "League-wide pricing",
           "Colours stored per team",
@@ -4120,7 +4120,7 @@
       },
       {
         "title": "Team Colours Across a League",
-        "desc": "Where a league orders for every team at once, each colourway is specified and stored separately. <strong>That is what makes year-two replacements possible</strong> without a colour mismatch.",
+        "desc": "Where a league orders for every team at once, each colorway is specified and stored separately. <strong>That is what makes year-two replacements possible</strong> without a colour mismatch.",
         "options": [
           "Per-team colours",
           "League palette",
@@ -4276,11 +4276,11 @@
           ]
         },
         "sublimation": {
-          "desc": "Listed because some programmes order a reversible set and a single-layer set together — <strong>reversibles for tournaments, single layer for the hot months</strong>. It is the same design, half the weight, one colourway.",
+          "desc": "Listed because some programmes order a reversible set and a single-layer set together — <strong>reversibles for tournaments, single layer for the hot months</strong>. It is the same design, half the weight, one colorway.",
           "pros": [
             "<strong>Half the weight</strong> of a reversible",
             "<strong>Much cooler</strong> in an unconditioned hall",
-            "<strong>One colourway only</strong>"
+            "<strong>One colorway only</strong>"
           ]
         }
       }
@@ -6207,7 +6207,7 @@
       {
         "fit": "perfect",
         "title": "Leagues Ordering for Every Team",
-        "desc": "Twelve teams, one order, twelve colourways. <strong>Each team's shade is stored separately</strong>, so a replacement in year two matches the rest of that team's set.",
+        "desc": "Twelve teams, one order, twelve colorways. <strong>Each team's shade is stored separately</strong>, so a replacement in year two matches the rest of that team's set.",
         "points": [
           "League-wide pricing",
           "Colours stored per team",
@@ -7735,7 +7735,151 @@
     "fabricIntro": "Standard <strong>sublimation polyester</strong>. A multi-tone pattern is no harder on the fabric than a solid color, because the entire design is laid down in a single pass regardless of how many colors it contains.",
     "sizingIntro": "Measure the chest at the fullest point, arms relaxed. A busy pattern <strong>reads slightly fuller than a solid ground</strong> at the same size, though not enough to change the size you order.",
     "bestForIntro": "Camo is for <strong>appreciation nights, fundraisers and alternate kits</strong>. As a regular game uniform it is unusual, and some leagues restrict patterns that interfere with number visibility — worth checking your rules first.",
-    "notFitIntro": "Some leagues restrict patterned uniforms on number-visibility grounds. If yours does, a solid jersey with a strong accent is the safe route."
+    "notFitIntro": "Some leagues restrict patterned uniforms on number-visibility grounds. If yours does, a solid jersey with a strong accent is the safe route.",
+    "sections": [
+      "pov",
+      "pco",
+      "pwb",
+      "pfb",
+      "psg"
+    ],
+    "fabrics": {
+      "list": [
+        "sublimation",
+        "mesh"
+      ],
+      "recommended": "sublimation",
+      "notes": {
+        "sublimation": {
+          "desc": "A camo pattern needs a smooth, continuous face to resolve properly. <strong>Multi-tone artwork on a closed knit holds its shapes</strong>; the same file on an open weave loses the boundaries between tones and turns to noise at distance.",
+          "pros": [
+            "<strong>Pattern resolves cleanly</strong> at every distance",
+            "<strong>No per-colour charge</strong> however many tones the pattern uses",
+            "<strong>Number panel prints solid</strong> over the pattern"
+          ]
+        },
+        "mesh": {
+          "desc": "Available, with a caution. <strong>An open weave breaks up a multi-tone pattern</strong> — which is what camo is designed to do to shapes, so the effect compounds. If your venue is hot enough to need mesh, consider a simpler two-tone camo.",
+          "pros": [
+            "<strong>Coolest option</strong>",
+            "<strong>Pattern reads muddier</strong> at distance",
+            "<strong>Simplify the pattern</strong> if choosing this"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Military Appreciation Games",
+        "desc": "The most common reason a programme orders camo, and usually a fixed date in November. <strong>These orders are scheduled backward from the game</strong>, not forward from the order.",
+        "points": [
+          "Dated schedule worked back from the fixture",
+          "No setup charge for a short run",
+          "Kit often auctioned afterwards"
+        ]
+      },
+      {
+        "fit": "perfect",
+        "title": "One-Off and Fundraising Runs",
+        "desc": "Sublimation has no per-colour cost, so <strong>a full multi-tone camo costs the same to print as a plain jersey</strong>. That is what makes a run of fifteen economic when screen printing would not be.",
+        "points": [
+          "Same price as a solid jersey",
+          "Economic at fifteen units",
+          "Individual dedications at no extra cost"
+        ]
+      },
+      {
+        "fit": "consider",
+        "title": "Regular League Play",
+        "desc": "Some competitions restrict patterns that interfere with number visibility. <strong>Check your rulebook before ordering camo as a primary kit</strong> rather than as a one-night alternate.",
+        "points": [
+          "Check league pattern rules",
+          "Solid jersey with a strong accent as an alternative",
+          "Number panel helps but may not satisfy every rule"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "Camo in Your Team Colours",
+        "desc": "Not restricted to military tones. <strong>A navy-and-gold camo, or red-and-black</strong>, is what most school programmes actually want — the pattern language without the costume.",
+        "options": [
+          "Team-colour camo",
+          "Traditional woodland",
+          "Digital / pixel",
+          "Two-tone simplified"
+        ]
+      },
+      {
+        "title": "Number Legibility",
+        "desc": "The decision that makes or breaks a camo jersey. <strong>A solid panel behind the numeral, or a heavy contrast outline</strong>, is not optional — camo is designed to break up exactly the kind of shape a number is.",
+        "options": [
+          "Solid panel (default)",
+          "Heavy outline",
+          "Both",
+          "League-specified height"
+        ]
+      },
+      {
+        "title": "Dedications",
+        "desc": "Appreciation kits often carry individual names, service branches or dedications. <strong>Every jersey can differ at no extra cost</strong>, because each is printed from its own file.",
+        "options": [
+          "Individual dedications",
+          "Shared message",
+          "Service branch",
+          "None"
+        ]
+      }
+    ],
+    "construction": [
+      {
+        "title": "Solid Number Panel",
+        "body": "A plain block printed behind each numeral. <strong>Without it, a number sits inside a pattern engineered to disguise shapes</strong>, and an official at the scorer's table will struggle from twenty feet."
+      },
+      {
+        "title": "Proofed at Viewing Distance",
+        "body": "Camo proofs are reviewed at bleacher distance rather than at desk distance. <strong>A pattern that reads beautifully on a screen can be unreadable across a gym</strong>, and that is the only distance that matters."
+      },
+      {
+        "title": "Single-Pass Multi-Tone Print",
+        "body": "However many tones the pattern carries, it is laid down in one pass. <strong>That is why colour count does not affect the price</strong> and why a short run is affordable."
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Cold wash, inside out</strong>."
+      },
+      {
+        "text": "<strong>Air dry</strong> — many of these are kept or auctioned afterwards, so treat them as keepsakes."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No ironing on the pattern</strong> — direct heat is the only real risk to sublimated artwork."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No fabric softener</strong> — it dulls a multi-tone print faster than a solid one."
+      }
+    ],
+    "floridaNote": "<strong>Florida has one of the largest veteran populations in the country</strong>, and appreciation games are a fixture on a lot of school calendars here rather than an occasional idea. Those dates do not move, so these orders are scheduled backward from the fixture — tell us the game date and we will tell you the latest order date that makes it, rather than the other way round.",
+    "sizing": {
+      "tabs": [
+        "adult",
+        "youth"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Camo Jerseys",
+          "steps": [
+            "<strong>Chest:</strong> Fullest point, arms relaxed.",
+            "<strong>Order extras:</strong> Appreciation kits are frequently auctioned or kept afterwards. Most programmes order a few spares in popular sizes.",
+            "<strong>Pattern reads fuller:</strong> A busy pattern looks slightly larger than a solid at the same size, though not enough to change the size you order.",
+            "<strong>Date first:</strong> Send us the game date with your enquiry so we can confirm the schedule before anything else."
+          ]
+        }
+      ]
+    }
   },
   "green-basketball-jersey": {
     "noun": "Jersey",
@@ -7789,7 +7933,164 @@
     "fabricIntro": "Standard <strong>sublimation polyester with the green dyed through the panel</strong>. Deeper greens absorb more heat than light ones; if your program plays outdoors regularly, a kelly or lime ground will run cooler than a forest one.",
     "sizingIntro": "Measure the chest at the fullest point with arms relaxed. Dark greens read <strong>slightly slimmer than light ones</strong> at the same size, which is worth noting if your home and away kits sit at opposite ends of the family.",
     "bestForIntro": "Green suits <strong>school programs matching an institutional color</strong> and works equally as home or away. If you have no specific shade to hit, a plain jersey costs less for the same garment.",
-    "notFitIntro": "If you are not matching a specific institutional green, a simpler plain jersey gets you the same garment for less."
+    "notFitIntro": "If you are not matching a specific institutional green, a simpler plain jersey gets you the same garment for less.",
+    "sections": [
+      "pov",
+      "psg",
+      "pfb",
+      "pwb",
+      "pco"
+    ],
+    "fabrics": {
+      "list": [
+        "sublimation",
+        "wicking",
+        "mesh"
+      ],
+      "recommended": "sublimation",
+      "notes": {
+        "sublimation": {
+          "desc": "Green covers a wider range than any other team colour, and <strong>the standard knit reproduces the whole family most faithfully</strong> — from a deep forest to a bright kelly. That range is the reason green orders go wrong more often than any other.",
+          "pros": [
+            "<strong>Reproduces the whole green family</strong> accurately",
+            "<strong>Most predictable across a large run</strong>",
+            "<strong>Deepest forest greens</strong>"
+          ]
+        },
+        "wicking": {
+          "desc": "The spandex fraction takes dye slightly differently, which <strong>shows up on bright kelly and lime more than on a deep forest</strong>. Proofed either way.",
+          "pros": [
+            "<strong>Fine on deep greens</strong>",
+            "<strong>Slight softening on brights</strong>",
+            "<strong>4-way stretch</strong>"
+          ]
+        },
+        "mesh": {
+          "desc": "Green on an open weave reads lighter and yellower at distance. <strong>A forest green on mesh can read closer to olive</strong> from the bleachers, which is worth seeing on a sample first.",
+          "pros": [
+            "<strong>Coolest option</strong>",
+            "<strong>Shifts lighter at distance</strong>",
+            "<strong>Sample recommended</strong> before a large run"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Schools With an Established Green",
+        "desc": "Forest, hunter, kelly, emerald and lime are five identities, not five shades of one. <strong>More green orders go wrong on shade than on anything else</strong>, and the fix is a reference rather than a description.",
+        "points": [
+          "Matched from Pantone, style guide or garment",
+          "Stored for every future reorder",
+          "Never matched from a photograph"
+        ]
+      },
+      {
+        "fit": "good",
+        "title": "Programs Wanting a Dark Practical Kit",
+        "desc": "A deep forest hides court marks nearly as well as navy while <strong>reflecting more heat than black does</strong>. It is an under-used practical choice in warm states.",
+        "points": [
+          "Hides court dust",
+          "Cooler than black under sun",
+          "Gold and white accents read strongly"
+        ]
+      },
+      {
+        "fit": "consider",
+        "title": "Programs Matching From a Screen",
+        "desc": "Green shifts substantially between a monitor and fabric, particularly in the kelly-to-emerald range. <strong>A screenshot is not a usable reference</strong>, and a phone photograph is worse.",
+        "points": [
+          "Send a Pantone value",
+          "Or a physical sample",
+          "Ask for a fabric swatch before a large order"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "Which Green",
+        "desc": "The decision the whole order rests on. <strong>Forest, hunter, kelly, emerald and lime are genuinely different</strong>, and a programme whose banners are forest will not accept kelly.",
+        "options": [
+          "Pantone value",
+          "Style guide",
+          "Existing garment",
+          "Physical sample"
+        ]
+      },
+      {
+        "title": "Accent Colour",
+        "desc": "Gold, white and silver read strongly against every green in the family. <strong>Contrast is rarely a problem here</strong>, whichever green you choose.",
+        "options": [
+          "Gold",
+          "White",
+          "Silver",
+          "Black",
+          "Two-tone"
+        ]
+      },
+      {
+        "title": "Numeral Style",
+        "desc": "Light numerals on a deep green, dark on a bright one. <strong>The choice follows the shade rather than preference.</strong>",
+        "options": [
+          "White block",
+          "Gold varsity",
+          "Outlined",
+          "Dark on bright"
+        ]
+      }
+    ],
+    "construction": [
+      {
+        "title": "Matched Before Production",
+        "body": "Green is matched against your physical reference and confirmed before the run. <strong>Because the family is so wide, a green matched by description is a green matched by guess</strong> — and it will be the wrong one."
+      },
+      {
+        "title": "Bound Armholes and Neck",
+        "body": "Bound rather than hemmed, standard across our jerseys."
+      },
+      {
+        "title": "Even Panel Dye",
+        "body": "Deep greens show unevenness more than mid-tones. <strong>Panels are checked for evenness before assembly</strong>, since a patchy forest green reads as a fault rather than a finish."
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Cold wash, inside out</strong>."
+      },
+      {
+        "text": "<strong>Wash with like colours</strong>."
+      },
+      {
+        "text": "<strong>Air dry</strong>."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No fabric softener</strong>."
+      },
+      {
+        "dont": true,
+        "text": "<strong>Do not bleach</strong> — on green this leaves a yellow patch rather than a pale one."
+      }
+    ],
+    "floridaNote": "<strong>Bright greens hold up better than deep ones under Florida sun.</strong> A kelly or emerald reflects considerably more radiant heat than a forest or hunter, which for an outdoor or unconditioned venue is worth factoring into the shade decision rather than treating it as purely an identity question. If your school colour is a deep green and you play outdoors, the mesh version takes most of that back.",
+    "sizing": {
+      "tabs": [
+        "adult",
+        "youth"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Green Jerseys",
+          "steps": [
+            "<strong>Chest:</strong> Fullest point, arms relaxed.",
+            "<strong>Dark greens read slimmer</strong> than bright ones at the same size.",
+            "<strong>Ask for a swatch</strong> before a large order if you are matching an existing green — it costs nothing and settles the question.",
+            "<strong>No shrinkage:</strong> Polyester holds its size."
+          ]
+        }
+      ]
+    }
   },
   "orange-basketball-jersey": {
     "noun": "Jersey",
@@ -7843,7 +8144,160 @@
     "fabricIntro": "Standard <strong>sublimation polyester with the orange dyed through the panel</strong>. Orange absorbs less radiant heat than black or navy, which makes it a practical choice for Florida programs that play outdoor or un-air-conditioned games.",
     "sizingIntro": "Measure the chest at the fullest point, arms relaxed. Bright grounds read <strong>slightly fuller than dark ones</strong> at the same size — allow for it if you run an orange home kit against a navy away kit.",
     "bestForIntro": "Orange fits <strong>Florida programs, youth leagues, and any team wanting maximum presence on court</strong>. It is a demanding color to match, so send a physical reference if you have one.",
-    "notFitIntro": "If your identity does not depend on a specific bright color, a plain jersey delivers the same garment for less."
+    "notFitIntro": "If your identity does not depend on a specific bright color, a plain jersey delivers the same garment for less.",
+    "sections": [
+      "pov",
+      "pfb",
+      "pwb",
+      "psg",
+      "pco"
+    ],
+    "fabrics": {
+      "list": [
+        "sublimation",
+        "mesh",
+        "wicking"
+      ],
+      "recommended": "sublimation",
+      "notes": {
+        "sublimation": {
+          "desc": "Orange and red are the two hardest colours to reproduce faithfully, and <strong>the standard knit takes orange most predictably</strong>. On a closed smooth face the colour lands where it was specified; on other fabrics it drifts toward brown or toward yellow.",
+          "pros": [
+            "<strong>Most predictable orange uptake</strong>",
+            "<strong>Brightest reproduction</strong> on a smooth face",
+            "<strong>Consistent across a large run</strong>"
+          ]
+        },
+        "mesh": {
+          "desc": "Orange on an open weave loses saturation at distance, because <strong>less surface is reflecting a colour that depends on brightness</strong>. It shifts toward a muted apricot from the bleachers.",
+          "pros": [
+            "<strong>Coolest option</strong>",
+            "<strong>Loses saturation</strong> at distance",
+            "<strong>Sample recommended</strong>"
+          ]
+        },
+        "wicking": {
+          "desc": "The spandex fraction reads slightly softer on a bright orange. <strong>Not a problem, but visible next to a standard-knit garment</strong> — so specify one fabric across a whole order.",
+          "pros": [
+            "<strong>Slightly softer</strong> than the standard knit",
+            "<strong>4-way stretch</strong>",
+            "<strong>Keep one fabric per order</strong>"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Florida School Programs",
+        "desc": "Orange is a Florida colour in a way it is not elsewhere — <strong>the state's best-known college and professional programmes are built on it</strong>, and school teams across Florida follow. It is the colour we match most often here.",
+        "points": [
+          "Matched from a physical reference",
+          "Stored for future reorders",
+          "Navy, black and white accents all work"
+        ]
+      },
+      {
+        "fit": "perfect",
+        "title": "Maximum Visibility",
+        "desc": "Nothing reads more strongly from the back of a gym. <strong>For youth leagues and venues with poor sightlines that is a practical advantage</strong>, not just a stylistic one.",
+        "points": [
+          "Highest visibility of any ground",
+          "Useful in halls with poor sightlines",
+          "Oversized numbers available"
+        ]
+      },
+      {
+        "fit": "good",
+        "title": "Outdoor and Warm Venues",
+        "desc": "A bright ground reflects considerably more radiant heat than black or navy. <strong>Orange is one of the cooler dark-adjacent colours available</strong>, which suits this state.",
+        "points": [
+          "Reflects more heat than navy or black",
+          "Available in mesh for extreme heat",
+          "Pairs with white shorts"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "Matching the Orange",
+        "desc": "Send a Pantone value or a physical sample. <strong>Orange is where screens and fabric disagree most</strong> — a bright orange on a monitor frequently prints duller or browner than expected.",
+        "options": [
+          "Pantone value",
+          "Physical sample",
+          "Style guide",
+          "Match previous order"
+        ]
+      },
+      {
+        "title": "Accent Colour",
+        "desc": "Navy, black and white all read strongly. <strong>The one accent to avoid is a mid-yellow</strong>, which sits too close on the wheel to hold contrast from the bleachers.",
+        "options": [
+          "Navy",
+          "Black",
+          "White",
+          "Yellow (not advised)"
+        ]
+      },
+      {
+        "title": "Numeral Contrast",
+        "desc": "Dark numerals on orange carry furthest. <strong>A white numeral works indoors and washes out under bright outdoor light</strong>, which is worth deciding by venue.",
+        "options": [
+          "Navy",
+          "Black",
+          "White (indoor)",
+          "Outlined"
+        ]
+      }
+    ],
+    "construction": [
+      {
+        "title": "Matched From a Physical Reference",
+        "body": "Orange is confirmed against a chip or a garment rather than a screen value. <strong>This is the colour where a monitor match is most likely to be wrong</strong>, and the error only becomes visible on delivery."
+      },
+      {
+        "title": "Consistent Across the Run",
+        "body": "The whole order is printed from one file in one run. <strong>Orange shows a small dye variation as a shift toward brown</strong>, which the eye catches across a rack of twelve."
+      },
+      {
+        "title": "Bound Armholes and Neck",
+        "body": "Bound rather than hemmed, standard across our jerseys."
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Cold wash, inside out</strong>."
+      },
+      {
+        "text": "<strong>Air dry out of direct sun</strong> — prolonged strong sun on a wet bright ground can dull it slightly over years."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No fabric softener</strong> — it dulls a bright ground faster than a muted one."
+      },
+      {
+        "dont": true,
+        "text": "<strong>Do not bleach</strong>."
+      }
+    ],
+    "floridaNote": "<strong>Orange is the colour we are asked for most in this state, and the one we most often have to re-match.</strong> Programmes send a screenshot of a college jersey and expect that shade; screens make orange from light and fabric makes it from dye, and the two do not line up. Send a physical reference — a chip, a garment, a printed style guide — and it will be right the first time.",
+    "sizing": {
+      "tabs": [
+        "adult",
+        "youth"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Orange Jerseys",
+          "steps": [
+            "<strong>Chest:</strong> Fullest point, arms relaxed.",
+            "<strong>Bright grounds read fuller</strong> than dark ones at the same size — allow for it against a navy away kit.",
+            "<strong>Ask for a swatch</strong> if you are matching a specific institutional orange. It settles the question before the run.",
+            "<strong>No shrinkage:</strong> Polyester holds its size."
+          ]
+        }
+      ]
+    }
   },
   "yellow-basketball-uniform": {
     "noun": "Uniform",
@@ -7897,7 +8351,154 @@
     "fabricIntro": "Both pieces from the <strong>same sublimation polyester in one dye run</strong>. That matters on yellow more than most colors — it is one of the grounds where a small dye variation between two production runs is plainly visible side by side.",
     "sizingIntro": "Sets are sized <strong>per garment</strong> — chest for the jersey, natural waist for the shorts, and a player may take different sizes in each. Bright grounds read slightly fuller than dark ones at the same size.",
     "bestForIntro": "A yellow or gold set suits <strong>programs built on that identity</strong> and outdoor play where a bright ground stays cooler. If you are replacing only one piece, order it on its own.",
-    "notFitIntro": "A full set is more than you need to replace a single garment or to kit out practice. These cover that."
+    "notFitIntro": "A full set is more than you need to replace a single garment or to kit out practice. These cover that.",
+    "sections": [
+      "pov",
+      "pco",
+      "psg",
+      "pfb",
+      "pwb"
+    ],
+    "fabrics": {
+      "list": [
+        "sublimation",
+        "wicking"
+      ],
+      "recommended": "sublimation",
+      "notes": {
+        "sublimation": {
+          "desc": "Yellow shows dye variation more clearly than any colour except red, because <strong>a bright ground has nothing to hide a shift in</strong>. The standard knit takes it most consistently, which is what keeps a jersey and shorts printed together looking like one set.",
+          "pros": [
+            "<strong>Most consistent yellow</strong> across a run",
+            "<strong>Both pieces from one dye run</strong>",
+            "<strong>Brightest reproduction</strong> on a smooth face"
+          ]
+        },
+        "wicking": {
+          "desc": "Available across the set. <strong>Order it for both garments or neither</strong> — on yellow a half-shade difference between top and bottom is plainly visible side by side.",
+          "pros": [
+            "<strong>Both pieces or neither</strong>",
+            "<strong>4-way stretch</strong>",
+            "<strong>Slightly different uptake</strong> from the standard knit"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Gold and Yellow Programs",
+        "desc": "Schools built on gold need it matched properly, and <strong>gold and yellow are not the same specification</strong> — a metallic-referenced gold prints quite differently from a bright yellow.",
+        "points": [
+          "Matched from a Pantone value or a sample",
+          "Stored for future reorders",
+          "Jersey and shorts from one run"
+        ]
+      },
+      {
+        "fit": "perfect",
+        "title": "Outdoor and Hot Venues",
+        "desc": "One of the coolest grounds available. <strong>A bright yellow reflects far more radiant heat than any dark colour</strong>, which in Florida is a real advantage rather than a marginal one.",
+        "points": [
+          "Reflects heat rather than absorbing it",
+          "Available in mesh for extreme heat",
+          "Pairs with white or navy accents"
+        ]
+      },
+      {
+        "fit": "consider",
+        "title": "Programs Wanting Light Numerals",
+        "desc": "The one genuine constraint. <strong>A white or light numeral on yellow cannot be read from the baseline</strong>, and an official who cannot call a number will say so.",
+        "points": [
+          "Dark numerals are effectively required",
+          "Navy, black, forest and maroon all work",
+          "Proofed at viewing distance"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "Numeral Contrast",
+        "desc": "Treated as a requirement rather than a style choice. <strong>Navy, black, forest and maroon numerals hold their edge on yellow</strong>; white and pale grey do not, and we will say so at proof rather than print something no official can read.",
+        "options": [
+          "Navy",
+          "Black",
+          "Forest",
+          "Maroon"
+        ]
+      },
+      {
+        "title": "Gold or Yellow",
+        "desc": "Two different specifications. <strong>A gold reference is usually darker and more muted</strong> than a bright athletic yellow, and mixing the two across a set is a common error.",
+        "options": [
+          "Athletic yellow",
+          "Vegas gold",
+          "Old gold",
+          "Match existing"
+        ]
+      },
+      {
+        "title": "Set Continuity",
+        "desc": "One design across two garments. <strong>Side panels, waistband trim and numeral styling carry from the jersey to the shorts.</strong>",
+        "options": [
+          "Continuous panel",
+          "Matched trim",
+          "Independent",
+          "Tonal"
+        ]
+      }
+    ],
+    "construction": [
+      {
+        "title": "Single Dye Run for the Set",
+        "body": "Jersey and shorts printed together. <strong>Yellow is one of the two grounds where a small dye variation between runs is immediately visible</strong> when the pieces are worn together."
+      },
+      {
+        "title": "Proofed at Viewing Distance",
+        "body": "Numeral contrast is checked at bleacher distance rather than on a screen. <strong>The only distance that matters is the one an official calls a number from.</strong>"
+      },
+      {
+        "title": "Bound Edges Throughout",
+        "body": "Armholes, neck and hem splits on the jersey; double-stitched waistband on the shorts."
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Wash both pieces together</strong> so the set ages at one rate."
+      },
+      {
+        "text": "<strong>Cold wash, inside out</strong>."
+      },
+      {
+        "text": "<strong>Wash promptly</strong> — a bright ground shows sweat and court marks sooner than a mid-tone."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No fabric softener</strong> — it dulls a bright ground quickly."
+      },
+      {
+        "dont": true,
+        "text": "<strong>Do not bleach</strong> — on yellow, chlorine shifts the colour rather than lifting the stain."
+      }
+    ],
+    "floridaNote": "<strong>Yellow is one of the best grounds for outdoor Florida play and one of the hardest to keep clean.</strong> It reflects heat about as well as white, and it shows red clay and court dust nearly as clearly. Programmes here that play outdoors usually run yellow as a home kit with a darker away, so the bright set is worn on the better surface.",
+    "sizing": {
+      "tabs": [
+        "adult",
+        "shorts"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Yellow Uniform Set",
+          "steps": [
+            "<strong>Size each garment separately</strong> — chest for the jersey, waist and hip for the shorts.",
+            "<strong>Bright grounds read fuller</strong> than dark ones at the same size.",
+            "<strong>Order both together</strong> so the set is printed in one run. On yellow this matters more than on most colours.",
+            "<strong>Roster sizing:</strong> Send heights and weights and we will size the squad at no charge."
+          ]
+        }
+      ]
+    }
   },
   "purple-basketball-jersey": {
     "noun": "Jersey",
@@ -7951,7 +8552,153 @@
     "fabricIntro": "Standard <strong>sublimation polyester with the purple dyed through the panel</strong>. Deep purples absorb heat similarly to navy — meaningfully less than black, meaningfully more than a bright ground.",
     "sizingIntro": "Measure the chest at the fullest point with arms relaxed. Deep purples read <strong>slightly slimmer than light grounds</strong> at the same size, in line with other dark colors.",
     "bestForIntro": "Purple suits <strong>programs matching an institutional color and teams that want to look unlike everyone else in the league</strong>. Send a physical reference — it is the color where that matters most.",
-    "notFitIntro": "If you are not matching a specific institutional purple, a plain jersey gets you the same garment for less."
+    "notFitIntro": "If you are not matching a specific institutional purple, a plain jersey gets you the same garment for less.",
+    "sections": [
+      "pov",
+      "pfb",
+      "psg",
+      "pco",
+      "pwb"
+    ],
+    "fabrics": {
+      "list": [
+        "sublimation",
+        "wicking"
+      ],
+      "recommended": "sublimation",
+      "notes": {
+        "sublimation": {
+          "desc": "Purple is the colour most likely to arrive wrong from any supplier, and the reason is fundamental: <strong>screens build purple from red and blue light, fabric builds it from dye</strong>, and the two gamuts do not overlap cleanly. The standard knit is the most predictable of our fabrics on it.",
+          "pros": [
+            "<strong>Most predictable purple</strong> of our fabrics",
+            "<strong>Deepest saturation</strong> on a closed face",
+            "<strong>Consistent across a run</strong>"
+          ]
+        },
+        "wicking": {
+          "desc": "The spandex fraction reads slightly cooler — a shade further toward blue. <strong>Visible next to a standard-knit garment</strong>, so keep one fabric across a whole order.",
+          "pros": [
+            "<strong>Reads slightly bluer</strong>",
+            "<strong>4-way stretch</strong>",
+            "<strong>One fabric per order</strong>"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Schools With an Institutional Purple",
+        "desc": "The colour where a screen match is most likely to fail. <strong>A purple that looks right on a phone frequently prints noticeably more blue, or more maroon</strong>, than the programme expected.",
+        "points": [
+          "Matched from a physical chip",
+          "Stored rather than re-judged each time",
+          "Never matched from a photograph"
+        ]
+      },
+      {
+        "fit": "perfect",
+        "title": "Programs Wanting to Look Unlike Everyone",
+        "desc": "In a league of navy and red, purple is genuinely distinctive. <strong>Almost nobody else in a given Florida district will be using it</strong>, which is worth something on a court.",
+        "points": [
+          "Rare in most competitions",
+          "Gold and white read powerfully on it",
+          "Works as home or away"
+        ]
+      },
+      {
+        "fit": "consider",
+        "title": "Programs Matching From a Screenshot",
+        "desc": "A phone photograph of a purple jersey is not a reference. <strong>It has passed through a camera, a display and compression</strong>, each of which shifts the hue.",
+        "points": [
+          "Send a Pantone chip",
+          "Or a physical garment",
+          "Ask for a fabric swatch before a large order"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "Matching the Purple",
+        "desc": "A physical reference, not a screen value. <strong>This is the colour where that instruction matters most</strong>, and where ignoring it produces the most disappointing delivery.",
+        "options": [
+          "Pantone chip",
+          "Physical garment",
+          "Printed style guide",
+          "Fabric swatch first"
+        ]
+      },
+      {
+        "title": "Accent Colour",
+        "desc": "Gold, white and silver read powerfully against purple. <strong>The combination is unusually strong</strong> and is part of why programmes that pick purple tend to keep it.",
+        "options": [
+          "Gold",
+          "White",
+          "Silver",
+          "Two-tone"
+        ]
+      },
+      {
+        "title": "Numeral Contrast",
+        "desc": "Light numerals on a deep purple carry well. <strong>A mid-purple ground with a mid-blue numeral is the combination to avoid</strong>, and we flag it at proof.",
+        "options": [
+          "White",
+          "Gold",
+          "Silver",
+          "Outlined"
+        ]
+      }
+    ],
+    "construction": [
+      {
+        "title": "Matched From a Physical Chip",
+        "body": "Purple is confirmed against a physical reference before production. <strong>The gap between screen purple and fabric purple is the widest of any colour we print</strong>, and it is invisible until delivery."
+      },
+      {
+        "title": "Stored, Not Re-Judged",
+        "body": "Once matched, the value is stored against the account. <strong>Re-judging a purple by eye on each reorder is how a set drifts</strong> across three seasons into two visibly different jerseys."
+      },
+      {
+        "title": "Bound Armholes and Neck",
+        "body": "Bound rather than hemmed, standard across our jerseys."
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Cold wash, inside out</strong>."
+      },
+      {
+        "text": "<strong>Wash with like colours</strong>."
+      },
+      {
+        "text": "<strong>Air dry out of direct sun</strong> — purple is among the more sun-sensitive dyes over years of outdoor use."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No fabric softener</strong>."
+      },
+      {
+        "dont": true,
+        "text": "<strong>Do not bleach</strong> — on purple this produces a pink patch, not a pale one."
+      }
+    ],
+    "floridaNote": "<strong>Sun exposure matters more on purple than on most colours.</strong> Programmes playing regular outdoor games in Florida sun will see a deep purple shift slightly over several seasons — less than a screen-printed graphic would, since the dye is inside the fibre, but more than a navy or black would. Air drying out of direct sun is a small habit that noticeably extends it.",
+    "sizing": {
+      "tabs": [
+        "adult"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Purple Jerseys",
+          "steps": [
+            "<strong>Chest:</strong> Fullest point, arms relaxed.",
+            "<strong>Deep purples read slimmer</strong> than light grounds at the same size, in line with other dark colours.",
+            "<strong>Ask for a swatch</strong> before a large order. On this colour it is the single most useful thing you can do.",
+            "<strong>No shrinkage:</strong> Polyester holds its size."
+          ]
+        }
+      ]
+    }
   },
   "pink-basketball-jerseys": {
     "noun": "Jerseys",
@@ -8005,6 +8752,138 @@
     "fabricIntro": "Standard <strong>sublimation polyester</strong>, the same garment as our regular jerseys. Since these are often auctioned or kept afterward, the color is in the fiber and will not crack or fade the way a pressed graphic on a keepsake jersey would.",
     "sizingIntro": "Measure the chest at the fullest point, arms relaxed. For an awareness game where jerseys are auctioned afterward, <strong>most programs order a few extra in popular sizes</strong> rather than exactly one per player.",
     "bestForIntro": "Pink kits are for <strong>awareness games, fundraisers and short one-off runs</strong>. As a regular season uniform they are unusual, though nothing stops it if that is your program's identity.",
-    "notFitIntro": "For a regular season kit rather than a one-night run, a standard color and cut will serve better."
+    "notFitIntro": "For a regular season kit rather than a one-night run, a standard color and cut will serve better.",
+    "sections": [
+      "pov",
+      "pwb",
+      "pco",
+      "psg"
+    ],
+    "fabrics": {
+      "list": [
+        "sublimation",
+        "wicking"
+      ],
+      "recommended": "sublimation",
+      "notes": {
+        "sublimation": {
+          "desc": "Awareness jerseys are frequently auctioned or kept afterwards rather than worn out, so <strong>the standard knit is specified for how it survives being a keepsake</strong> rather than a season. A sublimated print does not crack in storage the way a pressed graphic on a memento jersey does.",
+          "pros": [
+            "<strong>Survives as a keepsake</strong> — nothing to crack in storage",
+            "<strong>No per-colour charge</strong> on ribbon graphics or dedications",
+            "<strong>Individual names free</strong> on every jersey"
+          ]
+        },
+        "wicking": {
+          "desc": "Available where the kit will actually be played in for a season rather than one night. <strong>Lighter and better at managing sweat</strong>, at the same price.",
+          "pros": [
+            "<strong>Better for a full season</strong> of wear",
+            "<strong>Lighter</strong>",
+            "<strong>Same price</strong>"
+          ]
+        }
+      }
+    },
+    "audience": [
+      {
+        "fit": "perfect",
+        "title": "Awareness Games and Fundraisers",
+        "desc": "The reason nearly every pink order exists. <strong>A fixed date, a short run, and a budget the fundraiser itself has to cover</strong> — which is a very different shape of order from a season uniform.",
+        "points": [
+          "Scheduled backward from the game date",
+          "Economic at fifteen units",
+          "Often auctioned afterwards"
+        ]
+      },
+      {
+        "fit": "perfect",
+        "title": "Individual Dedications",
+        "desc": "Awareness kits often carry a different name on every back — someone each player is playing for. <strong>That costs nothing, because each jersey is printed from its own file.</strong>",
+        "points": [
+          "A different dedication on every jersey",
+          "Ribbon graphics at no extra cost",
+          "Sponsor recognition for the fundraiser"
+        ]
+      },
+      {
+        "fit": "good",
+        "title": "Programs Ordering Spares to Sell",
+        "desc": "Awareness jerseys sell to families and supporters in a way regular kit does not. <strong>Extra units in popular sizes frequently fund the whole order.</strong>",
+        "points": [
+          "No minimum on extras",
+          "Adult sizes to 5XL",
+          "Same design as the squad wears"
+        ]
+      }
+    ],
+    "customization": [
+      {
+        "title": "Ribbon and Cause Graphics",
+        "desc": "Printed as part of the design rather than applied afterwards. <strong>A ribbon, a cause mark and a dedication line cost nothing extra</strong>, since the whole jersey is one print pass.",
+        "options": [
+          "Ribbon graphic",
+          "Cause wordmark",
+          "Awareness date",
+          "Combined"
+        ]
+      },
+      {
+        "title": "Individual Dedications",
+        "desc": "A different name on every back, or on every sleeve. <strong>Sublimation charges by garment, not by variation</strong>, so twelve different dedications cost what twelve identical ones do.",
+        "options": [
+          "Back dedication",
+          "Sleeve dedication",
+          "Inside hem",
+          "None"
+        ]
+      },
+      {
+        "title": "Pink Depth",
+        "desc": "From a soft rose to a strong magenta. <strong>Deeper pinks read better from the bleachers</strong>; pale pinks photograph well but wash out at distance.",
+        "options": [
+          "Soft rose",
+          "Mid pink",
+          "Magenta",
+          "Two-tone with team colour"
+        ]
+      }
+    ],
+    "care": [
+      {
+        "text": "<strong>Cold wash, inside out</strong>."
+      },
+      {
+        "text": "<strong>Air dry</strong> — most of these are kept, so treat them as keepsakes from the first wash."
+      },
+      {
+        "text": "<strong>Store flat rather than folded</strong> if the jersey is being kept rather than worn."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No ironing on the artwork</strong>."
+      },
+      {
+        "dont": true,
+        "text": "<strong>No fabric softener</strong> — it dulls a bright ground."
+      }
+    ],
+    "floridaNote": "<strong>Awareness games in Florida cluster in October, and October is our busiest month.</strong> That combination catches programmes out every year: the date cannot move, and the queue is longest exactly when these orders arrive. Send the game date with your enquiry and we will work backward from it and tell you plainly whether it is achievable — rather than accepting the order and hoping.",
+    "sizing": {
+      "tabs": [
+        "adult",
+        "youth"
+      ],
+      "measure": [
+        {
+          "title": "How to Measure — Pink Jerseys",
+          "steps": [
+            "<strong>Chest:</strong> Fullest point, arms relaxed.",
+            "<strong>Order spares:</strong> Where jerseys are auctioned or sold afterwards, most programmes add a few extras in popular sizes rather than exactly one per player.",
+            "<strong>Supporter sizing:</strong> Jerseys sold to families follow normal adult sizing, up to 5XL.",
+            "<strong>Date first:</strong> Send the game date with your enquiry before anything else."
+          ]
+        }
+      ]
+    }
   }
 }

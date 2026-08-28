@@ -99,7 +99,11 @@ const BENEFIT_SVG = '<svg width="10" height="10" viewBox="0 0 12 12" fill="none"
 const SPELLING = [
   [/\b(C|c)ustomis(e|ed|es|ing|ation|able)\b/g, (m, c, s) => `${c}ustomiz${s}`],
   [/\b(F|f)ibre(s?)\b/g, (m, c, s) => `${c}iber${s}`],
-  [/\b(C|c)olour(s|ed|ing|ful)?\b/g, (m, c, s) => `${c}olor${s || ''}`],
+  // `colour` needs its compounds spelled out: \b after "colour" does not fire
+  // when the next character is a letter, so "colourway" slipped through the
+  // first version and shipped on four pages. Matching the stem and letting the
+  // tail follow catches colourway, colourways, colourist and anything else.
+  [/\b(C|c)olour(s|ed|ing|ful|way|ways|ist|ists)?\b/g, (m, c, s) => `${c}olor${s || ''}`],
   [/\b(P|p)ersonalis(e|ed|es|ing|ation)\b/g, (m, c, s) => `${c}ersonaliz${s}`],
   [/\b(O|o)rganis(e|ed|es|ing|ation)\b/g, (m, c, s) => `${c}rganiz${s}`],
   [/\b(S|s)pecialis(e|ed|es|ing|t|ts)\b/g, (m, c, s) => `${c}pecializ${s}`],
