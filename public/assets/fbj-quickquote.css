@@ -1,0 +1,85 @@
+/* The quick-quote strip that opens every product and category page.
+ * Namespaced under .fbj-qq- so it cannot reach a shared rule.
+ */
+.fbj-qq {
+  --qq-orange: #F4700A; --qq-navy: #0B1F3A; --qq-line: #E2E8F0;
+  background: #0B1F3A; padding: 26px 0; font-family: 'DM Sans', system-ui, sans-serif;
+}
+.fbj-qq-inner { max-width: 1180px; margin: 0 auto; padding: 0 20px; }
+.fbj-qq-top { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; margin-bottom: 14px; }
+.fbj-qq-title {
+  font-family: 'Barlow Condensed', sans-serif; font-weight: 800; text-transform: uppercase;
+  font-size: 22px; color: #fff; margin: 0; letter-spacing: .01em;
+}
+.fbj-qq-title span { color: var(--qq-orange); }
+.fbj-qq-note { font-size: 13.5px; color: #A3B5CC; margin: 0; }
+
+.fbj-qq-form { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 10px; align-items: start; }
+.fbj-qq-f--name  { grid-column: span 3; }
+.fbj-qq-f--email { grid-column: span 3; }
+.fbj-qq-f--phone { grid-column: span 2; }
+.fbj-qq-f--msg   { grid-column: span 4; }
+.fbj-qq-f--file  { grid-column: span 8; }
+.fbj-qq-f--send  { grid-column: span 4; }
+
+.fbj-qq input[type=text], .fbj-qq input[type=email], .fbj-qq input[type=tel], .fbj-qq textarea {
+  width: 100%; box-sizing: border-box; border: 1px solid #2A4160; background: #12294A;
+  color: #fff; border-radius: 8px; padding: 12px 14px;
+  /* 16px keeps iOS from zooming the viewport when a field is focused. */
+  font-size: 16px; font-family: inherit; line-height: 1.35;
+}
+.fbj-qq textarea { min-height: 46px; resize: vertical; }
+.fbj-qq input::placeholder, .fbj-qq textarea::placeholder { color: #8AA0BC; }
+.fbj-qq input:focus, .fbj-qq textarea:focus { outline: 2px solid var(--qq-orange); outline-offset: 1px; border-color: var(--qq-orange); }
+
+.fbj-qq-file {
+  display: flex; align-items: center; gap: 10px; border: 1px dashed #35507A; border-radius: 8px;
+  padding: 10px 14px; color: #A3B5CC; font-size: 14px; cursor: pointer; background: #0E2340;
+}
+.fbj-qq-file:hover { border-color: var(--qq-orange); color: #fff; }
+.fbj-qq-file input[type=file] { display: none; }
+.fbj-qq-file-name { color: #fff; font-size: 13.5px; }
+
+.fbj-qq-btn {
+  width: 100%; border: 0; background: var(--qq-orange); color: #fff; border-radius: 8px;
+  font-family: 'Barlow Condensed', sans-serif; font-weight: 700; text-transform: uppercase;
+  letter-spacing: .05em; font-size: 17px; padding: 13px 20px; cursor: pointer;
+}
+.fbj-qq-btn:hover { background: #FF8C2A; }
+.fbj-qq-btn[disabled] { opacity: .6; cursor: default; }
+
+/* The honeypot: present for a bot, gone for a person and for a screen reader. */
+.fbj-qq-hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+
+.fbj-qq-msg { margin: 12px 0 0; font-size: 14.5px; color: #C9D6E6; min-height: 1px; }
+.fbj-qq-msg--ok { color: #7BE0A0; }
+.fbj-qq-msg--err { color: #FFA98A; }
+
+@media (max-width: 980px) {
+  .fbj-qq-f--name, .fbj-qq-f--email { grid-column: span 6; }
+  .fbj-qq-f--phone { grid-column: span 6; }
+  .fbj-qq-f--msg { grid-column: span 6; }
+  .fbj-qq-f--file, .fbj-qq-f--send { grid-column: span 12; }
+}
+/* The reveal is a small-screen affordance only; on a wide viewport every field
+ * is already on one row and there is nothing to hide. */
+.fbj-qq-more { display: none; }
+
+@media (max-width: 620px) {
+  .fbj-qq { padding: 20px 0; }
+  .fbj-qq-form > div { grid-column: span 12 !important; }
+
+  /* On a phone the full form filled the entire first screen and pushed the
+   * product itself below the fold — which is the wrong trade on a page
+   * somebody reached by searching for that product. Name, email, phone and
+   * the button are enough to start a conversation; the message and the file
+   * are one tap away and still submitted with everything else. */
+  .fbj-qq-more {
+    display: block; grid-column: span 12; background: none; border: 0; padding: 2px 0 0;
+    color: #FF8C2A; font-family: inherit; font-size: 14px; text-align: left; cursor: pointer;
+    text-decoration: underline; text-underline-offset: 3px;
+  }
+  .fbj-qq-form:not(.fbj-qq-open) .fbj-qq-f--msg,
+  .fbj-qq-form:not(.fbj-qq-open) .fbj-qq-f--file { display: none; }
+  .fbj-qq-form.fbj-qq-open .fbj-qq-more { display: none; }
+}

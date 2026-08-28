@@ -53,7 +53,7 @@ export default async function handler(req, res) {
     const referer = fields.referer_title || '';
     const product = fields['form_fields[field_a858f27]'] ||
       referer.replace(/\s*\|.*$/, '').replace(/^Custom\s+/, '').replace(/\s+Florida$/, '');
-    subject = `New message from "Florida Basktetball Jerseys"`;
+    subject = `New message from "Florida Basketball Jerseys"`;
     rows = [
       ['Product', product],
       ['Name', name],

@@ -42,7 +42,7 @@ export function transport() {
 }
 
 export function fromHeader() {
-  const name = process.env.MAIL_FROM_NAME || 'Florida Basktetball Jerseys';
+  const name = process.env.MAIL_FROM_NAME || 'Florida Basketball Jerseys';
   const email = process.env.MAIL_FROM_EMAIL || 'info@floridabasketballjerseys.com';
   return `"${name}" <${email}>`;
 }

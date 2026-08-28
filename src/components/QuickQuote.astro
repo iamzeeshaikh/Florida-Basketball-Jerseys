@@ -1,0 +1,122 @@
+---
+// The short quote form that opens every product and category page.
+//
+// It posts to the SAME /api/quote endpoint as the existing Elementor form
+// further down the page, using the same field names, so nothing changes on the
+// server: same recipients, same validation, same email format. The product name
+// and page URL are filled in from the page itself, so a reply always says which
+// jersey was being asked about.
+//
+// Submission is handled here rather than by a native form post because a native
+// post navigates away, and losing the product page after asking a question is a
+// worse experience than a line of text confirming it was sent.
+const { productName = '', pageTitle = '' } = Astro.props;
+---
+<section class="fbj-qq" aria-labelledby="fbj-qq-title">
+  <div class="fbj-qq-inner">
+    <div class="fbj-qq-top">
+      <h2 class="fbj-qq-title" id="fbj-qq-title">Get a Free Quote <span>in Minutes</span></h2>
+      <p class="fbj-qq-note">Free design &middot; free USA shipping &middot; no minimum order &middot; we reply within 24 hours</p>
+    </div>
+
+    <form class="fbj-qq-form" method="post" action="/api/quote" enctype="multipart/form-data" novalidate>
+      <input type="hidden" name="referer_title" value={pageTitle} />
+      <input type="hidden" name="page_url" value="" data-fill="url" />
+      <div class="fbj-qq-hp" aria-hidden="true">
+        <label>Leave this empty<input type="text" name="form_fields[field_228829a]" tabindex="-1" autocomplete="off" /></label>
+      </div>
+
+      <div class="fbj-qq-f--name">
+        <label class="fbj-qq-hp" for="fbj-qq-name">Name</label>
+        <input id="fbj-qq-name" type="text" name="form_fields[name]" placeholder="Name" autocomplete="name" />
+      </div>
+      <div class="fbj-qq-f--email">
+        <label class="fbj-qq-hp" for="fbj-qq-email">Email</label>
+        <input id="fbj-qq-email" type="email" name="form_fields[email]" placeholder="Email" autocomplete="email" required />
+      </div>
+      <div class="fbj-qq-f--phone">
+        <label class="fbj-qq-hp" for="fbj-qq-phone">Phone</label>
+        <input id="fbj-qq-phone" type="tel" name="form_fields[field_f54cfcb]" placeholder="Phone" autocomplete="tel" required />
+      </div>
+      <div class="fbj-qq-f--msg">
+        <label class="fbj-qq-hp" for="fbj-qq-msg">What do you need?</label>
+        <textarea id="fbj-qq-msg" name="form_fields[message]" placeholder="Quantity, colors, date needed…" rows="1"></textarea>
+      </div>
+
+      <input type="hidden" name="form_fields[field_a858f27]" value={productName} />
+
+      <div class="fbj-qq-f--file">
+        <label class="fbj-qq-file">
+          <svg width="16" height="16" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M9 12V3m0 0L5.5 6.5M9 3l3.5 3.5M3 12v2a1 1 0 001 1h10a1 1 0 001-1v-2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span>Attach your logo or a reference image (optional)</span>
+          <input type="file" name="form_fields[field_e4013ab][]" accept="image/*,.pdf,.ai,.eps,.svg" />
+          <span class="fbj-qq-file-name" data-file-name></span>
+        </label>
+      </div>
+      <button type="button" class="fbj-qq-more" data-qq-more>+ Add details or attach a file</button>
+
+      <div class="fbj-qq-f--send">
+        <button class="fbj-qq-btn" type="submit">Send My Quote Request</button>
+      </div>
+
+      <p class="fbj-qq-msg" role="status" aria-live="polite" data-qq-msg></p>
+    </form>
+  </div>
+</section>
+
+<script is:inline>
+(function () {
+  var form = document.querySelector('.fbj-qq-form');
+  if (!form || form.dataset.wired) return;
+  form.dataset.wired = '1';
+
+  var url = form.querySelector('[data-fill="url"]');
+  if (url) url.value = window.location.href;
+
+  var file = form.querySelector('input[type=file]');
+  var fileName = form.querySelector('[data-file-name]');
+  if (file) file.addEventListener('change', function () {
+    if (fileName) fileName.textContent = file.files && file.files[0] ? file.files[0].name : '';
+  });
+
+  var more = form.querySelector('[data-qq-more]');
+  if (more) more.addEventListener('click', function () {
+    form.classList.add('fbj-qq-open');
+    var t = form.querySelector('textarea');
+    if (t) t.focus();
+  });
+
+  var msg = form.querySelector('[data-qq-msg]');
+  var btn = form.querySelector('button[type=submit]');
+
+  function say(text, kind) {
+    if (!msg) return;
+    msg.textContent = text;
+    msg.className = 'fbj-qq-msg' + (kind ? ' fbj-qq-msg--' + kind : '');
+  }
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var email = form.querySelector('input[type=email]');
+    var phone = form.querySelector('input[type=tel]');
+    if (!email.value || email.value.indexOf('@') < 1) { say('Please enter a valid email address.', 'err'); email.focus(); return; }
+    if (!phone.value.trim()) { say('Please enter a phone number so we can reach you.', 'err'); phone.focus(); return; }
+
+    btn.disabled = true;
+    say('Sending…');
+    fetch(form.action, { method: 'POST', body: new FormData(form) })
+      .then(function (r) { return r.json().catch(function () { return { success: r.ok }; }); })
+      .then(function (d) {
+        if (d && d.success) {
+          form.reset();
+          if (fileName) fileName.textContent = '';
+          say('Thanks — your request is with us. We reply within 24 hours.', 'ok');
+        } else {
+          say((d && d.message) || 'Something went wrong. Please call us or try again.', 'err');
+        }
+      })
+      .catch(function () { say('Something went wrong. Please call us or try again.', 'err'); })
+      .then(function () { btn.disabled = false; });
+  });
+})();
+</script>

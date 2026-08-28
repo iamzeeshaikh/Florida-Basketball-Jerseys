@@ -10,6 +10,9 @@ import Footer from '../components/Footer.astro';
 
 const { page } = Astro.props;
 const isProduct = page.route.startsWith('/product/') && page.route !== '/product/' && !page.route.includes('/page/');
+// The quick-quote strip opens product and category pages.
+const hasQuickQuote = isProduct
+  || (page.route.startsWith('/product-category/') && !page.route.includes('/page/'));
 ---
 <!DOCTYPE html>
 <html lang="en-US">
@@ -28,6 +31,7 @@ const isProduct = page.route.startsWith('/product/') && page.route !== '/product
 {/* The five product sections inlined 56,851 bytes of identical CSS on each of
     the 42 product pages. It is one cached file now. */}
 {isProduct && <link rel="stylesheet" href={`/assets/product-sections.css?v=${ASSET_VERSION}`} />}
+{hasQuickQuote && <link rel="stylesheet" href={`/assets/fbj-quickquote.css?v=${ASSET_VERSION}`} />}
 {(page.styles ?? []).map((href) => <link rel="stylesheet" href={`${href}?v=${ASSET_VERSION}`} />)}
 </head>
 
