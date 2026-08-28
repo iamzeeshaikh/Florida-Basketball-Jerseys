@@ -8,3 +8,4 @@ audit/shots/
 audit/*.png
 audit/test-attachment.txt
 dist-local/
+scratch-extract/

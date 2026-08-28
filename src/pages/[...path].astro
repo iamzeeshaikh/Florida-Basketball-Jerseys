@@ -1,6 +1,7 @@
 ---
 import pages from '../data/pages.json';
-import { rewrite } from '../lib/site.js';
+import { rewrite, dropFontImports } from '../lib/site.js';
+import { applyProductContent } from '../lib/product-sections.js';
 import Shell from '../layouts/Shell.astro';
 
 export function getStaticPaths() {
@@ -15,5 +16,13 @@ export function getStaticPaths() {
 }
 
 const { page } = Astro.props;
+
+// Product pages get their five shared sections filled in with content about the
+// product actually being sold — see src/lib/product-sections.js for what was
+// wrong with them. Every other route passes through untouched.
+const productSlug = page.route.startsWith('/product/')
+  ? page.route.replace('/product/', '').replace(/\/$/, '')
+  : null;
+const html = productSlug ? applyProductContent(page.content, productSlug) : page.content;
 ---
-<Shell page={page}><Fragment set:html={rewrite(page.content)} /></Shell>
+<Shell page={page}><Fragment set:html={dropFontImports(rewrite(html))} /></Shell>

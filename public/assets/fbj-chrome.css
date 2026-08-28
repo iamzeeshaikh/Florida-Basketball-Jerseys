@@ -1,0 +1,1011 @@
+/* Header and footer CSS, lifted out of the captured chrome.
+ *
+ * Both blocks were inlined into every one of the 76 pages (18,974 bytes
+ * per page) and each carried its own @import for the same two Google fonts.
+ * The rules are unchanged; they are served once and cached, and the fonts are
+ * requested from a preconnected <link> in <head> instead.
+ */
+
+/* ── header ─────────────────────────────────────────────── */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+  .fbj-hdr-wrap {
+    background: #0B1F3A;
+    border-bottom: 1px solid rgba(255,255,255,0.07);
+    font-family: 'DM Sans', sans-serif;
+    position: relative;
+    z-index: 9999;
+    transition: box-shadow 0.3s ease;
+  }
+
+  .fbj-hdr-wrap.fbj-hdr-scrolled {
+    box-shadow: 0 4px 32px rgba(0,0,0,0.35);
+  }
+
+  /* ---- Top info bar ---- */
+  .fbj-hdr-topbar {
+    background: #071629;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    padding: 7px 24px;
+  }
+
+  .fbj-hdr-topbar-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .fbj-hdr-topbar-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .fbj-hdr-topbar-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11.5px;
+    color: #7A9AB5;
+    text-decoration: none;
+    transition: color 0.15s ease;
+    white-space: nowrap;
+  }
+
+  .fbj-hdr-topbar-item:hover {
+    color: #FF8C2A;
+    text-decoration: none;
+  }
+
+  .fbj-hdr-topbar-item svg {
+    color: #F4700A;
+    flex-shrink: 0;
+  }
+
+  .fbj-hdr-topbar-right {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .fbj-hdr-topbar-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background: rgba(244,112,10,0.1);
+    border: 1px solid rgba(244,112,10,0.2);
+    border-radius: 100px;
+    padding: 3px 10px;
+    font-size: 10.5px;
+    font-weight: 600;
+    color: #FF8C2A;
+    white-space: nowrap;
+  }
+
+  .fbj-hdr-topbar-badge-dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #F4700A;
+    animation: fbj-hdr-blink 2s ease infinite;
+    flex-shrink: 0;
+  }
+
+  @keyframes fbj-hdr-blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+  }
+
+  /* ---- Main nav bar ---- */
+  .fbj-hdr-main {
+    padding: 0 24px;
+  }
+
+  .fbj-hdr-main-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+    gap: 32px;
+  }
+
+  /* ---- LOGO ---- */
+  .fbj-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    flex-shrink: 0;
+  }
+
+  .fbj-logo:hover {
+    text-decoration: none;
+  }
+
+  /* Logo mark — basketball in shield */
+  .fbj-logo-mark {
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    position: relative;
+  }
+
+  /* Logo wordmark */
+  .fbj-logo-wordmark {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    line-height: 1;
+  }
+
+  .fbj-logo-line1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    letter-spacing: 0.04em;
+    line-height: 1;
+  }
+
+  .fbj-logo-line2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #F4700A;
+    letter-spacing: 0.18em;
+    line-height: 1;
+    margin-top: 2px;
+  }
+
+  .fbj-logo-line3 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 9.5px;
+    font-weight: 500;
+    color: #5A7A96;
+    letter-spacing: 0.06em;
+    margin-top: 3px;
+    line-height: 1;
+  }
+
+  /* ---- Navigation ---- */
+  .fbj-nav {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex: 1;
+    justify-content: center;
+  }
+
+  .fbj-nav-item {
+    position: relative;
+  }
+
+  .fbj-nav-link {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 13.5px;
+    font-weight: 500;
+    color: #A3B5CC;
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    transition: color 0.15s ease, background 0.15s ease;
+    white-space: nowrap;
+  }
+
+  .fbj-nav-link:hover {
+    color: #FFFFFF;
+    background: rgba(255,255,255,0.06);
+    text-decoration: none;
+  }
+
+  .fbj-nav-link.fbj-nav-active {
+    color: #FFFFFF;
+    background: rgba(255,255,255,0.06);
+  }
+
+  /* Dropdown arrow */
+  .fbj-nav-arrow {
+    transition: transform 0.2s ease;
+    flex-shrink: 0;
+    color: #5A7A96;
+  }
+
+  .fbj-nav-item:hover .fbj-nav-arrow {
+    transform: rotate(180deg);
+    color: #FF8C2A;
+  }
+
+  /* Dropdown menu */
+  .fbj-nav-dropdown {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 50%;
+    transform: translateX(-50%);
+    background: #0E2347;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 12px;
+    padding: 10px;
+    min-width: 220px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    transform: translateX(-50%) translateY(-6px);
+    z-index: 100;
+    box-shadow: 0 16px 48px rgba(0,0,0,0.4);
+  }
+
+  .fbj-nav-item:hover .fbj-nav-dropdown {
+    opacity: 1;
+    pointer-events: all;
+    transform: translateX(-50%) translateY(0);
+  }
+
+  /* Dropdown arrow tip */
+  .fbj-nav-dropdown::before {
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 10px;
+    background: #0E2347;
+    border-left: 1px solid rgba(255,255,255,0.1);
+    border-top: 1px solid rgba(255,255,255,0.1);
+    transform: translateX(-50%) rotate(45deg);
+  }
+
+  .fbj-nav-dd-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 9px 12px;
+    border-radius: 7px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #A3B5CC;
+    text-decoration: none;
+    transition: background 0.15s ease, color 0.15s ease;
+  }
+
+  .fbj-nav-dd-link:hover {
+    background: rgba(244,112,10,0.1);
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+  .fbj-nav-dd-link svg {
+    color: #F4700A;
+    flex-shrink: 0;
+  }
+
+  .fbj-nav-dd-divider {
+    height: 1px;
+    background: rgba(255,255,255,0.06);
+    margin: 6px 0;
+  }
+
+  /* ---- Header CTA ---- */
+  .fbj-hdr-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+  }
+
+  .fbj-hdr-phone {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #E8EFF8;
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    border: 1px solid rgba(255,255,255,0.1);
+    transition: border-color 0.15s ease, background 0.15s ease;
+    white-space: nowrap;
+  }
+
+  .fbj-hdr-phone:hover {
+    border-color: rgba(255,255,255,0.25);
+    background: rgba(255,255,255,0.05);
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+  .fbj-hdr-phone svg {
+    color: #F4700A;
+    flex-shrink: 0;
+  }
+
+  .fbj-btn-hdr-quote {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    background: #F4700A;
+    color: #FFFFFF;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13.5px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.2s ease, transform 0.15s ease;
+    white-space: nowrap;
+  }
+
+  .fbj-btn-hdr-quote:hover {
+    background: #D95F05;
+    transform: translateY(-1px);
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+  /* ---- Mobile hamburger ---- */
+  .fbj-hdr-burger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 6px;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+    transition: background 0.15s ease;
+    flex-shrink: 0;
+  }
+
+  .fbj-hdr-burger:hover {
+    background: rgba(255,255,255,0.1);
+  }
+
+  .fbj-hdr-burger span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: #E8EFF8;
+    border-radius: 2px;
+    transition: transform 0.25s ease, opacity 0.25s ease;
+  }
+
+  .fbj-hdr-burger.fbj-open span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+  .fbj-hdr-burger.fbj-open span:nth-child(2) {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+  .fbj-hdr-burger.fbj-open span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  /* ---- Mobile menu ---- */
+  .fbj-hdr-mobile {
+    display: none;
+    flex-direction: column;
+    background: #0E2347;
+    border-top: 1px solid rgba(255,255,255,0.07);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease;
+  }
+
+  .fbj-hdr-mobile.fbj-open {
+    max-height: 700px;
+  }
+
+  .fbj-hdr-mobile-inner {
+    padding: 20px 24px 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .fbj-hdr-mob-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 11px 14px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #A3B5CC;
+    text-decoration: none;
+    transition: background 0.15s ease, color 0.15s ease;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+  }
+
+  .fbj-hdr-mob-link:last-of-type {
+    border-bottom: none;
+  }
+
+  .fbj-hdr-mob-link:hover {
+    background: rgba(255,255,255,0.05);
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+  .fbj-hdr-mob-link svg {
+    color: #F4700A;
+    flex-shrink: 0;
+  }
+
+  .fbj-hdr-mob-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: #F4700A;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 13px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 12px;
+    transition: background 0.2s ease;
+  }
+
+  .fbj-hdr-mob-cta:hover {
+    background: #D95F05;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+  .fbj-hdr-mob-divider {
+    height: 1px;
+    background: rgba(255,255,255,0.06);
+    margin: 8px 0;
+  }
+
+  /* ---- Responsive ---- */
+  @media (max-width: 1020px) {
+    .fbj-nav {
+      display: none;
+    }
+    .fbj-hdr-phone {
+      display: none;
+    }
+    .fbj-hdr-burger {
+      display: flex;
+    }
+    .fbj-hdr-mobile {
+      display: flex;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .fbj-hdr-topbar-left {
+      display: none;
+    }
+    .fbj-hdr-main {
+      padding: 0 16px;
+    }
+    .fbj-logo-line3 {
+      display: none;
+    }
+  }
+
+/* ── footer ─────────────────────────────────────────────── */
+.fbj-ftr-wrap {
+    background: #071629;
+    font-family: 'DM Sans', sans-serif;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .fbj-ftr-bg {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* ---- Main footer body ---- */
+  .fbj-ftr-main {
+    position: relative;
+    z-index: 2;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 72px 24px 52px;
+  }
+
+  .fbj-ftr-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1.4fr;
+    gap: 48px;
+    margin-bottom: 56px;
+  }
+
+  /* ---- Column 1: Brand ---- */
+  .fbj-ftr-brand {}
+
+  .fbj-ftr-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
+
+  .fbj-ftr-logo:hover {
+    text-decoration: none;
+  }
+
+  .fbj-ftr-logo-line1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    letter-spacing: 0.04em;
+    line-height: 1;
+  }
+
+  .fbj-ftr-logo-line2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #F4700A;
+    letter-spacing: 0.18em;
+    line-height: 1;
+    margin-top: 2px;
+  }
+
+  .fbj-ftr-tagline {
+    font-size: 13.5px;
+    line-height: 1.75;
+    color: #5A7A96;
+    margin-bottom: 24px;
+    max-width: 280px;
+  }
+
+  .fbj-ftr-tagline strong {
+    color: #A3B5CC;
+    font-weight: 600;
+  }
+
+  /* Contact details */
+  .fbj-ftr-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 28px;
+  }
+
+  .fbj-ftr-contact-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 13px;
+    color: #5A7A96;
+    text-decoration: none;
+    line-height: 1.5;
+    transition: color 0.15s ease;
+  }
+
+  .fbj-ftr-contact-item:hover {
+    color: #FF8C2A;
+    text-decoration: none;
+  }
+
+  .fbj-ftr-contact-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 7px;
+    background: rgba(244,112,10,0.08);
+    border: 1px solid rgba(244,112,10,0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F4700A;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  /* Social icons */
+  .fbj-ftr-social {
+    display: flex;
+    gap: 8px;
+  }
+
+  .fbj-ftr-social-link {
+    width: 34px;
+    height: 34px;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.09);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5A7A96;
+    text-decoration: none;
+    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  }
+
+  .fbj-ftr-social-link:hover {
+    background: rgba(244,112,10,0.12);
+    border-color: rgba(244,112,10,0.3);
+    color: #FF8C2A;
+    text-decoration: none;
+  }
+
+  /* ---- Column headings ---- */
+  .fbj-ftr-col {}
+
+  .fbj-ftr-col-title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #E8EFF8;
+    margin-bottom: 18px;
+    padding-bottom: 10px;
+    border-bottom: 1.5px solid rgba(244,112,10,0.3);
+    display: inline-block;
+  }
+
+  .fbj-ftr-col-links {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+  }
+
+  .fbj-ftr-col-link {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 13px;
+    color: #5A7A96;
+    text-decoration: none;
+    line-height: 1.4;
+    transition: color 0.15s ease;
+  }
+
+  .fbj-ftr-col-link:hover {
+    color: #FF8C2A;
+    text-decoration: none;
+  }
+
+  .fbj-ftr-col-link::before {
+    content: '';
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: rgba(244,112,10,0.4);
+    flex-shrink: 0;
+    transition: background 0.15s ease;
+  }
+
+  .fbj-ftr-col-link:hover::before {
+    background: #F4700A;
+  }
+
+  /* ---- Column 5: CTA + trust ---- */
+  .fbj-ftr-cta-col {}
+
+  .fbj-ftr-cta-card {
+    background: rgba(244,112,10,0.07);
+    border: 1px solid rgba(244,112,10,0.18);
+    border-radius: 12px;
+    padding: 22px 20px;
+    margin-bottom: 20px;
+  }
+
+  .fbj-ftr-cta-card-title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 1.1;
+    margin-bottom: 8px;
+  }
+
+  .fbj-ftr-cta-card-title span {
+    color: #F4700A;
+  }
+
+  .fbj-ftr-cta-card-body {
+    font-size: 12px;
+    color: #5A7A96;
+    line-height: 1.6;
+    margin-bottom: 16px;
+  }
+
+  .fbj-btn-ftr-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    background: #F4700A;
+    color: #FFFFFF;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.2s ease, transform 0.15s ease;
+    text-align: center;
+  }
+
+  .fbj-btn-ftr-cta:hover {
+    background: #D95F05;
+    transform: translateY(-1px);
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+  /* Trust mini-list */
+  .fbj-ftr-trust-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .fbj-ftr-trust-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    color: #4A6A84;
+  }
+
+  .fbj-ftr-trust-check {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: rgba(244,112,10,0.1);
+    border: 1px solid rgba(244,112,10,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FF8C2A;
+    flex-shrink: 0;
+  }
+
+  /* ---- Divider ---- */
+  .fbj-ftr-divider {
+    height: 1px;
+    background: rgba(255,255,255,0.06);
+    margin-bottom: 32px;
+  }
+
+  /* ---- Policy links row ---- */
+  .fbj-ftr-policies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 28px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+  }
+
+  .fbj-ftr-policy-link {
+    font-size: 12px;
+    font-weight: 500;
+    color: #3A5A74;
+    text-decoration: none;
+    padding: 5px 12px;
+    border-radius: 4px;
+    border: 1px solid rgba(255,255,255,0.06);
+    transition: color 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+    white-space: nowrap;
+  }
+
+  .fbj-ftr-policy-link:hover {
+    color: #A3B5CC;
+    border-color: rgba(255,255,255,0.12);
+    background: rgba(255,255,255,0.03);
+    text-decoration: none;
+  }
+
+  /* ---- Bottom bar ---- */
+  .fbj-ftr-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .fbj-ftr-copyright {
+    font-size: 12px;
+    color: #2E4A60;
+    line-height: 1.6;
+  }
+
+  .fbj-ftr-copyright a {
+    color: #3A6A8A;
+    text-decoration: none;
+    transition: color 0.15s ease;
+  }
+
+  .fbj-ftr-copyright a:hover {
+    color: #FF8C2A;
+  }
+
+  .fbj-ftr-bottom-badges {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .fbj-ftr-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.07);
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 11px;
+    font-weight: 600;
+    color: #3A5A74;
+    white-space: nowrap;
+  }
+
+  .fbj-ftr-badge svg {
+    color: #F4700A;
+    flex-shrink: 0;
+  }
+
+  /* ---- Accent bar at very top of footer ---- */
+  .fbj-ftr-accent {
+    height: 3px;
+    background: linear-gradient(90deg, #F4700A, #FF8C2A, #FFB347, #FF8C2A, #F4700A);
+    background-size: 200% 100%;
+    animation: fbj-ftr-shimmer 3s linear infinite;
+  }
+
+  @keyframes fbj-ftr-shimmer {
+    0% { background-position: 0% 0%; }
+    100% { background-position: 200% 0%; }
+  }
+
+  /* ---- Responsive ---- */
+  @media (max-width: 1100px) {
+    .fbj-ftr-grid {
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 36px;
+    }
+    .fbj-ftr-brand {
+      grid-column: 1 / -1;
+    }
+    .fbj-ftr-tagline {
+      max-width: 520px;
+    }
+    .fbj-ftr-contact {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .fbj-ftr-cta-col {
+      grid-column: 1 / -1;
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 24px;
+      align-items: start;
+    }
+    .fbj-ftr-cta-card {
+      margin-bottom: 0;
+    }
+  }
+
+  @media (max-width: 760px) {
+    .fbj-ftr-grid {
+      grid-template-columns: 1fr 1fr;
+      gap: 28px;
+    }
+    .fbj-ftr-brand {
+      grid-column: 1 / -1;
+    }
+    .fbj-ftr-cta-col {
+      grid-column: 1 / -1;
+      grid-template-columns: 1fr;
+    }
+    .fbj-ftr-main {
+      padding: 52px 20px 40px;
+    }
+    .fbj-ftr-bottom {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .fbj-ftr-grid {
+      grid-template-columns: 1fr;
+    }
+    .fbj-ftr-policies {
+      gap: 6px;
+    }
+  }
+
+/* ── Mobile header overflow ──────────────────────────────────────────────────
+ * Every page on this site scrolled sideways by 105px on a 390px phone. Not a
+ * wide element — nothing was wider than the viewport — but a flex row that
+ * could not fit and was not allowed to shrink.
+ *
+ * .fbj-hdr-main-inner is 358px on that viewport, with a 32px gap and three
+ * visible children, all of them flex:0 0 auto: the logo (204px), the actions
+ * block holding the phone number and the quote button (170px), and the burger
+ * (40px). 204 + 170 + 40 + 64 of gap = 478px asked of 358px, and because
+ * flex-shrink is 0 on all three, none of them gives. The burger was pushed to
+ * x=455, 121px past the right edge of its own parent, and the page inherited
+ * the difference.
+ *
+ * The actions block is what the burger exists to replace, so it is hidden at
+ * the same breakpoint the nav already hides at. The logo is also allowed to
+ * shrink, so a longer brand name can never reproduce this.
+ */
+@media (max-width: 1020px) {
+  .fbj-hdr-actions { display: none !important; }
+  .fbj-hdr-main-inner { gap: 16px; min-width: 0; }
+  .fbj-logo { flex: 0 1 auto; min-width: 0; }
+  .fbj-logo-text { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+}
+
+/* ── Home-page color grid on small screens ───────────────────────────────────
+ * The home page still scrolled sideways by 32px on a 390px phone. Not the size
+ * table — that one is inside a scroll container and behaves. It was this:
+ *
+ *   @media (max-width: 600px) {
+ *     .fbj-cat-grid--colors { grid-template-columns: repeat(3, 1fr); }
+ *   }
+ *
+ * `1fr` is shorthand for `minmax(auto, 1fr)`, and that `auto` minimum is the
+ * column's MIN-CONTENT width — so a track can never shrink below the widest
+ * unbreakable thing inside it. The colour cards measure about 127px at their
+ * narrowest, so three of them plus two 14px gaps demanded 409px inside a 338px
+ * grid, and the third card ran to x=422. The declaration says "three equal
+ * columns"; what it means is "three columns, each at least as wide as its
+ * content, equal only if there is room".
+ *
+ * minmax(0, 1fr) removes that floor, which is what the rule intended. Below
+ * 430px it also drops to two columns — three 105px cards would technically fit
+ * but leave nothing legible under the swatch.
+ *
+ * The selectors carry the section wrapper because this file loads from <head>
+ * while the page's own rules are inlined further down the body, and at equal
+ * specificity the later rule wins. One extra class is enough to settle it
+ * without resorting to !important.
+ */
+@media (max-width: 600px) {
+  .fbj-cat-wrap .fbj-cat-grid--colors { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (max-width: 430px) {
+  .fbj-cat-wrap .fbj-cat-grid--colors { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+/* Same floor, same fix, for the other card grids — they use auto-fill with a
+ * 175px minimum, which is safe today only because these viewports happen to be
+ * wide enough. Naming the zero minimum makes that explicit rather than lucky. */
+@media (max-width: 700px) {
+  .fbj-cat-wrap .fbj-cat-grid--styles,
+  .fbj-cat-wrap .fbj-cat-grid--uniforms,
+  .fbj-cat-wrap .fbj-cat-grid--shorts,
+  .fbj-cat-wrap .fbj-cat-grid--shirts { grid-template-columns: repeat(auto-fill, minmax(min(175px, 100%), 1fr)); }
+}
+
+/* A wide table should scroll inside its own box rather than move the page. */
+@media (max-width: 700px) {
+  .fbj-guide-table-wrap { max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+}

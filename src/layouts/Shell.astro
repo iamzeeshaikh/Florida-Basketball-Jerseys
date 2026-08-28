@@ -3,24 +3,38 @@
 // and footer, and the trailing vendor scripts. `[...path].astro` renders the
 // migrated pages with it; the cart-flow pages WordPress never served as HTML
 // borrow a captured record so they inherit identical chrome.
-import { rewrite } from '../lib/site.js';
+import { rewrite, dropFontImports, FONT_HREF } from '../lib/site.js';
 import { ASSET_VERSION } from '../lib/assets.js';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 
 const { page } = Astro.props;
+const isProduct = page.route.startsWith('/product/') && page.route !== '/product/' && !page.route.includes('/page/');
 ---
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-<Fragment set:html={rewrite(page.head)} />
+<Fragment set:html={dropFontImports(rewrite(page.head))} />
+{/* Both families used to be requested by @import from inside inline <style>
+    blocks — two on every page, seven on a product page. Asking for them here,
+    behind a preconnect, is the whole difference between a font the browser
+    finds in the first bytes of <head> and one it cannot discover until it has
+    parsed a stylesheet. */}
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href={FONT_HREF} />
+{/* Header and footer CSS, previously inlined on all 76 pages. */}
+<link rel="stylesheet" href={`/assets/fbj-chrome.css?v=${ASSET_VERSION}`} />
+{/* The five product sections inlined 56,851 bytes of identical CSS on each of
+    the 42 product pages. It is one cached file now. */}
+{isProduct && <link rel="stylesheet" href={`/assets/product-sections.css?v=${ASSET_VERSION}`} />}
 </head>
 
 <body class={page.bodyClass}>
 		<Header page={page} />
 		<slot />
 		<Footer page={page} />
-<Fragment set:html={rewrite(page.tail)} />
+<Fragment set:html={dropFontImports(rewrite(page.tail))} />
 <script src={`/assets/fbj.js?v=${ASSET_VERSION}`} data-v={ASSET_VERSION} defer></script>
 <script src={`/assets/cart.js?v=${ASSET_VERSION}`} data-v={ASSET_VERSION} defer></script>
 </body>
