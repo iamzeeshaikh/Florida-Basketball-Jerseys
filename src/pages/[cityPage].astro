@@ -1,0 +1,127 @@
+---
+// One page per Florida city we sell into.
+//
+// The sections a city carries, and their order, come from its own record in
+// src/data/locations.json — so a coastal city can lead with climate where an
+// inland one leads with its school district, and no two pages walk the reader
+// through the same argument in the same sequence.
+import locations from '../data/locations.json';
+import Shell from '../layouts/Shell.astro';
+import { makePage } from '../lib/newpage.js';
+import { rewrite, dropFontImports } from '../lib/site.js';
+import { faqSchema, breadcrumbSchema, schemaTags } from '../lib/schema.js';
+
+export function getStaticPaths() {
+  return locations.map((loc) => ({ params: { cityPage: loc.slug }, props: { loc } }));
+}
+
+const { loc } = Astro.props;
+const route = `/${loc.slug}/`;
+const page = makePage({
+  route, title: loc.title, description: loc.description,
+  styles: ['/assets/fbj-locations.css'],
+});
+
+const byCity = Object.fromEntries(locations.map((l) => [l.slug, l]));
+const nearby = (loc.nearby || []).map((s) => byCity[s]).filter(Boolean);
+
+const jsonLd = schemaTags([
+  faqSchema(loc.faqs || []),
+  breadcrumbSchema(route, `Basketball Jerseys ${loc.city}`),
+]);
+---
+<Shell page={page}>
+  <div class="fbj-loc-wrap">
+
+    <section class="fbj-loc-hero">
+      <div class="fbj-loc-inner">
+        <div class="fbj-loc-eyebrow">{loc.county} &middot; {loc.region}</div>
+        <h1 class="fbj-loc-h1">{loc.h1.pre} <span>{loc.h1.em}</span> {loc.h1.post}</h1>
+        <p class="fbj-loc-lede" set:html={loc.lede} />
+        <div class="fbj-loc-facts">
+          {loc.facts.map((f) => <span class="fbj-loc-fact">{f}</span>)}
+        </div>
+      </div>
+    </section>
+
+    {loc.sections.map((key, i) => {
+      const b = loc.blocks[key];
+      if (!b) return null;
+      const tint = i % 2 === 1;
+      return (
+        <section class={`fbj-loc-sec${tint ? ' fbj-loc-sec--tint' : ''}`}>
+          <div class="fbj-loc-inner">
+            <h2 class="fbj-loc-h2">{b.h2.a} <span>{b.h2.em}</span></h2>
+            {b.sub && <p class="fbj-loc-sub" set:html={b.sub} />}
+
+            {b.prose && (
+              <div class="fbj-loc-prose">
+                {b.prose.map((p) => <p set:html={p} />)}
+              </div>
+            )}
+
+            {b.cards && (
+              <div class="fbj-loc-grid">
+                {b.cards.map((c) => (
+                  <div class="fbj-loc-card">
+                    <h3 class="fbj-loc-card-title">{c.title}</h3>
+                    <p set:html={c.body} />
+                  </div>
+                ))}
+              </div>
+            )}
+
+            {b.picks && (
+              <div class="fbj-loc-picks">
+                {b.picks.map((p) => (
+                  <a class="fbj-loc-pick" href={`/product/${p.slug}/`}>
+                    <div class="fbj-loc-pick-name">{p.name}</div>
+                    <p set:html={p.why} />
+                  </a>
+                ))}
+              </div>
+            )}
+          </div>
+        </section>
+      );
+    })}
+
+    {loc.faqs?.length > 0 && (
+      <section class="fbj-loc-sec">
+        <div class="fbj-loc-inner">
+          <h2 class="fbj-loc-h2">{loc.city} <span>Questions</span></h2>
+          <div class="fbj-loc-faq">
+            {loc.faqs.map((f) => (
+              <div class="fbj-loc-faq-item">
+                <h3 class="fbj-loc-faq-q">{f.q}</h3>
+                <p class="fbj-loc-faq-a" set:html={f.a} />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
+
+    {nearby.length > 0 && (
+      <section class="fbj-loc-sec fbj-loc-sec--tint">
+        <div class="fbj-loc-inner">
+          <h2 class="fbj-loc-h2">Also <span>Nearby</span></h2>
+          <div class="fbj-loc-nearby">
+            {nearby.map((n) => <a href={`/${n.slug}/`}>{n.city}</a>)}
+            <a href="/locations/">All Florida cities</a>
+          </div>
+        </div>
+      </section>
+    )}
+
+    <section class="fbj-loc-cta">
+      <div class="fbj-loc-inner">
+        <h2 class="fbj-loc-h2">Get a Quote for Your <span>{loc.city}</span> Team</h2>
+        <p set:html={loc.cta} />
+        <a class="fbj-loc-btn" href="/get-a-quote/">Get a Free Quote</a>
+      </div>
+    </section>
+
+  </div>
+  <Fragment set:html={jsonLd} />
+</Shell>

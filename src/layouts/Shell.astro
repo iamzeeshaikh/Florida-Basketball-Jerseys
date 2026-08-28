@@ -28,6 +28,7 @@ const isProduct = page.route.startsWith('/product/') && page.route !== '/product
 {/* The five product sections inlined 56,851 bytes of identical CSS on each of
     the 42 product pages. It is one cached file now. */}
 {isProduct && <link rel="stylesheet" href={`/assets/product-sections.css?v=${ASSET_VERSION}`} />}
+{(page.styles ?? []).map((href) => <link rel="stylesheet" href={`${href}?v=${ASSET_VERSION}`} />)}
 </head>
 
 <body class={page.bodyClass}>

@@ -1,0 +1,87 @@
+---
+// The hub every city page links back to, and the one page that lists all of
+// them. Grouped by region rather than alphabetically: a coach in Broward is
+// looking for the cities around them, not for the letter B.
+import locations from '../../data/locations.json';
+import Shell from '../../layouts/Shell.astro';
+import { makePage } from '../../lib/newpage.js';
+import { breadcrumbSchema, schemaTags } from '../../lib/schema.js';
+
+const route = '/locations/';
+const page = makePage({
+  route,
+  title: 'Basketball Jersey Suppliers Across Florida | Cities We Serve',
+  description:
+    'Custom basketball jerseys and uniforms for teams across Florida — Miami, Orlando, Tampa, Jacksonville and 16 more cities. Free design, free USA shipping, no minimum order.',
+  styles: ['/assets/fbj-locations.css'],
+});
+
+// Region order runs roughly north to south, which is how people picture the
+// state rather than how an alphabet does.
+const REGION_ORDER = [
+  'North Florida', 'Northeast Florida', 'North Central Florida', 'Central Florida',
+  'Space Coast', 'Tampa Bay', 'Gulf Coast', 'Southwest Florida',
+  'Treasure Coast', 'Treasure Coast / South Florida', 'South Florida',
+];
+const grouped = REGION_ORDER
+  .map((r) => ({ region: r, cities: locations.filter((l) => l.region === r) }))
+  .filter((g) => g.cities.length);
+// Anything whose region is not in the list above still gets shown.
+const listed = new Set(grouped.flatMap((g) => g.cities.map((c) => c.slug)));
+const rest = locations.filter((l) => !listed.has(l.slug));
+if (rest.length) grouped.push({ region: 'Elsewhere in Florida', cities: rest });
+
+const jsonLd = schemaTags([breadcrumbSchema(route, 'Cities We Serve')]);
+---
+<Shell page={page}>
+  <div class="fbj-loc-wrap">
+
+    <section class="fbj-loc-hero">
+      <div class="fbj-loc-inner">
+        <div class="fbj-loc-eyebrow">Serving all of Florida</div>
+        <h1 class="fbj-loc-h1">Basketball Jerseys <span>Across Florida</span></h1>
+        <p class="fbj-loc-lede">
+          We ship free anywhere in the United States, so the reason these pages exist is not delivery —
+          it is that <strong>the right jersey genuinely differs by where you play</strong>. A sealed
+          inland gym, a coastal court with a breeze and an unconditioned community hall are three
+          different problems, and they have three different answers.
+        </p>
+        <div class="fbj-loc-facts">
+          <span class="fbj-loc-fact">{locations.length} Florida cities</span>
+          <span class="fbj-loc-fact">Free design + free USA shipping</span>
+          <span class="fbj-loc-fact">No minimum order</span>
+        </div>
+      </div>
+    </section>
+
+    {grouped.map((g, i) => (
+      <section class={`fbj-loc-sec${i % 2 === 1 ? ' fbj-loc-sec--tint' : ''}`}>
+        <div class="fbj-loc-inner">
+          <h2 class="fbj-loc-h2">{g.region}</h2>
+          <div class="fbj-loc-index-grid">
+            {g.cities.map((c) => (
+              <a class="fbj-loc-index-card" href={`/${c.slug}/`}>
+                <div class="fbj-loc-index-city">{c.city}</div>
+                <div class="fbj-loc-index-meta">{c.county}</div>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+    ))}
+
+    <section class="fbj-loc-cta">
+      <div class="fbj-loc-inner">
+        <h2 class="fbj-loc-h2">Not on the <span>List?</span></h2>
+        <p>
+          We supply teams everywhere in Florida and everywhere in the United States, whether or not
+          your town has a page here. Tell us where you play and what the gym is like, and we will
+          tell you which fabric is worth paying for.
+        </p>
+        <a class="fbj-loc-btn" href="/get-a-quote/">Get a Free Quote</a>
+      </div>
+    </section>
+
+  </div>
+  <Fragment set:html={jsonLd} />
+</Shell>

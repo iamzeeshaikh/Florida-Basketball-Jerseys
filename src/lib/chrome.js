@@ -1,4 +1,5 @@
 import chrome from '../data/chrome.json';
+import locations from '../data/locations.json';
 import { rewrite, dropFontImports } from './site.js';
 
 // The header and footer each inlined a <style> block — 10,024 and 8,950 bytes —
@@ -6,6 +7,44 @@ import { rewrite, dropFontImports } from './site.js';
 // cached across the whole site, so they are removed from the markup here.
 const CHROME_STYLE = /<style[^>]*>[\s\S]*?<\/style>/g;
 const stripChromeStyles = (html) => (html ? html.replace(CHROME_STYLE, '') : html);
+
+/**
+ * A "Cities We Serve" column in the footer.
+ *
+ * The city pages exist and link to each other, but nothing on the rest of the
+ * site linked to any of them — which makes them orphans: reachable from the
+ * sitemap and from nowhere a reader or a crawler would actually walk. One
+ * footer column fixes that for all twenty at once.
+ *
+ * Injected here rather than edited into chrome.json, which is the captured
+ * WordPress footer and is better left as the migration artifact. This way the
+ * list also stays generated from locations.json, so adding a city adds its
+ * link without anyone remembering to.
+ */
+const FOOTER_CITY_COUNT = 8;
+
+function citiesColumn() {
+  const shown = locations.slice(0, FOOTER_CITY_COUNT);
+  const links = shown
+    .map((l) => `<a href="/${l.slug}/" class="fbj-ftr-col-link">${l.city} Basketball Jerseys</a>`)
+    .join('\n          ');
+  return `<div class="fbj-ftr-col">
+        <div class="fbj-ftr-col-title">Cities We Serve</div>
+        <div class="fbj-ftr-col-links">
+          ${links}
+          <a href="/locations/" class="fbj-ftr-col-link">All Florida cities</a>
+        </div>
+      </div>`;
+}
+
+const COMPANY_COL = '<div class="fbj-ftr-col">\n        <div class="fbj-ftr-col-title">Company</div>';
+
+function addCities(html) {
+  if (!html || html.includes('Cities We Serve')) return html;
+  const i = html.indexOf(COMPANY_COL);
+  if (i < 0) return html;                      // footer changed shape: leave it alone
+  return html.slice(0, i) + citiesColumn() + '\n      ' + html.slice(i);
+}
 
 const TAG_SPLIT = /(<[^>]+>)/;
 const tokens = {
@@ -20,8 +59,8 @@ const tokens = {
  */
 export function region(name, page) {
   const diff = page.chromeDiff?.[name];
-  if (!diff) return stripChromeStyles(dropFontImports(rewrite(chrome[name])));
+  if (!diff) return addCities(stripChromeStyles(dropFontImports(rewrite(chrome[name]))));
   const out = tokens[name].slice();
   for (const [i, tag] of Object.entries(diff)) out[i] = tag;
-  return stripChromeStyles(dropFontImports(rewrite(out.join(''))));
+  return addCities(stripChromeStyles(dropFontImports(rewrite(out.join('')))));
 }
