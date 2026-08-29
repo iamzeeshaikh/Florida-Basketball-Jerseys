@@ -956,6 +956,26 @@
  * the same breakpoint the nav already hides at. The logo is also allowed to
  * shrink, so a longer brand name can never reproduce this.
  */
+/* The same row breaks again just above that breakpoint, for the same reason
+ * measured a different way. Between 1,021 and 1,193px the actions block is
+ * back but there is still not enough width for it: the row asks for 1,146px
+ * (204px logo + 550px nav + 328px actions + three 32px gaps) and a 1,024px
+ * iPad in landscape gives it 976px. The page scrolled sideways by 146px there
+ * and by 18px at 1,152px.
+ *
+ * Nothing needs to be removed wholesale. Dropping the phone number -- which is
+ * also in the top bar and the footer -- and tightening the gap and the link
+ * padding recovers 173px, which is enough at the narrow end of the band with
+ * room to spare.
+ */
+@media (min-width: 1021px) and (max-width: 1200px) {
+  .fbj-hdr-main-inner { gap: 20px; min-width: 0; }
+  .fbj-hdr-phone { display: none; }
+  .fbj-nav { gap: 2px; }
+  .fbj-nav-item > a,
+  .fbj-nav-link { padding-left: 8px; padding-right: 8px; font-size: 13px; }
+}
+
 @media (max-width: 1020px) {
   .fbj-hdr-actions { display: none !important; }
   .fbj-hdr-main-inner { gap: 16px; min-width: 0; }
