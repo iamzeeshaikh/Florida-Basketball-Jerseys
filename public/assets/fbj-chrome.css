@@ -1097,3 +1097,42 @@
   .fbj-con-info-card { padding-left: 14px; padding-right: 14px; }
   .fbj-con-info-item { gap: 10px; }
 }
+
+/* ── Questions on the pages that had none ─────────────────────────────────
+ * Loaded from the shared chrome sheet rather than a file of its own: it is
+ * six pages and about 1KB of rules, and a seventh request would cost more
+ * than it saves. Styled to match the FAQ blocks on the category, location
+ * and article pages so a visitor meets one pattern rather than four.
+ */
+.fbj-pfaq {
+  font-family: 'DM Sans', 'DM Sans Fallback', system-ui, -apple-system, sans-serif;
+  background: #F6F8FB; border-top: 1px solid #E2E8F0; padding: 52px 0 58px;
+}
+.fbj-pfaq__inner { max-width: 900px; margin: 0 auto; padding: 0 24px; }
+.fbj-pfaq__eyebrow {
+  display: inline-flex; align-items: center; gap: 9px; font-size: 12px;
+  letter-spacing: .14em; text-transform: uppercase; font-weight: 700;
+  color: #F4700A; margin-bottom: 12px;
+}
+.fbj-pfaq__eyebrow::before { content: ''; width: 22px; height: 2px; background: #F4700A; }
+.fbj-pfaq__h2 {
+  font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif;
+  font-weight: 800; text-transform: uppercase; font-size: clamp(24px, 3.2vw, 33px);
+  line-height: 1.1; margin: 0 0 12px; color: #0B1F3A; max-width: 24ch;
+}
+.fbj-pfaq__sub { font-size: 16px; line-height: 1.7; color: #5A6B7D; margin: 0 0 24px; max-width: 72ch; }
+.fbj-pfaq__list { display: grid; gap: 10px; }
+.fbj-pfaq__item { background: #fff; border: 1px solid #E2E8F0; border-radius: 8px; overflow: hidden; }
+.fbj-pfaq__item > summary { cursor: pointer; padding: 16px 46px 16px 20px; position: relative; list-style: none; }
+.fbj-pfaq__item > summary::-webkit-details-marker { display: none; }
+.fbj-pfaq__item > summary h3 {
+  display: inline; font-size: 16.5px; font-weight: 700; color: #0B1F3A; margin: 0; line-height: 1.5;
+}
+.fbj-pfaq__item > summary::after {
+  content: ''; position: absolute; right: 20px; top: 22px; width: 9px; height: 9px;
+  border: solid #F4700A; border-width: 0 2px 2px 0; transform: rotate(45deg); transition: transform .18s ease;
+}
+.fbj-pfaq__item[open] > summary::after { transform: rotate(-135deg); top: 26px; }
+.fbj-pfaq__item > summary:focus-visible { outline: 2px solid #F4700A; outline-offset: -2px; }
+.fbj-pfaq__a { padding: 0 20px 18px; }
+.fbj-pfaq__a p { margin: 0; font-size: 15.5px; line-height: 1.75; color: #5A6B7D; }

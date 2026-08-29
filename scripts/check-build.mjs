@@ -58,6 +58,17 @@ for (const file of pages) {
   // and thank-you are steps in a flow rather than places in a hierarchy, and a
   // breadcrumb on them would describe a structure that does not exist.
   const FLOW = ['/', '/cart/', '/checkout/', '/thank-you/', '/my-account/'];
+  // The category pages shipped as WooCommerce shells with 137-204 words around
+  // a product grid. These assertions are what stops that state returning.
+  if (/^\/product-category\/(?!uncategorized)[^/]+\/$/.test(route)) {
+    const words = html
+      .replace(/<(script|style)[^>]*>[\s\S]*?<\/\1>/gi, ' ')
+      .replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim().split(' ').length;
+    if (words < 800) problems.push(`${route} — thin category page (${words} words)`);
+    if (!html.includes('"FAQPage"')) problems.push(`${route} — no FAQPage`);
+    if (!html.includes('fbj-qq')) problems.push(`${route} — no quote form`);
+  }
+
   if (!html.includes('BreadcrumbList') && !FLOW.includes(route)) {
     problems.push(`${route} — no BreadcrumbList`);
   }

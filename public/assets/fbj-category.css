@@ -1,0 +1,200 @@
+/* Category-page content: the buying-guide section in one of six layouts, and
+ * the FAQs.
+ *
+ * Built on the site's own tokens (#F4700A orange, #0B1F3A navy, DM Sans and
+ * Barlow Condensed) so the additions read as part of the site rather than as
+ * something bolted on.
+ *
+ * There is no form here: QuickQuote.astro already puts one at the top of every
+ * category page, and a second would be noise.
+ *
+ * Every horizontal run — the split, the table, the ladder — is either allowed
+ * to wrap or given its own scroll container, because a flex or grid child
+ * defaults to a min-content floor and will push the page sideways on a phone
+ * rather than shrink. That is the bug this site already had in its header.
+ */
+
+/* ── The buying-guide section ─────────────────────────────────────────────── */
+.fbj-cat {
+  --c-red: #F4700A; --c-navy: #0B1F3A; --c-line: #e2e8f0;
+  --c-muted: #5A6B7D; --c-tint: #f8fafc;
+  font-family: 'DM Sans', 'DM Sans Fallback', system-ui, -apple-system, sans-serif;
+  color: var(--c-navy); background: #fff; padding: 54px 0 8px;
+  border-top: 1px solid var(--c-line); margin-top: 40px;
+}
+.fbj-cat__inner { max-width: 1180px; margin: 0 auto; padding: 0 24px; }
+.fbj-cat__eyebrow {
+  display: inline-flex; align-items: center; gap: 9px; font-size: 12px; letter-spacing: .14em;
+  text-transform: uppercase; font-weight: 700; color: var(--c-red); margin-bottom: 12px;
+}
+.fbj-cat__eyebrow::before { content: ''; width: 22px; height: 2px; background: var(--c-red); }
+.fbj-cat__h2 {
+  font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif; font-weight: 800; text-transform: uppercase;
+  font-size: clamp(26px, 3.5vw, 38px); line-height: 1.08; margin: 0 0 16px;
+  max-width: 22ch;
+}
+.fbj-cat__intro p {
+  font-size: 16.5px; line-height: 1.78; color: #46586B; margin: 0 0 16px; max-width: 74ch;
+}
+.fbj-cat__intro strong { color: var(--c-navy); }
+.fbj-cat__block-h {
+  font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif; font-weight: 800; text-transform: uppercase;
+  font-size: clamp(19px, 2.3vw, 24px); letter-spacing: .01em;
+  margin: 34px 0 18px; color: var(--c-navy);
+}
+.fbj-cat__close { margin: 30px 0 0; padding: 18px 22px; background: var(--c-tint);
+  border-left: 3px solid var(--c-red); border-radius: 0 6px 6px 0; }
+.fbj-cat__close p { margin: 0; font-size: 15.5px; line-height: 1.7; color: #46586B; }
+
+/* layout: ladder */
+.fbj-cat__ladder { display: grid; gap: 0; border-top: 1px solid var(--c-line); }
+.fbj-cat__rung {
+  display: grid; grid-template-columns: 52px minmax(0, 1fr) auto; gap: 18px;
+  align-items: start; padding: 20px 0; border-bottom: 1px solid var(--c-line);
+}
+.fbj-cat__rung-mark {
+  font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif; font-weight: 800; font-size: 26px;
+  color: #cbd5e0; line-height: 1;
+}
+.fbj-cat__rung-h { font-size: 17px; font-weight: 700; margin: 0 0 6px; color: var(--c-navy); }
+.fbj-cat__rung-body p { margin: 0; font-size: 15.5px; line-height: 1.7; color: var(--c-muted); }
+.fbj-cat__rung-tag {
+  font-size: 11.5px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase;
+  color: var(--c-red); background: #fdeaee; border-radius: 20px; padding: 5px 12px; white-space: nowrap;
+}
+@media (max-width: 640px) {
+  .fbj-cat__rung { grid-template-columns: 38px minmax(0, 1fr); gap: 12px; }
+  .fbj-cat__rung-tag { grid-column: 2; justify-self: start; }
+}
+
+/* layout: split */
+.fbj-cat__split { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.fbj-cat__side {
+  border: 1px solid var(--c-line); border-radius: 10px; padding: 24px; background: #fff;
+}
+.fbj-cat__side--lead { background: var(--c-tint); border-color: #cfd9e4; }
+.fbj-cat__side-cap {
+  font-size: 11.5px; letter-spacing: .12em; text-transform: uppercase;
+  font-weight: 700; color: var(--c-red); margin-bottom: 8px;
+}
+.fbj-cat__side-h {
+  font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif; font-weight: 800; text-transform: uppercase;
+  font-size: 21px; margin: 0 0 14px; color: var(--c-navy);
+}
+.fbj-cat__side-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.fbj-cat__side-list li {
+  position: relative; padding-left: 24px; font-size: 15.5px; line-height: 1.65; color: var(--c-muted);
+}
+.fbj-cat__side-list li::before {
+  content: ''; position: absolute; left: 0; top: 9px; width: 9px; height: 9px;
+  border-radius: 2px; background: var(--c-red);
+}
+@media (max-width: 720px) { .fbj-cat__split { grid-template-columns: minmax(0, 1fr); } }
+
+/* layout: walkthrough */
+.fbj-cat__walk { list-style: none; margin: 0; padding: 0; counter-reset: step; display: grid; gap: 4px; }
+.fbj-cat__step {
+  counter-increment: step; position: relative; padding: 18px 0 18px 62px;
+  border-bottom: 1px dashed var(--c-line);
+}
+.fbj-cat__step:last-child { border-bottom: 0; }
+.fbj-cat__step::before {
+  content: counter(step); position: absolute; left: 0; top: 16px;
+  width: 40px; height: 40px; border-radius: 50%; background: var(--c-navy); color: #fff;
+  font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif; font-weight: 800; font-size: 19px;
+  display: flex; align-items: center; justify-content: center;
+}
+.fbj-cat__step-h { font-size: 17.5px; font-weight: 700; margin: 0 0 6px; color: var(--c-navy); }
+.fbj-cat__step p { margin: 0; font-size: 15.5px; line-height: 1.72; color: var(--c-muted); max-width: 76ch; }
+@media (max-width: 520px) {
+  .fbj-cat__step { padding-left: 46px; }
+  .fbj-cat__step::before { width: 32px; height: 32px; font-size: 16px; }
+}
+
+/* layout: table */
+.fbj-cat__tablewrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.fbj-cat__table { border-collapse: collapse; width: 100%; min-width: 560px; font-size: 15px; }
+.fbj-cat__table caption {
+  caption-side: top; text-align: left; font-size: 13.5px; color: var(--c-muted);
+  padding: 0 0 12px; line-height: 1.6;
+}
+.fbj-cat__table th, .fbj-cat__table td {
+  text-align: left; padding: 12px 14px; border-bottom: 1px solid var(--c-line); vertical-align: top;
+}
+.fbj-cat__table thead th {
+  background: var(--c-navy); color: #fff; font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif;
+  font-weight: 700; font-size: 13.5px; letter-spacing: .08em; text-transform: uppercase;
+  border-bottom: 0;
+}
+.fbj-cat__table tbody th { font-weight: 700; color: var(--c-navy); width: 26%; }
+.fbj-cat__table tbody td { color: var(--c-muted); line-height: 1.6; }
+.fbj-cat__table tbody tr:nth-child(even) { background: var(--c-tint); }
+
+/* layout: questions */
+.fbj-cat__qs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 26px 40px; }
+.fbj-cat__q-h {
+  font-size: 17.5px; font-weight: 700; margin: 0 0 8px; color: var(--c-navy); line-height: 1.35;
+}
+.fbj-cat__q p { margin: 0 0 10px; font-size: 15.5px; line-height: 1.72; color: var(--c-muted); }
+.fbj-cat__q p:last-child { margin-bottom: 0; }
+@media (max-width: 760px) { .fbj-cat__qs { grid-template-columns: minmax(0, 1fr); gap: 22px; } }
+
+/* layout: checklist */
+.fbj-cat__check { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: 32px; align-items: start; }
+.fbj-cat__check-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.fbj-cat__check-list li {
+  position: relative; padding: 12px 12px 12px 40px; background: var(--c-tint);
+  border-radius: 8px; font-size: 15.5px; line-height: 1.65; color: #46586B;
+}
+.fbj-cat__check-list li::before {
+  content: ''; position: absolute; left: 15px; top: 18px; width: 6px; height: 11px;
+  border: solid var(--c-red); border-width: 0 2.5px 2.5px 0; transform: rotate(45deg);
+}
+.fbj-cat__callout {
+  background: var(--c-navy); color: #dce5f0; border-radius: 10px; padding: 22px 24px;
+}
+.fbj-cat__callout-cap {
+  font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif; font-weight: 800; text-transform: uppercase;
+  letter-spacing: .08em; font-size: 15px; color: #fff; margin-bottom: 10px;
+}
+.fbj-cat__callout p { margin: 0; font-size: 15px; line-height: 1.72; }
+.fbj-cat__callout strong { color: #fff; }
+@media (max-width: 760px) { .fbj-cat__check { grid-template-columns: minmax(0, 1fr); gap: 20px; } }
+
+/* ── FAQs ─────────────────────────────────────────────────────────────────── */
+.fbj-cat-faq {
+  font-family: 'DM Sans', 'DM Sans Fallback', system-ui, -apple-system, sans-serif;
+  background: #f8fafc; padding: 50px 0 56px; margin-top: 46px;
+  border-top: 1px solid #e2e8f0;
+}
+.fbj-cat-faq__inner { max-width: 900px; margin: 0 auto; padding: 0 24px; }
+.fbj-cat-faq__h2 {
+  font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif; font-weight: 800; text-transform: uppercase;
+  font-size: clamp(24px, 3.2vw, 33px); line-height: 1.1; margin: 0 0 22px; color: #0B1F3A;
+}
+.fbj-cat-faq__list { display: grid; gap: 10px; }
+.fbj-cat-faq__item {
+  background: #fff; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden;
+}
+.fbj-cat-faq__item > summary {
+  cursor: pointer; padding: 16px 46px 16px 20px; position: relative; list-style: none;
+}
+.fbj-cat-faq__item > summary::-webkit-details-marker { display: none; }
+.fbj-cat-faq__item > summary h3 {
+  display: inline; font-size: 16.5px; font-weight: 700; color: #0B1F3A; margin: 0; line-height: 1.5;
+}
+.fbj-cat-faq__item > summary::after {
+  content: ''; position: absolute; right: 20px; top: 22px; width: 9px; height: 9px;
+  border: solid #F4700A; border-width: 0 2px 2px 0; transform: rotate(45deg);
+  transition: transform .18s ease;
+}
+.fbj-cat-faq__item[open] > summary::after { transform: rotate(-135deg); top: 26px; }
+.fbj-cat-faq__item > summary:focus-visible { outline: 2px solid #F4700A; outline-offset: -2px; }
+.fbj-cat-faq__a { padding: 0 20px 18px; }
+.fbj-cat-faq__a p { margin: 0; font-size: 15.5px; line-height: 1.75; color: #5A6B7D; }
+.fbj-cat-faq__a a { color: #F4700A; }
+
+/* This site has no shared table-scroll class; the category renderer emits this
+ * one. Same reason it exists elsewhere: a table with no scroll container takes
+ * the whole page sideways on a phone. */
+.fbj-tablescroll { overflow-x: auto; -webkit-overflow-scrolling: touch; min-width: 0; max-width: 100%; }

@@ -82,3 +82,21 @@ const GOOGLE_FONT_LINKS =
 export function trimUnusedFonts(html) {
   return html ? html.replace(GOOGLE_FONT_LINKS, '') : html;
 }
+
+/**
+ * WordPress's default "Uncategorized" term.
+ *
+ * It has no products, seventy words of page around an empty grid, and it was
+ * being offered to search engines as indexable and listed in the sitemap. That
+ * is a thin page competing with the seven real category pages for the same
+ * crawl budget, and it exists only because WordPress creates it.
+ *
+ * Noindexed rather than removed, because the URL has been live and a 404 is a
+ * worse answer than an honest "there is nothing here worth indexing".
+ */
+export function noindexEmptyCategory(head, route) {
+  if (route !== '/product-category/uncategorized/') return head;
+  return head.replace(
+    /<meta name=(["'])robots\1 content=(["'])[^"']*\2\s*\/?>/i,
+    "<meta name='robots' content='noindex, follow' />");
+}

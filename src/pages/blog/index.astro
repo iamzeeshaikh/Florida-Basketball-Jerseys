@@ -2,7 +2,8 @@
 import posts from '../../data/blog.json';
 import Shell from '../../layouts/Shell.astro';
 import { makePage } from '../../lib/newpage.js';
-import { breadcrumbSchema, schemaTags } from '../../lib/schema.js';
+import { breadcrumbSchema, faqSchema, schemaTags } from '../../lib/schema.js';
+import { addPageFaqs, pageFaqs } from '../../lib/page-faqs.js';
 
 const route = '/blog/';
 const page = makePage({
@@ -14,7 +15,9 @@ const page = makePage({
 });
 
 const sorted = [...posts].sort((a, b) => b.date.localeCompare(a.date));
-const jsonLd = schemaTags([breadcrumbSchema(route, 'Guides')]);
+const jsonLd = schemaTags([faqSchema(pageFaqs('/blog/')), breadcrumbSchema(route, 'Guides')]);
+// The questions this page was missing — see src/lib/page-faqs.js.
+const pageFaqBlock = addPageFaqs('', '/blog/');
 ---
 <Shell page={page}>
   <div class="fbj-bl-wrap">
@@ -53,5 +56,6 @@ const jsonLd = schemaTags([breadcrumbSchema(route, 'Guides')]);
       </div>
     </section>
   </div>
+  <Fragment set:html={pageFaqBlock} />
   <Fragment set:html={jsonLd} />
 </Shell>

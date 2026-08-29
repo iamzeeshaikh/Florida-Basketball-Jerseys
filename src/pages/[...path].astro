@@ -3,6 +3,9 @@ import pages from '../data/pages.json';
 import { rewrite, dropFontImports, dropEntranceAnimations } from '../lib/site.js';
 import { applyProductContent, polishPage, splitForDesigner } from '../lib/product-sections.js';
 import { addDescriptionTab } from '../lib/product-description.js';
+import { addCategoryContent, hasCategoryContent, categoryFaqs, categorySlug }
+  from '../lib/category-content.js';
+import { addPageFaqs, hasPageFaqs, pageFaqs } from '../lib/page-faqs.js';
 import { extractFaqs, faqSchema, breadcrumbSchema, pageTitleFrom, schemaTags } from '../lib/schema.js';
 import { enhanceImages } from '../lib/images.js';
 import Shell from '../layouts/Shell.astro';
@@ -33,10 +36,20 @@ const productSlug = page.route.startsWith('/product/')
 // appear on category, policy and landing pages too.
 // The Description tab, first among the product tabs. The migrated template
 // ships Specifications and Faqs and no prose; see src/lib/product-description.js.
+const isCategory = page.route.startsWith('/product-category/') && !page.route.includes('/page/');
+// The category pages shipped as WooCommerce shells with 137-204 words around a
+// product grid. See src/lib/category-content.js.
+const catSlug = isCategory ? categorySlug(page.route) : null;
+const hasCatContent = Boolean(catSlug) && hasCategoryContent(catSlug);
+
 const html = dropEntranceAnimations(enhanceImages(
   productSlug
     ? addDescriptionTab(applyProductContent(page.content, productSlug), productSlug)
-    : polishPage(page.content),
+    : hasCatContent
+      ? addCategoryContent(polishPage(page.content), catSlug)
+      : hasPageFaqs(page.route)
+        ? addPageFaqs(polishPage(page.content), page.route)
+        : polishPage(page.content),
 ));
 
 // Structured data is derived from the FINISHED html, after the sections have
@@ -47,7 +60,6 @@ const html = dropEntranceAnimations(enhanceImages(
 // gallery and before the listing. The existing Elementor form stays where it
 // is further down — this one is for the visitor who arrived knowing what they
 // want and does not intend to scroll.
-const isCategory = page.route.startsWith('/product-category/') && !page.route.includes('/page/');
 const showQuickQuote = Boolean(productSlug) || isCategory;
 const pageTitle = pageTitleFrom(html);
 
@@ -65,8 +77,13 @@ const designerGarment = /shorts/i.test(productSlug ?? '') ? 'Shorts'
   : 'Jersey';
 
 const faqs = extractFaqs(html);
+// A category page's FAQs come from the source data rather than being scraped
+// back out of the HTML: extractFaqs is scoped to the product FAQ tab, which a
+// category page does not have.
 const jsonLd = schemaTags([
-  faqSchema(faqs),
+  faqSchema(hasCatContent ? categoryFaqs(catSlug)
+    : hasPageFaqs(page.route) ? pageFaqs(page.route)
+    : faqs),
   breadcrumbSchema(page.route, pageTitleFrom(html)),
 ]);
 ---

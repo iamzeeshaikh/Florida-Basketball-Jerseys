@@ -1,0 +1,160 @@
+{
+ "/about/": {
+  "eyebrow": "Working with us",
+  "h2": "Questions Teams Ask Before They Commit",
+  "sub": "Mostly about how we handle the parts of a uniform order that go wrong elsewhere.",
+  "faqs": [
+   {
+    "q": "What happens if the kit arrives wrong?",
+    "a": "Tell us and we will put it right. What we would rather do is prevent it, which is why nothing is produced without an approved proof and why we push teams toward measurements rather than size letters — nearly every exchange we handle traces back to somebody reporting a size instead of measuring one."
+   },
+   {
+    "q": "Can you reproduce an order we placed years ago?",
+    "a": "Yes, from our own records. That matters most for clubs and school programs where the person who placed the last order has moved on and taken the artwork with them. Give us the order number, or the program name and season."
+   },
+   {
+    "q": "Will you tell us if we are ordering the wrong thing?",
+    "a": "Yes, and it is most of what this site is for. If you are in a humid gym asking for the fabric that suits a dry one, or ordering one practice jersey per player for a squad that trains five days a week, we would rather say so before production than after."
+   },
+   {
+    "q": "Do you work with school purchase orders?",
+    "a": "Regularly. Say at quote stage that it is going through a district purchase order and the quote comes back in the format a business office can process directly, rather than one that has to be reissued once it gets there."
+   },
+   {
+    "q": "What if we do not have a design?",
+    "a": "A team name and two colors is enough to start, and it is what most teams arrive with. You do not need a designer or a finished logo — if you have a mark in any form, send it and we will tell you within a day what it needs."
+   }
+  ]
+ },
+ "/contact/": {
+  "eyebrow": "Getting an answer",
+  "h2": "What to Expect When You Get in Touch",
+  "sub": "How long things take, and what to send so the first reply is useful rather than a request for more information.",
+  "faqs": [
+   {
+    "q": "How quickly will I hear back?",
+    "a": "Within one business day, usually the same day. If your deadline is tight, say so in the first message rather than at the end — a compressed timeline changes how we sequence the work, and that decision has to be made at the start to be worth anything."
+   },
+   {
+    "q": "What should I include to get a real answer first time?",
+    "a": "Roster size, which gym you play in, and your colors. Those three tell us more than anything else, because the building decides the fabric and the season decides the schedule. Artwork too, if you have it in any form."
+   },
+   {
+    "q": "Do you quote before seeing artwork?",
+    "a": "Yes. Pricing depends on quantity, garment and fabric rather than on the design, so we can give you a real figure while the design is still being argued about. That figure is often what a school board or a student organization needs before it will release funds."
+   },
+   {
+    "q": "Can I call instead?",
+    "a": "Yes, and the number on this page is answered by our team. For anything involving sizes or artwork a message with the details attached usually gets you further, because we can look at what you have while we answer."
+   },
+   {
+    "q": "I am not sure what I need. Is that a problem?",
+    "a": "No, it is the normal starting point. Tell us the level you play at, roughly how many players, and what went wrong with your last set of kit if anything did. That is enough for a recommendation rather than a list."
+   }
+  ]
+ },
+ "/get-a-quote/": {
+  "eyebrow": "After you submit",
+  "h2": "What Happens Next, and What It Does Not Commit You To",
+  "sub": "A quote is a number and a conversation. It is not an order and it does not put you on a list.",
+  "faqs": [
+   {
+    "q": "Does requesting a quote commit me to anything?",
+    "a": "No. You get pricing and, if you sent artwork, a digital proof. Nothing is produced until you approve a proof, and plenty of the quotes we send are for teams comparing options or building next season's budget."
+   },
+   {
+    "q": "How precise will the price be?",
+    "a": "Precise enough to budget from, given what you tell us. Quantity, garment count and fabric are what move it; the design itself rarely does. If your roster is not final, give us a range and we will price the range."
+   },
+   {
+    "q": "Can I get a quote before the roster is settled?",
+    "a": "Yes, and you should. Design, artwork and pricing do not depend on who is playing — only sizes and names do. Programs that settle everything else first are never the ones ringing us the week before their first game."
+   },
+   {
+    "q": "What if I need it faster than your normal timeline?",
+    "a": "Say so in the first message. There are things we can do about a compressed timeline, but they are decisions about how the work is sequenced and they have to be made at the start. We will also tell you honestly what is achievable rather than what you would like to hear."
+   },
+   {
+    "q": "Do I need to attach artwork?",
+    "a": "Not to get a price. But if you have a logo in any form, attaching it is the single most useful thing you can do — we can tell you within a day whether it is production-ready or needs rebuilding, and that answer is what makes a timeline real."
+   }
+  ]
+ },
+ "/how-it-works/": {
+  "eyebrow": "About the process",
+  "h2": "Questions About How an Order Runs",
+  "sub": "The parts of the process that are not obvious from a timeline.",
+  "faqs": [
+   {
+    "q": "Which step actually takes the longest?",
+    "a": "Not production. Collecting sizes takes as long as the least organized person on the roster, getting a logo into a usable file takes as long as whoever holds it takes to answer, and approving a proof takes as long as the slowest approver. Those three, not manufacturing, decide whether kit arrives on time."
+   },
+   {
+    "q": "How many revisions do we get?",
+    "a": "As many as it takes to be right. Design and proofing are free and there is no limit. The proof stage exists to catch problems before anything is cut, and rushing it to save a day is a poor trade against reprinting a set."
+   },
+   {
+    "q": "Who should approve the proof?",
+    "a": "One person, agreed in advance. A proof circulating in a group chat waiting for consensus is one of the two most common causes of a missed deadline, and unlike the artwork problem it is entirely within your control."
+   },
+   {
+    "q": "Can we start before we know the roster?",
+    "a": "Yes, and it is the single best thing you can do for the timeline. The design, the colors, the artwork and the proof do not depend on who is playing. Settle them first and the only thing left when the roster lands is production."
+   },
+   {
+    "q": "What happens if we need to add a player later?",
+    "a": "A single reorder is possible and it carries the same setup as a small run, so one late garment costs several times what it would have as part of the order. That is the argument for spares — unnamed, in the middle sizes, ordered with the main run."
+   }
+  ]
+ },
+ "/locations/": {
+  "eyebrow": "Serving Florida",
+  "h2": "Questions About Where We Ship",
+  "sub": "We ship free across the USA; these pages exist because ordering in Florida has specifics worth writing down.",
+  "faqs": [
+   {
+    "q": "Do you only serve Florida?",
+    "a": "No — shipping is free anywhere in the USA and a good share of our orders come from outside the state. These pages exist because Florida has conditions worth addressing specifically: gyms that are warm from November through March, humidity that limits what a wicking fabric can do, and an FHSAA calendar that sets the ordering timeline."
+   },
+   {
+    "q": "Does shipping cost more the further away we are?",
+    "a": "No. Shipping is free across the USA and distance does not change the price or, in practice, the schedule. What can change the schedule is a delivery address that will be empty in the delivery week — a school over a break is the usual culprit."
+   },
+   {
+    "q": "Why does the gym matter more than the city?",
+    "a": "Because the gym is the climate the kit actually meets. Two schools in the same city can have very different halls, and an over-air-conditioned building and a warm one call for different fabrics. Tell us about the room rather than the region."
+   },
+   {
+    "q": "My city is not listed. Does that matter?",
+    "a": "Not at all. The pages are a shortcut rather than a requirement — send us where you play and when your season starts and you will get the same answer we would have written there."
+   },
+   {
+    "q": "Can you deliver to a school over a break?",
+    "a": "We would rather not, and it is worth flagging at order stage. A delivery that technically arrived and practically did not is the most common avoidable problem with a school order. Give us an address that will be occupied in the delivery week."
+   }
+  ]
+ },
+ "/blog/": {
+  "eyebrow": "About this guide",
+  "h2": "What These Articles Are For",
+  "sub": "Written for the person placing the order, not for a search phrase.",
+  "faqs": [
+   {
+    "q": "Who are these written for?",
+    "a": "Whoever has to place a uniform order and then answer for it — a coach, an athletic director, a club officer, a parent volunteer. They assume you care about getting the decision right rather than about jersey terminology for its own sake."
+   },
+   {
+    "q": "Do I need to read them before ordering?",
+    "a": "No. Send us the roster size, the gym you play in and your colors, and we will make the recommendation. These exist for people who would rather understand the trade than be told the answer."
+   },
+   {
+    "q": "Which one should I read first?",
+    "a": "If you are choosing fabric, the one on Florida gyms and humidity. If you are budgeting, the one on what a custom set actually costs. If your deadline is tight, the one on planning an order around a fixed date — timing is the thing most orders get wrong."
+   },
+   {
+    "q": "Is the advice specific to your products?",
+    "a": "The physics is not. Humid air limits evaporation whoever made the jersey, and a named jersey cannot be reissued whoever printed the name. Where we have a view about our own range we say so rather than dressing it as a general principle."
+   }
+  ]
+ }
+}

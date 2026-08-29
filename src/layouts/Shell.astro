@@ -3,7 +3,7 @@
 // and footer, and the trailing vendor scripts. `[...path].astro` renders the
 // migrated pages with it; the cart-flow pages WordPress never served as HTML
 // borrow a captured record so they inherit identical chrome.
-import { rewrite, dropFontImports, trimUnusedFonts } from '../lib/site.js';
+import { rewrite, dropFontImports, trimUnusedFonts, noindexEmptyCategory } from '../lib/site.js';
 import { ASSET_VERSION } from '../lib/assets.js';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
@@ -17,7 +17,7 @@ const hasQuickQuote = isProduct
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-<Fragment set:html={trimUnusedFonts(dropFontImports(rewrite(page.head)))} />
+<Fragment set:html={noindexEmptyCategory(trimUnusedFonts(dropFontImports(rewrite(page.head))), page.route)} />
 {/* Self-hosted (scripts/build-fonts.py). These were fetched from Google on
     every page load — two DNS lookups and two TLS handshakes before the first
     glyph exists — and the hero reflowed when they arrived. Same origin now,
@@ -39,6 +39,8 @@ const hasQuickQuote = isProduct
 {isProduct && <link rel="stylesheet" href={`/assets/fbj-designer.css?v=${ASSET_VERSION}`} />}
 {isProduct && <link rel="stylesheet" href={`/assets/fbj-product-description.css?v=${ASSET_VERSION}`} />}
 {hasQuickQuote && <link rel="stylesheet" href={`/assets/fbj-quickquote.css?v=${ASSET_VERSION}`} />}
+{page.route.startsWith('/product-category/') && !page.route.includes('/page/') &&
+  <link rel="stylesheet" href={`/assets/fbj-category.css?v=${ASSET_VERSION}`} />}
 {(page.styles ?? []).map((href) => <link rel="stylesheet" href={`${href}?v=${ASSET_VERSION}`} />)}
 </head>
 
