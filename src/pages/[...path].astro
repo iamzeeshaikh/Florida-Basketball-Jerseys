@@ -1,6 +1,6 @@
 ---
 import pages from '../data/pages.json';
-import { rewrite, dropFontImports, dropEntranceAnimations } from '../lib/site.js';
+import { rewrite, dropFontImports, dropEntranceAnimations, firstImage } from '../lib/site.js';
 import { applyProductContent, polishPage, splitForDesigner } from '../lib/product-sections.js';
 import { addDescriptionTab } from '../lib/product-description.js';
 import { addCategoryContent, hasCategoryContent, categoryFaqs, categorySlug }
@@ -87,7 +87,7 @@ const jsonLd = schemaTags([
   breadcrumbSchema(page.route, pageTitleFrom(html)),
 ]);
 ---
-<Shell page={page}>
+<Shell page={page} ogImage={firstImage(html)}>
   {showQuickQuote && <QuickQuote productName={pageTitle} pageTitle={page.head.match(/<title>([\s\S]*?)<\/title>/)?.[1] ?? pageTitle} />}
   {productSlug && afterDesigner ? (
     <>

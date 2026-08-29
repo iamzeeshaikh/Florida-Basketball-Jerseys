@@ -100,3 +100,88 @@ export function noindexEmptyCategory(head, route) {
     /<meta name=(["'])robots\1 content=(["'])[^"']*\2\s*\/?>/i,
     "<meta name='robots' content='noindex, follow' />");
 }
+
+/* ── Head metadata the migration never carried over ──────────────────────────
+ *
+ * `<meta name="description">` existed on product pages and the home page only:
+ * not on 7 category pages, 20 city pages or 13 blog posts. Yoast had written
+ * an `og:description` for most of them, which is what a social card reads and
+ * not what a search snippet does, so Google was writing its own snippet for
+ * 58 of 104 indexable pages.
+ *
+ * `og:image` was worse than absent on products -- it was there and relative
+ * (`/wp-content/uploads/...`). Open Graph requires an absolute URL, so every
+ * product shared to a social network rendered as a bare text link. Everything
+ * that is not a product had no image at all.
+ *
+ * And WooCommerce titles every archive "<Name> Archives - <Site>", a word
+ * describing WordPress rather than the page.
+ *
+ * Nothing is invented: a page with no description source keeps none rather
+ * than being given a generated one.
+ */
+export const DEFAULT_OG = '/og-default.jpg';
+
+const HEAD_TITLE = /<title>([\s\S]*?)<\/title>/;
+const OG_DESC = /<meta property="og:description" content="([^"]*)"/;
+const OG_IMAGE = /(<meta property="og:image" content=")(\/[^"]*)(")/g;
+const FIRST_UPLOAD = /<img\b[^>]*\bsrc="([^"]*\/wp-content\/uploads\/[^"]+\.(?:jpg|jpeg|png|webp))"/i;
+
+const attr = (s) => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
+
+export function ensureMeta(head, { description, image } = {}) {
+  if (!head) return head;
+  let out = head.replace(OG_IMAGE, (_, a, path, b) => a + ORIGIN + path + b);
+
+  out = out.replace(/([^"><]) Archives( -| \||<)/g, '$1$2');
+
+  const desc = description || (out.match(OG_DESC)?.[1] ?? null);
+  const add = [];
+
+  if (desc && !/<meta\s+name="description"/.test(out))
+    add.push(`<meta name="description" content="${attr(desc)}" />`);
+  if (desc && !OG_DESC.test(out))
+    add.push(`<meta property="og:description" content="${attr(desc)}" />`);
+
+  const img = image || ORIGIN + DEFAULT_OG;
+  if (!/property="og:image"/.test(out))
+    add.push(`<meta property="og:image" content="${attr(img)}" />`,
+             `<meta name="twitter:image" content="${attr(img)}" />`);
+
+  if (!add.length) return out;
+  return HEAD_TITLE.test(out)
+    ? out.replace(HEAD_TITLE, (m) => m + '\n' + add.join('\n'))
+    : add.join('\n') + out;
+}
+
+/** The first content image on the page, absolutised -- what a share card shows. */
+export function firstImage(bodyHtml) {
+  let src = bodyHtml?.match(FIRST_UPLOAD)?.[1];
+  if (!src) return null;
+  // The markup usually points at a thumbnail rendition. A 324px square is
+  // below the 600px floor most networks crop to, so the size suffix is
+  // dropped -- WordPress keeps the original alongside every rendition.
+  src = src.replace(/-\d{2,4}x\d{2,4}(\.(?:jpg|jpeg|png|webp))$/i, '$1');
+  return src.startsWith('http') ? src : ORIGIN + (src.startsWith('/') ? src : '/' + src);
+}
+
+/* The brand archive lists exactly the same products as the shop page, under a
+ * different URL and with no copy of its own; `uncategorized` is a WooCommerce
+ * default that nothing should ever have been filed under. Both stay crawlable
+ * so their product links still pass, and both stay out of the index.
+ */
+const DUPLICATE_ARCHIVE = /^\/(brand\/|product-category\/uncategorized\/)/;
+
+export function noindexDuplicateArchive(head, route) {
+  if (!head || !DUPLICATE_ARCHIVE.test(route) || /name="robots"/.test(head)) return head;
+  return head.replace(/<title>/, '<meta name="robots" content="noindex,follow" />\n<title>');
+}
+
+/* Page two of a listing inherits page one's description, which would make two
+ * URLs claim the same snippet. Naming the page keeps them distinguishable in
+ * a search result without writing copy nobody reads.
+ */
+export function pageOf(description, route) {
+  const n = route.match(/page\/(\d+)\/$/)?.[1];
+  return description && n ? `${description} Page ${n}.` : description;
+}
