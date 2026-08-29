@@ -3061,6 +3061,483 @@
        "Say what you plan to do with them, so we can confirm the fabric suits your method.",
        "Over-order slightly. Blanks are the cheapest thing to have spare and the most useful to find in a cupboard."
       ]
+     },
+     {
+      "kind": "p",
+      "text": [
+       "One more thing worth flagging: blanks have no proof stage, which is what makes them fast and also what removes a safety net. There is no point at which somebody looks at a rendering and says the color is wrong. So the color specification matters more here than on a decorated order — send a Pantone value or a garment rather than a name, because the first time anyone sees it will be when the box arrives."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "plain-basketball-jerseys": {
+  "h2": "Solid Color, No Pattern, and Why Teams Choose It",
+  "lede": "A plain jersey is a single solid color with numbers and nothing else — no panels, no piping, no gradient, no pattern. It is the most common request from programs that have seen what a busy design looks like from the back row, and <strong>it is a deliberate choice far more often than a budget one.</strong>",
+  "sections": [
+   {
+    "h3": "Why a plain jersey reads better at distance",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "The job of a uniform on a court is to identify a team and a player, and every visual element on it either helps that or competes with it.",
+       "A side panel, a shoulder yoke and a chest stripe are all attractive at ten feet. At forty feet under gym lighting they break the body into segments, and the number — the thing that actually has to be read — is competing with three other shapes.",
+       "A plain body gives the number the whole field to itself. It is the reason so much professional kit is simpler than amateur kit, and it is the single easiest way to make a jersey legible."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Plain is not the same as cheap",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "On a printed garment, a plain jersey and a heavily patterned one cost the same. The whole design goes down in one pass regardless of how much is in it.",
+       "That means choosing plain is a design decision rather than a saving, and it also means a program choosing plain should spend the difference somewhere useful — a better fabric, a second set, or practice gear.",
+       "Where plain does save money is with applied decoration, because there each color and each element is a separate operation. If your set is being screen printed, plain is genuinely cheaper; if it is being printed into the fabric, it is not."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "What carries the identity instead",
+    "blocks": [
+     {
+      "kind": "bullets",
+      "items": [
+       "<strong>The color itself.</strong> On a plain jersey it is doing all the work, which is an argument for an unusual one rather than the fourth navy in the division.",
+       "<strong>The number treatment.</strong> An outlined or two-color number costs nothing extra and is the clearest identifying mark on a plain body.",
+       "<strong>The neckline and armhole binding.</strong> A contrast binding is the one detail a plain jersey can carry without breaking the field, and it reads from a surprising distance.",
+       "<strong>The chest lettering.</strong> With no panels competing, a program name across the chest sits cleanly and stays legible.",
+       "<strong>The shorts.</strong> A plain jersey pairs well with a shorts design that carries more, which puts the visual interest below the numbers rather than behind them."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Where plain works least well",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "In a division where several teams wear the same color. A plain navy jersey is indistinguishable from another plain navy jersey at any distance, and the only differentiator left is the number color.",
+       "For a program whose identity is genuinely a pattern — a school with a long-standing striped kit, a club built around a specific look. Removing it to gain legibility is a trade that is not always worth making.",
+       "And for a set that has to work as both a home and an away jersey. Two plain jerseys in different colors read as two sets; one plain jersey and one patterned reads as a program that changed its mind."
+      ]
+     },
+     {
+      "kind": "note",
+      "text": "If you want a plain jersey and a distinctive one, the usual resolution is a plain home set and a designed road set. The home jersey is worn more, is seen by the same crowd repeatedly, and benefits most from legibility; the road set can carry more."
+     }
+    ]
+   },
+   {
+    "h3": "Plain kit and the reissue argument",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "There is a practical reason plain sets outlive designed ones that has nothing to do with fabric.",
+       "A patterned jersey belongs to the year it was designed. Panel shapes, gradients and stripe treatments date the way any visual style dates, and a set that looked current in its first season looks specifically of that season in its fourth.",
+       "A plain jersey in the program's colors does not. It looked the same ten years ago and will look the same in ten more, which for a program buying a set to dress three or four rosters is worth more than any design feature.",
+       "That is also why a plain set tolerates partial replacement better. A jersey added in year three matches a plain set almost exactly; added to a patterned one, any small difference in pattern registration or color is immediately visible against the original."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Choosing the color when it is doing everything",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "On a plain jersey the color is not a background. It is the design, and it should be chosen with more care than a patterned jersey's base would be.",
+       "That means checking it against the division rather than only against your own taste — a distinctive color on a plain body is a stronger identity than an ordinary color with panels on it.",
+       "It also means specifying it properly. A plain jersey shows a color match more clearly than a patterned one, because there is nothing else for the eye to look at, and a set where two production runs are a shade apart is more obvious here than anywhere. Send a Pantone value or a garment rather than a screen color."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Numbers on a plain body",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "This is where the design attention should go, since it is the only element with anything to do.",
+       "A single-color number on a plain jersey is legible and forgettable. An outlined one — the number in one color, a border in a second — is legible and identifiable, and on a printed garment the second color is free.",
+       "The contrast rule is unchanged and worth repeating: judge the pair as though the color were removed. If the number and the body go to similar shades, they will merge under gym lighting whatever the hues are."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Ordering a plain set",
+    "blocks": [
+     {
+      "kind": "steps",
+      "items": [
+       "Choose the color against the division, not only against the program's preference. On a plain jersey it is the identity.",
+       "Specify it as a Pantone value or send a garment. Plain fabric shows a mismatch more clearly than patterned fabric does.",
+       "Put the design attention into the number treatment, since it is the only element carrying weight.",
+       "Consider a contrast binding at the neck and armholes — the one detail that adds identity without breaking the field.",
+       "Spend what a pattern would have cost on the fabric or on practice gear rather than banking it."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "camo-basketball-jerseys": {
+  "h2": "A Pattern That Fights the Thing a Uniform Is For",
+  "lede": "Camouflage kit is popular, it looks good in photographs, and it is bought most often for military appreciation games and summer programs. It is also, by design, a pattern intended to break up an outline — <strong>which is the exact opposite of what a basketball uniform is trying to do.</strong> That tension is manageable, and it has to be managed deliberately.",
+  "sections": [
+   {
+    "h3": "What camo does to a number",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "A number is read by its edge against the background behind it. Camouflage changes that background every few inches by design.",
+       "The result is a number that has high contrast where it crosses a light patch and low contrast where it crosses a dark one. The eye reads it in fragments, and at distance fragments do not resolve into a digit.",
+       "This is the single thing to get right on a camo jersey, and it is why so many of them are unreadable from the bleachers. Everything else about the garment is ordinary."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "How to make the number work anyway",
+    "blocks": [
+     {
+      "kind": "bullets",
+      "items": [
+       "<strong>A solid block behind the number.</strong> A plain panel — a rectangle, a shield, a circle — sitting under the digits gives them a consistent ground. The most reliable fix and the least subtle.",
+       "<strong>A heavy outline.</strong> Two or three times the weight you would use on a plain jersey, in a color that contrasts with both the light and dark parts of the pattern.",
+       "<strong>A double outline.</strong> White immediately around the digit, then dark around that. It works against almost any background and costs nothing on a printed garment.",
+       "<strong>Reduce the pattern scale behind the numbers.</strong> A finer camo behind the digits and a larger one elsewhere gives the number a more uniform ground without a visible panel.",
+       "<strong>Lower the contrast of the camo itself.</strong> A tonal camo — three shades of the same color rather than four different ones — keeps the look and removes most of the legibility problem."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Choosing the palette",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Traditional woodland and desert patterns carry a specific association, which is usually the point for a military appreciation game and rarely the point otherwise.",
+       "A tonal camo in the program's own colors — three values of navy, or of green, or of maroon — reads as camouflage without borrowing the association, and it is far easier to put a legible number on. It is what most programs actually want once the options are in front of them.",
+       "The scale matters as much as the colors. A large-scale pattern reads as camo from distance and as abstract shapes up close; a fine one reads as texture from distance and only resolves nearby. For a court, larger is generally better, with the caveat about numbers above."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Why it is almost always a printed garment",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Camouflage is a multi-color, irregular, full-coverage pattern, which makes it close to impossible to screen print economically and impossible to apply as a decoration.",
+       "Printed into the fabric it is a single pass and costs no more than a solid color, which is why almost every camo jersey in amateur sport is made this way.",
+       "It is also why the pattern can run continuously across seams — a camo that stops at the side seam and restarts out of alignment is immediately obvious, and only a design printed before assembly avoids it."
+      ]
+     },
+     {
+      "kind": "note",
+      "text": "Ask to see the proof with the numbers in place rather than the pattern alone. A camo that looks excellent as a fabric can be unusable as a jersey, and the numbers are the only way to tell."
+     }
+    ]
+   },
+   {
+    "h3": "Pairing it with the rest of the kit",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "A camo jersey is a strong visual statement, and what goes with it decides whether the set reads as designed or as busy.",
+       "Plain shorts in one of the pattern's colors is the arrangement that works most reliably. The jersey carries the pattern, the shorts carry the color, and the eye has somewhere to rest — which also keeps the numbers on the jersey as the busiest thing on the player rather than competing with a second patterned surface.",
+       "Camo on both halves is possible and it needs the two patterns to be scaled to each other. A large pattern on the jersey and the same pattern at the same scale on the shorts reads as one continuous garment; the same pattern scaled differently reads as a mistake.",
+       "The warm-up is the other place to think about it. A plain warm-up over a camo jersey is a clean look; camo on both is a lot of pattern for a crowd to process before the game has started."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "When a camo set makes sense",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "For a one-off game — a military appreciation night, a themed tournament, a fundraiser — it is a strong choice and the legibility compromise is acceptable for one evening.",
+       "For a summer or alternate set worn a handful of times, it works well and gives a program something distinct without replacing the main identity.",
+       "As a primary game jersey worn thirty times a season it is a harder case, because the legibility cost is paid every game. Programs that go that route should use the solid-block number treatment rather than hoping an outline is enough."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Ordering a camo set",
+    "blocks": [
+     {
+      "kind": "steps",
+      "items": [
+       "Decide the use first — one-off, alternate, or primary. It changes how aggressively the number has to be protected.",
+       "Choose between a traditional pattern and a tonal one in your own colors. The second is easier to read and carries no association you did not intend.",
+       "Specify the number treatment explicitly: a solid block, a double outline, or a reduced pattern scale behind the digits.",
+       "Ask for the proof with numbers rather than fabric alone, and judge it at distance.",
+       "Order the shorts on the same job so the pattern scale and the color values match rather than approximately match."
+      ]
+     },
+     {
+      "kind": "p",
+      "text": [
+       "And decide who keeps them. A camo set bought for a single appreciation night is frequently sold or auctioned afterwards, in which case player names are worth adding — a named jersey fetches considerably more from a bidder, and the usual argument against names does not apply to a garment that is not being reissued."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "youth-basketball-uniforms": {
+  "h2": "Two Garments, One Growing Player",
+  "lede": "A youth uniform is a jersey and a pair of shorts bought for somebody who will not be the same size in four months. <strong>The two halves grow out at different rates</strong> — height changes the shorts first, chest changes the jersey later — which is why a youth set is the one uniform where buying the two together and replacing them separately makes sense.",
+  "sections": [
+   {
+    "h3": "Why the shorts go first",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Children grow in height before they broaden, and the shorts are the garment that measures height.",
+       "A jersey sized to the chest in October usually still fits in March, because the chest changes more slowly. A pair of shorts sized to the same player rides three inches higher by then, because the legs got longer.",
+       "So a youth program replacing kit mid-season is almost always replacing shorts, and a program ordering spares should weight them toward shorts rather than splitting evenly. It is the opposite of an adult set, where the jersey is the item that goes."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Sizing two garments on one form",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Two measurements: chest for the jersey and waist for the shorts. Height is worth writing down as well, because on a youth set it is what tells you whether a player is about to outgrow the inseam.",
+       "Age is the number parents will offer and the least useful of the four. Two ten-year-olds can sit three sizes apart, and a registration form asking for a size letter will produce a guess rather than a measurement.",
+       "The whole exercise takes about half a minute per player at the end of a practice, and it is the difference between an order that arrives right and one that generates exchanges — <a href=\"/blog/how-to-measure-a-basketball-team-for-uniforms/\">how to run the measuring session</a> covers it in detail."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "How much growing room, and where",
+    "blocks": [
+     {
+      "kind": "bullets",
+      "items": [
+       "<strong>Jersey: none, or one size for a visible growth spurt.</strong> A much larger jersey catches on the shorts during a shot and rides up on a rebound.",
+       "<strong>Shorts: length matters more than waist.</strong> A drawcord waistband absorbs a size of waist growth; nothing absorbs three inches of leg.",
+       "<strong>Do not size up both halves together.</strong> The jersey will look oversized long before the shorts stop fitting.",
+       "<strong>Buy the spread, not the average.</strong> A youth program set has to fit several rosters, so order across the size range rather than to this year's squad exactly.",
+       "<strong>Spares weighted to shorts.</strong> Two spare pairs for every one spare jersey is closer to what a season actually consumes."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "What a youth set has to survive",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "It is washed by as many households as there are players, with as many habits, and nobody is reading a care label.",
+       "That makes colorfastness the property that matters most. A design dyed into the fiber cannot lift or crack, and it will not transfer onto a white shirt in a shared load — which is the failure that turns a parent's laundry into a phone call to the coach.",
+       "It also means the kit will be tumble dried on high by somebody, whatever the instructions say. Specifying for that reality rather than against it is more useful than issuing care sheets nobody reads."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "What parents ask, and the honest answers",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "A youth order has a second audience that an adult order does not, and the same questions come back every season.",
+       "Whether it will shrink — a polyester knit does not shrink meaningfully the way cotton does, which is one of the reasons youth kit is made from it.",
+       "Whether the fabric is safe against skin — it is the same fiber used in most children's sportswear, with the dye bonded into the fiber rather than sitting on the surface as a coating.",
+       "Whether a lost piece can be replaced — yes, and the color will match, because we produce from the same specification. It costs more as a single reorder than as part of the run, which is the argument for spares rather than against replacement.",
+       "And whether the shorts can be exchanged when a player grows — that is a new garment rather than an alteration, which is precisely why the spares should be weighted toward shorts."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Names, numbers and handing kit down",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Children want their name on the back more than adults do, and it is the item that most shortens a youth set's life.",
+       "A named jersey retires with the player. In a program where the roster turns over completely every two years and a set is expected to dress three or four squads, that is the difference between buying kit once and buying it repeatedly.",
+       "Most programs settle it by division: numbers only in the younger groups, names from twelve or thirteen upward where players start caring and the set is nearer replacement anyway."
+      ]
+     },
+     {
+      "kind": "note",
+      "text": "Number the shorts as well as the jersey, discreetly at the hip or inside the waistband. A youth program that numbers only the jerseys spends every season reuniting shorts with the right size, and a small printed number ends that."
+     }
+    ]
+   },
+   {
+    "h3": "Ordering across several age groups",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "A youth program is rarely one team, and ordering every group on one job is what keeps the colors identical across them.",
+       "Two squads ordering separately six weeks apart will not match, and it shows in every photograph of the program together. It also pays the setup once rather than once per team, which at youth quantities is a meaningful share of the cost.",
+       "The cost is that every group's roster count has to be settled at the same time, which for a program with rolling registration is real work. It is usually still the better trade."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Ordering a youth uniform set",
+    "blocks": [
+     {
+      "kind": "steps",
+      "items": [
+       "Measure chest, waist and height. Three numbers, half a minute per player.",
+       "Size the jersey to fit now; give the growing room to the shorts, in length rather than waist.",
+       "Skip names in the younger divisions and decide the cut-off age deliberately rather than per team.",
+       "Weight the spares toward shorts, at roughly two to one.",
+       "Order every age group on one job so the colors match across the whole program."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "youth-practice-basketball-jerseys": {
+  "h2": "The Cheapest Item on the Order, and the Most Used",
+  "lede": "Youth practice jerseys are worn four or five times a week by players who are hard on kit, washed by a dozen households with a dozen habits, and outgrown before they wear out. <strong>They are also the cheapest thing a youth program buys</strong>, which makes under-ordering them the strangest economy in amateur basketball.",
+  "sections": [
+   {
+    "h3": "Two colors, and why it removes pinnies",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "The highest-value decision on a youth practice order is splitting the squad across two contrasting colors.",
+       "Scrimmages then divide instantly. Nobody hands out pinnies, nobody wears a pinnie somebody else sweated in last week, and no coach spends the first four minutes of every session organizing it.",
+       "It costs nothing extra — the same order, the same setup, half in each color. Youth programs that do it once do not go back."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "How many a youth squad needs",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Two at minimum, three where a program practices most days.",
+       "The reason is not durability. It is that a youth practice jersey worn on Monday goes into a bag, comes out on Tuesday, and is worn again — because a nine-year-old does not do laundry and a parent does not know it was needed.",
+       "Two per player means there is always a clean one somewhere. It is a small amount of money and it removes the most common complaint parents raise about practice kit."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Sizing for a set that outlives the roster",
+    "blocks": [
+     {
+      "kind": "bullets",
+      "items": [
+       "<strong>Order to a distribution, not a roster.</strong> This set will dress three or four squads, so buy across the range rather than to this year's twelve.",
+       "<strong>Weight the middle sizes.</strong> That is where most players sit and where the replacements are drawn from.",
+       "<strong>Number sequentially, or not at all.</strong> Roster numbers make a set single-use; one to twenty makes it reusable and makes a missing jersey obvious.",
+       "<strong>No names, ever.</strong> A named practice jersey is a single-season garment for no benefit whatsoever.",
+       "<strong>Keep the count generous.</strong> These are the cheapest garments on the order and the ones that disappear."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Fabric for a garment children wear",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Youth practice kit has one requirement adult practice kit does not: it is worn against bare skin far more often, because children layer less.",
+       "That makes the interior finish matter more than the fabric weight. A raised or exposed seam across the shoulder is the complaint nobody reports and every player feels, and it is the difference between a jersey a child puts on willingly and one they argue about.",
+       "Beyond that the reasoning is the same as for adult practice gear, tilted one step further toward durability. A denser knit survives more sessions and more careless washing, and the heat cost matters less in a youth session than in a full-intensity adult practice.",
+       "Where the gym is genuinely hot — and in Florida a good number are — take the more open knit and add a third jersey per player rather than accepting a garment nobody wants to wear."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "What actually retires them",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Not wear. Youth practice jerseys are usually retired for one of three other reasons.",
+       "They are outgrown, which is the most common and is entirely predictable — which is why a set ordered across a size range rather than to one roster lasts far longer.",
+       "They are lost, in a bag that belongs to somebody else. And they are stained beyond recovery, usually from a court floor onto a light color, which is the argument for a mid or dark tone rather than a pale one."
+      ]
+     },
+     {
+      "kind": "note",
+      "text": "A light gray youth practice jersey is unrecoverable by February. Court sealant and rubber transfer onto light fabric and set with heat, and no wash cycle removes it once it has been through a dryer."
+     }
+    ]
+   },
+   {
+    "h3": "Who owns them",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "This is worth deciding at order time rather than discovering by default, because it changes how many to buy.",
+       "A set issued to players and taken home is laundered fifteen different ways and comes back in fifteen conditions. Some will be washed hot, some will not be washed at all, and two or three will not come back. That model needs more spares and a more forgiving fabric.",
+       "A set kept by the program and washed centrally lasts considerably longer and costs somebody an evening a week. It also means the jerseys are there at every session, which for a youth program is worth more than it sounds — a squad where four players have forgotten their jersey cannot scrimmage in two colors.",
+       "Neither model is wrong. Most youth programs land on issuing them and accepting the attrition, which is a reasonable choice as long as the spare count reflects it."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "What it protects",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "The strongest argument for youth practice gear is not about practice. It is about what happens to the game set without it.",
+       "A game set absorbing four days a week of drill work is worn out in one season instead of three. For a youth program where the game jerseys are expected to dress the next two rosters, that is the whole uniform budget.",
+       "And it is bought back for a fraction of what a replacement game set costs. If the money will not stretch to both a full game set and practice jerseys, the honest advice is to simplify the game set and keep the practice gear — <a href=\"/blog/practice-jerseys-vs-game-jerseys/\">why the two are specified differently</a> sets out what each one is actually for."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Ordering youth practice jerseys",
+    "blocks": [
+     {
+      "kind": "steps",
+      "items": [
+       "Count the squad and multiply by two, or three if you practice most days.",
+       "Split the count across two contrasting colors, half and half.",
+       "Choose mid or dark tones. Floor dirt is what retires these, and it shows on light fabric within weeks.",
+       "Number sequentially or leave them plain, and never use names.",
+       "Order across a size range rather than to this roster, and order them with the game set so the setup is paid once."
+      ]
      }
     ]
    }
