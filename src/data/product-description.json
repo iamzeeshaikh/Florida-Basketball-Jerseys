@@ -1621,5 +1621,243 @@
     ]
    }
   ]
+ },
+ "basketball-practice-jerseys": {
+  "h2": "Worn Four Times More Often, Looked At Far Less",
+  "lede": "A game jersey is worn twice a week in front of an audience. A practice jersey is worn four or five times a week in front of nobody, thrown in a bag damp, and washed in whatever is available. <strong>It is a different garment doing a different job</strong>, and specifying it as a cheaper version of the game set gets it wrong in both directions.",
+  "sections": [
+   {
+    "h3": "Where the money should go instead",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "On a game jersey, the budget goes into appearance and into the fabric behaving well for two hours at a time. On a practice jersey those are the wrong priorities.",
+       "What matters here is abrasion resistance, recovery after repeated washing, and color that stays separable across a squad. What does not matter is a design anyone will study, player names, or a premium hand feel.",
+       "The result is usually a cheaper garment than the game set, and one specified more carefully rather than less."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Two colors, and why it is the whole point",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "The single highest-value decision on a practice order is splitting the squad across two contrasting colors.",
+       "It means scrimmages divide instantly, without pinnies. Pinnies are the least popular piece of equipment in amateur basketball — they are shared, they are rarely washed, and players resent them. A two-color practice set removes them from the program entirely.",
+       "It costs nothing extra. The same order, the same setup, half the jerseys in each color. Programs that discover this usually wonder why they ever did it any other way."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "How many per player",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "The ratio that works for game jerseys does not transfer, because the frequency is not comparable.",
+       "One practice jersey per player means it is worn Monday, worn damp on Tuesday, and worn stiff on Wednesday. Two means there is always a dry one. Three means a program practicing five or six days a week is not doing laundry mid-week — which for a school with no laundry facility is the difference between the system working and not.",
+       "This is also the cheapest line on any uniform order, which makes under-ordering it a strange economy. A third practice jersey costs less than almost anything else on the sheet."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "What actually wears out",
+    "blocks": [
+     {
+      "kind": "bullets",
+      "items": [
+       "<strong>The neckline and armhole bindings.</strong> Repeated pulling on and off stretches them past recovery long before the fabric itself thins.",
+       "<strong>Ground-in floor dirt.</strong> Court sealant and rubber transfer onto light fabrics and set with heat, which is why a light practice set is unrecoverable by February.",
+       "<strong>Color separation.</strong> Two practice colors that fade at different rates stop being distinguishable, which defeats the reason they exist.",
+       "<strong>The hem.</strong> Tucked and untucked repeatedly, and the first place a cheaply finished garment fails.",
+       "<strong>Nothing about the design.</strong> On a dyed garment there is no applied layer to crack, which is one fewer failure mode than a screen-printed practice set has."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Reversible instead of two colors",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "There is a second way to solve the scrimmage-split problem and it is worth pricing against the two-color approach.",
+       "A reversible practice jersey is one garment with a different color on each face. Every player owns one, sides are called by asking half the squad to turn theirs inside out, and the program buys fifteen garments instead of thirty.",
+       "The trade is that a reversible is a heavier, warmer garment — two layers of fabric bonded together — which in a Florida gym is a real cost rather than a technicality. It is also more expensive per unit, so the saving is smaller than the halved count suggests.",
+       "Which one suits a program comes down to the gym. A cool, well-conditioned hall makes reversibles the tidier answer; a warm one makes two thin sets the more comfortable one, and <a href=\"/blog/reversible-jerseys-when-they-are-worth-it/\">where reversibles are and are not worth it</a> works through the arithmetic."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Numbers on practice gear",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Whether practice jerseys need numbers depends entirely on how the coach runs a session.",
+       "A coach working with eighteen players calling instructions across a court wants numbers, and they save real time. A coach with twelve who knows every face does not, and skipping them lowers the cost noticeably across a full set.",
+       "Where numbers are used, they can be simpler than on a game jersey — front only, or a smaller size. Nobody is reading them from the bleachers, so the legibility rules that govern <a href=\"/blog/number-and-name-legibility-on-a-basketball-jersey/\">a number seen from the back row</a> do not apply with the same force."
+      ]
+     },
+     {
+      "kind": "note",
+      "text": "What practice jerseys should not have is player names. They add cost to a garment that will be replaced long before the roster is, and they stop it being handed to next year's squad."
+     }
+    ]
+   },
+   {
+    "h3": "What it saves the game set",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "The strongest argument for practice gear is not about practice at all. It is about what happens to the game jerseys without it.",
+       "A game set absorbing four days a week of drill work is worn out in one season rather than three. For a program that reissues kit across rosters, that difference is the whole economics of the uniform budget.",
+       "And it is bought back for a fraction of what a replacement game set costs. If a budget will not stretch to both a full game set and practice gear, the honest advice is to buy a simpler game set and keep the practice jerseys, rather than the other way round."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Specifying a practice set",
+    "blocks": [
+     {
+      "kind": "steps",
+      "items": [
+       "Count the squad and multiply by two, or three if you practise most days.",
+       "Split the count across two contrasting colors, half and half.",
+       "Choose the denser knit unless your gym is genuinely unbearable, in which case take the open one and order an extra per player.",
+       "Choose dark colors over light ones. Floor dirt is the thing that retires practice gear, and it shows on light fabric within weeks.",
+       "Order them with the game set on one job, so the setup is paid once and the colors match across everything."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "basketball-practice-shorts": {
+  "h2": "The Item Most Likely to Leave in Somebody Else's Bag",
+  "lede": "Practice shorts are the cheapest thing on a uniform order and the most frequently lost. They come off in a gym, go into a shared bag, and reappear on a different roster three weeks later. <strong>Any specification that ignores that is solving the wrong problem</strong> — durability matters, but replaceability matters more.",
+  "sections": [
+   {
+    "h3": "Order more than you think you need",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "A practice jersey usually comes home. A pair of practice shorts frequently does not, and the difference is that shorts are removed in the gym while a jersey is worn out of it.",
+       "Across a season, a squad of fifteen will typically lose three or four pairs. That is not carelessness; it is what happens when identical black shorts are in twelve bags on the same bench.",
+       "So order two per player and two or three spares, rather than one per player and hoping. The spares cost less than the mid-season reorder they replace, and they arrive matching."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Pockets, and why practice is different",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Most leagues do not permit pockets on game shorts, and there is a sound argument against them in play — a pocket is somewhere a finger catches during contact.",
+       "None of that applies to practice. Nobody is being fouled hard in a shooting drill, and a pocket is genuinely useful for a phone, a key or a mouthguard between sessions.",
+       "It is one of the few places where practice kit can reasonably be better specified than game kit rather than worse, and it costs very little. Ask the players; they will have a view."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Inseam on a garment nobody photographs",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Inseam is a style decision on a game short and a comfort decision on a practice pair.",
+       "Longer shorts are cooler in the sense that they do not ride, and warmer in the sense that they cover more leg. Shorter ones move more freely and are what most players choose when asked. On a garment worn five times a week the players' preference should carry more weight than the program's look.",
+       "The measurement still needs to be proportional across the size run rather than fixed — the same inseam sits at completely different points on a five-foot-two guard and a six-foot-six center, and a set cut to one number fits badly at both ends."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "What fails, and in what order",
+    "blocks": [
+     {
+      "kind": "bullets",
+      "items": [
+       "<strong>The waistband elastic.</strong> Loses recovery after enough cycles, and it is the failure that retires a pair rather than making it look worn.",
+       "<strong>The drawcord.</strong> Frays where it exits the eyelet. Flat cord outlasts round cord by a considerable margin.",
+       "<strong>The seat.</strong> Floor abrasion from sitting, sliding and taking charges, and the one place a lighter fabric shows through first.",
+       "<strong>The hem.</strong> Caught underfoot, stood on, and pulled. A double-needle hem is worth the fractional cost on a practice pair.",
+       "<strong>Color, on light shades.</strong> Court dirt on light grey practice shorts is permanent within a season."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Why practice shorts outlive practice jerseys",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "This surprises programs ordering their first full practice set, and it changes how many of each to buy.",
+       "A practice jersey is pulled on and off constantly, which stretches its neckline and armholes, and it absorbs most of the sweat. A pair of shorts is put on once at the start of a session and taken off at the end, and it takes far less handling.",
+       "The result is that shorts usually outlast jerseys by a season or more in wear terms — while being lost far more often. So the ratio to buy is not one to one: more jerseys per player because they wear out, and more spare shorts because they disappear.",
+       "For a squad of fifteen, three jerseys and two pairs of shorts per player, plus three spare pairs, is the arrangement most programs settle on after a season of finding out."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Matching them to the rest of the kit",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Practice shorts do not have to match the game set and there is a reasonable argument that they should not.",
+       "A separate practice color makes it obvious at a glance which set a player has grabbed, which matters on a game day when the wrong shorts are in the bag. It also stops a program's game shorts being quietly absorbed into practice use, which is the most common way a game set is destroyed early.",
+       "Where they do match, order them on the same job. Two orders placed months apart produce two versions of the same color, and on a set where the jersey and shorts are worn together that is visible."
+      ]
+     },
+     {
+      "kind": "note",
+      "text": "A useful arrangement several programs use: game shorts in the team color, practice shorts in plain black or charcoal regardless of the team's palette. Cheaper, harder to lose track of, and it keeps the game pair for games."
+     }
+    ]
+   },
+   {
+    "h3": "Sizing shorts separately from jerseys",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Players routinely take one size in a jersey and a different size in shorts, and ordering both from a single letter is where most shorts exchanges come from.",
+       "Waist is the measurement that decides it. It takes fifteen seconds per player and it is not the number anyone volunteers, so it has to be asked for specifically.",
+       "It is also worth asking about fit preference. Some players want shorts sitting at the waist and some on the hip, and the difference between those two is a full size on the same person."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Ordering practice shorts",
+    "blocks": [
+     {
+      "kind": "steps",
+      "items": [
+       "Two per player, plus two or three spares. This is the item that goes missing.",
+       "Take waist measurements separately from the jersey sizing rather than inferring them.",
+       "Decide on pockets. Practice is the one context where they earn their place.",
+       "Choose a dark color, and consider a different one from the game shorts so the two sets stay separate.",
+       "Order with the rest of the kit so the setup is paid once, even if the color is deliberately different."
+      ]
+     }
+    ]
+   }
+  ]
  }
 }
