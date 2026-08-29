@@ -2555,3 +2555,19 @@
   @media (max-width: 480px) {
     .fbj-pwb-featured-right { grid-template-columns: 1fr; }
   }
+/* ── The product gallery's pre-init height ───────────────────────────────────
+ *
+ * WooCommerce renders all five gallery slides in normal flow and relies on
+ * FlexSlider to collapse them. On a 390px phone that means the gallery is
+ * 1,928px tall at first paint and 448px a moment later, and everything below
+ * it -- the short description, the quote form, the tabs -- jumps up 1,480px.
+ * Measured on the live page, that one collapse was most of a 0.481 CLS.
+ *
+ * Hiding the slides FlexSlider is about to hide anyway reserves the right
+ * height from the first paint. Nothing has to undo it: FlexSlider writes
+ * `display: block` inline on every slide when it initialises, and an inline
+ * style outranks a stylesheet rule.
+ */
+.woocommerce-product-gallery__wrapper > .woocommerce-product-gallery__image:not(:first-child) {
+  display: none;
+}
