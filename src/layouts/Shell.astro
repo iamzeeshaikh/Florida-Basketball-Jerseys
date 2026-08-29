@@ -3,7 +3,7 @@
 // and footer, and the trailing vendor scripts. `[...path].astro` renders the
 // migrated pages with it; the cart-flow pages WordPress never served as HTML
 // borrow a captured record so they inherit identical chrome.
-import { rewrite, dropFontImports, FONT_HREF } from '../lib/site.js';
+import { rewrite, dropFontImports, trimUnusedFonts } from '../lib/site.js';
 import { ASSET_VERSION } from '../lib/assets.js';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
@@ -17,15 +17,19 @@ const hasQuickQuote = isProduct
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-<Fragment set:html={dropFontImports(rewrite(page.head))} />
-{/* Both families used to be requested by @import from inside inline <style>
-    blocks — two on every page, seven on a product page. Asking for them here,
-    behind a preconnect, is the whole difference between a font the browser
-    finds in the first bytes of <head> and one it cannot discover until it has
-    parsed a stylesheet. */}
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link rel="stylesheet" href={FONT_HREF} />
+<Fragment set:html={trimUnusedFonts(dropFontImports(rewrite(page.head)))} />
+{/* Self-hosted (scripts/build-fonts.py). These were fetched from Google on
+    every page load — two DNS lookups and two TLS handshakes before the first
+    glyph exists — and the hero reflowed when they arrived. Same origin now,
+    and the paths are stable, so the faces that paint above the fold can be
+    preloaded. */}
+<link rel="preload" as="font" type="font/woff2" crossorigin
+      href="/fonts/dm-sans-400-latin.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin
+      href="/fonts/barlow-condensed-800-latin.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin
+      href="/fonts/source-sans-pro-400-latin.woff2" />
+<link rel="stylesheet" href={`/assets/fbj-fonts.css?v=${ASSET_VERSION}`} />
 {/* Header and footer CSS, previously inlined on all 76 pages. */}
 <link rel="stylesheet" href={`/assets/fbj-chrome.css?v=${ASSET_VERSION}`} />
 {/* The five product sections inlined 56,851 bytes of identical CSS on each of

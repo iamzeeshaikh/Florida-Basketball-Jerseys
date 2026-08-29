@@ -12,7 +12,7 @@
   --loc-slate: #5A7A96;
   --loc-mist: #E8EFF8;
   --loc-line: #E2E8F0;
-  font-family: 'DM Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-family: 'DM Sans', 'DM Sans Fallback', system-ui, -apple-system, 'Segoe UI', sans-serif;
   color: var(--loc-navy);
   background: #fff;
 }
@@ -30,7 +30,7 @@
 }
 .fbj-loc-eyebrow::before { content: ''; width: 7px; height: 7px; border-radius: 50%; background: var(--loc-orange); }
 .fbj-loc-h1 {
-  font-family: 'Barlow Condensed', 'DM Sans', sans-serif; font-weight: 800; line-height: 1.03;
+  font-family: 'Barlow Condensed', 'DM Sans', 'DM Sans Fallback', sans-serif; font-weight: 800; line-height: 1.03;
   font-size: clamp(34px, 6vw, 62px); text-transform: uppercase; margin: 0 0 18px; color: #fff;
 }
 .fbj-loc-h1 span { color: var(--loc-orange); }
@@ -45,7 +45,7 @@
 .fbj-loc-sec { padding: 64px 0; border-top: 1px solid var(--loc-line); }
 .fbj-loc-sec--tint { background: #F7F9FC; }
 .fbj-loc-h2 {
-  font-family: 'Barlow Condensed', 'DM Sans', sans-serif; font-weight: 800; text-transform: uppercase;
+  font-family: 'Barlow Condensed', 'DM Sans', 'DM Sans Fallback', sans-serif; font-weight: 800; text-transform: uppercase;
   font-size: clamp(26px, 3.6vw, 38px); line-height: 1.08; margin: 0 0 14px; color: var(--loc-navy);
 }
 .fbj-loc-h2 span { color: var(--loc-orange); }
@@ -61,7 +61,7 @@
   display: flex; flex-direction: column; gap: 10px;
 }
 .fbj-loc-card-title {
-  font-family: 'Barlow Condensed', sans-serif; font-weight: 700; text-transform: uppercase;
+  font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif; font-weight: 700; text-transform: uppercase;
   font-size: 19px; letter-spacing: .01em; color: var(--loc-navy); margin: 0;
 }
 .fbj-loc-card p { font-size: 15px; line-height: 1.62; color: #46586B; margin: 0; }
@@ -74,7 +74,7 @@
 }
 .fbj-loc-pick:hover { border-color: var(--loc-orange); background: #FFF8F2; }
 .fbj-loc-pick-name {
-  font-family: 'Barlow Condensed', sans-serif; font-weight: 700; text-transform: uppercase;
+  font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif; font-weight: 700; text-transform: uppercase;
   font-size: 18px; color: var(--loc-navy); margin-bottom: 6px;
 }
 .fbj-loc-pick p { font-size: 14.5px; line-height: 1.58; color: #55697D; margin: 0; }
@@ -83,7 +83,7 @@
 .fbj-loc-faq { border-top: 1px solid var(--loc-line); }
 .fbj-loc-faq-item { border-bottom: 1px solid var(--loc-line); padding: 22px 0; }
 .fbj-loc-faq-q {
-  font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 20px;
+  font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif; font-weight: 700; font-size: 20px;
   color: var(--loc-navy); margin: 0 0 8px; text-transform: none;
 }
 .fbj-loc-faq-a { font-size: 15.5px; line-height: 1.68; color: #46586B; margin: 0; max-width: 76ch; }
@@ -94,7 +94,7 @@
 .fbj-loc-cta p { color: #C9D6E6; font-size: 16px; line-height: 1.66; max-width: 60ch; margin: 0 auto 26px; }
 .fbj-loc-btn {
   display: inline-block; background: var(--loc-orange); color: #fff; text-decoration: none;
-  font-family: 'Barlow Condensed', sans-serif; font-weight: 700; text-transform: uppercase;
+  font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif; font-weight: 700; text-transform: uppercase;
   letter-spacing: .05em; font-size: 17px; padding: 15px 34px; border-radius: 8px;
 }
 .fbj-loc-btn:hover { background: var(--loc-orange-lt); color: #fff; }
@@ -113,7 +113,7 @@
 }
 .fbj-loc-index-card:hover { border-color: var(--loc-orange); background: #FFF8F2; }
 .fbj-loc-index-city {
-  font-family: 'Barlow Condensed', sans-serif; font-weight: 700; text-transform: uppercase;
+  font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif; font-weight: 700; text-transform: uppercase;
   font-size: 21px; color: var(--loc-navy); margin-bottom: 4px;
 }
 .fbj-loc-index-meta { font-size: 13.5px; color: var(--loc-slate); }

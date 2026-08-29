@@ -12,7 +12,7 @@
   .fbj-hdr-wrap {
     background: #0B1F3A;
     border-bottom: 1px solid rgba(255,255,255,0.07);
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans', 'DM Sans Fallback', sans-serif;
     position: relative;
     z-index: 9999;
     transition: box-shadow 0.3s ease;
@@ -146,7 +146,7 @@
   }
 
   .fbj-logo-line1 {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif;
     font-size: 22px;
     font-weight: 900;
     text-transform: uppercase;
@@ -156,7 +156,7 @@
   }
 
   .fbj-logo-line2 {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif;
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
@@ -167,7 +167,7 @@
   }
 
   .fbj-logo-line3 {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans', 'DM Sans Fallback', sans-serif;
     font-size: 9.5px;
     font-weight: 500;
     color: #5A7A96;
@@ -337,7 +337,7 @@
     gap: 7px;
     background: #F4700A;
     color: #FFFFFF;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans', 'DM Sans Fallback', sans-serif;
     font-size: 13.5px;
     font-weight: 600;
     padding: 10px 20px;
@@ -502,7 +502,7 @@
 /* ── footer ─────────────────────────────────────────────── */
 .fbj-ftr-wrap {
     background: #071629;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans', 'DM Sans Fallback', sans-serif;
     position: relative;
     overflow: hidden;
   }
@@ -546,7 +546,7 @@
   }
 
   .fbj-ftr-logo-line1 {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif;
     font-size: 20px;
     font-weight: 900;
     text-transform: uppercase;
@@ -556,7 +556,7 @@
   }
 
   .fbj-ftr-logo-line2 {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif;
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
@@ -648,7 +648,7 @@
   .fbj-ftr-col {}
 
   .fbj-ftr-col-title {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif;
     font-size: 13px;
     font-weight: 800;
     letter-spacing: 0.14em;
@@ -708,7 +708,7 @@
   }
 
   .fbj-ftr-cta-card-title {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif;
     font-size: 18px;
     font-weight: 900;
     text-transform: uppercase;
@@ -735,7 +735,7 @@
     gap: 7px;
     background: #F4700A;
     color: #FFFFFF;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans', 'DM Sans Fallback', sans-serif;
     font-size: 13px;
     font-weight: 600;
     padding: 11px 16px;
@@ -1074,3 +1074,26 @@
 .woocommerce-product-gallery__wrapper,
 .woocommerce-product-gallery__image { max-width: 100%; min-width: 0; }
 .woocommerce-product-gallery img { max-width: 100%; height: auto; }
+
+/* ── Two pages that scrolled sideways ─────────────────────────────────────
+ * The cart and checkout carry a WooCommerce blocks product grid whose <ul>
+ * has a negative horizontal margin for gutter compensation. That pattern
+ * assumes the container supplies matching padding; this theme's does not, so
+ * the grid sat 8px wider than the page at every width. Clipping the container
+ * hides 8px of empty gutter and nothing else — the products are unaffected.
+ */
+.wc-block-grid { overflow-x: clip; }
+
+/* The contact page's info rows are flex lines holding an icon and a block of
+ * text. A flex item defaults to a min-content floor, so at 320px the text
+ * refused to wrap below its longest word and held the card 8px wider than the
+ * screen. Letting the rows shrink, and giving the card back some of its
+ * padding at phone widths, resolves it. */
+.fbj-con-info-item,
+.fbj-con-info-item > *,
+.fbj-con-info-card,
+.fbj-con-sidebar { min-width: 0; }
+@media (max-width: 360px) {
+  .fbj-con-info-card { padding-left: 14px; padding-right: 14px; }
+  .fbj-con-info-item { gap: 10px; }
+}

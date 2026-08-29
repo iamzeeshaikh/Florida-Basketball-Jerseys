@@ -1,7 +1,7 @@
 /* Jersey designer. Namespaced under .fbj-dz- so nothing reaches a shared rule. */
 .fbj-dz {
   --dz-orange: #F4700A; --dz-navy: #0B1F3A; --dz-line: #E2E8F0; --dz-mist: #F7F9FC;
-  font-family: 'DM Sans', system-ui, -apple-system, sans-serif; color: var(--dz-navy); background: #fff;
+  font-family: 'DM Sans', 'DM Sans Fallback', system-ui, -apple-system, sans-serif; color: var(--dz-navy); background: #fff;
 }
 .fbj-dz-inner { max-width: 1240px; margin: 0 auto; padding: 0 20px; }
 
@@ -9,7 +9,7 @@
 .fbj-dz-kicker { display: inline-flex; align-items: center; gap: 9px; font-size: 12px; letter-spacing: .13em;
   text-transform: uppercase; font-weight: 600; color: #FF8C2A; margin-bottom: 14px; }
 .fbj-dz-kicker::before { content: ''; width: 7px; height: 7px; border-radius: 50%; background: var(--dz-orange); }
-.fbj-dz-h1 { font-family: 'Barlow Condensed', sans-serif; font-weight: 800; text-transform: uppercase;
+.fbj-dz-h1 { font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif; font-weight: 800; text-transform: uppercase;
   font-size: clamp(32px, 5.4vw, 56px); line-height: 1.04; margin: 0 0 14px; color: #fff; }
 .fbj-dz-h1 span { color: var(--dz-orange); }
 .fbj-dz-lede { font-size: clamp(15px,1.9vw,18px); line-height: 1.6; color: #C9D6E6; max-width: 62ch; margin: 0; }
@@ -23,7 +23,7 @@
 .fbj-dz-views { display: flex; gap: 8px; margin-bottom: 16px; }
 .fbj-dz-view {
   flex: 1; border: 1px solid var(--dz-line); background: #fff; border-radius: 8px; padding: 9px 6px;
-  font-family: 'Barlow Condensed', sans-serif; font-weight: 700; text-transform: uppercase; font-size: 14px;
+  font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif; font-weight: 700; text-transform: uppercase; font-size: 14px;
   letter-spacing: .04em; color: #5A7A96; cursor: pointer;
 }
 .fbj-dz-view[aria-pressed="true"] { background: var(--dz-navy); color: #fff; border-color: var(--dz-navy); }
@@ -32,7 +32,7 @@
 /* controls */
 .fbj-dz-panel { border: 1px solid var(--dz-line); border-radius: 16px; padding: 22px; }
 .fbj-dz-group + .fbj-dz-group { margin-top: 22px; padding-top: 20px; border-top: 1px solid var(--dz-line); }
-.fbj-dz-label { font-family: 'Barlow Condensed', sans-serif; font-weight: 700; text-transform: uppercase;
+.fbj-dz-label { font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif; font-weight: 700; text-transform: uppercase;
   font-size: 15px; letter-spacing: .05em; color: var(--dz-navy); margin: 0 0 10px; display: block; }
 .fbj-dz-hint { font-size: 13px; color: #5A7A96; margin: -4px 0 10px; line-height: 1.5; }
 
@@ -59,7 +59,7 @@
 
 .fbj-dz-btn {
   width: 100%; border: 0; background: var(--dz-orange); color: #fff; border-radius: 8px;
-  font-family: 'Barlow Condensed', sans-serif; font-weight: 700; text-transform: uppercase;
+  font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif; font-weight: 700; text-transform: uppercase;
   letter-spacing: .05em; font-size: 18px; padding: 15px 20px; cursor: pointer; margin-top: 6px;
 }
 .fbj-dz-btn:hover { background: #FF8C2A; }
@@ -106,19 +106,19 @@
 .fbj-dz-embed-head { margin-bottom: 26px; }
 .fbj-dz-embed-kicker {
   display: inline-flex; align-items: center; gap: 9px;
-  font-family: 'Barlow', system-ui, sans-serif;
+  font-family: 'Barlow', 'Barlow Fallback', system-ui, sans-serif;
   font-size: 12px; letter-spacing: .14em; text-transform: uppercase;
   font-weight: 700; color: #F4700A; margin-bottom: 12px;
 }
 .fbj-dz-embed-kicker::before { content: ''; width: 22px; height: 2px; background: #F4700A; }
 .fbj-dz-embed-h2 {
-  font-family: 'Barlow Condensed', sans-serif; font-weight: 800; text-transform: uppercase;
+  font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif; font-weight: 800; text-transform: uppercase;
   font-size: clamp(26px, 3.6vw, 40px); line-height: 1.06; margin: 0 0 14px;
   color: #0B1F3A; max-width: 22ch;
 }
 .fbj-dz-embed-h2 span { color: #F4700A; }
 .fbj-dz-embed-lede {
-  font-family: 'Barlow', system-ui, sans-serif;
+  font-family: 'Barlow', 'Barlow Fallback', system-ui, sans-serif;
   font-size: 16.5px; line-height: 1.72; color: #46586B; margin: 0; max-width: 74ch;
 }
 .fbj-dz-embed-lede strong { color: #0B1F3A; }

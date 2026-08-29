@@ -5,7 +5,7 @@
 .fbj-bl-wrap {
   --bl-orange: #F4700A; --bl-navy: #0B1F3A; --bl-slate: #5A7A96;
   --bl-line: #E2E8F0; --bl-tint: #F7F9FC;
-  font-family: 'DM Sans', system-ui, -apple-system, sans-serif; color: var(--bl-navy); background: #fff;
+  font-family: 'DM Sans', 'DM Sans Fallback', system-ui, -apple-system, sans-serif; color: var(--bl-navy); background: #fff;
 }
 .fbj-bl-inner { max-width: 1160px; margin: 0 auto; padding: 0 20px; }
 .fbj-bl-narrow { max-width: 760px; margin: 0 auto; padding: 0 20px; }
@@ -17,7 +17,7 @@
 }
 .fbj-bl-kicker::before { content: ''; width: 7px; height: 7px; border-radius: 50%; background: var(--bl-orange); }
 .fbj-bl-h1 {
-  font-family: 'Barlow Condensed', sans-serif; font-weight: 800; line-height: 1.05;
+  font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif; font-weight: 800; line-height: 1.05;
   font-size: clamp(30px, 5vw, 52px); text-transform: uppercase; margin: 0 0 16px; color: #fff;
 }
 .fbj-bl-h1 span { color: var(--bl-orange); }
@@ -26,7 +26,7 @@
 
 .fbj-bl-body { padding: 56px 0 20px; }
 .fbj-bl-body h2 {
-  font-family: 'Barlow Condensed', sans-serif; font-weight: 800; text-transform: uppercase;
+  font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif; font-weight: 800; text-transform: uppercase;
   font-size: clamp(24px,3.2vw,34px); line-height: 1.12; margin: 44px 0 14px; color: var(--bl-navy);
 }
 .fbj-bl-body h2:first-child { margin-top: 0; }
@@ -46,16 +46,16 @@
 
 .fbj-bl-faq { border-top: 1px solid var(--bl-line); margin-top: 44px; padding-top: 34px; }
 .fbj-bl-faq-item { border-bottom: 1px solid var(--bl-line); padding: 20px 0; }
-.fbj-bl-faq-q { font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 20px; margin: 0 0 8px; color: var(--bl-navy); }
+.fbj-bl-faq-q { font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif; font-weight: 700; font-size: 20px; margin: 0 0 8px; color: var(--bl-navy); }
 .fbj-bl-faq-a { font-size: 16px; line-height: 1.68; color: #46586B; margin: 0; }
 
 .fbj-bl-cta { background: var(--bl-navy); color: #fff; padding: 52px 0; text-align: center; margin-top: 52px; }
-.fbj-bl-cta h2 { font-family: 'Barlow Condensed', sans-serif; font-weight: 800; text-transform: uppercase; font-size: clamp(24px,3.4vw,34px); margin: 0 0 12px; color: #fff; }
+.fbj-bl-cta h2 { font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif; font-weight: 800; text-transform: uppercase; font-size: clamp(24px,3.4vw,34px); margin: 0 0 12px; color: #fff; }
 .fbj-bl-cta h2 span { color: var(--bl-orange); }
 .fbj-bl-cta p { color: #C9D6E6; max-width: 58ch; margin: 0 auto 24px; line-height: 1.65; }
 .fbj-bl-btn {
   display: inline-block; background: var(--bl-orange); color: #fff; text-decoration: none;
-  font-family: 'Barlow Condensed', sans-serif; font-weight: 700; text-transform: uppercase;
+  font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif; font-weight: 700; text-transform: uppercase;
   letter-spacing: .05em; font-size: 17px; padding: 15px 34px; border-radius: 8px;
 }
 .fbj-bl-btn:hover { background: #FF8C2A; color: #fff; }
@@ -68,12 +68,12 @@
 }
 .fbj-bl-card:hover { border-color: var(--bl-orange); background: #FFFBF7; }
 .fbj-bl-card-topic { font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--bl-orange); font-weight: 600; }
-.fbj-bl-card-title { font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 23px; line-height: 1.18; color: var(--bl-navy); margin: 0; }
+.fbj-bl-card-title { font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif; font-weight: 700; font-size: 23px; line-height: 1.18; color: var(--bl-navy); margin: 0; }
 .fbj-bl-card p { font-size: 15px; line-height: 1.6; color: #55697D; margin: 0; }
 .fbj-bl-card-meta { font-size: 13px; color: var(--bl-slate); margin-top: auto; }
 
 .fbj-bl-more { border-top: 1px solid var(--bl-line); margin-top: 46px; padding-top: 34px; }
-.fbj-bl-more h2 { font-family: 'Barlow Condensed', sans-serif; font-weight: 800; text-transform: uppercase; font-size: 26px; margin: 0 0 18px; color: var(--bl-navy); }
+.fbj-bl-more h2 { font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif; font-weight: 800; text-transform: uppercase; font-size: 26px; margin: 0 0 18px; color: var(--bl-navy); }
 
 @media (max-width: 700px) {
   .fbj-bl-head { padding: 46px 0 40px; }

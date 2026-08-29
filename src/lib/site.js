@@ -60,3 +60,25 @@ const ELEMENTOR_INVISIBLE = /\s*\belementor-invisible\b/g;
 export function dropEntranceAnimations(html) {
   return html ? html.replace(ELEMENTOR_INVISIBLE, '') : html;
 }
+
+/**
+ * Remove font and stylesheet requests the site does not need.
+ *
+ * Checked against the rendered page before removing anything, by walking every
+ * element's computed style across six page types and comparing what the design
+ * asks for against what the browser actually downloads.
+ *
+ *   Roboto and Roboto Slab -- Elementor requests both from Google with every
+ *     weight and every italic, eighteen variants each. Neither family is set on
+ *     any element anywhere on the site.
+ *
+ *   Source Sans Pro -- the Storefront theme's family, which IS used on a few
+ *     theme-rendered elements. Not dropped but self-hosted, so the Google copy
+ *     is a second download of fonts the page already has locally.
+ */
+const GOOGLE_FONT_LINKS =
+  /<link[^>]+fonts\.googleapis\.com\/css\?family=(?:Roboto(?:\+Slab)?|Source\+Sans\+Pro):[^>]*>\s*/gi;
+
+export function trimUnusedFonts(html) {
+  return html ? html.replace(GOOGLE_FONT_LINKS, '') : html;
+}

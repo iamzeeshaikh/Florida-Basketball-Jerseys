@@ -14,7 +14,7 @@
   .fbj-pov-wrap {
     background: #F5F7FA;
     padding: 72px 24px;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans', 'DM Sans Fallback', sans-serif;
   }
 
   .fbj-pov-inner {
@@ -52,7 +52,7 @@
   }
 
   .fbj-pov-h2 {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif;
     font-size: clamp(30px, 3.5vw, 44px);
     font-weight: 900;
     text-transform: uppercase;
@@ -65,7 +65,7 @@
   .fbj-pov-h2 span { color: #F4700A; }
 
   .fbj-pov-h2-sub {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif;
     font-size: clamp(16px, 2vw, 22px);
     font-weight: 700;
     color: #8AACBF;
@@ -190,7 +190,7 @@
     gap: 8px;
     background: #F4700A;
     color: #FFFFFF;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans', 'DM Sans Fallback', sans-serif;
     font-size: 14px;
     font-weight: 600;
     padding: 13px 24px;
@@ -213,7 +213,7 @@
     gap: 7px;
     background: transparent;
     color: #0B1F3A;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans', 'DM Sans Fallback', sans-serif;
     font-size: 14px;
     font-weight: 500;
     padding: 12px 20px;
@@ -323,7 +323,7 @@
     transform: translateX(-50%);
     background: #0B1F3A;
     color: #FFFFFF;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans', 'DM Sans Fallback', sans-serif;
     font-size: 10px;
     font-weight: 500;
     white-space: nowrap;
@@ -347,7 +347,7 @@
 
   /* Card product name */
   .fbj-pov-card-name {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif;
     font-size: 20px;
     font-weight: 900;
     text-transform: uppercase;
@@ -417,7 +417,7 @@
   }
 
   .fbj-pov-qi-val {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif;
     font-size: 18px;
     font-weight: 900;
     color: #0B1F3A;
@@ -442,7 +442,7 @@
   }
 
   .fbj-pov-sidebar-cta-title {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif;
     font-size: 19px;
     font-weight: 900;
     text-transform: uppercase;
@@ -467,7 +467,7 @@
     gap: 7px;
     background: #F4700A;
     color: #FFFFFF;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans', 'DM Sans Fallback', sans-serif;
     font-size: 13.5px;
     font-weight: 600;
     padding: 12px 18px;
@@ -526,7 +526,7 @@
   .fbj-pco-wrap {
     background: #0B1F3A;
     padding: 80px 24px;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans', 'DM Sans Fallback', sans-serif;
     position: relative;
     overflow: hidden;
   }
@@ -566,7 +566,7 @@
   }
 
   .fbj-pco-h2 {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif;
     font-size: clamp(30px, 3.5vw, 46px);
     font-weight: 900;
     text-transform: uppercase;
@@ -597,7 +597,7 @@
     gap: 8px;
     background: #F4700A;
     color: #FFFFFF;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans', 'DM Sans Fallback', sans-serif;
     font-size: 13.5px;
     font-weight: 600;
     padding: 12px 22px;
@@ -698,7 +698,7 @@
   }
 
   .fbj-pco-card-title {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif;
     font-size: 19px;
     font-weight: 800;
     text-transform: uppercase;
@@ -754,7 +754,7 @@
   }
 
   .fbj-pco-process-title {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif;
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
@@ -813,7 +813,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif;
     font-size: 15px;
     font-weight: 900;
     color: #FF8C2A;
@@ -868,7 +868,7 @@
   }
 
   .fbj-pco-free-strip-title {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif;
     font-size: 20px;
     font-weight: 900;
     text-transform: uppercase;
@@ -936,7 +936,7 @@
   .fbj-pfb-wrap {
     background: #F5F7FA;
     padding: 80px 24px;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans', 'DM Sans Fallback', sans-serif;
   }
 
   .fbj-pfb-inner {
@@ -962,7 +962,7 @@
   }
 
   .fbj-pfb-h2 {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif;
     font-size: clamp(30px, 3.5vw, 46px);
     font-weight: 900;
     text-transform: uppercase;
@@ -1026,7 +1026,7 @@
     cursor: pointer;
     text-align: left;
     transition: background 0.15s ease;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans', 'DM Sans Fallback', sans-serif;
   }
 
   .fbj-pfb-fab-btn:last-child { border-bottom: none; }
@@ -1115,7 +1115,7 @@
   }
 
   .fbj-pfb-detail-name {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif;
     font-size: 24px;
     font-weight: 900;
     text-transform: uppercase;
@@ -1193,7 +1193,7 @@
   .fbj-pfb-stat:hover { border-color: rgba(244,112,10,0.35); }
 
   .fbj-pfb-stat-val {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif;
     font-size: 22px;
     font-weight: 900;
     color: #F4700A;
@@ -1280,7 +1280,7 @@
   }
 
   .fbj-pfb-con-title {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif;
     font-size: 17px;
     font-weight: 800;
     text-transform: uppercase;
@@ -1327,7 +1327,7 @@
   .fbj-pfb-care-content {}
 
   .fbj-pfb-care-title {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif;
     font-size: 18px;
     font-weight: 800;
     text-transform: uppercase;
@@ -1451,7 +1451,7 @@
   .fbj-psg-wrap {
     background: #0B1F3A;
     padding: 80px 24px;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans', 'DM Sans Fallback', sans-serif;
     position: relative;
     overflow: hidden;
   }
@@ -1491,7 +1491,7 @@
   }
 
   .fbj-psg-h2 {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif;
     font-size: clamp(30px, 3.5vw, 46px);
     font-weight: 900;
     text-transform: uppercase;
@@ -1555,7 +1555,7 @@
 
   .fbj-psg-toggle-btn {
     padding: 8px 18px;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans', 'DM Sans Fallback', sans-serif;
     font-size: 12.5px;
     font-weight: 600;
     color: #5A7A96;
@@ -1582,7 +1582,7 @@
 
   .fbj-psg-tab {
     padding: 13px 24px;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans', 'DM Sans Fallback', sans-serif;
     font-size: 13px;
     font-weight: 600;
     color: #4A6A84;
@@ -1701,7 +1701,7 @@
     background: rgba(255,255,255,0.07);
     border: 1px solid rgba(255,255,255,0.12);
     border-radius: 6px;
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif;
     font-size: 16px;
     font-weight: 900;
     color: #FFFFFF;
@@ -1786,7 +1786,7 @@
   }
 
   .fbj-psg-measure-title {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif;
     font-size: 18px;
     font-weight: 800;
     text-transform: uppercase;
@@ -1819,7 +1819,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif;
     font-size: 11px;
     font-weight: 900;
     color: #F4700A;
@@ -1897,7 +1897,7 @@
   .fbj-psg-help-text {}
 
   .fbj-psg-help-title {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif;
     font-size: 18px;
     font-weight: 800;
     text-transform: uppercase;
@@ -1919,7 +1919,7 @@
     gap: 7px;
     background: #F4700A;
     color: #FFFFFF;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans', 'DM Sans Fallback', sans-serif;
     font-size: 13px;
     font-weight: 600;
     padding: 11px 20px;
@@ -1967,7 +1967,7 @@
   .fbj-pwb-wrap {
     background: #F5F7FA;
     padding: 80px 24px;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans', 'DM Sans Fallback', sans-serif;
   }
 
   .fbj-pwb-inner {
@@ -1993,7 +1993,7 @@
   }
 
   .fbj-pwb-h2 {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif;
     font-size: clamp(30px, 3.5vw, 46px);
     font-weight: 900;
     text-transform: uppercase;
@@ -2104,7 +2104,7 @@
   }
 
   .fbj-pwb-card-title {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif;
     font-size: 21px;
     font-weight: 900;
     text-transform: uppercase;
@@ -2202,7 +2202,7 @@
   }
 
   .fbj-pwb-featured-h3 {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif;
     font-size: clamp(26px, 3vw, 38px);
     font-weight: 900;
     text-transform: uppercase;
@@ -2282,7 +2282,7 @@
   }
 
   .fbj-pwb-featured-stat-val {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif;
     font-size: 38px;
     font-weight: 900;
     color: #F4700A;
@@ -2337,7 +2337,7 @@
   }
 
   .fbj-pwb-notfit-head-title {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif;
     font-size: 17px;
     font-weight: 800;
     text-transform: uppercase;
@@ -2449,7 +2449,7 @@
   .fbj-pwb-cta-row-left {}
 
   .fbj-pwb-cta-row-title {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif;
     font-size: 22px;
     font-weight: 900;
     text-transform: uppercase;
@@ -2480,7 +2480,7 @@
     gap: 7px;
     background: #F4700A;
     color: #FFFFFF;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans', 'DM Sans Fallback', sans-serif;
     font-size: 13.5px;
     font-weight: 600;
     padding: 12px 22px;
@@ -2503,7 +2503,7 @@
     gap: 7px;
     background: transparent;
     color: #A3B5CC;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans', 'DM Sans Fallback', sans-serif;
     font-size: 13.5px;
     font-weight: 500;
     padding: 11px 18px;
