@@ -1,0 +1,96 @@
+/* The Description tab.
+ *
+ * A reading column inside a tab panel: measured line length, room between
+ * paragraphs, and headings that are visibly headings. The two lists are
+ * styled differently from each other on purpose — an unordered list and a
+ * sequence are doing different jobs and should not look identical.
+ */
+.fbj-pd {
+  font-family: 'Barlow', system-ui, -apple-system, sans-serif;
+  color: #46586B;
+  padding: 8px 0 4px;
+}
+.fbj-pd__h2 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 800; text-transform: uppercase;
+  font-size: clamp(24px, 3.2vw, 34px); line-height: 1.1;
+  margin: 0 0 14px; color: #0B1F3A; max-width: 26ch;
+}
+.fbj-pd__lede {
+  font-size: 17.5px; line-height: 1.75; color: #46586B;
+  margin: 0 0 26px; max-width: 74ch;
+}
+.fbj-pd__lede strong { color: #0B1F3A; }
+
+.fbj-pd__h3 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 800; text-transform: uppercase; letter-spacing: .01em;
+  font-size: clamp(19px, 2.3vw, 24px); line-height: 1.15;
+  margin: 34px 0 12px; color: #0B1F3A; max-width: 30ch;
+}
+.fbj-pd__h3:first-of-type { margin-top: 8px; }
+
+.fbj-pd p {
+  font-size: 16.5px; line-height: 1.78; margin: 0 0 15px; max-width: 74ch;
+}
+.fbj-pd p:last-child { margin-bottom: 0; }
+.fbj-pd strong { color: #0B1F3A; }
+.fbj-pd a {
+  color: #F4700A; text-decoration: underline; text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+}
+.fbj-pd a:hover { color: #C25808; }
+
+/* Bulleted: parallel items, no order between them. */
+.fbj-pd__bullets {
+  list-style: none; margin: 0 0 18px; padding: 0; display: grid; gap: 10px; max-width: 74ch;
+}
+.fbj-pd__bullets li {
+  position: relative; padding-left: 26px; font-size: 16.5px; line-height: 1.72;
+}
+.fbj-pd__bullets li::before {
+  content: ''; position: absolute; left: 2px; top: 10px;
+  width: 8px; height: 8px; border-radius: 2px; background: #F4700A;
+}
+
+/* Numbered: a sequence, where the order is the point. */
+.fbj-pd__steps {
+  list-style: none; margin: 0 0 18px; padding: 0; counter-reset: pd; display: grid; gap: 12px; max-width: 74ch;
+}
+.fbj-pd__steps li {
+  counter-increment: pd; position: relative; padding-left: 42px;
+  font-size: 16.5px; line-height: 1.72;
+}
+.fbj-pd__steps li::before {
+  content: counter(pd); position: absolute; left: 0; top: 1px;
+  width: 27px; height: 27px; border-radius: 50%;
+  background: #0B1F3A; color: #fff;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 800; font-size: 15px;
+  display: flex; align-items: center; justify-content: center;
+}
+
+.fbj-pd__note {
+  margin: 22px 0 18px !important; padding: 16px 20px;
+  background: #f8fafc; border-left: 3px solid #F4700A; border-radius: 0 6px 6px 0;
+  font-size: 16px !important; line-height: 1.7 !important;
+}
+
+.fbj-pd__table { border-collapse: collapse; width: 100%; min-width: 520px; font-size: 15.5px; }
+.fbj-pd__table th, .fbj-pd__table td {
+  text-align: left; padding: 11px 14px; border-bottom: 1px solid #e2e8f0; vertical-align: top;
+}
+.fbj-pd__table thead th {
+  background: #0B1F3A; color: #fff;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700; font-size: 13.5px; letter-spacing: .08em; text-transform: uppercase;
+  border-bottom: 0;
+}
+.fbj-pd__table tbody th { font-weight: 700; color: #0B1F3A; width: 26%; }
+.fbj-pd__table tbody td { color: #4a5568; line-height: 1.62; }
+.fbj-pd__table tbody tr:nth-child(even) { background: #f8fafc; }
+
+/* This site has no shared table-scroll class, so the one the description
+ * renderer emits is defined here. Same reason it exists on the sibling site: a
+ * table with no scroll container takes the whole page sideways on a phone. */
+.fbj-tablescroll { overflow-x: auto; -webkit-overflow-scrolling: touch; min-width: 0; max-width: 100%; }

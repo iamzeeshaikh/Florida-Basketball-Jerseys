@@ -33,6 +33,7 @@ const hasQuickQuote = isProduct
 {isProduct && <link rel="stylesheet" href={`/assets/product-sections.css?v=${ASSET_VERSION}`} />}
 {/* The jersey designer is on every product page now, not only its own. */}
 {isProduct && <link rel="stylesheet" href={`/assets/fbj-designer.css?v=${ASSET_VERSION}`} />}
+{isProduct && <link rel="stylesheet" href={`/assets/fbj-product-description.css?v=${ASSET_VERSION}`} />}
 {hasQuickQuote && <link rel="stylesheet" href={`/assets/fbj-quickquote.css?v=${ASSET_VERSION}`} />}
 {(page.styles ?? []).map((href) => <link rel="stylesheet" href={`${href}?v=${ASSET_VERSION}`} />)}
 </head>

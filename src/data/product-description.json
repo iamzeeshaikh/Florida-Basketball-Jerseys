@@ -1,0 +1,232 @@
+{
+ "basketball-game-shorts": {
+  "h2": "The Half of the Uniform Nobody Specifies",
+  "lede": "Teams spend an hour choosing a jersey and thirty seconds choosing the shorts that go with it. Then they discover in December that the two blues do not match, the inseam is wrong for half the roster, and the waistband has stopped holding. <strong>Shorts fail more often than jerseys do</strong>, and almost always for reasons that were decided at order time.",
+  "sections": [
+   {
+    "h3": "Why the colors drift apart",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "A jersey and a pair of shorts are usually different fabrics. Even in the same dye lot, the same color lands slightly differently on a lighter knit than on a heavier one, because the two absorb dye at different rates.",
+       "That difference is invisible on a screen, small in a photograph, and obvious on a court under lights when twelve players are standing together. It is the most common complaint about a uniform that was ordered in two halves.",
+       "The fix is ordering both on one job, from one specification, in one production run. It is also the reason we would rather quote a full set than a jersey — not because it sells more, but because two orders placed a month apart will not match and nobody finds out until the season starts."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Inseam, and why one number does not fit a roster",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Inseam is the measurement from the crotch seam to the hem, and it is the one shorts decision that generates real complaints.",
+       "The same inseam sits at completely different points on a five-foot-two guard and a six-foot-six center. A nine-inch inseam that reads as modern on one is halfway up the thigh on the other, and a longer one that sits right on the taller player flaps at the knee of the shorter.",
+       "So we cut shorts to a proportional inseam within each size rather than a fixed one across the run. It is not something most teams think to ask about and it is the difference between a set that looks intentional and one that looks like it was bought in bulk."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "What the waistband actually has to do",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "The waistband is where game shorts fail, and it fails in two distinct ways that call for different answers."
+      ]
+     },
+     {
+      "kind": "bullets",
+      "items": [
+       "<strong>Stretch loss.</strong> Elastic that has been washed forty times stops recovering. A double-stitched band with a wider elastic holds its shape considerably longer than a single-stitched narrow one.",
+       "<strong>Drawcord failure.</strong> An internal cord that has been pulled tight and released a hundred times frays where it exits the eyelet. Flat cord lasts longer than round.",
+       "<strong>Rolling.</strong> A band that folds over on itself during play is a band that is too narrow for the fabric weight below it.",
+       "<strong>Slipping under contact.</strong> The reason a player tugs at their shorts between plays. It is a fit problem rather than a band problem, and it is solved by sizing to the waist rather than to the jersey.",
+       "<strong>Print wear at the band.</strong> Where an applied stripe lifts first. A dyed stripe has nothing to lift, which is why our waistband detail is printed into the fabric rather than onto it."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Pockets, and the argument about them",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Most leagues do not permit pockets on game shorts, and most players do not want them.",
+       "A pocket is a place for a finger to catch during contact, and it adds a seam across an area that already takes abrasion from the floor. Practice shorts are a different matter — nobody is being fouled hard in a drill, and a pocket earns its place between sessions.",
+       "Check your league's rule before deciding either way. If yours permits them and your players want them, we make both; if it does not, ordering pocketed game shorts is a mistake that only shows up at the first officiated game."
+      ]
+     },
+     {
+      "kind": "note",
+      "text": "If you are ordering a full set, order the shorts and the jersey together even where the budget only stretches to one this season. We can produce the jersey now and hold the shorts specification on file, so next year's shorts match this year's jersey exactly rather than approximately."
+     }
+    ]
+   },
+   {
+    "h3": "Sizing shorts against a roster",
+    "blocks": [
+     {
+      "kind": "steps",
+      "items": [
+       "Measure the waist, not the jersey size. Players routinely take a large jersey and a medium short, and ordering both from one letter is where most exchanges come from.",
+       "Ask about the preferred fit rather than assuming. Some players want them sitting on the hip, some at the waist, and the difference is a size.",
+       "Note anyone unusually tall or short for their waist measurement, so the inseam can be checked against them specifically.",
+       "Order two or three spares in the middle sizes. Shorts are lost more often than jerseys — they leave the gym in a bag that belongs to somebody else.",
+       "Send the measurements with the jersey sheet, on the same form, so both halves of the uniform are cut from one set of numbers."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "How they are decorated",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "The design is dyed into the fabric before the shorts are assembled, which matters more on shorts than on a jersey.",
+       "Shorts take floor abrasion that a jersey never does — every dive, every slide, every time a player sits down on a court. An applied stripe or a heat-pressed number on a hip is sitting exactly where that abrasion happens, and it lifts long before the fabric wears through.",
+       "A dyed design has nothing on the surface to lift. It also means the side panels and the waistband detail can run continuously around the garment across seams, which no applied decoration can do — the process is set out under <a href=\"/blog/sublimation-vs-screen-printing-basketball-jerseys/\">how each decoration method ages on fabric</a>."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Pairing them with the rest of the kit",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "A game short is one part of a set, and the specification should follow whatever the jersey is doing.",
+       "If the jersey is a reversible, the shorts usually are not — a reversible short is bulkier than most players will tolerate, and the color change on the jersey is what the rule requires anyway.",
+       "If the team also practices in team kit, order practice shorts separately rather than using the game pair. Practice shorts take four times the wear and cost a fraction, and <a href=\"/product/basketball-practice-shorts/\">a pair specified for the training floor</a> keeps the game set intact for the games."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "black-basketball-jersey": {
+  "h2": "Black Is the Hardest Color to Get Right",
+  "lede": "Every team assumes black is the safe choice. It is the most requested color we produce and the one that most often comes back looking wrong — not because the dye failed, but because <strong>black behaves differently from every other color</strong> in ways that only show up under gym lights, in photographs, and after twenty washes.",
+  "sections": [
+   {
+    "h3": "There is more than one black",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "A true neutral black, a black with a blue undertone and a black with a warm brown undertone all look identical on a screen and visibly different side by side on a court.",
+       "This matters when a team owns kit bought at different times. Two black jerseys from two orders can sit in the same photograph as clearly different garments, and the difference is not fade — it is that they were never the same black.",
+       "So it is worth specifying which one you want rather than writing \"black\" on the order. If you have existing kit to match, send a garment; matching against fabric is the only reliable way to hit the same black twice."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "What gym lighting does to it",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Black absorbs almost all the light that hits it, which is why it looks flat under the fluorescent and LED lighting most gyms use.",
+       "Flat is a problem for a uniform, because it means the shape of the garment disappears. Numbers read fine — they are high contrast against black — but panel details, piping and any tonal design element vanish entirely at distance.",
+       "The answer is contrast rather than subtlety. A design that works on a light jersey through tonal shading will not work on black; the same design in a strongly contrasting accent will. It is the single most common redesign we do between proof and production."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Numbers and names on a black ground",
+    "blocks": [
+     {
+      "kind": "bullets",
+      "items": [
+       "<strong>White and light gold read best.</strong> Maximum luminance difference, legible from any seat in any gym.",
+       "<strong>Bright orange, red and yellow work</strong>, and are what most Florida programs actually choose because they carry the team's second color.",
+       "<strong>Navy, dark green and deep purple do not.</strong> They look distinct from black at arm's length and merge with it past twenty feet, which is where the number matters.",
+       "<strong>An outline rescues a marginal combination.</strong> A dark number outlined in white is legible where the same number alone is not, and on a printed jersey the extra color costs nothing.",
+       "<strong>Gray is the trap.</strong> It looks sophisticated on a screen and disappears completely under lights."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Fade, and why black shows it first",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Every dyed fabric fades. Black shows it soonest because there is nowhere for the change to hide.",
+       "A navy that has lost five percent of its depth still reads as navy. A black that has lost the same amount reads as dark gray, and next to a newer black jersey it reads as an old one. This is why a team that buys replacement jerseys mid-season in black ends up with a visibly two-tone roster.",
+       "Two things slow it. A design dyed into the fiber fades with the garment rather than separating from it, so the jersey ages as one piece. And washing cold, inside out, without optical brighteners does more than any fabric choice — the detail is in <a href=\"/blog/caring-for-sublimated-basketball-jerseys/\">the wash routine that keeps color depth</a>."
+      ]
+     },
+     {
+      "kind": "note",
+      "text": "If you expect to add jerseys mid-season, order the spares with the main run. A black jersey produced six months later will be the same specification and a visibly different age, and there is no way to make a new one match a worn one."
+     }
+    ]
+   },
+   {
+    "h3": "Heat, and the thing everyone asks",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Black absorbs more radiant heat than a light color, which is a real effect and an almost irrelevant one indoors.",
+       "In a gym, the heat a player deals with is their own, and the fabric's job is to move it away rather than to reflect sunlight that is not there. Knit openness and moisture handling both matter enormously; the color does not.",
+       "Outdoors is different. On an open court in Florida sun, a black jersey is measurably warmer than a white one, and for a team playing summer outdoor ball that is worth weighing against the look."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Who chooses black, and why it is worth knowing",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Black is the most requested color on this site by a wide margin, and the reason is worth being honest about: it is the safe answer when a team has not decided what it wants to look like.",
+       "That is not a criticism. A new club with no history, a tournament team assembled for one weekend, or a program that has to look presentable without offending anyone all have good reasons to reach for it, and a black set with a strong accent looks sharp on any court.",
+       "But it does mean black teams are the least distinguishable from each other. In a league of twelve, three or four will be in black, and from the bleachers the accent color is doing all the identification work. That is an argument for choosing a saturated accent rather than white, and for putting more thought into the number treatment than a team in an unusual base color needs to.",
+       "It is also an argument for checking what the rest of your league wears before committing. A team that would have been distinctive in kelly green and is instead the fourth black team in the division has spent the same money for less recognition."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "What black pairs with",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Black is a base rather than a statement, which is both why it is popular and why it needs a partner to be memorable.",
+       "Black and one saturated accent — orange, red, gold, kelly green — is the combination that reads from distance and photographs well. Black and white is clean and extremely common, which is worth knowing if you want to be distinguishable from the other three teams in your league wearing it.",
+       "Black and a second dark color is the combination to avoid, however good it looks in a design file. If you are choosing a palette from scratch, <a href=\"/blog/choosing-team-colors-that-reproduce-correctly/\">how a screen color differs from a dyed one</a> covers where the two disagree most."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Ordering a black set",
+    "blocks": [
+     {
+      "kind": "steps",
+      "items": [
+       "Specify which black, or send a garment to match. Do not leave it as one word on an order.",
+       "Choose the accent for contrast rather than for taste, and check it against the number rather than against the jersey.",
+       "Ask for the proof to be judged as though in grayscale. If the number and the ground become similar shades, they will merge under lights.",
+       "Order the spares now, in the same run, so a mid-season addition matches.",
+       "Send the wash guidance out with the kit. On black it makes more visible difference than on any other color."
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}
