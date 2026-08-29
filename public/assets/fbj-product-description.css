@@ -9,16 +9,24 @@
   font-family: 'Barlow', 'Barlow Fallback', system-ui, -apple-system, sans-serif;
   color: #46586B;
   padding: 8px 0 4px;
+
+  /* The tab panel is as wide as the page -- 1,900px on a large monitor -- and a
+   * paragraph capped at a readable measure inside it left two thirds of the
+   * panel empty. Cap and centre the column itself instead, so the whitespace
+   * sits on both sides rather than all of it on the right.
+   */
+  max-width: 78ch;
+  margin-inline: auto;
 }
 .fbj-pd__h2 {
   font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif;
   font-weight: 800; text-transform: uppercase;
   font-size: clamp(24px, 3.2vw, 34px); line-height: 1.1;
-  margin: 0 0 14px; color: #0B1F3A; max-width: 26ch;
+  margin: 0 0 14px; color: #0B1F3A;
 }
 .fbj-pd__lede {
   font-size: 17.5px; line-height: 1.75; color: #46586B;
-  margin: 0 0 26px; max-width: 74ch;
+  margin: 0 0 26px;
 }
 .fbj-pd__lede strong { color: #0B1F3A; }
 
@@ -26,12 +34,12 @@
   font-family: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif;
   font-weight: 800; text-transform: uppercase; letter-spacing: .01em;
   font-size: clamp(19px, 2.3vw, 24px); line-height: 1.15;
-  margin: 34px 0 12px; color: #0B1F3A; max-width: 30ch;
+  margin: 34px 0 12px; color: #0B1F3A;
 }
 .fbj-pd__h3:first-of-type { margin-top: 8px; }
 
 .fbj-pd p {
-  font-size: 16.5px; line-height: 1.78; margin: 0 0 15px; max-width: 74ch;
+  font-size: 16.5px; line-height: 1.78; margin: 0 0 15px;
 }
 .fbj-pd p:last-child { margin-bottom: 0; }
 .fbj-pd strong { color: #0B1F3A; }
@@ -43,7 +51,7 @@
 
 /* Bulleted: parallel items, no order between them. */
 .fbj-pd__bullets {
-  list-style: none; margin: 0 0 18px; padding: 0; display: grid; gap: 10px; max-width: 74ch;
+  list-style: none; margin: 0 0 18px; padding: 0; display: grid; gap: 10px;
 }
 .fbj-pd__bullets li {
   position: relative; padding-left: 26px; font-size: 16.5px; line-height: 1.72;
@@ -55,7 +63,7 @@
 
 /* Numbered: a sequence, where the order is the point. */
 .fbj-pd__steps {
-  list-style: none; margin: 0 0 18px; padding: 0; counter-reset: pd; display: grid; gap: 12px; max-width: 74ch;
+  list-style: none; margin: 0 0 18px; padding: 0; counter-reset: pd; display: grid; gap: 12px;
 }
 .fbj-pd__steps li {
   counter-increment: pd; position: relative; padding-left: 42px;
