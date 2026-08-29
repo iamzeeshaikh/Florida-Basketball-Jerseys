@@ -31,6 +31,8 @@ const hasQuickQuote = isProduct
 {/* The five product sections inlined 56,851 bytes of identical CSS on each of
     the 42 product pages. It is one cached file now. */}
 {isProduct && <link rel="stylesheet" href={`/assets/product-sections.css?v=${ASSET_VERSION}`} />}
+{/* The jersey designer is on every product page now, not only its own. */}
+{isProduct && <link rel="stylesheet" href={`/assets/fbj-designer.css?v=${ASSET_VERSION}`} />}
 {hasQuickQuote && <link rel="stylesheet" href={`/assets/fbj-quickquote.css?v=${ASSET_VERSION}`} />}
 {(page.styles ?? []).map((href) => <link rel="stylesheet" href={`${href}?v=${ASSET_VERSION}`} />)}
 </head>

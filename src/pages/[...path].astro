@@ -1,11 +1,12 @@
 ---
 import pages from '../data/pages.json';
 import { rewrite, dropFontImports } from '../lib/site.js';
-import { applyProductContent, polishPage } from '../lib/product-sections.js';
+import { applyProductContent, polishPage, splitForDesigner } from '../lib/product-sections.js';
 import { extractFaqs, faqSchema, breadcrumbSchema, pageTitleFrom, schemaTags } from '../lib/schema.js';
 import { enhanceImages } from '../lib/images.js';
 import Shell from '../layouts/Shell.astro';
 import QuickQuote from '../components/QuickQuote.astro';
+import JerseyDesigner from '../components/JerseyDesigner.astro';
 
 export function getStaticPaths() {
   // 404 is emitted by src/pages/404.astro so the host can serve it as the
@@ -45,6 +46,19 @@ const isCategory = page.route.startsWith('/product-category/') && !page.route.in
 const showQuickQuote = Boolean(productSlug) || isCategory;
 const pageTitle = pageTitleFrom(html);
 
+// The designer goes on the product page itself, not only on its own page: the
+// visitor closest to ordering was the one with no way to see what they were
+// choosing. splitForDesigner refuses to cut if the halves would not balance,
+// in which case the page renders exactly as before and the tool is simply not
+// there — a missing section beats a torn one.
+const [beforeDesigner, afterDesigner] = productSlug ? splitForDesigner(dropFontImports(rewrite(html))) : [null, null];
+
+// Open the designer on the garment the page is about. "Shorts" and "uniform"
+// are the only two the catalogue distinguishes; everything else is a jersey.
+const designerGarment = /shorts/i.test(productSlug ?? '') ? 'Shorts'
+  : /uniform|full-set/i.test(productSlug ?? '') ? 'Full uniform set'
+  : 'Jersey';
+
 const faqs = extractFaqs(html);
 const jsonLd = schemaTags([
   faqSchema(faqs),
@@ -53,6 +67,23 @@ const jsonLd = schemaTags([
 ---
 <Shell page={page}>
   {showQuickQuote && <QuickQuote productName={pageTitle} pageTitle={page.head.match(/<title>([\s\S]*?)<\/title>/)?.[1] ?? pageTitle} />}
-  <Fragment set:html={dropFontImports(rewrite(html))} />
+  {productSlug && afterDesigner ? (
+    <>
+      <Fragment set:html={beforeDesigner} />
+      <section class="fbj-dz fbj-dz--embedded">
+        <div class="fbj-dz-inner">
+          <JerseyDesigner
+            embedded
+            garment={designerGarment}
+            productName={pageTitle}
+            refererTitle={page.head.match(/<title>([\s\S]*?)<\/title>/)?.[1] ?? pageTitle}
+          />
+        </div>
+      </section>
+      <Fragment set:html={afterDesigner} />
+    </>
+  ) : (
+    <Fragment set:html={productSlug ? beforeDesigner : dropFontImports(rewrite(html))} />
+  )}
   {jsonLd && <Fragment set:html={jsonLd} />}
 </Shell>

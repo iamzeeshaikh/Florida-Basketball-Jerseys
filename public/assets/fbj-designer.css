@@ -80,3 +80,52 @@
 @media (max-width: 520px) {
   .fbj-dz-row { grid-template-columns: 1fr; }
 }
+
+/* ── The designer, embedded in a product page ─────────────────────────────
+ * The standalone page is the tool and nothing else, so it can own the whole
+ * viewport. On a product page the tool is one section among six and has to
+ * announce itself, sit inside the page's rhythm, and stop before it becomes
+ * the page.
+ *
+ * Same markup either way — only the frame differs. Anything that restyled the
+ * tool itself would be the beginning of two designers.
+ */
+.fbj-dz--embedded {
+  display: block;
+  background: #F6F8FB;
+  border-top: 1px solid #E2E8F0;
+  border-bottom: 1px solid #E2E8F0;
+  padding: 54px 0 58px;
+}
+.fbj-dz--embedded .fbj-dz-inner {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.fbj-dz-embed-head { margin-bottom: 26px; }
+.fbj-dz-embed-kicker {
+  display: inline-flex; align-items: center; gap: 9px;
+  font-family: 'Barlow', system-ui, sans-serif;
+  font-size: 12px; letter-spacing: .14em; text-transform: uppercase;
+  font-weight: 700; color: #F4700A; margin-bottom: 12px;
+}
+.fbj-dz-embed-kicker::before { content: ''; width: 22px; height: 2px; background: #F4700A; }
+.fbj-dz-embed-h2 {
+  font-family: 'Barlow Condensed', sans-serif; font-weight: 800; text-transform: uppercase;
+  font-size: clamp(26px, 3.6vw, 40px); line-height: 1.06; margin: 0 0 14px;
+  color: #0B1F3A; max-width: 22ch;
+}
+.fbj-dz-embed-h2 span { color: #F4700A; }
+.fbj-dz-embed-lede {
+  font-family: 'Barlow', system-ui, sans-serif;
+  font-size: 16.5px; line-height: 1.72; color: #46586B; margin: 0; max-width: 74ch;
+}
+.fbj-dz-embed-lede strong { color: #0B1F3A; }
+
+/* The tool's own two-column layout is reused as-is; it only needs to be told
+ * it may shrink, because a grid child defaults to a min-content floor and the
+ * SVG stage would otherwise hold the section wider than the phone. */
+.fbj-dz--embedded .fbj-dz-main,
+.fbj-dz--embedded .fbj-dz-stage,
+.fbj-dz--embedded .fbj-dz-panel { min-width: 0; }

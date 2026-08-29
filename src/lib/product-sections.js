@@ -395,3 +395,61 @@ export function applyProductContent(html, slug) {
 export function hasProductContent(slug) {
   return Object.prototype.hasOwnProperty.call(content, slug);
 }
+
+/**
+ * Split a product page in two, so the designer can be rendered between the
+ * halves as a real Astro component rather than injected as a string.
+ *
+ * The cut goes after the product overview and before the section that follows
+ * it: the visitor has seen the gallery and read what the jersey is, and that
+ * is the point at which "now build one" is an invitation rather than an
+ * interruption.
+ *
+ * What is NOT checked is whether each half is independently balanced. These
+ * sections sit three divs deep inside an Elementor container, so the first
+ * half legitimately leaves three divs open and the second closes them — that
+ * is what inserting a sibling in the middle of a document looks like, and
+ * requiring balance rejects every valid cut. Since the fragment going between
+ * them is itself balanced, the assembled page is too.
+ *
+ * What IS checked is that the cut lands between two elements rather than
+ * inside one: not inside a tag, and not inside an <svg>, <table>, <select> or
+ * <picture>, where a stray <section> would be moved or dropped by the parser.
+ * A cut that fails is abandoned and the page renders exactly as before,
+ * without the tool — a missing section beats a torn one.
+ */
+// Whichever of these follows the overview first. Two products — the blank and
+// the plain jersey — have no colour-options section at all, so anchoring on
+// that one alone put the designer on 40 of 42 pages and silently skipped the
+// two where choosing a colour is the ONLY decision a buyer makes.
+const DESIGNER_ANCHORS = ['fbj-pco-wrap', 'fbj-pwb-wrap', 'fbj-psg-wrap', 'fbj-pfb-wrap'];
+const CONSTRAINED = ['svg', 'table', 'select', 'picture', 'form'];
+
+function insideElement(html, at, tag) {
+  const open = html.lastIndexOf(`<${tag}`, at);
+  if (open < 0) return false;
+  const close = html.lastIndexOf(`</${tag}>`, at);
+  return open > close;
+}
+
+export function splitForDesigner(html) {
+  const at = DESIGNER_ANCHORS
+    .map((a) => html.indexOf(a))
+    .filter((i) => i >= 0)
+    .sort((a, b) => a - b)[0];
+  if (at === undefined) return [html, ''];
+
+  // The section's own <style> block sits just above its markup; cut above that
+  // so the styles travel with the section they belong to.
+  const styleAt = html.lastIndexOf('<style', at);
+  let cut = styleAt > 0 && at - styleAt < 20000 ? styleAt : html.lastIndexOf('<div', at);
+  if (cut < 0) return [html, ''];
+
+  // Not mid-tag: everything from the previous '>' to the cut must be blank.
+  const prevClose = html.lastIndexOf('>', cut);
+  if (prevClose < 0 || html.slice(prevClose + 1, cut).trim() !== '') return [html, ''];
+
+  if (CONSTRAINED.some((t) => insideElement(html, cut, t))) return [html, ''];
+
+  return [html.slice(0, cut), html.slice(cut)];
+}
