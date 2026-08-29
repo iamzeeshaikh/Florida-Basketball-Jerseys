@@ -163,7 +163,7 @@
       "text": [
        "Every dyed fabric fades. Black shows it soonest because there is nowhere for the change to hide.",
        "A navy that has lost five percent of its depth still reads as navy. A black that has lost the same amount reads as dark gray, and next to a newer black jersey it reads as an old one. This is why a team that buys replacement jerseys mid-season in black ends up with a visibly two-tone roster.",
-       "Two things slow it. A design dyed into the fiber fades with the garment rather than separating from it, so the jersey ages as one piece. And washing cold, inside out, without optical brighteners does more than any fabric choice — the detail is in <a href=\"/blog/caring-for-sublimated-basketball-jerseys/\">the wash routine that keeps color depth</a>."
+       "Two things slow it. A design dyed into the fiber fades with the garment rather than separating from it, so the jersey ages as one piece. And washing cold, inside out, without optical brighteners does more than any fabric choice — the detail is in <a href=\"/blog/caring-for-sublimated-basketball-jerseys/\">the wash routine for color depth</a>."
       ]
      },
      {
@@ -207,7 +207,7 @@
       "text": [
        "Black is a base rather than a statement, which is both why it is popular and why it needs a partner to be memorable.",
        "Black and one saturated accent — orange, red, gold, kelly green — is the combination that reads from distance and photographs well. Black and white is clean and extremely common, which is worth knowing if you want to be distinguishable from the other three teams in your league wearing it.",
-       "Black and a second dark color is the combination to avoid, however good it looks in a design file. If you are choosing a palette from scratch, <a href=\"/blog/choosing-team-colors-that-reproduce-correctly/\">how a screen color differs from a dyed one</a> covers where the two disagree most."
+       "Black and a second dark color is the combination to avoid, however good it looks in a design file. If you are choosing a palette from scratch, <a href=\"/blog/choosing-team-colors-that-reproduce-correctly/\">how screen color differs from dye</a> covers where the two disagree most."
       ]
      }
     ]
@@ -223,6 +223,429 @@
        "Ask for the proof to be judged as though in grayscale. If the number and the ground become similar shades, they will merge under lights.",
        "Order the spares now, in the same run, so a mid-season addition matches.",
        "Send the wash guidance out with the kit. On black it makes more visible difference than on any other color."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "blue-basketball-jersey": {
+  "h2": "Which Blue, Because There Are at Least Six",
+  "lede": "Blue is the most common team color in American basketball and the one most often ordered wrong. Not because the dye misses, but because <strong>\"blue\" on an order form is not an instruction</strong> — royal, navy, columbia, cobalt, teal-leaning and the deep near-black blue most schools call navy are all blue, and two of them next to each other look like a mistake.",
+  "sections": [
+   {
+    "h3": "The six that matter",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Royal is the bright, saturated mid-blue most rec leagues and youth programs default to. It reads clearly at distance and photographs well.",
+       "Navy is the dark blue schools use, and it behaves closer to black than to royal — it goes flat under gym lighting and needs a high-contrast number rather than a tonal one.",
+       "Columbia and the lighter blues sit at the opposite end: they need a dark number rather than white, because white on light blue has very little luminance difference and disappears from the back row.",
+       "Between them sit cobalt, which is royal with more depth, and the teal-leaning blues that read as blue indoors and green outdoors under daylight. That last one surprises teams every year."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "The number problem changes with the blue",
+    "blocks": [
+     {
+      "kind": "bullets",
+      "items": [
+       "<strong>Navy</strong> takes white, gold or a bright accent. Anything mid-toned merges with it past twenty feet.",
+       "<strong>Royal</strong> takes white or yellow cleanly, and takes navy badly — two blues on one garment read as a smudge from the bleachers.",
+       "<strong>Columbia and light blues</strong> need a dark number. White on columbia is the single most common legibility failure we see on a proof.",
+       "<strong>Any blue with an orange accent</strong> is the highest-contrast pairing available and is why so many programs land on it.",
+       "<strong>Outlines rescue the marginal cases</strong>, and on a printed jersey the extra color costs nothing."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Why your blue drifts between orders",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Blue is the color teams most often own in two versions, and the reason is that it is the color most often ordered from memory.",
+       "A coach who writes \"royal blue\" on a form is describing a range, not a value. Two suppliers, or the same supplier two years apart, will land in different parts of that range — and both will be royal blue.",
+       "The fix costs twenty minutes once: get the Pantone reference recorded and keep it with the program's records. Every future order then references a number rather than a word, and the drift stops. Where no reference exists, send a physical garment — matching against fabric accounts for how the dye actually sits on that knit."
+      ]
+     },
+     {
+      "kind": "note",
+      "text": "If you are replacing part of a set, do not order \"the same blue\". Send us a jersey from the existing set. A new garment matched to an old one will still be a shade deeper, because the old one has faded — but matched to fabric it lands far closer than matched to a name."
+     }
+    ]
+   },
+   {
+    "h3": "How blue behaves on a screen versus on fabric",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Screens make color by adding light and fabric makes it by absorbing light, and the two disagree more on saturated blues than on almost anything except purple and orange.",
+       "A royal blue that glows on a monitor is frequently a step less vivid in dye, because the screen can produce a brightness the fabric cannot. This is not a fault in the dye; it is a limit of what a woven surface can do with reflected light.",
+       "So use the proof to judge layout and contrast, and use a Pantone value or a garment to judge the color itself. The gap between the two is set out in <a href=\"/blog/choosing-team-colors-that-reproduce-correctly/\">where screen and dyed color diverge</a>."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Blue and the road-uniform convention",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Basketball has a lighter convention than baseball about home and away colors, but it has one, and blue sits awkwardly inside it.",
+       "The usual arrangement is a light home jersey and a dark road one. A navy set works cleanly as the road half; a columbia set works cleanly as the home half; a royal set is genuinely ambiguous and can end up clashing with either.",
+       "Where that matters is a division with several blue teams, which most divisions have. Two royal teams meeting with no clear light-dark split means one of them is wearing pinnies, and it will be the visiting team.",
+       "The practical answer for a program that owns one set is to choose a blue that is unambiguously dark or unambiguously light, and to keep a contrasting alternate if the budget stretches. For a program ordering two sets, make the pair genuinely distinct rather than two shades of the same idea."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Blue under Florida gym lighting",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Most gyms in the state have been relamped to LED in the last decade, and LED renders blue differently from the fluorescent tubes that came before.",
+       "Cooler LED light pushes blues slightly toward cyan and makes navy read darker than it does in daylight. A set chosen in an office and worn in a gym can look a half-step off from what anyone expected, and nothing has gone wrong.",
+       "It is worth checking a proof under the light you will actually play in if you can. Failing that, choose the accent for contrast rather than for harmony — a strongly contrasting number survives any lighting, and a subtle one does not."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Choosing a blue for a new program",
+    "blocks": [
+     {
+      "kind": "steps",
+      "items": [
+       "Look at what the rest of your league wears. Blue is the most common color in the sport and being the fourth blue team in a division costs you recognition you paid for.",
+       "Decide whether you want to read as bright or as serious. Royal and cobalt are the first; navy is the second, and it behaves like a dark neutral rather than a color.",
+       "Pick the accent before you finalize the blue. The pairing is what people remember, and it is what makes the number readable.",
+       "Ask for the Pantone references on the first order and keep them. This is the step that stops the drift.",
+       "Judge the proof at distance, not at arm's length. A blue that is beautiful up close and indistinct at forty feet is the wrong blue for a uniform."
+      ]
+     },
+     {
+      "kind": "p",
+      "text": [
+       "Programs building a full set rather than a single jersey should settle the blue once and apply it across everything at the same time — <a href=\"/product/men-basketball-uniforms/\">ordering the jersey and shorts as one job</a> is what stops the two halves landing in different parts of the same range."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "orange-basketball-jersey": {
+  "h2": "The Most Visible Color, and the Hardest to Reproduce",
+  "lede": "Orange does two things no other team color does. It is the most visible color on a court — the eye finds it before anything else in the frame — and it is the color where a screen and a dyed fabric disagree most sharply. <strong>Both facts matter, and they pull in opposite directions.</strong>",
+  "sections": [
+   {
+    "h3": "Why it stands out",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Human vision is most sensitive in the yellow-orange part of the spectrum, which is why safety equipment is that color rather than red.",
+       "On a basketball court that translates into a genuine advantage. An orange jersey is easier to pick out of a fast break, easier to track in peripheral vision, and easier for a parent in the back row to find their player in. Teams that switch to orange consistently comment on it before they comment on anything else.",
+       "It is also why orange works as an accent on almost any base. Orange numbers on navy, on black, on forest green — all of them read from the last row of the bleachers, which is the only test a number has to pass."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Where the screen lies to you",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "A monitor produces orange by mixing red and green light at high intensity. Fabric produces it by absorbing everything except a narrow band, and the brightest orange a dye can reflect is meaningfully less intense than the brightest orange a screen can emit.",
+       "So an orange chosen on a screen frequently arrives looking slightly deeper and slightly less electric than expected. Nothing has gone wrong; the screen was showing a color that fabric cannot make.",
+       "This is the single most common source of disappointment on an orange order, and it is entirely avoidable. Send a Pantone value or a physical sample and we match to that — the difference between the two approaches is set out in <a href=\"/blog/choosing-team-colors-that-reproduce-correctly/\">why dyed color reads differently</a>."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Which orange, and what each one pairs with",
+    "blocks": [
+     {
+      "kind": "bullets",
+      "items": [
+       "<strong>A true athletic orange</strong> — the bright, slightly warm one most programs mean. Pairs with navy, black and white, and is the highest-visibility option.",
+       "<strong>A deeper burnt orange</strong> — more brown in it, reads as heritage rather than as high-visibility. Pairs with cream and dark brown, and loses most of the legibility advantage.",
+       "<strong>A red-leaning orange</strong> — vivid, and the one most likely to be confused with a red team's kit at distance. Worth checking against your league before committing.",
+       "<strong>A yellow-leaning orange</strong> — the brightest and the least forgiving. Needs a dark number, because white on it has almost no luminance difference.",
+       "<strong>Fluorescent oranges</strong> — extremely visible and they fade faster than any other color we produce. Worth it for a one-season set, questionable for one meant to last three."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Fade, and how to slow it",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Orange fades faster than navy, black or forest green. That is a property of where it sits in the spectrum rather than a defect, and any supplier telling you otherwise is guessing.",
+       "The practical consequence is that an orange set worn for three seasons will show its age before a navy one bought at the same time would. It does not fail; it softens.",
+       "Two things slow it materially. A design dyed into the fiber fades as one piece rather than separating from an applied layer, so the jersey ages evenly. And washing cold and inside out matters more on orange than on almost any other color — <a href=\"/blog/caring-for-sublimated-basketball-jerseys/\">the routine that preserves color depth</a> is worth sending out with the kit rather than assuming."
+      ]
+     },
+     {
+      "kind": "note",
+      "text": "Orange is also the color most likely to be confused with another team's. If your league has a red team and a yellow team, an orange in the middle of that range reads as neither and both at forty feet. Check the division before you choose the shade."
+     }
+    ]
+   },
+   {
+    "h3": "Orange as an accent rather than a base",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Most of the orange in basketball is trim rather than body, and there is a reason worth understanding before committing to a full orange set.",
+       "As an accent, orange does its best work: it is the highest-contrast number color available against navy, black or forest green, and it draws the eye to exactly the elements that need to be read. A small amount of it carries a long way.",
+       "As a base color it is doing something different. An entire orange jersey is highly visible, distinctive in a league of navy and black teams, and harder to pair — the accent now has to work against orange rather than with it, which narrows the options to dark neutrals.",
+       "Neither is wrong. But a team that likes orange and is unsure should consider an orange-accented set before an orange-based one, because the accent version delivers most of the visibility and none of the pairing difficulty. Programs going the other way, with orange as the body, should settle the number color before the jersey color rather than after."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Numbers on orange",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "The bright oranges sit high on the luminance scale, which means white numbers have very little contrast against them and disappear at distance.",
+       "Navy, black and dark brown all read cleanly. White works only where it carries a dark outline, which on a printed jersey costs nothing and rescues the combination entirely.",
+       "The test worth applying to any proof is to imagine it without color information. If the number and the ground become similar shades of gray, they will be hard to separate under gym lighting whatever the actual hues are."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Ordering orange",
+    "blocks": [
+     {
+      "kind": "steps",
+      "items": [
+       "Decide which orange, and say so. Athletic, burnt, red-leaning and yellow-leaning are four different garments.",
+       "Send a Pantone value or a physical sample rather than a screen color. This is the color where that difference is largest.",
+       "Choose a dark number, or a white one with a dark outline. Both work; white alone usually does not.",
+       "Check your league's existing colors for a red or a yellow team, and shift your orange away from whichever is closer.",
+       "Send the wash guidance out with the kit. On orange it makes more visible difference over three seasons than any other decision on this list."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "white-basketball-shirt": {
+  "h2": "White Shows Everything, Which Is the Whole Problem",
+  "lede": "White is the traditional home color in basketball and the least forgiving fabric a team can own. It shows sweat, it shows what is underneath it, it shows every mark the floor leaves on it, and it is the only color where the fabric's opacity matters more than its weight. <strong>None of that makes it the wrong choice</strong> — it makes it the one that has to be specified carefully.",
+  "sections": [
+   {
+    "h3": "The opacity problem",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "A white garment in an open, lightweight knit will show a compression shirt through the front. It is the most common complaint about white kit and it has nothing to do with quality.",
+       "Opacity comes from density. A tighter knit blocks more light and shows less of what is behind it, and it also breathes less — which is the trade nobody mentions when they recommend the lightest possible fabric for a Florida gym.",
+       "So a white shirt is the one garment where we would push a team a step heavier than the climate alone suggests. The alternative is a set that players are self-conscious in, which is a worse outcome than being slightly warmer."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Sweat, and where it shows",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Every fabric darkens when it is wet. On navy that is invisible; on white it is a map.",
+       "The pattern is predictable — the center of the chest, the middle of the back, and a band under the arms — and it appears sooner on a denser knit because the moisture sits at the surface rather than dispersing through an open one.",
+       "This is the one place where the opacity argument reverses. A more open knit shows sweat less and shows underlayers more; a denser one does the opposite. There is no fabric that solves both, and which one to prioritize depends on whether your players wear compression underneath."
+      ]
+     },
+     {
+      "kind": "note",
+      "text": "A useful compromise most teams miss: keep the white for the home set only, and put the season's wear on a darker road set. A white shirt worn half as often looks new twice as long, and the difference over three seasons is substantial."
+     }
+    ]
+   },
+   {
+    "h3": "Keeping it white",
+    "blocks": [
+     {
+      "kind": "bullets",
+      "items": [
+       "<strong>Wash it separately, or with whites only.</strong> One new red jersey in a shared load is how a white set becomes a pink set, permanently.",
+       "<strong>Skip the optical brighteners.</strong> They work by adding a blue-white fluorescence that builds up unevenly, and after twenty washes the garment looks grayer rather than whiter.",
+       "<strong>Treat floor marks quickly.</strong> Court sealant and rubber scuff transfer readily onto white and set with heat. A cold rinse before the first wash removes what a hot cycle sets permanently.",
+       "<strong>Never tumble dry hot.</strong> Heat yellows white polyester over time and there is no way back from it.",
+       "<strong>Wash inside out.</strong> It protects the printed areas and it puts the abrasion on the inside of the garment rather than the face."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Numbers on white",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "White is the easiest ground to put a number on and the one teams most often over-think.",
+       "Almost any color reads against it. Navy, black, red, forest green and royal all have enough luminance difference to be legible from any seat in any gym. The exceptions are pale yellows and light grays, which do not.",
+       "The design freedom that creates is worth using. A white jersey can carry a two-color number with an outline, a shadow, or a tonal treatment that would be illegible on a dark ground — this is the base that gives a designer the most room, and <a href=\"/blog/number-and-name-legibility-on-a-basketball-jersey/\">what makes a number readable at distance</a> covers where the limits actually are."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Why white is still worth it",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Everything above is a cost, and teams keep choosing white anyway for three good reasons.",
+       "It is the home convention, which means a team without a white set is frequently the one changing into pinnies. It photographs better than any dark color under gym lighting, because the camera is not fighting to find detail in shadow. And it is the base that makes a second color look like a decision rather than a default.",
+       "It also ages honestly. A white set that has been worn for three seasons looks worn; a black one that has faded the same amount looks wrong. That is a small thing and programs that reissue kit notice it."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Ordering a white shirt",
+    "blocks": [
+     {
+      "kind": "steps",
+      "items": [
+       "Ask your players whether they wear compression underneath. If most do, take the denser knit and accept the warmth.",
+       "Decide whether this is the home set or the only set. A single white set takes twice the wear and will show it.",
+       "Choose a number color for contrast, then use the freedom white gives you on the treatment — an outline or a second color costs nothing on a printed garment.",
+       "Send the wash guidance out with the kit rather than assuming it. On white it is the difference between three seasons and one.",
+       "Order spares. A white jersey is the one most likely to be retired for a stain rather than for wear, and a spare in the middle sizes covers it."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "grey-basketball-jersey": {
+  "h2": "The Third Color Most Programs Should Own",
+  "lede": "Gray is not a first choice and it is rarely a second one. It is the color a program buys once it has a home set and a road set and discovers that both of them clash with somebody. <strong>That is a real role</strong>, and gray fills it better than any other color because it clashes with almost nothing.",
+  "sections": [
+   {
+    "h3": "What an alternate set is actually for",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Basketball has fewer color rules than football, but it has one that bites: two teams cannot take the floor in colors an official cannot separate at speed.",
+       "Most divisions handle that with a home-light, away-dark convention, and most of the time it works. It stops working when a road team in navy meets a home team in navy, or when a tournament bracket puts two royal teams against each other on a neutral floor.",
+       "The team that loses that argument wears pinnies over its own kit, which looks exactly as bad as it sounds. A gray alternate is the cheapest insurance against it, and it is why programs that play tournaments own one."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Solid gray and heather gray are different products",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Solid gray is a single dyed color. It is flat, even, and behaves like any other dye — it holds its shade, it takes a number cleanly, and it looks like a deliberate uniform color.",
+       "Heather is a blend of light and dark fibers that reads as gray from a distance and as texture up close. It looks softer and more casual, it hides marks better than a solid, and it makes fine design details harder to read because the ground is not uniform.",
+       "For a game set, solid is usually the right answer. For a warm-up or a training top, heather is frequently better — it hides the wear that training gear collects and nobody is reading a number off it."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Where gray goes wrong",
+    "blocks": [
+     {
+      "kind": "bullets",
+      "items": [
+       "<strong>Too light and it reads as white</strong> at distance, which defeats the purpose of an alternate against a white home team.",
+       "<strong>Too dark and it reads as black</strong>, with the same problem in reverse against a black road team.",
+       "<strong>Mid-gray with a mid-toned number</strong> is the most common legibility failure on this color. Gray needs either a very dark or a very light number, not something in between.",
+       "<strong>Gray on gray tonal designs</strong> look excellent in a design file and vanish entirely under gym lighting.",
+       "<strong>It shows sweat visibly</strong>, in the same pattern white does and slightly more conspicuously, because the wet gray goes several shades darker."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "How gray ages",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Gray has one genuine advantage over both ends of the range and it takes a season to become obvious.",
+       "A black jersey that has lost some depth reads as an old black jersey, because the eye knows what black should look like and can see it has moved. A white one that has yellowed reads as tired for the same reason. Gray has no such reference point — a gray that has shifted half a step is simply a gray, and nobody can tell it is not the gray it started as.",
+       "That makes it the most forgiving color for a set that is reissued across rosters, and the most forgiving for a program that adds jerseys mid-season. A replacement gray ordered in February sits next to a gray from September far more comfortably than a replacement black would.",
+       "It is not a reason to choose gray as a primary. It is a reason gray is the sensible third set for a program whose kit has to keep working after the first year."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Numbers, and the one rule that matters",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Gray sits in the middle of the luminance range, which means it has less natural contrast with any number color than a very dark or very light base does.",
+       "The solution is to commit in one direction. A near-black number on a light-mid gray works; a white number on a dark-mid gray works. A navy number on a mid gray does not, and it is the combination teams most often choose because it looks right on a screen.",
+       "An outline in the opposite direction fixes almost any marginal case, and on a printed garment the extra color is free."
+      ]
+     },
+     {
+      "kind": "note",
+      "text": "If you already own a home and a road set, choose the gray so it sits clearly between them rather than near either. A gray that is nearly as dark as your navy is not an alternate; it is a third navy."
+     }
+    ]
+   },
+   {
+    "h3": "The other reason to own gray",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Gray is the most forgiving base for a program that shares kit across age groups or seasons.",
+       "It works against almost every accent color, which means a club that runs several squads in different secondary colors can put all of them in gray bodies and let the trim do the identification. That is considerably cheaper than five separately colored sets and it still reads as one organization.",
+       "It also does not date. A saturated color chosen in one decade can look of its decade later; gray does not, which for a program buying a set to last four seasons is worth something."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Specifying a gray set",
+    "blocks": [
+     {
+      "kind": "steps",
+      "items": [
+       "Decide solid or heather. Game set points at solid; training or warm-up gear points at heather.",
+       "Place the gray deliberately between your existing sets rather than near one of them.",
+       "Choose a number color at one extreme of the luminance range, and add an outline if the pair is close.",
+       "Check it against the other teams in your division, not just against your own kit.",
+       "If this is an alternate rather than a primary, order fewer of them and no spares — an alternate is worn a handful of times a season and the wear reflects that."
+      ]
+     },
+     {
+      "kind": "p",
+      "text": [
+       "Programs ordering a gray set as a third option should price it alongside the main order rather than separately. The setup is paid once and the trim colors match the existing kit exactly, which two orders a year apart will not — <a href=\"/product/men-basketball-uniforms/\">ordering a full set as one job</a> is what keeps them consistent."
       ]
      }
     ]
