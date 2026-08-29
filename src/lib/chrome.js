@@ -63,6 +63,37 @@ function addCities(html) {
   return html.slice(0, i) + citiesColumn() + '\n      ' + html.slice(i);
 }
 
+/**
+ * Remove the opening-hours line from the footer's contact column.
+ *
+ * "Mon - Fri: 9am - 6pm EST / Sat: 10am - 3pm EST" was the one claim in the
+ * footer that commits the business to something it does not want to be held
+ * to, and the site says what it actually promises -- a reply within one
+ * business day -- in several better places.
+ *
+ * Matched on the text and cut back to its own wrapper, so it takes the clock
+ * icon with it rather than leaving an icon next to nothing.
+ */
+function dropHours(html) {
+  if (!html) return html;
+  const at = html.indexOf('Mon &ndash; Fri') >= 0 ? html.indexOf('Mon &ndash; Fri') : html.indexOf('Mon – Fri');
+  if (at < 0) return html;
+  const start = html.lastIndexOf('<div class="fbj-ftr-contact-item">', at);
+  if (start < 0) return html;
+
+  // Depth-count to the wrapper's own closing tag: it holds an icon div and a
+  // span, so a non-greedy match would stop inside it and orphan the rest.
+  const tag = /<div\b|<\/div>/g;
+  tag.lastIndex = start;
+  let depth = 0;
+  let m;
+  while ((m = tag.exec(html)) !== null) {
+    depth += m[0] === '</div>' ? -1 : 1;
+    if (depth === 0) return html.slice(0, start) + html.slice(m.index + m[0].length);
+  }
+  return html;
+}
+
 const TAG_SPLIT = /(<[^>]+>)/;
 const tokens = {
   header: chrome.header.split(TAG_SPLIT),
@@ -76,8 +107,8 @@ const tokens = {
  */
 export function region(name, page) {
   const diff = page.chromeDiff?.[name];
-  if (!diff) return enhanceImages(addDesigner(addCities(stripChromeStyles(dropFontImports(rewrite(chrome[name]))))));
+  if (!diff) return enhanceImages(dropHours(addDesigner(addCities(stripChromeStyles(dropFontImports(rewrite(chrome[name])))))));
   const out = tokens[name].slice();
   for (const [i, tag] of Object.entries(diff)) out[i] = tag;
-  return enhanceImages(addDesigner(addCities(stripChromeStyles(dropFontImports(rewrite(out.join('')))))));
+  return enhanceImages(dropHours(addDesigner(addCities(stripChromeStyles(dropFontImports(rewrite(out.join(''))))))));
 }

@@ -1009,3 +1009,42 @@
 @media (max-width: 700px) {
   .fbj-guide-table-wrap { max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
 }
+
+/* ── The footer's bottom bar ──────────────────────────────────────────────
+ * The policy links, the copyright line and the trust badges were set at
+ * #3A5A74 and #2E4A60 against the footer's near-black navy — contrast ratios
+ * around 2.2:1 and 1.6:1, against the 4.5:1 normal text needs. The whole
+ * strip read as disabled rather than as fine print, and the links in it are
+ * the refund policy, the shipping policy and the contact page: things a buyer
+ * looks for on purpose and should not have to hunt for.
+ *
+ * Raised to clear 4.5:1, with the pill borders lifted enough to be visible.
+ * Still quieter than the columns above — it is small print, it just is not
+ * invisible small print now.
+ *
+ * Placed at the end of this file rather than edited in place because these
+ * rules sit inside a media query in the original block; a flat override after
+ * it is both simpler to read and simpler to undo.
+ */
+.fbj-ftr-policy-link {
+  color: #B9C7D6;
+  border-color: rgba(255, 255, 255, .14);
+  font-size: 12.5px;
+}
+.fbj-ftr-policy-link:hover {
+  color: #FF8C2A;
+  border-color: rgba(244, 112, 10, .45);
+  background: rgba(244, 112, 10, .08);
+}
+.fbj-ftr-policies { border-bottom-color: rgba(255, 255, 255, .12); }
+.fbj-ftr-divider { background: rgba(255, 255, 255, .12); }
+
+.fbj-ftr-copyright { color: #97A9BC; font-size: 12.5px; }
+.fbj-ftr-copyright a { color: #CBD8E4; }
+.fbj-ftr-copyright a:hover { color: #FF8C2A; }
+
+.fbj-ftr-badge {
+  color: #B9C7D6;
+  border-color: rgba(255, 255, 255, .14);
+  background: rgba(255, 255, 255, .05);
+}

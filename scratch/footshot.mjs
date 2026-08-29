@@ -1,0 +1,10 @@
+import { chromium } from 'playwright';
+const b = await chromium.launch();
+const p = await (await b.newContext({ viewport: { width: 1440, height: 900 } })).newPage();
+await p.goto(process.argv[2], { waitUntil: 'load' });
+await p.evaluate(() => document.fonts.ready);
+await p.waitForTimeout(1200);
+const el = await p.$(process.argv[4]);
+await el.screenshot({ path: `scratch/${process.argv[3]}.png` });
+console.log('ok');
+await b.close();
