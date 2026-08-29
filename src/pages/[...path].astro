@@ -1,6 +1,6 @@
 ---
 import pages from '../data/pages.json';
-import { rewrite, dropFontImports } from '../lib/site.js';
+import { rewrite, dropFontImports, dropEntranceAnimations } from '../lib/site.js';
 import { applyProductContent, polishPage, splitForDesigner } from '../lib/product-sections.js';
 import { addDescriptionTab } from '../lib/product-description.js';
 import { extractFaqs, faqSchema, breadcrumbSchema, pageTitleFrom, schemaTags } from '../lib/schema.js';
@@ -33,11 +33,11 @@ const productSlug = page.route.startsWith('/product/')
 // appear on category, policy and landing pages too.
 // The Description tab, first among the product tabs. The migrated template
 // ships Specifications and Faqs and no prose; see src/lib/product-description.js.
-const html = enhanceImages(
+const html = dropEntranceAnimations(enhanceImages(
   productSlug
     ? addDescriptionTab(applyProductContent(page.content, productSlug), productSlug)
     : polishPage(page.content),
-);
+));
 
 // Structured data is derived from the FINISHED html, after the sections have
 // been filled — so the markup describes the page that is actually served

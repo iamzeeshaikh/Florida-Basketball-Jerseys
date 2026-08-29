@@ -4389,6 +4389,18 @@
        "Choose a plain dark color outside the team palette, so the game shorts stay for games.",
        "Two per player plus three spares, and order them with the rest of the kit so the setup is paid once."
       ]
+     },
+     {
+      "kind": "p",
+      "text": [
+       "And write the length choice onto the sizing form rather than settling it in a group conversation. Players will answer a form and will not relitigate a decision they made themselves, which is not true of one made for them."
+      ]
+     },
+     {
+      "kind": "p",
+      "text": [
+       "Finally, keep the specification on file. Training shorts are the item most often reordered mid-season, and a reorder against the original specification matches; one against a description does not."
+      ]
      }
     ]
    }
@@ -4457,7 +4469,7 @@
     ]
    },
    {
-    "h3": "How it behaves in the wash",
+    "h3": "Washing a very light knit",
     "blocks": [
      {
       "kind": "p",
@@ -4466,6 +4478,20 @@
        "For a player training on consecutive evenings, or a team playing twice in a tournament day, that is the difference between a dry shirt and a damp one. Across a season it is a real quality-of-life gain rather than a technical detail.",
        "The care rules are the same as any dyed polyester — cold water, inside out, no softener, air dry rather than heat. The difference is that a light fabric is less forgiving of a hot dryer, because there is less material to absorb the stress and the collar is the first thing to go.",
        "Fabric softener matters more here than on a heavier garment too. It coats the fibers and closes the structure that makes a light shirt breathe, which removes most of the reason it was bought."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Fit on a thinner fabric",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "A light fabric drapes rather than holding its own shape, which changes how a size reads on the same person.",
+       "The same measurement in a heavier knit sits away from the body and reads as a looser garment; in a light one it follows the frame and reads closer. Players switching from a mid-weight shirt frequently think the light one has been cut smaller when it has not.",
+       "That is worth saying at sizing rather than discovering afterwards. Anyone who wants the looser look should size up by one, and anyone who wants it closer should not.",
+       "It also matters at the shoulder. A light fabric shows the shoulder seam's position more clearly than a heavy one, so a seam that sits slightly off looks off — which is a reason to size from a measurement rather than from what somebody usually wears."
       ]
      }
     ]
@@ -4494,6 +4520,489 @@
        "Take a darker color if the fabric has to be light, or step up one weight if the color has to be light.",
        "Check that the collar and cuff finishes are firmer than the body, or expect the shape to go there first.",
        "Order two per player if it is worn at sessions, and send the wash guidance with the kit — a light fabric rewards it more than a heavy one."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "yellow-basketball-uniform": {
+  "h2": "The Brightest Color and the Hardest to Put a Number On",
+  "lede": "Yellow is the most visible color in a gym and the least forgiving base a uniform can have. It sits at the top of the luminance scale, which means it is easy to see and difficult to read — <strong>almost every number color has less contrast against yellow than against anything else</strong>, and that is the problem this whole page is about.",
+  "sections": [
+   {
+    "h3": "Why the number is the hard part",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "A number is read by the difference in brightness between it and what is behind it. Yellow is already bright, so a light number has almost nowhere to go.",
+       "White on yellow is close to unreadable at any distance, and it is the combination teams most often choose because it looks clean on a screen. Light gray, cream and pale gold have the same problem.",
+       "Dark numbers work, and they work well: navy, black, deep green, maroon and dark purple all read cleanly from the back row. The rule on yellow is simply that the number has to be genuinely dark rather than merely different."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Which yellow",
+    "blocks": [
+     {
+      "kind": "bullets",
+      "items": [
+       "<strong>Athletic gold</strong> — deeper and warmer, closer to a mustard. The most forgiving of the yellows because it sits lower on the luminance scale and takes a wider range of numbers.",
+       "<strong>True yellow</strong> — bright, unmistakable, and the most demanding. Needs a dark number and rewards an outline.",
+       "<strong>Lemon or pale yellow</strong> — the brightest of all and the hardest to work with. Beautiful in a photograph and difficult in a gym.",
+       "<strong>Fluorescent yellow</strong> — extremely visible, and the fastest-fading color we produce. Reasonable for a one-season set and questionable for one meant to last three.",
+       "<strong>Yellow as trim rather than body</strong> — where yellow does its best work, and the arrangement most programs settle on."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Opacity, and the second yellow problem",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Light colors show what is behind them, and yellow is among the lightest.",
+       "A yellow jersey in an open knit over a dark compression shirt shows the compression shirt clearly. It is the same issue white has, and it is more noticeable on yellow because the contrast between the fabric and what is behind it is greater.",
+       "So a yellow set should be a step denser than the climate alone would suggest, or the roster should be asked whether they layer. It is one line on a sizing form and it prevents a set players are self-conscious in."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Fade, and where yellow sits",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Yellow fades faster than navy or black and more visibly than most, because as it loses depth it moves toward a washed-out cream rather than simply going lighter.",
+       "The effect is more obvious on a full uniform than on trim, which is another argument for using yellow as an accent. A yellow-trimmed navy set looks the same in year three; a yellow-bodied set does not.",
+       "Washing cold and inside out slows it, as does keeping it out of a hot dryer. On this color those instructions are worth writing down and handing over rather than assuming — <a href=\"/blog/caring-for-sublimated-basketball-jerseys/\">the wash routine for color depth</a> covers what actually helps."
+      ]
+     },
+     {
+      "kind": "note",
+      "text": "Order the spares with the main run. A yellow replacement produced six months later will match the specification and not the garment, and on this color the difference between a new yellow and a worn one is more visible than on almost any other."
+     }
+    ]
+   },
+   {
+    "h3": "Why yellow is worth the trouble",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Because it works. In a division of navy, black and red teams, a yellow set is identifiable from the parking lot, and that recognition is worth more than most teams credit.",
+       "Human vision is most sensitive in the yellow part of the spectrum, which is why safety equipment is that color. On a court it means a player in yellow is easier to track in peripheral vision and easier for a parent to find in the back row.",
+       "It is also strongly associated for schools whose colors already include it, and a program that owns yellow and hides it behind a navy body with yellow trim is leaving the distinctiveness on the table."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "What yellow pairs with",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Yellow is a demanding base and a generous accent, and the pairing does more work here than on almost any other color.",
+       "Yellow and navy is the combination that reads best at distance and is the most common for good reason. Yellow and black is stronger still on contrast and reads as more aggressive. Yellow and deep green or maroon are less usual and more identifiable.",
+       "What does not work is yellow with any other light color. Yellow and white, yellow and cream, yellow and pale gray all collapse into one another under gym lighting, and the number has nowhere to sit.",
+       "It is also worth checking the division. Yellow is uncommon enough that it is a genuine identifier, and that advantage disappears entirely if another team has reached the same conclusion — in which case shifting to a deeper gold rather than a half-step is the move that keeps the two separable."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Matching the two halves",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Yellow shows a fabric-to-fabric mismatch more clearly than any other color, which makes ordering the jersey and shorts together more important here than elsewhere.",
+       "The same dye lands slightly differently on a lighter jersey knit than on a heavier shorts fabric. On navy that difference is invisible; on yellow it produces a top and a bottom that are recognizably a shade apart in every photograph.",
+       "Ordering both on one job from one specification means they come off the same run rather than being matched to each other afterwards. It costs nothing and on this color it is the difference between a set and two garments."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Ordering a yellow set",
+    "blocks": [
+     {
+      "kind": "steps",
+      "items": [
+       "Choose a dark number color, and add an outline if you want white anywhere near it.",
+       "Specify which yellow — gold, true or pale — rather than the word alone.",
+       "Step the fabric one grade denser than the climate suggests, or ask the roster who layers underneath.",
+       "Order the jersey and shorts on one job. Yellow shows a mismatch more than any other color.",
+       "Order spares in the same run, and send the wash guidance out with the kit."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reversible-basketball-uniforms": {
+  "h2": "Two Kits in One Set of Boxes",
+  "lede": "A reversible uniform is a jersey and shorts that each carry a different color on each face. One set covers home and away, splits a squad for scrimmages, and solves a color clash at a neutral venue. <strong>It also weighs more, costs more per garment, and is warmer than a single-sided set</strong> — and in a Florida gym that last point is the one that decides it.",
+  "sections": [
+   {
+    "h3": "What a reversible set replaces",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Two single-sided sets, or one set plus pinnies. Both of those have real costs that a reversible removes.",
+       "Two full sets means twice the garments to store, twice the laundry, and twice the chance of the wrong kit being in the bag on a game day. Pinnies are shared, rarely washed, and disliked by every player who has worn one.",
+       "A reversible set means every player owns one jersey and one pair of shorts that can be either team. For a program that travels, plays tournaments, or scrimmages every session, that is a genuine simplification."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "The warmth cost, which is not small here",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Two layers of fabric bonded together is warmer than one, and no amount of construction removes that.",
+       "In a well-conditioned gym in January it is barely noticeable. In a warm hall in August, or an under-conditioned school gym in September, players comment on it within a session.",
+       "This is the single biggest reason a reversible set suits some Florida programs and not others, and it is worth being honest about before ordering rather than after. A program practicing five days a week in a hot gym will find two thin single-sided sets more comfortable even though it is two sets."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Reversible shorts specifically",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Reversible shorts are less common than reversible jerseys, and the reason is bulk.",
+       "A jersey with two layers is warm. A pair of shorts with two layers is warm and noticeably thicker at the waistband, where the two faces meet the elastic. Most players tolerate a reversible jersey and a meaningful proportion dislike reversible shorts.",
+       "Many programs therefore run reversible jerseys with single-sided shorts in a neutral color. It solves the clash problem, which is the jersey's job under most rules, without the bulk where players notice it most."
+      ]
+     },
+     {
+      "kind": "note",
+      "text": "If you do order reversible shorts, check the waistband construction specifically. It is where the two faces have to be joined and where the bulk concentrates, and a well-made pair is noticeably slimmer there than a cheap one."
+     }
+    ]
+   },
+   {
+    "h3": "Designing for two faces",
+    "blocks": [
+     {
+      "kind": "bullets",
+      "items": [
+       "<strong>Pair light with dark</strong>, not color with color. Two mid-tones look similar under gym lighting, which defeats the whole purpose.",
+       "<strong>Each face needs its own number color</strong>, contrasting with that face rather than with the garment generally.",
+       "<strong>The number itself must match across faces.</strong> A player who is 12 one way and 21 the other is genuinely hard to track, and it is a mistake that only appears when the kit arrives.",
+       "<strong>Keep detail simple.</strong> Fine artwork can show through from the other face on lighter combinations.",
+       "<strong>Decide which face is primary</strong> and put the design attention there. Treating both as equal produces a compromise on both."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Why a reversible fits boxier",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "A reversible has to fit the same on both faces, which means it cannot be shaped the way a single-sided garment can.",
+       "The result is a slightly boxier jersey with a straighter side seam, and shorts that hang a little fuller. It is not a fault; it is a consequence of a garment with no inside.",
+       "It also sizes slightly larger for the same measurement because of the additional thickness. A player between two bands should take the smaller size here, which is the opposite of the advice for a single-sided jersey."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "What it costs against two sets",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "The arithmetic is closer than the halved garment count suggests, and it is worth doing rather than assuming.",
+       "A reversible garment costs more per unit than a single-sided one, because it is two fabrics bonded and finished on both faces. Buying fifteen reversibles instead of thirty single-sided garments does not halve the cost; it reduces it by rather less.",
+       "What it does halve is everything around the garment — the storage, the laundry, the sorting on a game day, and the chance of the wrong set being in the bag. For a program where somebody's time is the scarce resource rather than the budget, that is where the value sits.",
+       "For a program where the budget is the constraint and the gym is warm, two thin single-sided sets are usually both cheaper and more comfortable, and <a href=\"/blog/reversible-jerseys-when-they-are-worth-it/\">where reversibles actually pay</a> works the comparison through properly."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "How they age",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Each face is worn roughly half the time, so each sees about half the sweat, sun and abrasion a single-sided garment would. A two-year-old reversible often looks newer than a single-sided set of the same age.",
+       "The failure mode is different though. What goes first is the bond between the two layers, usually at a hem or a binding — and a separation there is visible, not repairable, and ends the garment while both faces still look fine.",
+       "Heat is what stresses that bond. A reversible set that goes through a hot dryer twice a week will separate long before either face wears out, which makes the wash guidance more consequential here than on ordinary kit."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Ordering a reversible set",
+    "blocks": [
+     {
+      "kind": "steps",
+      "items": [
+       "Judge your gym honestly. If it is warm, two thin single-sided sets beat one reversible whatever the garment count says.",
+       "Consider reversible jerseys with single-sided shorts, which is what most programs settle on.",
+       "Pair a light face with a dark one, and specify the number color per face while keeping the number itself identical.",
+       "Size down rather than up for anyone between bands.",
+       "Send the no-hot-dryer instruction with the kit. On a bonded garment it is the thing that decides the life of the set."
+      ]
+     },
+     {
+      "kind": "p",
+      "text": [
+       "One last practical point: decide who launders them before the season rather than after. A bonded garment is the one item where a single hot wash by somebody who did not read the instruction can end a set, and a program that washes centrally avoids that entirely."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "short-sleeve-basketball-shirt": {
+  "h2": "The Team Shirt That Is Not a Jersey",
+  "lede": "A short-sleeve team shirt does the job a jersey cannot: it gets worn everywhere a jersey does not. To school, on a bus, at a tournament between games, and around a program all year. <strong>It is the most-seen garment a program owns</strong>, and it is usually specified in ten seconds as an afterthought to the kit order.",
+  "sections": [
+   {
+    "h3": "Two audiences, one garment",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "A game jersey is seen by the people in the gym during a game. A team shirt is seen by everybody else — classmates, parents at a supermarket, other programs at a venue, and anyone at a tournament who is not watching your court.",
+       "That makes it the piece of kit doing the most recognition work per dollar, and the one where a legible program name matters more than any design detail.",
+       "It also means comfort decides whether any of that happens. A shirt that is unpleasant to wear is a shirt worn to training and nowhere else, and the recognition value is simply lost."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "What to put on it",
+    "blocks": [
+     {
+      "kind": "bullets",
+      "items": [
+       "<strong>The program's name, at a readable size.</strong> This is the whole point and it should be the largest element.",
+       "<strong>A crest or mark</strong>, at a scale a jersey cannot carry because the number takes priority there.",
+       "<strong>A location, if it helps.</strong> A city or school name means something to people outside the program in a way an abbreviation does not.",
+       "<strong>Not a player number.</strong> It dates the garment to a roster, prevents it being handed on, and serves no function outside a game.",
+       "<strong>Not a season.</strong> A year printed on a shirt is a shirt somebody stops wearing twelve months later."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Fabric, and which job wins",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "If the shirt is worn during activity — warm-ups, conditioning, a session in a hot gym — take the technical fabric and accept that it reads as sportswear.",
+       "If it is mostly worn around the program, take the softer hand. A shirt that feels like a t-shirt gets worn like one, which is exactly the outcome you are paying for.",
+       "Where a program genuinely needs both, two different shirts is cheaper than most people expect and better than one compromise. They are among the least expensive items on any kit list."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Fit, and why looser is right here",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "A game jersey is cut close because it is worn over compression and under contact. A team shirt is neither.",
+       "Cutting it to the same fit produces a garment players will wear at training and take off immediately afterwards. A looser cut with a longer body is what gets worn on a bus and to school, which is where the value is.",
+       "It also sizes differently. Players who take a medium jersey frequently want a large shirt, and ordering both from one size letter is a reliable way to produce a set that half the roster does not wear."
+      ]
+     },
+     {
+      "kind": "note",
+      "text": "Order the size range wider than the roster if families or supporters might want them. A second run later carries its own setup, which costs more than over-ordering the first one by a comfortable margin."
+     }
+    ]
+   },
+   {
+    "h3": "Why it lasts longer than the game set",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "A team shirt takes no contact, is never worn under a bib, and does not meet a hardwood floor. What it takes is wash cycles, more of them than anything else a program owns.",
+       "That makes colorfastness and shape retention the properties that decide its life, rather than abrasion resistance. A shirt with a firm collar and a dyed rather than applied design will still look right after three seasons of weekly washing.",
+       "It also means the design should be chosen to age. A program name in one strong color looks the same in year four; a busy design tied to a specific season looks dated within eighteen months and stops being worn.",
+       "Programs that get this right have team shirts in circulation two or three squads later, worn by players who have graduated and by parents who never played. That is the cheapest recognition a program can buy and it comes from a garment most people specify in ten seconds."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Sleeves, and the small decision inside them",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Sleeve length on a team shirt is a style decision rather than a performance one, and it changes how the garment reads more than most people expect.",
+       "A shorter sleeve ending above the mid-bicep reads athletic and modern. A longer one reads casual and covers more, which some players prefer and which gives a sleeve design somewhere to sit.",
+       "Where a program wants a mark on the sleeve — a club crest, a sponsor, a conference logo — the longer cut is the one that can carry it. On a printed garment a sleeve design costs nothing extra."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Counting a team shirt order",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "One per player is the minimum and two is better, because a shirt worn to school on Monday is not available for the bus on Tuesday.",
+       "Beyond the roster, this is the item worth having spares of in every sense. Coaches, managers, assistants and volunteers all wear them, and a program with a few in the middle sizes has something to give a new player on their first day.",
+       "It is also the item most often sold to families, which is a decision worth making before the order rather than after — a run sized only to the squad cannot cover it, and the second run costs a setup the first one already paid."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Ordering team shirts",
+    "blocks": [
+     {
+      "kind": "steps",
+      "items": [
+       "Decide where it will mostly be worn. During activity points at technical fabric; around the program points at a softer one.",
+       "Put the program's name on it at a size a jersey could not carry, and leave numbers and seasons off.",
+       "Cut it looser than the game jersey and size it separately rather than from the jersey sheet.",
+       "Order two per player plus spares for staff, and widen the size range if supporters may want them.",
+       "Order it with the rest of the kit so the colors match the jerseys and the setup is paid once."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "long-sleeve-basketball-shirt": {
+  "h2": "The Layer That Gets Worn Ten Months a Year",
+  "lede": "A long-sleeve team shirt is the garment a program lives in outside the gym. It goes on over a jersey before a game, on a bus, into a cold classroom, and to every tournament where the venue is over-air-conditioned. <strong>In Florida it is bought for buildings rather than for weather</strong>, and that changes what it should be made of.",
+  "sections": [
+   {
+    "h3": "Cold gyms, not cold seasons",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Programs in this state rarely buy a long sleeve because it is cold outside. They buy it because a gym at eight in the morning, or a hotel conference room at a tournament, is genuinely cold.",
+       "That matters for the specification. A garment for winter outdoors wants insulation; a garment for an over-conditioned building wants a light layer that cuts the chill without becoming unbearable when the player warms up.",
+       "A fleece-lined warm-up top is the wrong purchase here for most programs. A mid-weight brushed knit is right, and the difference in comfort across a season is substantial."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Worn over a jersey, or instead of one",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "This decides the sizing and it is the question most often skipped.",
+       "A shirt worn over a game jersey has to clear it — the shoulders, the chest, and any lettering that should not be dragged over. That garment sizes up.",
+       "A shirt worn on its own as team wear sizes to the body. A garment trying to do both fits neither well, and the honest answer for a program that needs both is two different items rather than a compromise."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Details that decide whether players like it",
+    "blocks": [
+     {
+      "kind": "bullets",
+      "items": [
+       "<strong>Cuff finish.</strong> A ribbed cuff stays put and can feel tight; a plain hem rides up. Players have strong and opposite views, and it is worth asking.",
+       "<strong>Thumbholes.</strong> Popular, they stop the sleeve riding during warm-ups, and they add a failure point. Some associations do not permit them for on-court wear.",
+       "<strong>Body length.</strong> A longer body stays tucked and stays down; a shorter one reads more athletic. This is preference rather than performance.",
+       "<strong>Neckline.</strong> A crew is warmer at the throat; a quarter-zip is more adjustable and more expensive.",
+       "<strong>Opacity.</strong> If it is worn over a jersey, a light shirt will show the number underneath — which is either fine or not, depending on your association."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "The rules question if it goes on court",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "Most associations treat a long-sleeved garment worn during play as a compression or undergarment layer rather than as part of the uniform.",
+       "That usually means a single solid color, frequently one that matches the jersey or appears on an approved list, and the same for every player wearing one. A patterned or multi-colored long sleeve worn under a jersey is where teams most often fall foul.",
+       "If the intention is on-court wear, check the exact wording rather than working from what another team does — <a href=\"/blog/fhsaa-uniform-rules-and-your-jersey-design/\">what the state association specifies</a> is more particular than most coaches expect."
+      ]
+     },
+     {
+      "kind": "note",
+      "text": "If it is only ever a warm-up and travel garment, none of that applies and the design can be whatever the program wants — which is a good reason to decide the use before designing rather than after."
+     }
+    ]
+   },
+   {
+    "h3": "What it is worth relative to the kit",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "For most Florida programs this is the third or fourth purchase rather than the first, and there is a reasonable case that it should be higher.",
+       "The argument for it is visibility per dollar. A long sleeve is worn on travel days, at tournaments, in school corridors and around the program for most of the year, and it outlasts both the game set and the practice set because it takes no contact.",
+       "The argument against is that it does not affect play. A program choosing between practice gear and long sleeves should take the practice gear, because that protects the game set from being destroyed a year early.",
+       "But it is the next thing to buy, and it is the item most likely to still be in use when the kit it was ordered alongside has been replaced twice."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Designing the most-seen garment you own",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "A long sleeve is worn to more places, for more hours, than any other item on a kit list. It is the program's public face and it is usually designed last.",
+       "The program's name across the chest at a readable size does more than a number ever will, and a crest can sit at a scale a jersey cannot carry. A sleeve can hold a secondary mark at no extra cost on a printed garment.",
+       "What is not worth putting on it is a roster number or a season. Both date the garment to one squad and stop it being worn by the next, which on a garment this durable is a real waste."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "How many, and who else wears one",
+    "blocks": [
+     {
+      "kind": "p",
+      "text": [
+       "One per player is the working minimum. Two is better for a program that travels, because a garment worn on Friday is not clean for Saturday.",
+       "Beyond the roster this is the item staff wear most. Coaches, assistants, managers and volunteers are all in one on a travel day, and a program without spares ends up with a bench that does not match the team it is coaching.",
+       "It is also the garment families most often ask to buy, more than any jersey, because it is the one somebody outside the program would actually wear. Deciding that before the order rather than after avoids a second run and a second setup.",
+       "Order the size range wider than the squad in both directions if supporters are in scope — adult sizes above what any player needs, and smaller ones if the program runs younger age groups."
+      ]
+     }
+    ]
+   },
+   {
+    "h3": "Ordering long-sleeve shirts",
+    "blocks": [
+     {
+      "kind": "steps",
+      "items": [
+       "Decide the primary use — over a jersey, or as team wear on its own — because it changes the size completely.",
+       "Choose the weight against the buildings you actually play in rather than against the season.",
+       "Ask about cuffs and thumbholes. They are genuine preferences and they cost nothing to collect.",
+       "Check the association wording if it might be worn during play.",
+       "Order it with the rest of the kit so the colors match and the setup is paid once, and order a couple of spares for staff."
       ]
      }
     ]

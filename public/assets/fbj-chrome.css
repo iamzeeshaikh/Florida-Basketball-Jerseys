@@ -1048,3 +1048,29 @@
   border-color: rgba(255, 255, 255, .14);
   background: rgba(255, 255, 255, .05);
 }
+
+/* ── The product gallery before its script runs ───────────────────────────
+ * WooCommerce stacks all five gallery images vertically at full width until
+ * flexslider initializes. On a 390px phone that is a gallery 1,850 pixels
+ * tall; when the script catches up it collapses to 448px and everything below
+ * it jumps up by roughly 1,400 pixels.
+ *
+ * The selector is exact rather than clever: before initialization the wrapper
+ * is a direct child of .woocommerce-product-gallery, and afterwards flexslider
+ * has moved it inside .flex-viewport. So this applies only in the
+ * pre-initialization state and stops applying by itself — no class to add and
+ * no script involved.
+ *
+ * The 21% padding reserves the thumbnail strip, which does not exist until the
+ * script builds it. As a percentage rather than a pixel value because
+ * percentage padding resolves against the containing block's WIDTH, so the
+ * reservation scales with the viewport exactly as the square thumbnails do and
+ * is correct at 320px and at 1440px without a media query.
+ */
+.woocommerce-product-gallery > .woocommerce-product-gallery__wrapper
+  > .woocommerce-product-gallery__image:not(:first-child) { display: none; }
+.woocommerce-product-gallery > .woocommerce-product-gallery__wrapper { padding-bottom: 21%; }
+.woocommerce-product-gallery,
+.woocommerce-product-gallery__wrapper,
+.woocommerce-product-gallery__image { max-width: 100%; min-width: 0; }
+.woocommerce-product-gallery img { max-width: 100%; height: auto; }
