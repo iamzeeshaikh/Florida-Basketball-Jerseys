@@ -1,6 +1,6 @@
 ---
 import pages from '../data/pages.json';
-import { rewrite, dropFontImports, dropEntranceAnimations, firstImage } from '../lib/site.js';
+import { rewrite, dropFontImports, dropEntranceAnimations, firstImage, markPriceAsFrom } from '../lib/site.js';
 import { applyProductContent, polishPage, splitForDesigner } from '../lib/product-sections.js';
 import { addDescriptionTab } from '../lib/product-description.js';
 import { addCategoryContent, hasCategoryContent, categoryFaqs, categorySlug }
@@ -42,7 +42,7 @@ const isCategory = page.route.startsWith('/product-category/') && !page.route.in
 const catSlug = isCategory ? categorySlug(page.route) : null;
 const hasCatContent = Boolean(catSlug) && hasCategoryContent(catSlug);
 
-const html = dropEntranceAnimations(enhanceImages(
+const html = markPriceAsFrom(dropEntranceAnimations(enhanceImages(
   productSlug
     ? addDescriptionTab(applyProductContent(page.content, productSlug), productSlug)
     : hasCatContent
@@ -50,7 +50,7 @@ const html = dropEntranceAnimations(enhanceImages(
       : hasPageFaqs(page.route)
         ? addPageFaqs(polishPage(page.content), page.route)
         : polishPage(page.content),
-));
+)));
 
 // Structured data is derived from the FINISHED html, after the sections have
 // been filled — so the markup describes the page that is actually served

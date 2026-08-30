@@ -185,3 +185,34 @@ export function pageOf(description, route) {
   const n = route.match(/page\/(\d+)\/$/)?.[1];
   return description && n ? `${description} Page ${n}.` : description;
 }
+
+/* ── "From" on a starting price ──────────────────────────────────────────────
+ *
+ * WooCommerce renders the catalogue's unit price as a flat amount, so a custom
+ * jersey read as "$4.00" in 236 places -- product pages, shop and category
+ * listings, related products and pagination. It is a starting per-unit rate
+ * rather than what a team pays, and an unqualified number reads as the
+ * finished price to everyone who has not been told otherwise.
+ *
+ * The amount is left exactly as it is and labelled. Matching on the amount
+ * span that follows means an already-labelled price cannot be labelled twice.
+ */
+const WOO_PRICE = /<span class="price">(?!\s*<span class="fbj-price-from")(\s*<span class="woocommerce-Price-amount)/g;
+
+export function markPriceAsFrom(html) {
+  if (!html) return html;
+  return html.replace(WOO_PRICE, '<span class="price"><span class="fbj-price-from">From</span>$1');
+}
+
+/* The Product block comes from WordPress rather than from us, and it states
+ * the same figure as a flat Offer.price -- an assertion that this is the
+ * price, which the page no longer makes. AggregateOffer.lowPrice says "from"
+ * in the markup the way the page says it in words, so the two agree.
+ */
+export function priceAsRange(head) {
+  if (!head || !head.includes('"@type":"Offer"')) return head;
+  return head.replace(
+    /\{"@type":"Offer",([^{}]*?)"price":/g,
+    '{"@type":"AggregateOffer",$1"lowPrice":',
+  );
+}

@@ -3,7 +3,7 @@
 // and footer, and the trailing vendor scripts. `[...path].astro` renders the
 // migrated pages with it; the cart-flow pages WordPress never served as HTML
 // borrow a captured record so they inherit identical chrome.
-import { rewrite, dropFontImports, trimUnusedFonts, noindexEmptyCategory, ensureMeta, noindexDuplicateArchive, pageOf } from '../lib/site.js';
+import { rewrite, dropFontImports, trimUnusedFonts, noindexEmptyCategory, ensureMeta, noindexDuplicateArchive, pageOf, priceAsRange } from '../lib/site.js';
 import categoryMeta from '../data/category-meta.json';
 import routeMeta from '../data/route-meta.json';
 import { ASSET_VERSION } from '../lib/assets.js';
@@ -17,7 +17,7 @@ const { page, ogImage } = Astro.props;
 // everything else falls back to the page's own og:description.
 const catSlug = page.route.startsWith('/product-category/')
   ? page.route.replace('/product-category/', '').replace(/\/$/, '') : null;
-const head = noindexDuplicateArchive(
+const head = priceAsRange(noindexDuplicateArchive(
   noindexEmptyCategory(
     ensureMeta(trimUnusedFonts(dropFontImports(rewrite(page.head))), {
       description: pageOf((catSlug ? categoryMeta[catSlug] : null)
@@ -25,7 +25,7 @@ const head = noindexDuplicateArchive(
       image: ogImage ?? null,
     }),
     page.route),
-  page.route);
+  page.route));
 const isProduct = page.route.startsWith('/product/') && page.route !== '/product/' && !page.route.includes('/page/');
 // The quick-quote strip opens product and category pages.
 const hasQuickQuote = isProduct

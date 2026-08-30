@@ -1156,3 +1156,14 @@
 .fbj-pfaq__item > summary:focus-visible { outline: 2px solid #F4700A; outline-offset: -2px; }
 .fbj-pfaq__a { padding: 0 20px 18px; }
 .fbj-pfaq__a p { margin: 0; font-size: 15.5px; line-height: 1.75; color: #5A6B7D; }
+
+/* The "From" that qualifies a starting price. Smaller and lighter than the
+ * amount so it reads as a qualifier rather than as part of the number. */
+.fbj-price-from {
+  font-size: 0.72em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  opacity: .72;
+  margin-right: .35em;
+}
