@@ -9,6 +9,7 @@ import routeMeta from '../data/route-meta.json';
 import { ASSET_VERSION } from '../lib/assets.js';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import WhatsAppButton from '../components/WhatsAppButton.astro'
 
 const { page, ogImage } = Astro.props;
 
@@ -68,5 +69,6 @@ const hasQuickQuote = isProduct
 <Fragment set:html={dropFontImports(rewrite(page.tail))} />
 <script src={`/assets/fbj.js?v=${ASSET_VERSION}`} data-v={ASSET_VERSION} defer></script>
 <script src={`/assets/cart.js?v=${ASSET_VERSION}`} data-v={ASSET_VERSION} defer></script>
+<WhatsAppButton text="Hi! I'm interested in custom basketball uniforms for my team." />
 </body>
 </html>
