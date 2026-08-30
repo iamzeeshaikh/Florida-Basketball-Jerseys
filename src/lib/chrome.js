@@ -1,6 +1,6 @@
 import chrome from '../data/chrome.json';
 import locations from '../data/locations.json';
-import { rewrite, dropFontImports } from './site.js';
+import { rewrite, dropFontImports, trailingSlashLinks } from './site.js';
 import { enhanceImages } from './images.js';
 
 // The header and footer each inlined a <style> block — 10,024 and 8,950 bytes —
@@ -107,8 +107,8 @@ const tokens = {
  */
 export function region(name, page) {
   const diff = page.chromeDiff?.[name];
-  if (!diff) return enhanceImages(dropHours(addDesigner(addCities(stripChromeStyles(dropFontImports(rewrite(chrome[name])))))));
+  if (!diff) return trailingSlashLinks(enhanceImages(dropHours(addDesigner(addCities(stripChromeStyles(dropFontImports(rewrite(chrome[name]))))))));
   const out = tokens[name].slice();
   for (const [i, tag] of Object.entries(diff)) out[i] = tag;
-  return enhanceImages(dropHours(addDesigner(addCities(stripChromeStyles(dropFontImports(rewrite(out.join(''))))))));
+  return trailingSlashLinks(enhanceImages(dropHours(addDesigner(addCities(stripChromeStyles(dropFontImports(rewrite(out.join('')))))))));
 }

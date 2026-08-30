@@ -216,3 +216,46 @@ export function priceAsRange(head) {
     '{"@type":"AggregateOffer",$1"lowPrice":',
   );
 }
+
+/* ── Links to pages that were never built ───────────────────────────────────
+ *
+ * /sitemap/ carries a "Find the Right Page Faster" index, and 30 of its links
+ * 404: 27 WooCommerce category URLs the migration never produced (this site
+ * has seven categories, not twenty-seven), plus /shop and /about-us. It is the
+ * one page whose whole job is to be a working list of where things are.
+ *
+ * /shop is dead everywhere, not only there -- the "Browse Jerseys" button on
+ * /thank-you/, the page every successful form submission lands on, pointed at
+ * it too. So the map is applied to every page and the sitemap only gets the
+ * extra step it needs.
+ *
+ * Each dead link is repointed at the page it was describing -- "Mesh Jerseys"
+ * to the mesh jersey product, "All Shorts" to the shorts category. One,
+ * "Full Uniform Sets", describes nothing that exists, so its list item is
+ * removed rather than aimed at the nearest thing and left to mislead.
+ */
+const SITEMAP_LI = /<li>\s*<a href="([^"]+)"[\s\S]*?<\/a>\s*<\/li>/g;
+const ANY_HREF = /href="(\/[^":#?]*)"/g;
+
+export function repointDeadLinks(html, route, map) {
+  if (!html) return html;
+  let out = route === '/sitemap/'
+    ? html.replace(SITEMAP_LI, (li, href) => (map[href] === null ? '' : li))
+    : html;
+  return out.replace(ANY_HREF, (m, href) => {
+    const to = map[href] ?? map[href.replace(/\/$/, '')];
+    return to ? `href="${to}"` : m;
+  });
+}
+
+const INTERNAL_HREF = /(href|action)="(\/[^":#?]*)"/g;
+
+export function trailingSlashLinks(html) {
+  if (!html) return html;
+  return html.replace(INTERNAL_HREF, (m, attr, href) => {
+    if (href === '/' || href.endsWith('/')) return m;
+    if (href.startsWith('/cdn-cgi/')) return m;
+    if (href.slice(href.lastIndexOf('/') + 1).includes('.')) return m;
+    return `${attr}="${href}/"`;
+  });
+}
