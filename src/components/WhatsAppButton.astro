@@ -9,7 +9,9 @@
 // sports sites, and nothing else in the message would tell them apart.
 const { text } = Astro.props as { text: string }
 const NUMBER = '12134493746'
-const href = `https://wa.me/${NUMBER}?text=${encodeURIComponent(text)}`
+// The site URL rides in every prefill — one number serves every sports site,
+// and this is how the CRM tells which site the customer came from.
+const href = `https://wa.me/${NUMBER}?text=${encodeURIComponent(text.includes('floridabasketballjerseys.com') ? text : `${text} https://floridabasketballjerseys.com/`)}`
 ---
 <a
   href={href}
